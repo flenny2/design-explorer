@@ -1,0 +1,75 @@
+.sample-card {
+  background: var(--card-bg, #ffffff);
+  color: var(--card-text, #1a1a2e);
+  border: 1px solid var(--card-border, #e5e7eb);
+  border-radius: var(--card-radius, 12px);
+  padding: var(--space-lg);
+  box-shadow: var(--card-shadow, 0 1px 3px rgba(0,0,0,0.06));
+  max-width: 340px;
+}
+
+.sample-card-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+
+.sample-card-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--card-accent, #6366f1);
+  flex-shrink: 0;
+}
+
+.sample-card-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.sample-card-subtitle {
+  font-size: 0.8rem;
+  color: var(--card-text-muted, #6b7280);
+}
+
+.sample-card-body {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--card-text-muted, #6b7280);
+  margin-bottom: var(--space-md);
+}
+
+.sample-card-actions {
+  display: flex;
+  gap: var(--space-sm);
+}
+
+.sample-card-btn {
+  padding: 8px 16px;
+  border-radius: var(--btn-radius, 6px);
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  transition: all 0.15s ease;
+}
+
+.sample-card-btn.primary {
+  background: var(--card-accent, #6366f1);
+  color: white;
+}
+
+.sample-card-btn.primary:hover {
+  filter: brightness(1.1);
+}
+
+.sample-card-btn.secondary {
+  background: transparent;
+  color: var(--card-accent, #6366f1);
+  border: 1px solid var(--card-border, #e5e7eb);
+}
+
+.sample-card-btn.secondary:hover {
+  background: var(--card-bg-hover, #f3f4f6);
+}

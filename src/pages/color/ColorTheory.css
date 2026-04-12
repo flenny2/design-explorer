@@ -1,0 +1,499 @@
+.ct-section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.ct-intro {
+  font-size: 0.875rem;
+  line-height: 1.65;
+  color: var(--app-text-muted);
+  max-width: 680px;
+  margin-bottom: 20px;
+}
+
+/* ── Color Wheel ─────────────────────────────────────── */
+
+.ct-wheel-layout {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.ct-wheel-svg {
+  width: 220px;
+  height: 220px;
+  flex-shrink: 0;
+}
+
+.ct-wheel-info {
+  flex: 1;
+  min-width: 240px;
+}
+
+.ct-wheel-info-name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.ct-wheel-info-desc {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--app-text-muted);
+  margin-bottom: 12px;
+}
+
+.ct-wheel-info-usage {
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--app-text-muted);
+}
+
+/* ── Psychology ──────────────────────────────────────── */
+
+.ct-psych-layout {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.ct-psych-swatch {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-md);
+  flex-shrink: 0;
+}
+
+.ct-psych-info {
+  flex: 1;
+  min-width: 260px;
+}
+
+.ct-psych-associations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.ct-psych-tag {
+  font-size: 0.72rem;
+  padding: 3px 10px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--app-accent) 10%, transparent);
+  color: var(--app-accent);
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.ct-psych-science {
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--app-text-muted);
+}
+
+.ct-psych-meta {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ct-meta-label {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--app-text-muted);
+  margin-bottom: 2px;
+}
+
+.ct-meta-value {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--app-text);
+}
+
+/* ── Contrast Ladder ─────────────────────────────────── */
+
+.ct-contrast-ladder {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.ct-contrast-row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ct-contrast-sample {
+  width: 280px;
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--app-border);
+  flex-shrink: 0;
+}
+
+.ct-contrast-sample-text {
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.ct-contrast-info {
+  flex: 1;
+  min-width: 200px;
+}
+
+.ct-contrast-ratio {
+  font-size: 0.9rem;
+  font-weight: 700;
+  font-family: var(--font-mono);
+}
+
+.ct-contrast-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--app-accent);
+  margin-bottom: 4px;
+}
+
+.ct-contrast-desc {
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--app-text-muted);
+}
+
+.ct-apca-note {
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--app-text-muted);
+  padding: 16px;
+  background: var(--app-bg);
+  border-radius: var(--radius-md);
+}
+
+/* ── Temperature ─────────────────────────────────────── */
+
+.ct-temp-gradient {
+  display: flex;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.ct-temp-stop {
+  flex: 1;
+  padding: 16px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+}
+
+.ct-temp-label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.ct-temp-desc {
+  font-size: 0.58rem;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.ct-temp-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.ct-temp-card {
+  padding: 16px;
+  background: var(--app-bg);
+  border-radius: var(--radius-md);
+}
+
+.ct-temp-card h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* ── 60-30-10 Rule ───────────────────────────────────── */
+
+.ct-rule-demo {
+  display: flex;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  height: 100px;
+  border: 1px solid var(--app-border);
+}
+
+.ct-rule-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.ct-rule-60 {
+  flex: 6;
+}
+
+.ct-rule-30 {
+  flex: 3;
+}
+
+.ct-rule-10 {
+  flex: 1;
+}
+
+.ct-rule-label {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.ct-rule-role {
+  font-size: 0.65rem;
+  opacity: 0.7;
+  text-align: center;
+  padding: 0 4px;
+}
+
+.ct-semantic-colors {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.ct-semantic-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: var(--app-bg);
+  border-radius: var(--radius-sm);
+}
+
+.ct-semantic-dot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* ── Color Blindness ─────────────────────────────────── */
+
+.ct-cb-info {
+  margin-bottom: 20px;
+}
+
+.ct-cb-prevalence {
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--app-accent);
+}
+
+.ct-cb-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.ct-cb-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.ct-cb-palette {
+  display: flex;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  height: 56px;
+}
+
+.ct-cb-swatch {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 4px;
+}
+
+.ct-cb-swatch span {
+  font-size: 0.55rem;
+  font-family: var(--font-mono);
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* ── Simultaneous Contrast ───────────────────────────── */
+
+.ct-simultaneous-demo {
+  margin-bottom: 24px;
+  padding: 20px;
+  background: var(--app-bg);
+  border-radius: var(--radius-md);
+}
+
+.ct-simultaneous-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.ct-simultaneous-row {
+  display: flex;
+  gap: 24px;
+}
+
+.ct-simultaneous-bg {
+  width: 120px;
+  height: 120px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ct-simultaneous-square {
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+}
+
+.ct-simultaneous-caption {
+  font-size: 0.78rem;
+  color: var(--app-text-muted);
+  margin-top: 12px;
+  line-height: 1.5;
+}
+
+/* ── Perceptual Facts ────────────────────────────────── */
+
+.ct-facts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.ct-fact-card {
+  padding: 16px;
+  background: var(--app-bg);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--app-border);
+}
+
+.ct-fact-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.ct-fact-desc {
+  font-size: 0.8rem;
+  line-height: 1.55;
+  color: var(--app-text-muted);
+  margin-bottom: 10px;
+}
+
+.ct-fact-takeaway {
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: var(--app-text);
+  padding: 10px 12px;
+  background: var(--app-surface);
+  border-radius: var(--radius-sm);
+}
+
+/* ── Expert Quotes ───────────────────────────────────── */
+
+.ct-quote {
+  border-left: 3px solid var(--app-accent);
+  padding: 16px 20px;
+  margin-bottom: 24px;
+  background: color-mix(in srgb, var(--app-accent) 4%, var(--app-surface));
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.ct-quote-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  font-style: italic;
+  color: var(--app-text);
+  margin-bottom: 10px;
+}
+
+.ct-quote-author {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--app-text);
+}
+
+.ct-quote-meta {
+  font-size: 0.7rem;
+  color: var(--app-text-muted);
+  font-weight: 400;
+}
+
+/* ── Design Principles ───────────────────────────────── */
+
+.ct-principles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.ct-principle-card {
+  padding: 16px;
+  background: var(--app-bg);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--app-border);
+}
+
+.ct-principle-name {
+  font-size: 0.88rem;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.ct-principle-author {
+  font-size: 0.7rem;
+  color: var(--app-text-muted);
+  margin-bottom: 10px;
+}
+
+.ct-principle-desc {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--app-text);
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.ct-principle-app {
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--app-text-muted);
+}

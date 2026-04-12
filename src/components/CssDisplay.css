@@ -1,0 +1,54 @@
+.css-display {
+  margin-top: var(--space-md);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--app-border);
+}
+
+.css-display-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: #1e1e2e;
+  padding: var(--space-sm) var(--space-md);
+  border: none;
+  cursor: pointer;
+  transition: background 0.1s ease;
+}
+
+.css-display-header:hover {
+  background: #252540;
+}
+
+.css-display--open .css-display-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.css-display-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #a6adc8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.css-display-toggle {
+  font-size: 0.75rem;
+  color: #a6adc8;
+}
+
+.css-display-code {
+  background: #1e1e2e;
+  padding: var(--space-md);
+  overflow-x: auto;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: #cdd6f4;
+  margin: 0;
+}
+
+.css-display-code code {
+  white-space: pre;
+}

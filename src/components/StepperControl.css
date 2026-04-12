@@ -1,0 +1,50 @@
+.stepper {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--app-border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: var(--app-surface);
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.stepper:focus {
+  border-color: var(--app-accent);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.stepper-btn {
+  background: none;
+  border: none;
+  padding: 6px 10px;
+  font-size: 1.1rem;
+  color: var(--app-text-muted);
+  cursor: pointer;
+  line-height: 1;
+  transition: background 0.1s ease, color 0.1s ease;
+  user-select: none;
+}
+
+.stepper-btn:hover {
+  background: var(--app-bg);
+  color: var(--app-text);
+}
+
+.stepper-value {
+  flex: 1;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 6px 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stepper-hint {
+  font-size: 0.65rem;
+  color: var(--app-text-muted);
+  opacity: 0.6;
+  margin-top: 2px;
+}

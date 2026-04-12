@@ -1,0 +1,230 @@
+.advisor-description {
+  margin-top: 4px;
+}
+
+.advisor-desc-text {
+  color: var(--app-text-muted);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  max-width: 680px;
+}
+
+.advisor-meta {
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.advisor-meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.875rem;
+}
+
+.advisor-meta-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--app-text-muted);
+}
+
+/* ── Brief ───────────────────────────────────────────── */
+
+.brief-summary {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--app-text);
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--app-border);
+  font-weight: 500;
+}
+
+.brief-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.brief-card {
+  border: 1px solid var(--app-border);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  background: var(--app-surface);
+}
+
+.brief-card-title {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--app-accent);
+  margin-bottom: 16px;
+}
+
+.brief-card-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-top: 12px;
+}
+
+.brief-card-reason {
+  font-size: 0.825rem;
+  line-height: 1.6;
+  color: var(--app-text-muted);
+}
+
+.brief-card-reason--small {
+  font-size: 0.78rem;
+  margin-top: 8px;
+}
+
+/* ── Palette Strip ───────────────────────────────────── */
+
+.brief-palette-strip {
+  display: flex;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  height: 64px;
+}
+
+.brief-palette-swatch {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 6px;
+  position: relative;
+}
+
+.brief-palette-hex {
+  font-size: 0.6rem;
+  font-family: var(--font-mono);
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+
+/* ── Font Preview ────────────────────────────────────── */
+
+.brief-font-preview {
+  padding: 16px;
+  background: var(--app-bg);
+  border-radius: var(--radius-sm);
+  margin-bottom: 4px;
+}
+
+.brief-font-heading-sample {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+}
+
+.brief-font-body-sample {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--app-text-muted);
+}
+
+/* ── Layout Info ─────────────────────────────────────── */
+
+.brief-layout-name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.brief-density {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--app-border);
+  font-size: 0.875rem;
+}
+
+/* ── Component Style ─────────────────────────────────── */
+
+.brief-component-props {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.brief-prop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: var(--app-bg);
+  border-radius: var(--radius-sm);
+  font-size: 0.825rem;
+}
+
+.brief-prop-label {
+  font-family: var(--font-mono);
+  color: var(--app-accent);
+  font-size: 0.78rem;
+}
+
+.brief-prop-value {
+  font-family: var(--font-mono);
+  color: var(--app-text-muted);
+  font-size: 0.75rem;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.brief-components-list {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--app-border);
+}
+
+.brief-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.brief-tag {
+  font-size: 0.72rem;
+  padding: 3px 10px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--app-accent) 10%, transparent);
+  color: var(--app-accent);
+  font-weight: 500;
+}
+
+/* ── Live Preview ────────────────────────────────────── */
+
+.brief-preview {
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  margin-bottom: 24px;
+  border: 1px solid var(--app-border);
+  min-height: 200px;
+}
+
+.brief-preview-surface {
+  padding: 28px;
+  max-width: 480px;
+}
+
+.brief-preview-btn {
+  font-weight: 500;
+}
+
+.brief-preview-btn:hover {
+  opacity: 0.88;
+}
