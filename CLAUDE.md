@@ -9,9 +9,9 @@ Interactive front-end design learning app — explore typography, color, layout,
 - Google Fonts loaded via <link> in index.html
 
 ## Structure
-- `src/pages/<section>/` — each explorer section (typography, color, layout, components, systems)
-- `src/components/` — Sidebar, StepperControl, SliderControl, SelectControl, ToggleControl, CssDisplay, SideBySide, SampleCard
-- `src/data/` — config files (fonts.js, palettes.js, layoutPatterns.js, designSystems.js)
+- `src/pages/<section>/` — each explorer section (advisor, typography, color, layout, components, systems)
+- `src/components/` — Sidebar, StepperControl, SliderControl, SelectControl, ToggleControl, CssDisplay, SideBySide, SampleCard, VideoSection
+- `src/data/` — config files (fonts.js, palettes.js, layoutPatterns.js, designSystems.js, advisorData.js, colorScience.js, videos.js)
 - `src/utils/` — color.js (HSL/RGB/Hex + WCAG contrast), css.js (formatting), controlNav.js (keyboard nav between controls)
 
 ## Patterns
@@ -33,14 +33,38 @@ Interactive front-end design learning app — explore typography, color, layout,
 
 ## Routes
 - `/` — Home (overview cards)
+- `/advisor` — Design Advisor: pick app type + vibe, get tailored design brief with reasoning
 - `/typography` — Font controls, pairings, type scale
-- `/color` — Picker, palette generator, contrast checker, named palettes
+- `/color` — Color wheel, psychology, temperature, contrast science, design rules, picker, palette generator, contrast checker, color blindness sim, named palettes
 - `/layout` — Flexbox playground, grid playground, spacing scale, layout patterns
 - `/components` — Buttons, cards, forms, navbars
 - `/systems` — Design system previews, side-by-side comparison, CSS breakdowns
+
+## Color Section Architecture
+- Color theory is split into separate section components (not one monolith): ColorWheelSection, ColorPsychologySection, ColorTemperatureSection, ContrastAndRulesSection, ColorAccessibilitySection
+- All color theory components share `ColorTheory.css` (imported in ColorExplorer.jsx), classes prefixed `ct-`
+- Expert quotes use a local `Quote` component in each file (not shared) — keeps each section self-contained
+- Color blindness simulation uses Viénot 1999 matrices in `simulateCB()` — uses hexToRgb/rgbToHex from utils/color.js
+
+## Video Embeds
+- VideoSection component uses click-to-load pattern: shows thumbnail from img.youtube.com, loads iframe only on play
+- Uses youtube-nocookie.com for privacy-enhanced embeds
+- Video data lives in `src/data/videos.js`, organized by section key (color, typography, layout, components, systems)
+
+## Data Scale
+- 45 named palettes across 9 categories (warm, cool, earth, pastel, neon, mono, neutral, brand, retro)
+- 16 design systems with 5 annotated CSS variables each
+- 14 layout patterns, 16 font pairings, 15 app types, 10 vibes
+- Expert quotes sourced from verified publications (Albers, Itten, Goethe, Newton, Tufte, Norman, Rams, Vignelli)
+- All color science claims fact-checked — see commit history for corrections
 
 ## Gotchas
 - `create-vite` cancels on non-empty dirs (even `.claude/`) — scaffold manually if needed
 - Google Fonts are preloaded in index.html — add new fonts there before referencing in data/fonts.js
 - Card/component variants need distinct background contexts (glassmorphic needs gradient, neumorphic needs gray)
 - `--app-border` must be dark enough to be visible in light mode — currently #c8ccd4
+- Port 5173 may be in use — Vite auto-increments to 5174+
+- Factual claims in educational content (colorScience.js, advisorData.js) have been fact-checked — when editing, verify claims against primary sources
+- WCAG large text threshold is 18pt (24px), not 18px — a common error
+- Color blindness prevalence: deuteranomaly (~5% males) vs deuteranopia (~1%) — don't conflate
+- GitHub remote: https://github.com/flenny2/design-explorer
