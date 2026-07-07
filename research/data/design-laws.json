@@ -1,0 +1,1747 @@
+{
+  "topic": "design-laws",
+  "title": "Design Laws, UX Principles & Heuristics",
+  "description": "Foundational laws, cognitive principles, Gestalt rules, usability heuristics, and design principles that guide front-end and interaction design.",
+  "schema_version": "1.0",
+  "count": 46,
+  "last_updated": "2026-07-07",
+  "entries": [
+    {
+      "id": "law-of-proximity",
+      "name": "Law of Proximity (Gestalt)",
+      "category": "gestalt",
+      "tags": [
+        "gestalt",
+        "grouping",
+        "layout",
+        "spacing"
+      ],
+      "summary": "Objects that are near, or proximate to, each other tend to be perceived as belonging to a single group.",
+      "significance": "Proximity is one of the most powerful and cheapest grouping tools in UI: whitespace alone can communicate relationships without borders, boxes, or color.",
+      "key_facts": [
+        "Formal statement: elements placed close together are perceived as more related than elements placed farther apart.",
+        "Originated with the Gestalt psychologists in Germany in the 1920s (Wertheimer, Koffka, Kohler).",
+        "UI application: group a form label tightly with its input and add larger gaps between distinct field groups so users read them as separate sections.",
+        "Proximity can override similarity of color/shape when the two cues conflict."
+      ],
+      "examples": [
+        "Form label sitting close to its field",
+        "Related nav links clustered with tight spacing",
+        "Card grids using gutters to separate items"
+      ],
+      "related": [
+        "law-of-similarity",
+        "law-of-common-region",
+        "crap-principles",
+        "eight-point-grid"
+      ],
+      "sources": [
+        {
+          "title": "Law of Proximity",
+          "url": "https://lawsofux.com/law-of-proximity/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Gestalt Principles",
+          "url": "https://www.interaction-design.org/literature/topics/gestalt-principles",
+          "publisher": "Interaction Design Foundation",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "law-of-similarity",
+      "name": "Law of Similarity (Gestalt)",
+      "category": "gestalt",
+      "tags": [
+        "gestalt",
+        "grouping",
+        "visual-consistency"
+      ],
+      "summary": "Elements that share visual characteristics (color, shape, size, orientation) are perceived as related or belonging to the same group.",
+      "significance": "Similarity lets designers create implicit categories and reinforce consistency, and it underpins why interactive elements should look alike.",
+      "key_facts": [
+        "Formal statement: the human eye perceives similar elements as a complete picture, shape, or group even when they are separated.",
+        "A Gestalt principle articulated by Wertheimer, Koffka, and Kohler in the 1920s.",
+        "UI application: style all clickable links the same color so users learn one visual pattern for 'this is interactive'.",
+        "Breaking similarity deliberately (an odd-colored button) creates emphasis via the Von Restorff effect."
+      ],
+      "examples": [
+        "All hyperlinks styled the same blue/underline",
+        "Consistent icon style across a toolbar",
+        "Matching card shapes signalling one content type"
+      ],
+      "related": [
+        "law-of-proximity",
+        "von-restorff-effect",
+        "consistency-and-standards"
+      ],
+      "sources": [
+        {
+          "title": "Law of Similarity",
+          "url": "https://lawsofux.com/law-of-similarity/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Gestalt Principles",
+          "url": "https://www.interaction-design.org/literature/topics/gestalt-principles",
+          "publisher": "Interaction Design Foundation",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "law-of-closure",
+      "name": "Law of Closure (Gestalt)",
+      "category": "gestalt",
+      "tags": [
+        "gestalt",
+        "perception",
+        "icons"
+      ],
+      "summary": "The mind fills in missing information to perceive a complete, closed figure even when parts of the shape are absent.",
+      "significance": "Closure explains why minimal, negative-space logos and icons still read as whole objects, letting designers imply form with fewer marks.",
+      "key_facts": [
+        "Formal statement: when we see an incomplete shape, our brain completes the gaps to perceive a recognizable whole.",
+        "A core Gestalt principle from the 1920s Berlin School of experimental psychology.",
+        "UI application: an icon drawn with broken outlines still reads as the intended object, and loading spinners imply a rotating whole from arcs.",
+        "The WWF panda and IBM's striped logo are classic closure examples."
+      ],
+      "examples": [
+        "WWF panda logo",
+        "IBM 8-bar logo",
+        "Icons implied by negative space"
+      ],
+      "related": [
+        "law-of-pragnanz",
+        "figure-ground"
+      ],
+      "sources": [
+        {
+          "title": "Gestalt Principles",
+          "url": "https://www.interaction-design.org/literature/topics/gestalt-principles",
+          "publisher": "Interaction Design Foundation",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "The Laws of Figure/Ground, Pragnanz, Closure, and Common Fate",
+          "url": "https://www.nngroup.com/articles/gestalt-common-fate/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "law-of-continuity",
+      "name": "Law of Continuity / Good Continuation (Gestalt)",
+      "category": "gestalt",
+      "tags": [
+        "gestalt",
+        "perception",
+        "alignment",
+        "flow"
+      ],
+      "summary": "Elements arranged on a line or smooth curve are perceived as related and are followed as a continuous path by the eye.",
+      "significance": "Continuity is why alignment matters: items on a shared axis feel connected, guiding the eye along intended reading and scanning paths.",
+      "key_facts": [
+        "Formal statement: the eye follows the smoothest path and perceives elements on a continuous line/curve as a single group.",
+        "A Gestalt principle from Wertheimer's early 20th-century work on perception.",
+        "UI application: aligning menu items or a breadcrumb trail on one axis makes them read as a connected sequence.",
+        "Interruptions in a continuous line draw attention because they break the expected flow."
+      ],
+      "examples": [
+        "Breadcrumb trails",
+        "Aligned list items",
+        "Carousel dots on a line"
+      ],
+      "related": [
+        "law-of-proximity",
+        "crap-principles"
+      ],
+      "sources": [
+        {
+          "title": "Gestalt Principles",
+          "url": "https://www.interaction-design.org/literature/topics/gestalt-principles",
+          "publisher": "Interaction Design Foundation",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "law-of-common-region",
+      "name": "Law of Common Region (Gestalt)",
+      "category": "gestalt",
+      "tags": [
+        "gestalt",
+        "grouping",
+        "cards",
+        "containers"
+      ],
+      "summary": "Elements enclosed within a shared boundary or background are perceived as belonging to the same group.",
+      "significance": "Common region is the perceptual basis for cards, panels, and fieldsets: a border or background color binds content into a unit even without proximity.",
+      "key_facts": [
+        "Formal statement: elements tend to be perceived into groups if they share an area with a clearly defined boundary.",
+        "Added to Gestalt theory later by Stephen Palmer (1992).",
+        "UI application: wrapping a heading, image, and button in a card with a shared background makes them read as one clickable unit.",
+        "Common region can override proximity, grouping distant items that share an enclosure."
+      ],
+      "examples": [
+        "Card components",
+        "Bordered fieldsets in forms",
+        "Bento-box dashboard panels"
+      ],
+      "related": [
+        "law-of-proximity",
+        "figure-ground"
+      ],
+      "sources": [
+        {
+          "title": "Law of Common Region",
+          "url": "https://lawsofux.com/law-of-common-region/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "figure-ground",
+      "name": "Figure/Ground (Gestalt)",
+      "category": "gestalt",
+      "tags": [
+        "gestalt",
+        "perception",
+        "depth",
+        "contrast"
+      ],
+      "summary": "The eye separates a visual scene into a foreground figure that holds attention and a background ground that recedes.",
+      "significance": "Figure/ground is fundamental to establishing hierarchy and modality: modals, dropdowns, and overlays rely on it to pull the active layer forward.",
+      "key_facts": [
+        "Formal statement: we instinctively perceive objects as either the figure (the focus) or the ground (the surrounding backdrop).",
+        "A Gestalt principle; Edgar Rubin's vase illustration (1915) is the classic ambiguous figure/ground demonstration.",
+        "UI application: dimming the page behind a modal (a scrim/overlay) pushes the dialog forward as the figure.",
+        "Strong contrast, shadow, and blur reinforce which layer is the figure."
+      ],
+      "examples": [
+        "Modal with dimmed backdrop",
+        "Rubin's vase",
+        "Elevated cards with drop shadows"
+      ],
+      "related": [
+        "focus-trapping-modals",
+        "law-of-closure"
+      ],
+      "sources": [
+        {
+          "title": "The Laws of Figure/Ground, Pragnanz, Closure, and Common Fate",
+          "url": "https://www.nngroup.com/articles/gestalt-common-fate/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "law-of-symmetry",
+      "name": "Law of Symmetry (Gestalt)",
+      "category": "gestalt",
+      "tags": [
+        "gestalt",
+        "balance",
+        "aesthetics"
+      ],
+      "summary": "Symmetrical elements are perceived as belonging together and as forming a coherent, stable whole, regardless of their distance.",
+      "significance": "Symmetry conveys order, balance, and trustworthiness, which is why formal and professional interfaces lean on symmetrical layouts.",
+      "key_facts": [
+        "Formal statement: the mind perceives objects as symmetrical and arranged around a center point, seeking balance.",
+        "A Gestalt principle rooted in the 1920s Berlin School.",
+        "UI application: symmetrical arrangement of paired buttons or mirrored columns feels resolved and intentional.",
+        "Symmetry competes with proximity; the brain prefers to group symmetrical pairs even when unequal spacing suggests otherwise."
+      ],
+      "examples": [
+        "Centered hero layouts",
+        "Balanced two-column footers",
+        "Mirrored button pairs"
+      ],
+      "related": [
+        "law-of-pragnanz",
+        "crap-principles"
+      ],
+      "sources": [
+        {
+          "title": "Gestalt Principles",
+          "url": "https://www.interaction-design.org/literature/topics/gestalt-principles",
+          "publisher": "Interaction Design Foundation",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "law-of-common-fate",
+      "name": "Law of Common Fate (Gestalt)",
+      "category": "gestalt",
+      "tags": [
+        "gestalt",
+        "motion",
+        "animation",
+        "grouping"
+      ],
+      "summary": "Elements that move in the same direction, or change together, are perceived as belonging to the same group.",
+      "significance": "Common fate is the only Gestalt principle rooted in motion, making it central to animation, parallax, and coordinated transitions in modern UIs.",
+      "key_facts": [
+        "Formal statement: elements moving together (same direction, speed, or timing) are perceived as a unit.",
+        "A Gestalt principle; motion is a stronger grouping cue than static similarity or proximity.",
+        "UI application: list items that slide in together on load are read as one set; a parallax layer moving as a whole reads as one plane.",
+        "Coordinated micro-interactions (a group of icons animating in sync) signal that they are functionally related."
+      ],
+      "examples": [
+        "Staggered-but-synchronized list entrance animations",
+        "Parallax scrolling layers",
+        "Flocking/coordinated motion"
+      ],
+      "related": [
+        "reduced-motion",
+        "law-of-similarity"
+      ],
+      "sources": [
+        {
+          "title": "The Laws of Figure/Ground, Pragnanz, Closure, and Common Fate",
+          "url": "https://www.nngroup.com/articles/gestalt-common-fate/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "law-of-pragnanz",
+      "name": "Law of Pragnanz (Law of Good Figure / Simplicity)",
+      "category": "gestalt",
+      "tags": [
+        "gestalt",
+        "simplicity",
+        "perception"
+      ],
+      "summary": "People perceive and interpret ambiguous or complex images in the simplest form possible, because simpler interpretations require less cognitive effort.",
+      "significance": "Pragnanz is the overarching Gestalt law and a scientific rationale for minimalism: reduce complexity and the brain grasps the design faster.",
+      "key_facts": [
+        "Formal statement: we tend to order our experience in a manner that is regular, orderly, symmetrical, and simple (Pragnanz means 'conciseness' in German).",
+        "Considered the fundamental principle of Gestalt perception, from Wertheimer's work.",
+        "UI application: reducing an interface to essential shapes and clear structure lets users perceive it as one coherent whole rather than scattered parts.",
+        "The Olympic rings are perceived as five simple overlapping circles rather than a set of complex intersecting arcs."
+      ],
+      "examples": [
+        "Olympic rings perceived as 5 circles",
+        "Minimalist logos",
+        "Simplified iconography"
+      ],
+      "related": [
+        "law-of-closure",
+        "occams-razor",
+        "aesthetic-and-minimalist-design"
+      ],
+      "sources": [
+        {
+          "title": "Law of Pragnanz",
+          "url": "https://lawsofux.com/law-of-pr%C3%A4gnanz/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Gestalt Principles",
+          "url": "https://www.interaction-design.org/literature/topics/gestalt-principles",
+          "publisher": "Interaction Design Foundation",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "law-of-uniform-connectedness",
+      "name": "Law of Uniform Connectedness (Gestalt)",
+      "category": "gestalt",
+      "tags": [
+        "gestalt",
+        "grouping",
+        "connectors"
+      ],
+      "summary": "Elements that are visually connected by a line, color, frame, or other shared region are perceived as more related than elements with no connection.",
+      "significance": "Uniform connectedness is the strongest grouping principle and the basis for connectors, dividers, and linked steps in wizards and flowcharts.",
+      "key_facts": [
+        "Formal statement: elements connected to each other by uniform visual properties are perceived as a single group.",
+        "Added to Gestalt theory by Stephen Palmer and Irvin Rock (1994).",
+        "UI application: a connecting line between steps in a multi-step progress bar makes them read as one linked sequence.",
+        "It generally overrides proximity and similarity when connections are explicit."
+      ],
+      "examples": [
+        "Stepper/progress indicators with connecting lines",
+        "Flowchart connectors",
+        "Grouped toggle button bars"
+      ],
+      "related": [
+        "law-of-common-region",
+        "law-of-continuity"
+      ],
+      "sources": [
+        {
+          "title": "Law of Uniform Connectedness",
+          "url": "https://lawsofux.com/law-of-uniform-connectedness/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "fitts-law",
+      "name": "Fitts's Law",
+      "category": "ux-law",
+      "tags": [
+        "ux-law",
+        "targets",
+        "pointing",
+        "ergonomics"
+      ],
+      "summary": "The time to acquire a target is a function of the distance to and the size of the target: closer and larger targets are faster to hit.",
+      "significance": "Fitts's Law is the quantitative foundation for button sizing, edge/corner placement, and touch-target guidance across every pointing interface.",
+      "key_facts": [
+        "Formal statement: the time to acquire a target is a function of the distance to and size of the target (larger/closer = faster).",
+        "Derived by psychologist Paul Fitts in 1954 from experiments on human motor movement.",
+        "UI application: make primary buttons large and place frequent actions near the cursor or along screen edges (edges/corners are effectively infinite-width targets).",
+        "It directly motivates minimum touch-target sizes such as WCAG 2.5.5's 44x44 CSS pixels."
+      ],
+      "examples": [
+        "Large primary CTA buttons",
+        "macOS menu bar pinned to the screen edge",
+        "Right-click context menus that appear at the cursor"
+      ],
+      "related": [
+        "hicks-law",
+        "target-size",
+        "doherty-threshold"
+      ],
+      "sources": [
+        {
+          "title": "Fitts's Law",
+          "url": "https://lawsofux.com/fittss-law/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "hicks-law",
+      "name": "Hick's Law (Hick-Hyman Law)",
+      "category": "ux-law",
+      "tags": [
+        "ux-law",
+        "decision-time",
+        "choice",
+        "menus"
+      ],
+      "summary": "The time it takes to make a decision increases logarithmically with the number and complexity of choices available.",
+      "significance": "Hick's Law justifies reducing options, chunking menus, and using progressive disclosure to keep decisions fast and painless.",
+      "key_facts": [
+        "Formal statement: decision time increases logarithmically with the number of choices presented.",
+        "Named after psychologists William Edmund Hick and Ray Hyman, who studied it in 1952.",
+        "UI application: break long menus into categories, highlight recommended options, and hide advanced settings behind progressive disclosure.",
+        "It does not mean always minimize choices; simplifying can hide complexity that users still need (see Tesler's Law)."
+      ],
+      "examples": [
+        "Simplified checkout with fewer steps",
+        "Curated 'recommended' plan on a pricing page",
+        "Categorized navigation menus"
+      ],
+      "related": [
+        "fitts-law",
+        "progressive-disclosure",
+        "teslers-law",
+        "occams-razor"
+      ],
+      "sources": [
+        {
+          "title": "Hick's Law",
+          "url": "https://lawsofux.com/hicks-law/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "jakobs-law",
+      "name": "Jakob's Law",
+      "category": "ux-law",
+      "tags": [
+        "ux-law",
+        "conventions",
+        "mental-models"
+      ],
+      "summary": "Users spend most of their time on other sites, so they prefer your site to work the same way as the sites they already know.",
+      "significance": "Jakob's Law is the argument for following established conventions rather than reinventing patterns: familiarity lowers the learning curve.",
+      "key_facts": [
+        "Formal statement: users transfer expectations built around one familiar product to another that appears similar.",
+        "Coined by usability expert Jakob Nielsen (co-founder of Nielsen Norman Group).",
+        "UI application: put the logo top-left linking home, the cart top-right, and search where users expect them, matching existing mental models.",
+        "Departing from convention is possible but must be justified by clearly superior value, since it costs users relearning."
+      ],
+      "examples": [
+        "Shopping cart icon in the top-right",
+        "Underlined blue links",
+        "Hamburger menu on mobile"
+      ],
+      "related": [
+        "consistency-and-standards",
+        "match-between-system-and-real-world"
+      ],
+      "sources": [
+        {
+          "title": "Jakob's Law",
+          "url": "https://lawsofux.com/jakobs-law/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "millers-law",
+      "name": "Miller's Law (7 plus or minus 2)",
+      "category": "cognitive",
+      "tags": [
+        "ux-law",
+        "memory",
+        "chunking",
+        "cognitive-load"
+      ],
+      "summary": "The average person can hold about seven (plus or minus two) items in their working memory at once.",
+      "significance": "Miller's Law underpins chunking: grouping information into digestible units reduces cognitive load, though it is often misapplied as a hard 'menus must have 7 items' rule.",
+      "key_facts": [
+        "Formal statement: the average person can keep only about 7 (plus or minus 2) items in working memory.",
+        "From cognitive psychologist George A. Miller's 1956 paper 'The Magical Number Seven, Plus or Minus Two'.",
+        "UI application: chunk long strings like phone numbers and card numbers into groups (e.g., 555-123-4567) to ease recall.",
+        "Common misinterpretation: it is NOT a mandate to limit navigation to 7 items; it is about working memory, not menu length."
+      ],
+      "examples": [
+        "Phone numbers grouped 3-3-4",
+        "Credit card fields split into 4-digit chunks",
+        "Chunked step-by-step wizards"
+      ],
+      "related": [
+        "hicks-law",
+        "recognition-rather-than-recall",
+        "progressive-disclosure"
+      ],
+      "sources": [
+        {
+          "title": "Miller's Law",
+          "url": "https://lawsofux.com/millers-law/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "doherty-threshold",
+      "name": "Doherty Threshold",
+      "category": "ux-law",
+      "tags": [
+        "ux-law",
+        "performance",
+        "response-time",
+        "feedback"
+      ],
+      "summary": "Productivity and engagement soar when a computer and its user interact at a pace (under 400 ms) that neither has to wait on the other.",
+      "significance": "The Doherty Threshold sets a concrete performance target and justifies optimistic UI, skeleton screens, and progress feedback to mask latency.",
+      "key_facts": [
+        "Formal statement: system response times under 400 milliseconds keep users engaged and feeling in flow.",
+        "Established by Walter J. Doherty and Ahrvind J. Thadani at IBM in 1982.",
+        "UI application: use skeleton loaders, optimistic updates, and progress indicators so perceived response stays under the threshold even when work is slow.",
+        "Perceived performance can matter more than actual speed; animation and feedback buy tolerance for real delays."
+      ],
+      "examples": [
+        "Skeleton screens while data loads",
+        "Optimistic 'liked' state before server confirms",
+        "Progress bars for long uploads"
+      ],
+      "related": [
+        "fitts-law",
+        "visibility-of-system-status"
+      ],
+      "sources": [
+        {
+          "title": "Doherty Threshold",
+          "url": "https://lawsofux.com/doherty-threshold/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "aesthetic-usability-effect",
+      "name": "Aesthetic-Usability Effect",
+      "category": "cognitive",
+      "tags": [
+        "ux-law",
+        "aesthetics",
+        "perception",
+        "bias"
+      ],
+      "summary": "Users often perceive aesthetically pleasing designs as more usable, even when they are not objectively easier to use.",
+      "significance": "This effect explains why visual polish builds trust and tolerance for minor usability flaws, but also warns that beauty can mask real problems in testing.",
+      "key_facts": [
+        "Formal statement: users perceive attractive products as more usable and are more forgiving of their usability issues.",
+        "Documented by Masaaki Kurosu and Kaori Kashimura in a 1995 study at the Hitachi Design Center.",
+        "UI application: invest in visual craft to increase perceived quality and trust, especially on first impressions and onboarding.",
+        "Caution: aesthetic appeal can hide usability problems from stakeholders and mislead usability tests."
+      ],
+      "examples": [
+        "Polished onboarding screens increasing perceived ease",
+        "Attractive apps forgiven for small friction"
+      ],
+      "related": [
+        "dont-make-me-think",
+        "aesthetic-and-minimalist-design"
+      ],
+      "sources": [
+        {
+          "title": "Aesthetic-Usability Effect",
+          "url": "https://lawsofux.com/aesthetic-usability-effect/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "von-restorff-effect",
+      "name": "Von Restorff Effect (Isolation Effect)",
+      "category": "cognitive",
+      "tags": [
+        "ux-law",
+        "emphasis",
+        "memory",
+        "contrast"
+      ],
+      "summary": "When multiple similar objects are present, the one that differs from the rest is the most likely to be remembered.",
+      "significance": "The isolation effect is the psychology behind visual hierarchy: making the primary action distinct ensures it is noticed and recalled.",
+      "key_facts": [
+        "Formal statement: an item that stands out from its peers is more likely to be noticed and remembered.",
+        "Named after psychiatrist and pediatrician Hedwig von Restorff, who identified it in 1933.",
+        "UI application: give the primary button a unique high-contrast color so it stands apart from secondary actions.",
+        "Do not rely on color alone to isolate an element; also use size, weight, or position for accessibility."
+      ],
+      "examples": [
+        "High-contrast primary CTA",
+        "Highlighted 'most popular' pricing tier",
+        "Badge on a nav item"
+      ],
+      "related": [
+        "law-of-similarity",
+        "serial-position-effect",
+        "color-blindness"
+      ],
+      "sources": [
+        {
+          "title": "Von Restorff Effect",
+          "url": "https://lawsofux.com/von-restorff-effect/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "serial-position-effect",
+      "name": "Serial Position Effect",
+      "category": "cognitive",
+      "tags": [
+        "ux-law",
+        "memory",
+        "ordering",
+        "navigation"
+      ],
+      "summary": "Users best remember the first and last items in a series (primacy and recency), and are worse at recalling those in the middle.",
+      "significance": "It guides how to order navigation and lists: place the most important items at the start and end where they are most likely to be remembered.",
+      "key_facts": [
+        "Formal statement: items at the beginning (primacy) and end (recency) of a list are recalled better than middle items.",
+        "The term traces to psychologist Hermann Ebbinghaus's memory research in the late 1800s.",
+        "UI application: put the highest-priority nav links first and last, and place key actions at the top or bottom of menus.",
+        "Combines with Von Restorff: an emphasized middle item can overcome its weak recall position."
+      ],
+      "examples": [
+        "Home first and account/logout last in a nav",
+        "Most-used tools at the ends of a toolbar"
+      ],
+      "related": [
+        "von-restorff-effect",
+        "millers-law"
+      ],
+      "sources": [
+        {
+          "title": "Serial Position Effect",
+          "url": "https://lawsofux.com/serial-position-effect/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "peak-end-rule",
+      "name": "Peak-End Rule",
+      "category": "cognitive",
+      "tags": [
+        "ux-law",
+        "memory",
+        "emotion",
+        "journey"
+      ],
+      "summary": "People judge an experience largely based on how they felt at its most intense point (the peak) and at its end, rather than the average of every moment.",
+      "significance": "It directs design effort toward emotional high points and endings of a journey, where impressions are cemented, rather than spreading polish evenly.",
+      "key_facts": [
+        "Formal statement: an experience is judged largely on its most intense moment and its final moment.",
+        "Identified by Daniel Kahneman and Barbara Fredrickson through behavioral-economics research.",
+        "UI application: craft delightful success/confirmation screens and smooth endings, and soften painful peaks like errors.",
+        "A strong ending can compensate for friction earlier in the flow."
+      ],
+      "examples": [
+        "Celebratory order-confirmation screen",
+        "Friendly empty states",
+        "Graceful error recovery messaging"
+      ],
+      "related": [
+        "zeigarnik-effect",
+        "aesthetic-usability-effect"
+      ],
+      "sources": [
+        {
+          "title": "Peak-End Rule",
+          "url": "https://lawsofux.com/peak-end-rule/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "zeigarnik-effect",
+      "name": "Zeigarnik Effect",
+      "category": "cognitive",
+      "tags": [
+        "ux-law",
+        "memory",
+        "completion",
+        "engagement"
+      ],
+      "summary": "People remember uncompleted or interrupted tasks better than completed ones, and feel a pull to finish what they started.",
+      "significance": "It powers progress indicators, onboarding checklists, and completion meters that motivate users to finish tasks.",
+      "key_facts": [
+        "Formal statement: unfinished tasks create psychological tension that keeps them in memory until completed.",
+        "Discovered by Soviet psychologist Bluma Zeigarnik in the 1920s after observing waiters recall unpaid orders better.",
+        "UI application: show a profile-completion bar or onboarding checklist to nudge users toward finishing setup.",
+        "Displaying an already-partially-filled progress bar (endowed progress) increases completion rates."
+      ],
+      "examples": [
+        "LinkedIn 'profile strength' meter",
+        "Onboarding checklists",
+        "Multi-step form progress bars"
+      ],
+      "related": [
+        "peak-end-rule",
+        "goal-gradient-effect"
+      ],
+      "sources": [
+        {
+          "title": "Zeigarnik Effect",
+          "url": "https://lawsofux.com/zeigarnik-effect/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "teslers-law",
+      "name": "Tesler's Law (Law of Conservation of Complexity)",
+      "category": "principle",
+      "tags": [
+        "ux-law",
+        "complexity",
+        "tradeoffs"
+      ],
+      "summary": "For any system there is a certain amount of complexity that cannot be reduced; it can only be shifted between the product and its users.",
+      "significance": "Tesler's Law reminds designers that simplifying the interface often means the product must absorb the complexity internally, rather than pushing it onto users.",
+      "key_facts": [
+        "Formal statement: every application has an inherent amount of irreducible complexity; the only question is who deals with it.",
+        "Coined by Larry Tesler, a computer scientist who worked at Xerox PARC and Apple, in the mid-1980s.",
+        "UI application: auto-detect a credit-card type from its number so the system handles the complexity instead of asking the user.",
+        "Over-simplifying the UI can dump hidden complexity back onto users; the goal is to move it to where it is best handled."
+      ],
+      "examples": [
+        "Auto-formatting card numbers",
+        "Smart defaults that pre-fill fields",
+        "Email clients guessing the intended recipient"
+      ],
+      "related": [
+        "hicks-law",
+        "occams-razor",
+        "progressive-disclosure"
+      ],
+      "sources": [
+        {
+          "title": "Tesler's Law",
+          "url": "https://lawsofux.com/teslers-law/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "postels-law",
+      "name": "Postel's Law (Robustness Principle)",
+      "category": "principle",
+      "tags": [
+        "ux-law",
+        "robustness",
+        "input",
+        "resilience"
+      ],
+      "summary": "Be conservative in what you send, be liberal in what you accept: design systems to tolerate varied and imperfect user input.",
+      "significance": "Postel's Law argues for forgiving inputs (flexible formats, error tolerance) so users are not punished for minor deviations.",
+      "key_facts": [
+        "Formal statement: be liberal in what you accept, and conservative in what you send.",
+        "Formulated by computer scientist Jon Postel in 1980 in the TCP specification (RFC 761).",
+        "UI application: accept phone numbers with or without dashes/spaces and normalize them behind the scenes instead of rejecting them.",
+        "Applied to UX, it means anticipating messy human input and handling it gracefully rather than demanding rigid formats."
+      ],
+      "examples": [
+        "Phone/date fields that accept multiple formats",
+        "Trimming stray whitespace in inputs",
+        "Case-insensitive email matching"
+      ],
+      "related": [
+        "error-prevention",
+        "help-users-recognize-diagnose-recover-from-errors"
+      ],
+      "sources": [
+        {
+          "title": "Postel's Law",
+          "url": "https://lawsofux.com/postels-law/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "occams-razor",
+      "name": "Occam's Razor",
+      "category": "principle",
+      "tags": [
+        "ux-law",
+        "simplicity",
+        "minimalism"
+      ],
+      "summary": "Among competing solutions that predict equally well, the one with the fewest assumptions should be selected; the simplest solution tends to be the best.",
+      "significance": "Occam's Razor is a bias toward simplicity: strip away unnecessary elements and steps until only what is essential remains.",
+      "key_facts": [
+        "Formal statement: entities should not be multiplied without necessity; prefer the simplest adequate solution.",
+        "Attributed to 14th-century Franciscan friar and philosopher William of Ockham.",
+        "UI application: remove non-essential form fields, decorations, and steps that do not serve the user's goal.",
+        "Simplicity here means fewest necessary parts, not fewest features at the cost of usefulness."
+      ],
+      "examples": [
+        "Minimal signup forms (email + password only)",
+        "Removing redundant confirmation steps"
+      ],
+      "related": [
+        "law-of-pragnanz",
+        "aesthetic-and-minimalist-design",
+        "dieter-rams-ten-principles"
+      ],
+      "sources": [
+        {
+          "title": "Occam's Razor",
+          "url": "https://lawsofux.com/occams-razor/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "pareto-principle",
+      "name": "Pareto Principle (80/20 Rule)",
+      "category": "principle",
+      "tags": [
+        "ux-law",
+        "prioritization",
+        "80-20"
+      ],
+      "summary": "Roughly 80% of effects come from 20% of the causes; a small share of features typically drives the majority of usage and value.",
+      "significance": "The Pareto Principle guides prioritization: focus design and optimization effort on the vital few features and flows that most users rely on.",
+      "key_facts": [
+        "Formal statement: for many outcomes, roughly 80% of consequences come from 20% of causes.",
+        "Named after economist Vilfredo Pareto, who observed in 1896 that 80% of Italy's land was owned by 20% of the population.",
+        "UI application: identify the 20% of features that drive 80% of engagement and make those the most prominent and polished.",
+        "The exact ratio varies; the principle is about disproportionate impact, not a literal 80/20 split."
+      ],
+      "examples": [
+        "Surfacing top-used tools prominently",
+        "Optimizing the most common user journey first"
+      ],
+      "related": [
+        "occams-razor",
+        "parkinsons-law"
+      ],
+      "sources": [
+        {
+          "title": "Pareto Principle",
+          "url": "https://lawsofux.com/pareto-principle/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "parkinsons-law",
+      "name": "Parkinson's Law",
+      "category": "principle",
+      "tags": [
+        "ux-law",
+        "time",
+        "efficiency",
+        "constraints"
+      ],
+      "summary": "Work expands so as to fill the time available for its completion; tasks take as long as the time allotted to them.",
+      "significance": "In UX, it motivates imposing helpful constraints (deadlines, autofill, streamlined flows) so users complete tasks faster than they otherwise would.",
+      "key_facts": [
+        "Formal statement: work expands to fill the time available for its completion.",
+        "Coined by naval historian Cyril Northcote Parkinson in a 1955 essay in The Economist.",
+        "UI application: reduce the perceived and actual time a task takes with autofill, smart defaults, and progress limits so users finish quickly.",
+        "Time constraints and streamlined flows can prevent tasks from ballooning in effort."
+      ],
+      "examples": [
+        "Autofill checkout completing in seconds",
+        "Booking flows with countdown timers",
+        "One-click purchase"
+      ],
+      "related": [
+        "pareto-principle",
+        "teslers-law"
+      ],
+      "sources": [
+        {
+          "title": "Parkinson's Law",
+          "url": "https://lawsofux.com/parkinsons-law/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "goal-gradient-effect",
+      "name": "Goal-Gradient Effect",
+      "category": "cognitive",
+      "tags": [
+        "ux-law",
+        "motivation",
+        "progress",
+        "gamification"
+      ],
+      "summary": "The tendency to approach a goal increases with proximity to it: people accelerate their effort as they get closer to completion.",
+      "significance": "It explains why progress bars and 'you're almost there' cues boost completion, and why endowed early progress increases motivation.",
+      "key_facts": [
+        "Formal statement: motivation to reach a goal increases as one gets nearer to achieving it.",
+        "Rooted in Clark Hull's 1930s behavioral research and revisited by Kivetz et al. (2006) in a loyalty-program study.",
+        "UI application: show a progress bar that advances toward completion and grant some initial progress to trigger the effect earlier.",
+        "Artificially starting a loyalty card at 2/12 punches (endowed progress) drives faster completion than starting at 0/10."
+      ],
+      "examples": [
+        "Loyalty punch cards with a head start",
+        "Onboarding progress meters",
+        "'2 of 5 steps complete' indicators"
+      ],
+      "related": [
+        "zeigarnik-effect",
+        "serial-position-effect"
+      ],
+      "sources": [
+        {
+          "title": "Goal-Gradient Effect",
+          "url": "https://lawsofux.com/goal-gradient-effect/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "visibility-of-system-status",
+      "name": "Visibility of System Status (Nielsen Heuristic 1)",
+      "category": "heuristic",
+      "tags": [
+        "nielsen",
+        "heuristic",
+        "feedback"
+      ],
+      "summary": "The design should always keep users informed about what is going on, through appropriate, timely feedback.",
+      "significance": "The first of Nielsen's 10 heuristics; visible status builds trust and helps users make good decisions based on the current state.",
+      "key_facts": [
+        "Formal statement: keep users informed about what is happening through appropriate feedback within a reasonable time.",
+        "Part of Jakob Nielsen's 10 usability heuristics, first published in 1994 (refined from 1990 work with Rolf Molich).",
+        "UI application: show loading spinners, upload progress, saved/unsaved indicators, and current step in a checkout.",
+        "Closely tied to the Doherty Threshold: timely feedback keeps users engaged."
+      ],
+      "examples": [
+        "Upload progress bars",
+        "'Saved' confirmations",
+        "Breadcrumb showing current location"
+      ],
+      "related": [
+        "doherty-threshold",
+        "match-between-system-and-real-world"
+      ],
+      "sources": [
+        {
+          "title": "10 Usability Heuristics for User Interface Design",
+          "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "match-between-system-and-real-world",
+      "name": "Match Between System and the Real World (Nielsen Heuristic 2)",
+      "category": "heuristic",
+      "tags": [
+        "nielsen",
+        "heuristic",
+        "language",
+        "conventions"
+      ],
+      "summary": "The design should speak the users' language, using familiar words, phrases, and concepts rather than internal jargon, and follow real-world conventions.",
+      "significance": "Speaking the user's language and following real-world order makes information feel natural and reduces the effort of interpretation.",
+      "key_facts": [
+        "Formal statement: the system should speak the users' language and make information appear in a natural, logical order.",
+        "The second of Jakob Nielsen's 10 usability heuristics (1994).",
+        "UI application: use plain labels like 'Trash' or 'Cart' and real-world metaphors instead of database/engineering terms.",
+        "Related to Jakob's Law: conventions and familiar mental models reduce learning cost."
+      ],
+      "examples": [
+        "Trash/Recycle Bin metaphor",
+        "Shopping cart icon",
+        "Plain-language error messages"
+      ],
+      "related": [
+        "jakobs-law",
+        "recognition-rather-than-recall"
+      ],
+      "sources": [
+        {
+          "title": "10 Usability Heuristics for User Interface Design",
+          "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "user-control-and-freedom",
+      "name": "User Control and Freedom (Nielsen Heuristic 3)",
+      "category": "heuristic",
+      "tags": [
+        "nielsen",
+        "heuristic",
+        "undo",
+        "escape"
+      ],
+      "summary": "Users need a clearly marked emergency exit to leave unwanted states, with support for undo and redo.",
+      "significance": "Providing exits and undo reduces the fear of making mistakes and encourages exploration.",
+      "key_facts": [
+        "Formal statement: users often perform actions by mistake and need a clearly marked way to undo or exit without an extended process.",
+        "The third of Jakob Nielsen's 10 usability heuristics (1994).",
+        "UI application: provide undo/redo, cancel buttons, and easy dismissal of dialogs and modals.",
+        "Supports error recovery and lowers the stakes of experimentation."
+      ],
+      "examples": [
+        "Undo send in Gmail",
+        "Cancel buttons in dialogs",
+        "Back navigation in wizards"
+      ],
+      "related": [
+        "error-prevention",
+        "help-users-recognize-diagnose-recover-from-errors"
+      ],
+      "sources": [
+        {
+          "title": "10 Usability Heuristics for User Interface Design",
+          "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "consistency-and-standards",
+      "name": "Consistency and Standards (Nielsen Heuristic 4)",
+      "category": "heuristic",
+      "tags": [
+        "nielsen",
+        "heuristic",
+        "consistency",
+        "conventions"
+      ],
+      "summary": "Users should not have to wonder whether different words, situations, or actions mean the same thing; follow platform and industry conventions.",
+      "significance": "Internal and external consistency reduces cognitive load and leverages knowledge users bring from other products.",
+      "key_facts": [
+        "Formal statement: follow platform and industry conventions (external consistency) and keep terms/actions uniform within the product (internal consistency).",
+        "The fourth of Jakob Nielsen's 10 usability heuristics (1994).",
+        "UI application: use the same label, icon, and behavior for the same action everywhere in the app.",
+        "Directly reinforced by Jakob's Law and design systems."
+      ],
+      "examples": [
+        "Uniform button styles across an app",
+        "Following iOS/Android platform patterns",
+        "Design-system component reuse"
+      ],
+      "related": [
+        "jakobs-law",
+        "law-of-similarity"
+      ],
+      "sources": [
+        {
+          "title": "10 Usability Heuristics for User Interface Design",
+          "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "error-prevention",
+      "name": "Error Prevention (Nielsen Heuristic 5)",
+      "category": "heuristic",
+      "tags": [
+        "nielsen",
+        "heuristic",
+        "errors",
+        "validation"
+      ],
+      "summary": "Good error messages are important, but the best designs prevent problems from occurring in the first place.",
+      "significance": "Preventing errors is more effective than handling them; eliminate error-prone conditions or confirm risky actions before they happen.",
+      "key_facts": [
+        "Formal statement: either eliminate error-prone conditions or check for them and present a confirmation before users commit.",
+        "The fifth of Jakob Nielsen's 10 usability heuristics (1994).",
+        "UI application: disable invalid options, use input constraints/date pickers, and confirm destructive actions like delete.",
+        "Distinguishes slips (unconscious errors) from mistakes (conscious wrong decisions); both should be designed against."
+      ],
+      "examples": [
+        "Confirmation dialog before deleting",
+        "Date pickers preventing invalid dates",
+        "Inline validation before submit"
+      ],
+      "related": [
+        "postels-law",
+        "error-identification"
+      ],
+      "sources": [
+        {
+          "title": "10 Usability Heuristics for User Interface Design",
+          "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "recognition-rather-than-recall",
+      "name": "Recognition Rather Than Recall (Nielsen Heuristic 6)",
+      "category": "heuristic",
+      "tags": [
+        "nielsen",
+        "heuristic",
+        "memory",
+        "recognition"
+      ],
+      "summary": "Minimize memory load by making elements, actions, and options visible so users recognize information rather than having to recall it.",
+      "significance": "Recognition is easier than recall; surfacing choices and context reduces cognitive burden and errors.",
+      "key_facts": [
+        "Formal statement: make objects, actions, and options visible so users don't have to remember information from one part of the interface to another.",
+        "The sixth of Jakob Nielsen's 10 usability heuristics (1994).",
+        "UI application: show recently viewed items, autocomplete suggestions, and visible menu options instead of memorized commands.",
+        "Relies on Miller's Law: reducing working-memory load prevents overload."
+      ],
+      "examples": [
+        "Autocomplete search suggestions",
+        "Recently viewed lists",
+        "Visible formatting toolbars"
+      ],
+      "related": [
+        "millers-law",
+        "match-between-system-and-real-world"
+      ],
+      "sources": [
+        {
+          "title": "10 Usability Heuristics for User Interface Design",
+          "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "flexibility-and-efficiency-of-use",
+      "name": "Flexibility and Efficiency of Use (Nielsen Heuristic 7)",
+      "category": "heuristic",
+      "tags": [
+        "nielsen",
+        "heuristic",
+        "shortcuts",
+        "accelerators"
+      ],
+      "summary": "Shortcuts and accelerators, hidden from novices, can speed up interaction for expert users so the design serves both.",
+      "significance": "Catering to both novice and expert users via accelerators lets the product scale with a user's growing proficiency.",
+      "key_facts": [
+        "Formal statement: accelerators unseen by novice users may speed up interaction for experts, letting the design serve both inexperienced and experienced users.",
+        "The seventh of Jakob Nielsen's 10 usability heuristics (1994).",
+        "UI application: offer keyboard shortcuts, saved templates, and customizable dashboards alongside discoverable menus.",
+        "Personalization and customization are forms of flexibility that reward frequent users."
+      ],
+      "examples": [
+        "Keyboard shortcuts (Cmd+K palettes)",
+        "Saved filters/templates",
+        "Customizable toolbars"
+      ],
+      "related": [
+        "fitts-law",
+        "parkinsons-law"
+      ],
+      "sources": [
+        {
+          "title": "10 Usability Heuristics for User Interface Design",
+          "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "aesthetic-and-minimalist-design",
+      "name": "Aesthetic and Minimalist Design (Nielsen Heuristic 8)",
+      "category": "heuristic",
+      "tags": [
+        "nielsen",
+        "heuristic",
+        "minimalism",
+        "signal-to-noise"
+      ],
+      "summary": "Interfaces should not contain information that is irrelevant or rarely needed; every extra unit of content competes with the relevant units.",
+      "significance": "Keeping content focused improves the signal-to-noise ratio, so essential information is not diluted by clutter.",
+      "key_facts": [
+        "Formal statement: interfaces should not contain information which is irrelevant or rarely needed, as it diminishes the relative visibility of what matters.",
+        "The eighth of Jakob Nielsen's 10 usability heuristics (1994).",
+        "UI application: cut decorative clutter, keep primary content prominent, and defer secondary details via progressive disclosure.",
+        "Minimalist does not mean flat or featureless; it means keeping only what serves the user's goal."
+      ],
+      "examples": [
+        "Clean dashboards prioritizing key metrics",
+        "Progressive disclosure of advanced settings"
+      ],
+      "related": [
+        "occams-razor",
+        "law-of-pragnanz",
+        "progressive-disclosure"
+      ],
+      "sources": [
+        {
+          "title": "10 Usability Heuristics for User Interface Design",
+          "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "help-users-recognize-diagnose-recover-from-errors",
+      "name": "Help Users Recognize, Diagnose, and Recover from Errors (Nielsen Heuristic 9)",
+      "category": "heuristic",
+      "tags": [
+        "nielsen",
+        "heuristic",
+        "errors",
+        "recovery"
+      ],
+      "summary": "Error messages should be expressed in plain language, precisely indicate the problem, and constructively suggest a solution.",
+      "significance": "Clear, actionable error recovery turns frustrating dead-ends into recoverable moments and reduces abandonment.",
+      "key_facts": [
+        "Formal statement: error messages should be in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.",
+        "The ninth of Jakob Nielsen's 10 usability heuristics (1994).",
+        "UI application: 'Enter a valid email like name@example.com' instead of 'Error 422'; highlight the offending field.",
+        "Traditionally presented with visual treatment (bold, red) that clearly marks the error and how to fix it."
+      ],
+      "examples": [
+        "Inline field-level error text",
+        "404 pages with search and links home",
+        "Suggested corrections"
+      ],
+      "related": [
+        "error-identification",
+        "error-prevention"
+      ],
+      "sources": [
+        {
+          "title": "10 Usability Heuristics for User Interface Design",
+          "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "help-and-documentation",
+      "name": "Help and Documentation (Nielsen Heuristic 10)",
+      "category": "heuristic",
+      "tags": [
+        "nielsen",
+        "heuristic",
+        "help",
+        "docs"
+      ],
+      "summary": "It is best if the system needs no documentation, but it may be necessary to provide help that is easy to search, task-focused, and concrete.",
+      "significance": "Well-placed, task-focused help supports users at their moment of need without forcing them to leave the flow.",
+      "key_facts": [
+        "Formal statement: provide help and documentation that is easy to search, focused on the user's task, lists concrete steps, and isn't too large.",
+        "The tenth of Jakob Nielsen's 10 usability heuristics (1994).",
+        "UI application: contextual tooltips, inline hints, and searchable help centers placed where users get stuck.",
+        "The ideal is an interface so intuitive that documentation is rarely needed."
+      ],
+      "examples": [
+        "Contextual tooltips",
+        "Searchable help center",
+        "Inline field hints"
+      ],
+      "related": [
+        "recognition-rather-than-recall",
+        "progressive-disclosure"
+      ],
+      "sources": [
+        {
+          "title": "10 Usability Heuristics for User Interface Design",
+          "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "crap-principles",
+      "name": "C.R.A.P. Principles (Contrast, Repetition, Alignment, Proximity)",
+      "category": "principle",
+      "tags": [
+        "visual-design",
+        "layout",
+        "typography",
+        "robin-williams"
+      ],
+      "summary": "Four foundational graphic-design principles - Contrast, Repetition, Alignment, and Proximity - for creating clear, organized, and attractive layouts.",
+      "significance": "C.R.A.P. distills visual design into four memorable, teachable rules that apply to any layout from documents to web pages.",
+      "key_facts": [
+        "The four principles are Contrast (make different things clearly different), Repetition (reuse visual elements for unity), Alignment (place elements on shared axes), and Proximity (group related items).",
+        "Introduced by Robin Williams in 'The Non-Designer's Design Book', first published in 1994.",
+        "UI application: contrast a bold heading against body text, repeat button styles, align form fields to a grid, and group related controls.",
+        "Two of the four (Proximity, and Contrast/Alignment) overlap directly with Gestalt principles."
+      ],
+      "examples": [
+        "Consistent heading/button styles (repetition)",
+        "Grid-aligned layouts (alignment)",
+        "Grouped form sections (proximity)"
+      ],
+      "related": [
+        "law-of-proximity",
+        "law-of-continuity",
+        "von-restorff-effect",
+        "eight-point-grid"
+      ],
+      "sources": [
+        {
+          "title": "How to Use C.R.A.P. Design Principles For Better UX",
+          "url": "https://vwo.com/blog/crap-design-principles/",
+          "publisher": "VWO",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "dieter-rams-ten-principles",
+      "name": "Dieter Rams' Ten Principles for Good Design",
+      "category": "principle",
+      "tags": [
+        "industrial-design",
+        "minimalism",
+        "philosophy",
+        "braun"
+      ],
+      "summary": "Ten timeless criteria articulated by designer Dieter Rams describing what makes design good, culminating in 'good design is as little design as possible'.",
+      "significance": "Rams' principles shaped modern product and interface design (notably influencing Apple's Jony Ive) and are a benchmark for minimalist, honest design.",
+      "key_facts": [
+        "The ten: good design is innovative; useful; aesthetic; makes a product understandable; unobtrusive; honest; long-lasting; thorough down to the last detail; environmentally friendly; and as little design as possible.",
+        "Written by Dieter Rams in the late 1970s while he was head of design at Braun; he later designed furniture for Vitsoe.",
+        "His guiding maxim is 'Weniger, aber besser' ('Less, but better').",
+        "UI application: strive for interfaces that are useful, honest about their function, understandable, and free of decoration for its own sake."
+      ],
+      "examples": [
+        "Braun products (T3 radio, calculators)",
+        "Apple hardware/software minimalism",
+        "Vitsoe 606 shelving system"
+      ],
+      "related": [
+        "occams-razor",
+        "aesthetic-and-minimalist-design",
+        "law-of-pragnanz"
+      ],
+      "sources": [
+        {
+          "title": "Good design - About us",
+          "url": "https://www.vitsoe.com/us/about/good-design",
+          "publisher": "Vitsoe",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Dieter Rams: 10 Timeless Commandments for Good Design",
+          "url": "https://www.interaction-design.org/literature/article/dieter-rams-10-timeless-commandments-for-good-design",
+          "publisher": "Interaction Design Foundation",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "dont-make-me-think",
+      "name": "Don't Make Me Think (Krug's Law of Usability)",
+      "category": "principle",
+      "tags": [
+        "usability",
+        "cognition",
+        "self-evidence"
+      ],
+      "summary": "A web page or app should be self-evident, obvious, and self-explanatory so users can understand what to do without expending mental effort.",
+      "significance": "Steve Krug's first law reframes usability around minimizing cognitive effort: if users have to think about how the interface works, the design has failed.",
+      "key_facts": [
+        "Krug's first law of usability: 'Don't make me think.'",
+        "From Steve Krug's book 'Don't Make Me Think', first published in 2000 (revised 2014).",
+        "UI application: use obvious clickable affordances, clear labels, and self-explanatory navigation so nothing requires deciphering.",
+        "Related to the concept that every question mark a user forms adds to their cognitive workload."
+      ],
+      "examples": [
+        "Obvious buttons that look clickable",
+        "Clear, conventional navigation labels",
+        "Self-explanatory forms"
+      ],
+      "related": [
+        "recognition-rather-than-recall",
+        "affordances",
+        "jakobs-law"
+      ],
+      "sources": [
+        {
+          "title": "Don't Make Me Think",
+          "url": "https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/usability-evaluation",
+          "publisher": "Interaction Design Foundation",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "progressive-disclosure",
+      "name": "Progressive Disclosure",
+      "category": "principle",
+      "tags": [
+        "complexity",
+        "cognitive-load",
+        "layering"
+      ],
+      "summary": "An interaction-design technique that defers advanced or rarely used features to a secondary screen, showing only essential options first.",
+      "significance": "Progressive disclosure manages complexity by revealing detail on demand, keeping the initial experience simple while still supporting power features.",
+      "key_facts": [
+        "Definition: show only the necessary or commonly used options up front, and reveal additional options when the user asks for them.",
+        "Popularized in HCI by Jakob Nielsen and rooted in cognitive-load theory.",
+        "UI application: an 'Advanced settings' expander, 'Show more' links, and multi-step wizards that reveal complexity gradually.",
+        "Reduces both the perceived and actual complexity users face at any one moment (supports Hick's Law and Tesler's Law)."
+      ],
+      "examples": [
+        "'Advanced options' accordions",
+        "'Show more' truncation",
+        "Wizard step flows"
+      ],
+      "related": [
+        "hicks-law",
+        "teslers-law",
+        "aesthetic-and-minimalist-design"
+      ],
+      "sources": [
+        {
+          "title": "Progressive Disclosure",
+          "url": "https://www.nngroup.com/articles/progressive-disclosure/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "eight-point-grid",
+      "name": "8-Point Grid System",
+      "category": "principle",
+      "tags": [
+        "spacing",
+        "layout",
+        "grid",
+        "consistency"
+      ],
+      "summary": "A spacing methodology where all sizing and spacing values are multiples of 8 pixels (with 4px as a half-step) to create visual rhythm and consistency.",
+      "significance": "The 8pt grid gives teams a shared, scalable spacing language that keeps layouts consistent and maps cleanly onto common screen densities.",
+      "key_facts": [
+        "Rule: use multiples of 8 (8, 16, 24, 32, 48...) for margins, padding, and dimensions, often with 4px as a permitted half-step.",
+        "Popularized through Google's Material Design, which specifies an 8dp baseline grid for layout.",
+        "Rationale: many popular screen resolutions are divisible by 8, so 8-based values scale to whole pixels across densities and reduce blurry rendering.",
+        "UI application: define spacing tokens (--space-1: 8px, --space-2: 16px...) so designers and developers share one scale."
+      ],
+      "examples": [
+        "Material Design 8dp grid",
+        "Spacing token scales in design systems",
+        "16px/24px/32px rhythm"
+      ],
+      "related": [
+        "law-of-proximity",
+        "crap-principles",
+        "consistency-and-standards"
+      ],
+      "sources": [
+        {
+          "title": "Material Design - Understanding layout (spacing)",
+          "url": "https://m2.material.io/design/layout/spacing-methods.html",
+          "publisher": "Google Material Design",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "affordances",
+      "name": "Affordances (Norman)",
+      "category": "principle",
+      "tags": [
+        "norman",
+        "interaction",
+        "perception",
+        "usability"
+      ],
+      "summary": "An affordance is a relationship between an object's properties and a user's capabilities that determines how the object could possibly be used.",
+      "significance": "Affordances explain why some controls feel obviously usable; designing perceivable affordances is core to intuitive interfaces.",
+      "key_facts": [
+        "Definition (Norman): an affordance is the relationship between the properties of an object and the capabilities of the agent that determine how it could be used.",
+        "The term was coined by psychologist James J. Gibson; Don Norman adapted it for design in 'The Design of Everyday Things' (1988).",
+        "UI application: a raised, shadowed button affords pressing; a text field affords typing.",
+        "Norman later clarified that on screens we mostly design perceivable signifiers of affordances, not affordances themselves."
+      ],
+      "examples": [
+        "Buttons that look pressable",
+        "Draggable handles",
+        "Scrollable areas with visible overflow"
+      ],
+      "related": [
+        "signifiers",
+        "natural-mapping",
+        "dont-make-me-think"
+      ],
+      "sources": [
+        {
+          "title": "Affordances",
+          "url": "https://www.interaction-design.org/literature/topics/affordances",
+          "publisher": "Interaction Design Foundation",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "signifiers",
+      "name": "Signifiers (Norman)",
+      "category": "principle",
+      "tags": [
+        "norman",
+        "interaction",
+        "cues",
+        "discoverability"
+      ],
+      "summary": "Signifiers are perceivable cues that communicate where and how an action should take place, making affordances discoverable.",
+      "significance": "In screen-based design, signifiers do the real work of discoverability, since users cannot feel digital affordances directly.",
+      "key_facts": [
+        "Definition: a signifier is any perceivable indicator that communicates appropriate behavior to a user.",
+        "Introduced by Don Norman in the revised edition of 'The Design of Everyday Things' (2013) to sharpen the loose use of 'affordance'.",
+        "UI application: underlined link text, a cursor changing to a pointer, and 'drag here' labels are signifiers that reveal what to do.",
+        "Norman's rule of thumb: affordances determine what actions are possible; signifiers communicate where the action should take place."
+      ],
+      "examples": [
+        "Underlined/blue link text",
+        "Pointer cursor on hover",
+        "'Swipe' hints in onboarding"
+      ],
+      "related": [
+        "affordances",
+        "feedback",
+        "recognition-rather-than-recall"
+      ],
+      "sources": [
+        {
+          "title": "Signifiers, Not Affordances",
+          "url": "https://www.jnd.org/dn.mss/signifiers_not_affordances.html",
+          "publisher": "Don Norman (jnd.org)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "natural-mapping",
+      "name": "Mapping (Norman)",
+      "category": "principle",
+      "tags": [
+        "norman",
+        "controls",
+        "spatial",
+        "layout"
+      ],
+      "summary": "Mapping is the relationship between controls and their effects; good (natural) mapping uses spatial and conceptual analogies so the layout of controls matches the layout of what they affect.",
+      "significance": "Natural mapping lets users predict outcomes without instructions, reducing errors and learning time.",
+      "key_facts": [
+        "Definition: mapping describes the correspondence between controls and the things they control.",
+        "A core concept in Don Norman's 'The Design of Everyday Things'; his classic example is a stove whose burner controls mirror the burner layout.",
+        "UI application: arrange volume up above volume down, and place a settings panel's controls in the spatial order of what they change.",
+        "Poor mapping (arbitrary control-to-effect relationships) is a common source of user error."
+      ],
+      "examples": [
+        "Stove knobs matching burner positions",
+        "Up arrow scrolls up",
+        "Slider position matching value direction"
+      ],
+      "related": [
+        "affordances",
+        "constraints",
+        "match-between-system-and-real-world"
+      ],
+      "sources": [
+        {
+          "title": "The Design of Everyday Things - Principles",
+          "url": "https://www.interaction-design.org/literature/book/the-design-of-everyday-things-revised-and-expanded-edition",
+          "publisher": "Interaction Design Foundation",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "feedback",
+      "name": "Feedback (Norman)",
+      "category": "principle",
+      "tags": [
+        "norman",
+        "interaction",
+        "response",
+        "status"
+      ],
+      "summary": "Feedback is the communication of the results of an action, letting the user know the system received and is processing their input.",
+      "significance": "Immediate, informative feedback closes the loop between action and result, which is essential to a sense of control and correctness.",
+      "key_facts": [
+        "Definition: feedback communicates the results of an action back to the user, and must be immediate and informative.",
+        "A central principle in Don Norman's 'The Design of Everyday Things'; poor or absent feedback leaves users uncertain.",
+        "UI application: button press states, hover changes, loading spinners, and success/error toasts all provide feedback.",
+        "Norman warns that too much feedback (over-notification) can be as harmful as too little."
+      ],
+      "examples": [
+        "Button hover/active states",
+        "Toast notifications",
+        "Haptic buzz on a mobile action"
+      ],
+      "related": [
+        "visibility-of-system-status",
+        "signifiers",
+        "doherty-threshold"
+      ],
+      "sources": [
+        {
+          "title": "The Design of Everyday Things - Principles",
+          "url": "https://www.interaction-design.org/literature/book/the-design-of-everyday-things-revised-and-expanded-edition",
+          "publisher": "Interaction Design Foundation",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "constraints",
+      "name": "Constraints (Norman)",
+      "category": "principle",
+      "tags": [
+        "norman",
+        "error-prevention",
+        "guidance"
+      ],
+      "summary": "Constraints are limitations on possible actions that guide users toward correct behavior and prevent errors.",
+      "significance": "Constraints simplify decisions and prevent mistakes by making incorrect actions difficult or impossible.",
+      "key_facts": [
+        "Definition: constraints restrict the set of possible actions, narrowing choices to appropriate ones.",
+        "Don Norman describes four types in 'The Design of Everyday Things': physical, cultural, semantic, and logical constraints.",
+        "UI application: disable a submit button until required fields are valid, or grey out unavailable options.",
+        "Constraints work hand-in-hand with error prevention by removing the opportunity for invalid actions."
+      ],
+      "examples": [
+        "Disabled submit until form valid",
+        "Greyed-out unavailable dates",
+        "Max-length inputs"
+      ],
+      "related": [
+        "error-prevention",
+        "natural-mapping",
+        "postels-law"
+      ],
+      "sources": [
+        {
+          "title": "The Design of Everyday Things - Principles",
+          "url": "https://www.interaction-design.org/literature/book/the-design-of-everyday-things-revised-and-expanded-edition",
+          "publisher": "Interaction Design Foundation",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    }
+  ]
+}

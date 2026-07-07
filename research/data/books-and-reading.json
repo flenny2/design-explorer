@@ -1,0 +1,927 @@
+{
+  "topic": "books-and-reading",
+  "title": "Canonical Design, UX, Typography & Front-End Reading",
+  "description": "Foundational books and seminal articles on design, usability, typography, color, and front-end development.",
+  "schema_version": "1.0",
+  "count": 26,
+  "last_updated": "2026-07-07",
+  "entries": [
+    {
+      "id": "design-of-everyday-things",
+      "name": "The Design of Everyday Things",
+      "category": "book",
+      "tags": [
+        "ux",
+        "usability",
+        "cognitive",
+        "hci",
+        "affordances"
+      ],
+      "creator": "Don Norman",
+      "year": 1988,
+      "summary": "Foundational text on user-centered design, introducing affordances, signifiers, mapping, and feedback as principles for usable objects.",
+      "significance": "The most cited popular text in UX; it framed usability as the designer's responsibility, not the user's fault, and coined enduring vocabulary.",
+      "key_facts": [
+        "Author: Don Norman (cognitive scientist, former Apple VP).",
+        "First published in 1988 as 'The Psychology of Everyday Things'; revised edition 2013.",
+        "Introduced concepts of affordances, signifiers, mapping, and feedback.",
+        "Coined the term 'user-centered design'."
+      ],
+      "url": "https://www.nngroup.com/books/design-everyday-things-revised/",
+      "sources": [
+        {
+          "title": "The Design of Everyday Things",
+          "url": "https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "The Design of Everyday Things (Revised)",
+          "url": "https://www.nngroup.com/books/design-everyday-things-revised/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "emotional-design",
+        "about-face"
+      ]
+    },
+    {
+      "id": "dont-make-me-think",
+      "name": "Don't Make Me Think",
+      "category": "book",
+      "tags": [
+        "usability",
+        "web",
+        "ux",
+        "information-architecture"
+      ],
+      "creator": "Steve Krug",
+      "year": 2000,
+      "summary": "A concise, practical guide to web usability centered on the principle that interfaces should be self-evident and require minimal cognitive effort.",
+      "significance": "A hugely influential, accessible usability primer that popularized common-sense usability testing and the mantra 'don't make me think'.",
+      "key_facts": [
+        "Author: Steve Krug, a usability consultant.",
+        "First published in 2000; 'Revisited' edition in 2014.",
+        "Core principle: a page should be self-evident and not require thought to use.",
+        "Advocates cheap, frequent, informal usability testing."
+      ],
+      "url": "https://sensible.com/dont-make-me-think/",
+      "sources": [
+        {
+          "title": "Don't Make Me Think",
+          "url": "https://sensible.com/dont-make-me-think/",
+          "publisher": "Sensible.com (Steve Krug)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "design-of-everyday-things"
+      ]
+    },
+    {
+      "id": "refactoring-ui",
+      "name": "Refactoring UI",
+      "category": "book",
+      "tags": [
+        "ui",
+        "visual-design",
+        "practical",
+        "tailwind",
+        "hierarchy"
+      ],
+      "creator": "Adam Wathan, Steve Schoger",
+      "year": 2018,
+      "summary": "A practical, tactic-driven guide to making interfaces look good, covering hierarchy, spacing, color, typography, and depth.",
+      "significance": "A widely recommended self-published book that gives developers concrete visual-design tactics; from the creators of Tailwind CSS.",
+      "key_facts": [
+        "Authors: Adam Wathan and Steve Schoger.",
+        "Self-published on December 11, 2018.",
+        "Same authors created Tailwind CSS and Heroicons.",
+        "Organized as standalone, applicable design tips rather than theory."
+      ],
+      "url": "https://www.refactoringui.com",
+      "sources": [
+        {
+          "title": "Refactoring UI",
+          "url": "https://www.refactoringui.com",
+          "publisher": "Refactoring UI",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Refactoring UI",
+          "url": "https://www.goodreads.com/book/show/43190966-refactoring-ui",
+          "publisher": "Goodreads",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "tailwind",
+        "heroicons"
+      ]
+    },
+    {
+      "id": "thinking-with-type",
+      "name": "Thinking with Type",
+      "category": "book",
+      "tags": [
+        "typography",
+        "type",
+        "layout",
+        "practical"
+      ],
+      "creator": "Ellen Lupton",
+      "year": 2004,
+      "summary": "A critical, practical guide to using typography, covering letters, text, and grids for designers, editors, and students.",
+      "significance": "A standard typography textbook, praised for making type theory approachable and practically usable.",
+      "key_facts": [
+        "Author: Ellen Lupton, curator and design educator.",
+        "First edition 2004; expanded second edition 2010.",
+        "Structured in three parts: letter, text, and grid.",
+        "Companion website expands the book's content."
+      ],
+      "url": "http://thinkingwithtype.com",
+      "sources": [
+        {
+          "title": "Thinking with Type",
+          "url": "http://thinkingwithtype.com",
+          "publisher": "Ellen Lupton",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "elements-of-typographic-style",
+        "practical-typography"
+      ]
+    },
+    {
+      "id": "elements-of-typographic-style",
+      "name": "The Elements of Typographic Style",
+      "category": "book",
+      "tags": [
+        "typography",
+        "type",
+        "canon",
+        "print"
+      ],
+      "creator": "Robert Bringhurst",
+      "year": 1992,
+      "summary": "A comprehensive treatise on the history, theory, and practice of typography, widely treated as the field's definitive reference.",
+      "significance": "Often called the 'typographer's bible'; its principles underpin much of modern type practice, including on the web.",
+      "key_facts": [
+        "Author: Robert Bringhurst, poet and typographer.",
+        "First published in 1992; multiple revised editions since.",
+        "Covers rhythm, proportion, harmony, and historical type styles.",
+        "Inspired 'The Elements of Typographic Style Applied to the Web' (webtypography.net)."
+      ],
+      "url": "https://en.wikipedia.org/wiki/The_Elements_of_Typographic_Style",
+      "sources": [
+        {
+          "title": "The Elements of Typographic Style",
+          "url": "https://en.wikipedia.org/wiki/The_Elements_of_Typographic_Style",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "thinking-with-type"
+      ]
+    },
+    {
+      "id": "grid-systems",
+      "name": "Grid Systems in Graphic Design",
+      "category": "book",
+      "tags": [
+        "grid",
+        "typography",
+        "swiss-design",
+        "layout"
+      ],
+      "creator": "Josef Müller-Brockmann",
+      "year": 1981,
+      "summary": "A definitive manual on grid-based design from a leader of the Swiss (International Typographic) Style, presented bilingually in German and English.",
+      "significance": "The canonical reference on the typographic grid; foundational to modular layout thinking that carries directly into web design.",
+      "key_facts": [
+        "Author: Josef Müller-Brockmann, a key figure of Swiss Style.",
+        "First published in 1981; bilingual German/English.",
+        "Systematizes column and modular grids for print design.",
+        "Directly influential on responsive grid systems in web design."
+      ],
+      "url": "https://en.wikipedia.org/wiki/Josef_M%C3%BCller-Brockmann",
+      "sources": [
+        {
+          "title": "Josef Müller-Brockmann",
+          "url": "https://en.wikipedia.org/wiki/Josef_M%C3%BCller-Brockmann",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "making-breaking-the-grid"
+      ]
+    },
+    {
+      "id": "interaction-of-color",
+      "name": "Interaction of Color",
+      "category": "book",
+      "tags": [
+        "color",
+        "color-theory",
+        "perception",
+        "bauhaus"
+      ],
+      "creator": "Josef Albers",
+      "year": 1963,
+      "summary": "A landmark study of how colors influence and deceive one another perceptually, built around hands-on visual experiments.",
+      "significance": "A foundational color-theory text arguing that color is relative and best learned by doing, shaping color education for decades.",
+      "key_facts": [
+        "Author: Josef Albers, Bauhaus-trained artist and educator.",
+        "First published in 1963 by Yale University Press.",
+        "Central thesis: color is relative and context-dependent.",
+        "Originally issued as a limited silkscreen portfolio of experiments."
+      ],
+      "url": "https://yalebooks.yale.edu/book/9780300179354/interaction-of-color/",
+      "sources": [
+        {
+          "title": "Interaction of Color",
+          "url": "https://en.wikipedia.org/wiki/Interaction_of_Color",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "art-of-color"
+      ]
+    },
+    {
+      "id": "art-of-color",
+      "name": "The Art of Color / The Elements of Color",
+      "category": "book",
+      "tags": [
+        "color",
+        "color-theory",
+        "bauhaus",
+        "contrast"
+      ],
+      "creator": "Johannes Itten",
+      "year": 1961,
+      "summary": "Itten's systematic theory of color, including the color wheel and his seven types of color contrast; 'The Elements of Color' is the condensed edition.",
+      "significance": "A cornerstone of formal color education from the Bauhaus, defining color-contrast categories still taught today.",
+      "key_facts": [
+        "Author: Johannes Itten, Bauhaus master.",
+        "'The Art of Color' (Kunst der Farbe) published 1961; 'The Elements of Color' is the abridged version (1970).",
+        "Defines seven types of color contrast.",
+        "Presents Itten's twelve-hue color wheel."
+      ],
+      "url": "https://en.wikipedia.org/wiki/Johannes_Itten",
+      "sources": [
+        {
+          "title": "Johannes Itten",
+          "url": "https://en.wikipedia.org/wiki/Johannes_Itten",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "interaction-of-color"
+      ]
+    },
+    {
+      "id": "visual-display-quantitative-information",
+      "name": "The Visual Display of Quantitative Information",
+      "category": "book",
+      "tags": [
+        "data-visualization",
+        "charts",
+        "tufte",
+        "information-design"
+      ],
+      "creator": "Edward Tufte",
+      "year": 1983,
+      "summary": "A foundational work on statistical graphics and data visualization, introducing concepts like data-ink ratio and chartjunk.",
+      "significance": "The defining text of modern data visualization; its principles govern good chart and dashboard design.",
+      "key_facts": [
+        "Author: Edward Tufte, statistician and professor emeritus at Yale.",
+        "First published in 1983; self-published through Graphics Press.",
+        "Introduced 'data-ink ratio', 'chartjunk', and 'sparklines' (later work).",
+        "First in Tufte's series on information design."
+      ],
+      "url": "https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information/",
+      "sources": [
+        {
+          "title": "The Visual Display of Quantitative Information",
+          "url": "https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information/",
+          "publisher": "Graphics Press (Edward Tufte)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": []
+    },
+    {
+      "id": "designing-with-web-standards",
+      "name": "Designing with Web Standards",
+      "category": "book",
+      "tags": [
+        "web-standards",
+        "html",
+        "css",
+        "accessibility",
+        "front-end"
+      ],
+      "creator": "Jeffrey Zeldman",
+      "year": 2003,
+      "summary": "The book that made the case for building websites with semantic HTML and CSS instead of table layouts and proprietary code.",
+      "significance": "Catalyzed the web standards movement, shifting the industry toward semantic, accessible, standards-compliant front-end development.",
+      "key_facts": [
+        "Author: Jeffrey Zeldman (later co-authored editions with Ethan Marcotte).",
+        "First edition published in 2003.",
+        "Advocated separation of structure (HTML) from presentation (CSS).",
+        "Zeldman co-founded A List Apart and A Book Apart."
+      ],
+      "url": "https://en.wikipedia.org/wiki/Jeffrey_Zeldman",
+      "sources": [
+        {
+          "title": "Jeffrey Zeldman",
+          "url": "https://en.wikipedia.org/wiki/Jeffrey_Zeldman",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "responsive-web-design-book",
+        "dao-of-web-design"
+      ]
+    },
+    {
+      "id": "responsive-web-design-book",
+      "name": "Responsive Web Design (A Book Apart)",
+      "category": "book",
+      "tags": [
+        "responsive",
+        "css",
+        "media-queries",
+        "front-end"
+      ],
+      "creator": "Ethan Marcotte",
+      "year": 2011,
+      "summary": "The book-length treatment of responsive web design: fluid grids, flexible images, and media queries in a single adaptive approach.",
+      "significance": "Expanded Marcotte's 2010 article into the practical playbook that made responsive design the default for the multi-device web.",
+      "key_facts": [
+        "Author: Ethan Marcotte.",
+        "Published in 2011 by A Book Apart (as the first title in the series).",
+        "Built on three techniques: fluid grids, flexible media, and media queries.",
+        "Followed his 2010 A List Apart article that coined the term."
+      ],
+      "url": "https://abookapart.com/products/responsive-web-design",
+      "sources": [
+        {
+          "title": "Responsive Web Design",
+          "url": "https://abookapart.com/products/responsive-web-design",
+          "publisher": "A Book Apart",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "responsive-web-design-article",
+        "mobile-first"
+      ]
+    },
+    {
+      "id": "atomic-design",
+      "name": "Atomic Design",
+      "category": "book",
+      "tags": [
+        "design-systems",
+        "components",
+        "methodology",
+        "front-end"
+      ],
+      "creator": "Brad Frost",
+      "year": 2016,
+      "summary": "Introduces a methodology for building design systems as a hierarchy: atoms, molecules, organisms, templates, and pages.",
+      "significance": "Gave design systems a widely adopted mental model and vocabulary for composing UIs from small, reusable parts.",
+      "key_facts": [
+        "Author: Brad Frost, front-end designer.",
+        "Published in 2016; freely readable online.",
+        "Five-stage hierarchy: atoms, molecules, organisms, templates, pages.",
+        "Borrows its metaphor from chemistry."
+      ],
+      "url": "https://atomicdesign.bradfrost.com",
+      "sources": [
+        {
+          "title": "Atomic Design",
+          "url": "https://atomicdesign.bradfrost.com",
+          "publisher": "Brad Frost",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "storybook"
+      ]
+    },
+    {
+      "id": "about-face",
+      "name": "About Face: The Essentials of Interaction Design",
+      "category": "book",
+      "tags": [
+        "interaction-design",
+        "ux",
+        "personas",
+        "goal-directed"
+      ],
+      "creator": "Alan Cooper, Robert Reimann, David Cronin",
+      "year": 1995,
+      "summary": "A comprehensive text on interaction design, introducing goal-directed design and popularizing personas.",
+      "significance": "A foundational interaction-design reference; Cooper's advocacy of personas and goal-directed methods shaped modern UX practice.",
+      "key_facts": [
+        "Lead author: Alan Cooper, often called 'the father of Visual Basic'.",
+        "First edition 1995; 4th edition (2014) with Reimann, Cronin, and Noessel.",
+        "Popularized the use of personas in design.",
+        "Introduced goal-directed design methodology."
+      ],
+      "url": "https://en.wikipedia.org/wiki/About_Face_(book)",
+      "sources": [
+        {
+          "title": "About Face (book)",
+          "url": "https://en.wikipedia.org/wiki/About_Face_(book)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "designing-interfaces"
+      ]
+    },
+    {
+      "id": "100-things-designers",
+      "name": "100 Things Every Designer Needs to Know About People",
+      "category": "book",
+      "tags": [
+        "psychology",
+        "ux",
+        "behavior",
+        "cognition"
+      ],
+      "creator": "Susan Weinschenk",
+      "year": 2011,
+      "summary": "A practical distillation of psychology and behavioral science research into 100 actionable insights for designers.",
+      "significance": "A popular bridge between cognitive/behavioral psychology and everyday design decisions.",
+      "key_facts": [
+        "Author: Susan Weinschenk, behavioral psychologist ('The Brain Lady').",
+        "First published in 2011 by New Riders; second edition 2020.",
+        "Organized as 100 concise, research-backed principles.",
+        "Covers perception, memory, motivation, and attention."
+      ],
+      "url": "https://www.oreilly.com/library/view/100-things-every/9780321767530/",
+      "sources": [
+        {
+          "title": "100 Things Every Designer Needs to Know About People",
+          "url": "https://www.oreilly.com/library/view/100-things-every/9780321767530/",
+          "publisher": "O'Reilly / New Riders",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "laws-of-ux",
+        "hooked"
+      ]
+    },
+    {
+      "id": "hooked",
+      "name": "Hooked: How to Build Habit-Forming Products",
+      "category": "book",
+      "tags": [
+        "product",
+        "behavior",
+        "engagement",
+        "psychology"
+      ],
+      "creator": "Nir Eyal",
+      "year": 2014,
+      "summary": "Presents the 'Hook Model' (trigger, action, variable reward, investment) for designing products that form user habits.",
+      "significance": "Highly influential in product design and growth; also a focal point of the ethics debate around persuasive and addictive design.",
+      "key_facts": [
+        "Author: Nir Eyal (with Ryan Hoover).",
+        "Published in 2014 by Portfolio/Penguin.",
+        "Introduces the four-phase Hook Model.",
+        "Eyal later wrote 'Indistractable' partly addressing misuse concerns."
+      ],
+      "url": "https://www.nirandfar.com/hooked/",
+      "sources": [
+        {
+          "title": "Hooked",
+          "url": "https://www.nirandfar.com/hooked/",
+          "publisher": "Nir Eyal (Nir and Far)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "100-things-designers"
+      ]
+    },
+    {
+      "id": "universal-principles-of-design",
+      "name": "Universal Principles of Design",
+      "category": "book",
+      "tags": [
+        "design-principles",
+        "reference",
+        "cross-disciplinary"
+      ],
+      "creator": "William Lidwell, Kritina Holden, Jill Butler",
+      "year": 2003,
+      "summary": "A cross-disciplinary reference cataloging widely applicable design principles, concepts, and heuristics, one per spread.",
+      "significance": "A popular encyclopedic reference that gathers named principles (from Fitts's Law to the aesthetic-usability effect) across design fields.",
+      "key_facts": [
+        "Authors: William Lidwell, Kritina Holden, and Jill Butler.",
+        "First published in 2003; expanded editions cover 125+ principles.",
+        "Each principle presented on a two-page spread with examples.",
+        "Spans usability, perception, learning, and aesthetics."
+      ],
+      "url": "https://en.wikipedia.org/wiki/Universal_Principles_of_Design",
+      "sources": [
+        {
+          "title": "Universal Principles of Design",
+          "url": "https://en.wikipedia.org/wiki/Universal_Principles_of_Design",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "laws-of-ux"
+      ]
+    },
+    {
+      "id": "making-breaking-the-grid",
+      "name": "Making and Breaking the Grid",
+      "category": "book",
+      "tags": [
+        "grid",
+        "layout",
+        "graphic-design",
+        "typography"
+      ],
+      "creator": "Timothy Samara",
+      "year": 2002,
+      "summary": "A graphic-design workbook on grid theory and layout that also explores when and how to break grid conventions.",
+      "significance": "A widely used layout reference that balances systematic grid construction with expressive, grid-breaking composition.",
+      "key_facts": [
+        "Author: Timothy Samara, graphic designer and educator.",
+        "First published in 2002 by Rockport; second edition 2017.",
+        "Split into 'making the grid' and 'breaking the grid' sections.",
+        "Includes historical case studies of layout systems."
+      ],
+      "url": "https://en.wikipedia.org/wiki/Timothy_Samara",
+      "sources": [
+        {
+          "title": "Making and Breaking the Grid, 2nd Ed",
+          "url": "https://books.google.com/books/about/Making_and_Breaking_the_Grid_Second_Edit.html?id=UWssDwAAQBAJ",
+          "publisher": "Google Books",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Making and Breaking the Grid (ISBN 9781631592843)",
+          "url": "https://www.abebooks.com/9781631592843/Making-Breaking-Grid-Second-Edition-163159284X/plp",
+          "publisher": "AbeBooks",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "grid-systems"
+      ]
+    },
+    {
+      "id": "practical-typography",
+      "name": "Butterick's Practical Typography",
+      "category": "book",
+      "tags": [
+        "typography",
+        "practical",
+        "web",
+        "reference"
+      ],
+      "creator": "Matthew Butterick",
+      "year": 2013,
+      "summary": "A free, web-native book of practical typography rules aimed at anyone who writes and formats documents.",
+      "significance": "A widely cited, accessible typography reference; notable for being published entirely online with a pay-what-you-want model.",
+      "key_facts": [
+        "Author: Matthew Butterick, typographer and lawyer.",
+        "First published online in 2013; continuously updated.",
+        "Distributed as a web book with a pay-what-you-can model.",
+        "Leads with a 'typography in ten minutes' summary."
+      ],
+      "url": "https://practicaltypography.com",
+      "sources": [
+        {
+          "title": "Butterick's Practical Typography",
+          "url": "https://practicaltypography.com",
+          "publisher": "Matthew Butterick",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "thinking-with-type"
+      ]
+    },
+    {
+      "id": "laws-of-ux",
+      "name": "Laws of UX",
+      "category": "book",
+      "tags": [
+        "ux",
+        "psychology",
+        "heuristics",
+        "principles"
+      ],
+      "creator": "Jon Yablonski",
+      "year": 2020,
+      "summary": "A concise guide to psychology-based design principles (Fitts's Law, Hick's Law, Jakob's Law, and more) applied to UX.",
+      "significance": "Packaged well-known psychological heuristics into a memorable, widely referenced set for UX designers; began as a popular website.",
+      "key_facts": [
+        "Author: Jon Yablonski.",
+        "Published in 2020 by O'Reilly; originated as the website lawsofux.com.",
+        "Covers laws such as Fitts's, Hick's, Jakob's, and the aesthetic-usability effect.",
+        "Frames each law with definition, origin, and application."
+      ],
+      "url": "https://lawsofux.com",
+      "sources": [
+        {
+          "title": "Laws of UX",
+          "url": "https://lawsofux.com",
+          "publisher": "Jon Yablonski",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "universal-principles-of-design",
+        "100-things-designers"
+      ]
+    },
+    {
+      "id": "emotional-design",
+      "name": "Emotional Design",
+      "category": "book",
+      "tags": [
+        "ux",
+        "emotion",
+        "aesthetics",
+        "norman"
+      ],
+      "creator": "Don Norman",
+      "year": 2004,
+      "summary": "Argues that attractive things work better, introducing three levels of emotional design: visceral, behavioral, and reflective.",
+      "significance": "Reframed Norman's earlier usability-first stance to account for emotion and aesthetics, underpinning the aesthetic-usability effect.",
+      "key_facts": [
+        "Author: Don Norman.",
+        "Published in 2004.",
+        "Defines three levels of processing: visceral, behavioral, reflective.",
+        "Complements his 'The Design of Everyday Things'."
+      ],
+      "url": "https://en.wikipedia.org/wiki/Emotional_Design",
+      "sources": [
+        {
+          "title": "Emotional Design",
+          "url": "https://en.wikipedia.org/wiki/Emotional_Design",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "design-of-everyday-things"
+      ]
+    },
+    {
+      "id": "steal-like-an-artist",
+      "name": "Steal Like an Artist",
+      "category": "book",
+      "tags": [
+        "creativity",
+        "inspiration",
+        "process",
+        "art"
+      ],
+      "creator": "Austin Kleon",
+      "year": 2012,
+      "summary": "A short, illustrated manifesto on creativity arguing that nothing is original and that creative work builds on remixing influences.",
+      "significance": "A widely read creativity guide that reframes influence and imitation as legitimate parts of the creative process.",
+      "key_facts": [
+        "Author: Austin Kleon, writer and artist.",
+        "Published in 2012 by Workman Publishing.",
+        "Grew out of a talk and blog post of the same name.",
+        "First in a trilogy with 'Show Your Work!' and 'Keep Going'."
+      ],
+      "url": "https://austinkleon.com/steal/",
+      "sources": [
+        {
+          "title": "Steal Like an Artist",
+          "url": "https://austinkleon.com/steal/",
+          "publisher": "Austin Kleon",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": []
+    },
+    {
+      "id": "non-designers-design-book",
+      "name": "The Non-Designer's Design Book",
+      "category": "book",
+      "tags": [
+        "design-principles",
+        "layout",
+        "crap",
+        "beginner"
+      ],
+      "creator": "Robin Williams",
+      "year": 1994,
+      "summary": "An accessible introduction to visual design built around four principles: Contrast, Repetition, Alignment, and Proximity (CRAP).",
+      "significance": "A beginner classic that distilled layout design into the memorable CRAP framework for non-designers.",
+      "key_facts": [
+        "Author: Robin Williams (design writer, not the actor).",
+        "First published in 1994; multiple later editions.",
+        "Introduces the CRAP principles: Contrast, Repetition, Alignment, Proximity.",
+        "Aimed at people who design without formal training."
+      ],
+      "url": "https://en.wikipedia.org/wiki/The_Non-Designer%27s_Design_Book",
+      "sources": [
+        {
+          "title": "The Non-Designer's Design Book, 4th Ed",
+          "url": "https://www.peachpit.com/store/non-designers-design-book-9780133966152",
+          "publisher": "Peachpit",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "The Non-Designer's Design Book",
+          "url": "https://en.wikipedia.org/wiki/The_Non-Designer%27s_Design_Book",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "universal-principles-of-design"
+      ]
+    },
+    {
+      "id": "designing-interfaces",
+      "name": "Designing Interfaces",
+      "category": "book",
+      "tags": [
+        "ui-patterns",
+        "interaction-design",
+        "reference",
+        "patterns"
+      ],
+      "creator": "Jenifer Tidwell",
+      "year": 2005,
+      "summary": "A pattern-library reference cataloging reusable UI and interaction design patterns for applications and websites.",
+      "significance": "An early, influential systematic catalog of UI patterns that helped establish pattern-based interface design.",
+      "key_facts": [
+        "Author: Jenifer Tidwell.",
+        "First published in 2005 by O'Reilly; third edition 2020 (with Charlie Brewer and Aynne Valencia).",
+        "Organized as named, reusable interface patterns.",
+        "Covers navigation, layout, forms, and data presentation."
+      ],
+      "url": "https://www.oreilly.com/library/view/designing-interfaces-3rd/9781492051954/",
+      "sources": [
+        {
+          "title": "Designing Interfaces, 3rd Edition",
+          "url": "https://www.oreilly.com/library/view/designing-interfaces-3rd/9781492051954/",
+          "publisher": "O'Reilly",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "about-face"
+      ]
+    },
+    {
+      "id": "dao-of-web-design",
+      "name": "A Dao of Web Design",
+      "category": "essay",
+      "tags": [
+        "web-design",
+        "flexibility",
+        "philosophy",
+        "a-list-apart"
+      ],
+      "creator": "John Allsopp",
+      "year": 2000,
+      "summary": "A seminal essay arguing that the web's inherent flexibility is a strength, and that designers should embrace adaptability rather than fixed control.",
+      "significance": "Prophetic argument for adaptive, device-agnostic design that anticipated responsive web design a decade before it arrived.",
+      "key_facts": [
+        "Author: John Allsopp.",
+        "Published on A List Apart in April 2000.",
+        "Argues against forcing print's fixed-canvas control onto the fluid web.",
+        "Frequently cited as the philosophical foundation of responsive design."
+      ],
+      "url": "https://alistapart.com/article/dao/",
+      "sources": [
+        {
+          "title": "A Dao of Web Design",
+          "url": "https://alistapart.com/article/dao/",
+          "publisher": "A List Apart",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "responsive-web-design-article",
+        "designing-with-web-standards"
+      ]
+    },
+    {
+      "id": "responsive-web-design-article",
+      "name": "Responsive Web Design (A List Apart article)",
+      "category": "article",
+      "tags": [
+        "responsive",
+        "css",
+        "media-queries",
+        "a-list-apart"
+      ],
+      "creator": "Ethan Marcotte",
+      "year": 2010,
+      "summary": "The 2010 article that coined the term 'responsive web design' and unified fluid grids, flexible images, and media queries into one approach.",
+      "significance": "One of the most influential web-design articles ever; it named and defined the practice that became the standard for the multi-device web.",
+      "key_facts": [
+        "Author: Ethan Marcotte.",
+        "Published on A List Apart on May 25, 2010.",
+        "Coined the term 'responsive web design'.",
+        "Expanded into the 2011 A Book Apart title of the same name."
+      ],
+      "url": "https://alistapart.com/article/responsive-web-design/",
+      "sources": [
+        {
+          "title": "Responsive Web Design",
+          "url": "https://alistapart.com/article/responsive-web-design/",
+          "publisher": "A List Apart",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "responsive-web-design-book",
+        "dao-of-web-design",
+        "mobile-first"
+      ]
+    },
+    {
+      "id": "mobile-first",
+      "name": "Mobile First",
+      "category": "book",
+      "tags": [
+        "mobile",
+        "strategy",
+        "responsive",
+        "a-book-apart"
+      ],
+      "creator": "Luke Wroblewski",
+      "year": 2011,
+      "summary": "Argues for designing for the smallest screen first as a strategy that forces prioritization and embraces mobile capabilities.",
+      "significance": "Popularized 'mobile first' as a design and development strategy, complementing responsive design's techniques with a prioritization mindset.",
+      "key_facts": [
+        "Author: Luke Wroblewski.",
+        "Published in 2011 by A Book Apart.",
+        "Core idea: design for mobile constraints first, then enhance for larger screens.",
+        "Argues constraints improve focus and that mobile adds capabilities (location, touch)."
+      ],
+      "url": "https://abookapart.com/products/mobile-first",
+      "sources": [
+        {
+          "title": "Mobile First",
+          "url": "https://abookapart.com/products/mobile-first",
+          "publisher": "A Book Apart",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "responsive-web-design-article",
+        "responsive-web-design-book"
+      ]
+    }
+  ]
+}

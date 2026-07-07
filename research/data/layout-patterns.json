@@ -1,0 +1,1775 @@
+{
+  "topic": "layout-patterns",
+  "title": "Reusable Front-End Layout & Page Patterns",
+  "description": "Enumerable catalog of page layouts, content patterns, navigation patterns, and responsive-design patterns used in modern web UI.",
+  "schema_version": "1.0",
+  "count": 41,
+  "last_updated": "2026-07-07",
+  "entries": [
+    {
+      "id": "hero-section",
+      "name": "Hero Section",
+      "category": "page-layout",
+      "tags": [
+        "landing",
+        "above-the-fold",
+        "marketing",
+        "cta"
+      ],
+      "summary": "A large, prominent banner at the top of a page containing a headline, supporting text, a primary call-to-action, and often a background image or product visual.",
+      "significance": "Sets first impression and communicates value proposition within the first few seconds; the highest-visibility real estate on a landing page, so it carries the primary conversion goal.",
+      "key_facts": [
+        "Typically the first full viewport a visitor sees; carries the page's main headline and primary CTA.",
+        "Common variants: centered text, split (text left / image right), full-bleed background image or video, and gradient/illustration backgrounds.",
+        "Best practice pairs one clear value-proposition headline with a single dominant CTA to avoid choice overload.",
+        "The 'above the fold' concept motivates hero content but modern research shows users do scroll, so critical content need not all fit one viewport."
+      ],
+      "defining_traits": [
+        "large headline",
+        "primary CTA",
+        "prominent visual",
+        "top of page"
+      ],
+      "examples": [
+        "Stripe.com",
+        "Apple product pages",
+        "Linear.app"
+      ],
+      "related": [
+        "split-screen",
+        "full-bleed-imagery",
+        "trust-bar",
+        "sticky-cta"
+      ],
+      "sources": [
+        {
+          "title": "CSS Layout (guide)",
+          "url": "https://www.smashingmagazine.com/guides/css-layout/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "split-screen",
+      "name": "Split-Screen Layout",
+      "category": "page-layout",
+      "tags": [
+        "two-column",
+        "duality",
+        "hero",
+        "landing"
+      ],
+      "summary": "A layout that divides the viewport into two roughly equal vertical halves, each holding distinct content (e.g. text on one side, imagery on the other, or two competing choices).",
+      "significance": "Creates visual balance and lets two ideas compete equally for attention; effective for dual calls-to-action, before/after comparisons, or pairing a value statement with a supporting visual.",
+      "key_facts": [
+        "Usually implemented as two 50/50 columns via CSS Grid or Flexbox.",
+        "Common on hero sections pairing a headline block with a product image.",
+        "On narrow viewports the two halves typically stack vertically (column-drop behavior).",
+        "Works well when both halves have equal informational weight; poorly when one side dominates."
+      ],
+      "defining_traits": [
+        "50/50 division",
+        "equal visual weight",
+        "vertical split"
+      ],
+      "examples": [
+        "Dropbox marketing pages",
+        "many SaaS sign-up pages"
+      ],
+      "related": [
+        "hero-section",
+        "column-drop",
+        "feature-zigzag"
+      ],
+      "sources": [
+        {
+          "title": "CSS Layout (guide)",
+          "url": "https://www.smashingmagazine.com/guides/css-layout/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "bento-grid",
+      "name": "Bento Box Grid",
+      "category": "content-pattern",
+      "tags": [
+        "grid",
+        "modular",
+        "cards",
+        "trend"
+      ],
+      "summary": "A modular grid of variously-sized rectangular cells (like a Japanese bento lunchbox) where each cell showcases a distinct feature, image, or metric.",
+      "significance": "Lets a page present many pieces of content at different importance levels in one compact, scannable composition; became a dominant 2023-2024 web/UI trend, popularized by Apple's product and OS marketing.",
+      "key_facts": [
+        "Named after the compartmentalized Japanese bento lunchbox.",
+        "Identified as a leading web/UI design trend for 2024.",
+        "Popularized in mainstream use by Apple across product pages and iOS/macOS marketing.",
+        "Cells vary in size to imply hierarchy; implemented with CSS Grid using spanning columns/rows."
+      ],
+      "defining_traits": [
+        "variable cell sizes",
+        "modular rectangles",
+        "rounded cards",
+        "compact overview"
+      ],
+      "examples": [
+        "Apple product feature pages",
+        "many 2024-era startup landing pages"
+      ],
+      "related": [
+        "card-grid",
+        "masonry",
+        "dashboard-admin"
+      ],
+      "sources": [
+        {
+          "title": "Revolutionizing UI/UX with the Bento UI Grid Design Trend",
+          "url": "https://www.stan.vision/journal/revolutionizing-ui-ux-in-2024-with-bento-ui-grid-design-trend",
+          "publisher": "Stan Vision",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "card-grid",
+      "name": "Card Grid",
+      "category": "content-pattern",
+      "tags": [
+        "cards",
+        "grid",
+        "collection",
+        "responsive"
+      ],
+      "summary": "A repeating grid of uniform card components, each bundling an image, title, and short description, used to present a collection of comparable items.",
+      "significance": "The default pattern for browsable collections (products, articles, profiles) because equal-sized cards imply equal importance and reflow cleanly across breakpoints.",
+      "key_facts": [
+        "Cards act as self-contained content containers grouping related media, text, and actions.",
+        "Typically laid out with CSS Grid using repeat(auto-fill/auto-fit, minmax()) so column count adapts to viewport.",
+        "Uniform card size signals items are peers of equal importance.",
+        "Contrast with masonry: card grids keep rows aligned, masonry does not."
+      ],
+      "defining_traits": [
+        "uniform cards",
+        "repeating grid",
+        "auto-fitting columns"
+      ],
+      "examples": [
+        "Pinterest board previews",
+        "Dribbble shots",
+        "e-commerce product listings"
+      ],
+      "related": [
+        "bento-grid",
+        "masonry",
+        "mostly-fluid"
+      ],
+      "sources": [
+        {
+          "title": "Relationship of grid layout to other layout methods",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "masonry",
+      "name": "Masonry Layout",
+      "category": "content-pattern",
+      "tags": [
+        "grid",
+        "pinterest",
+        "packing",
+        "images"
+      ],
+      "summary": "A layout where one axis is a strict grid (usually columns) while items on the other axis stack to fill gaps, so items of differing height pack tightly like bricks in a wall.",
+      "significance": "Ideal for galleries of mixed-aspect-ratio media where fixed row heights would waste space; long the signature Pinterest look, historically requiring JS libraries and now moving toward native CSS.",
+      "key_facts": [
+        "One axis follows a strict grid; the other lets shorter items rise to fill gaps rather than leaving aligned rows.",
+        "Historically implemented with JavaScript libraries (e.g. Masonry.js) because CSS could not do it natively.",
+        "A native CSS masonry specification is in progress within the CSS Grid Layout spec, with competing proposals under discussion in the CSS Working Group.",
+        "As of the mid-2020s native support remained experimental/behind flags in browsers."
+      ],
+      "defining_traits": [
+        "gap-filling stack",
+        "uneven rows",
+        "mixed item heights"
+      ],
+      "examples": [
+        "Pinterest",
+        "Unsplash galleries"
+      ],
+      "related": [
+        "card-grid",
+        "bento-grid"
+      ],
+      "sources": [
+        {
+          "title": "Masonry layout",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Masonry_layout",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Native CSS Masonry Layout In CSS Grid",
+          "url": "https://www.smashingmagazine.com/native-css-masonry-layout-css-grid/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "holy-grail",
+      "name": "Holy Grail Layout",
+      "category": "page-layout",
+      "tags": [
+        "three-column",
+        "classic",
+        "css-grid",
+        "header-footer"
+      ],
+      "summary": "A classic full-page layout with a header, a footer, and a central row of three columns: left sidebar, main content, and right sidebar.",
+      "significance": "Long considered the 'holy grail' because achieving equal-height columns, a fluid center, and source-order independence was notoriously hard before modern CSS; CSS Grid now expresses it in a few lines.",
+      "key_facts": [
+        "Structure: header on top, footer on bottom, three columns (left nav, main, right aside) in between.",
+        "Named for the historical difficulty of implementing it with floats/tables while keeping equal heights and a fluid center.",
+        "With CSS Grid it collapses to roughly grid-template: auto 1fr auto / auto 1fr auto plus named grid-template-areas.",
+        "grid-template-areas lets the visual layout be rearranged responsively independent of DOM source order."
+      ],
+      "defining_traits": [
+        "header + footer",
+        "three central columns",
+        "fluid center column"
+      ],
+      "examples": [
+        "classic documentation sites",
+        "web app shells with dual sidebars"
+      ],
+      "related": [
+        "sidebar-layout",
+        "dashboard-admin",
+        "layout-shifter"
+      ],
+      "sources": [
+        {
+          "title": "Holy grail layout (Ten modern layouts pattern)",
+          "url": "https://web.dev/patterns/layout/holy-grail",
+          "publisher": "web.dev (Google)",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "The Holy Grail Layout with CSS Grid",
+          "url": "https://css-tricks.com/the-holy-grail-layout-with-css-grid/",
+          "publisher": "CSS-Tricks",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "magazine-editorial",
+      "name": "Magazine / Editorial Layout",
+      "category": "page-layout",
+      "tags": [
+        "editorial",
+        "typography",
+        "multi-column",
+        "grid"
+      ],
+      "summary": "A print-inspired layout using a strong multi-column grid, varied type scale, pull quotes, and mixed image sizes to create dynamic, hierarchical article pages.",
+      "significance": "Brings the visual richness and clear hierarchy of print journalism to the web; ideal for content-heavy publications where reading flow and typographic contrast matter.",
+      "key_facts": [
+        "Draws directly on Swiss/International Typographic Style grid traditions.",
+        "Uses a modular column grid to place headlines, body columns, pull quotes, and images asymmetrically.",
+        "Relies on a wide type scale and generous whitespace to establish reading hierarchy.",
+        "Often combines a strict underlying grid with intentional 'breaks' for emphasis."
+      ],
+      "defining_traits": [
+        "multi-column grid",
+        "pull quotes",
+        "strong type hierarchy",
+        "mixed media sizes"
+      ],
+      "examples": [
+        "The New York Times feature articles",
+        "Bloomberg Businessweek",
+        "Pentagram case studies"
+      ],
+      "related": [
+        "single-column",
+        "broken-grid",
+        "asymmetric-layout"
+      ],
+      "sources": [
+        {
+          "title": "CSS Layout (guide)",
+          "url": "https://www.smashingmagazine.com/guides/css-layout/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "f-pattern",
+      "name": "F-Pattern Layout",
+      "category": "content-pattern",
+      "tags": [
+        "reading",
+        "eye-tracking",
+        "scanning",
+        "nng"
+      ],
+      "summary": "A content arrangement aligned to how users scan text-heavy pages: two horizontal sweeps across the top plus a vertical scan down the left edge, tracing an 'F' shape.",
+      "significance": "Documented by Nielsen Norman Group eye-tracking; explains why front-loaded headings, left-aligned key terms, and short leading text improve scannability of unformatted content.",
+      "key_facts": [
+        "Originally discovered in a 2006 Nielsen Norman Group eye-tracking study of 232 users viewing thousands of pages.",
+        "Users read a top horizontal bar, a shorter second horizontal bar, then a vertical scan down the left side.",
+        "A follow-up NN/g study ~11 years later confirmed the original findings and noted it still applies on mobile.",
+        "The F-pattern emerges most on text-heavy pages lacking formatting; good hierarchy and layout can override it."
+      ],
+      "defining_traits": [
+        "front-loaded content",
+        "left-aligned scan",
+        "horizontal top emphasis"
+      ],
+      "examples": [
+        "search results pages",
+        "long unformatted article bodies"
+      ],
+      "related": [
+        "z-pattern",
+        "single-column",
+        "visual-hierarchy"
+      ],
+      "sources": [
+        {
+          "title": "F-Shaped Pattern For Reading Web Content (original eyetracking research)",
+          "url": "https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content-discovered/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "F-Shaped Pattern of Reading on the Web: Misunderstood, But Still Relevant",
+          "url": "https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "z-pattern",
+      "name": "Z-Pattern Layout",
+      "category": "content-pattern",
+      "tags": [
+        "reading",
+        "scanning",
+        "landing",
+        "cta"
+      ],
+      "summary": "A layout that guides the eye along a Z-shaped path: top-left to top-right, diagonally down to bott-left, then across to bottom-right, ending on a call-to-action.",
+      "significance": "Suits sparse, non-text-heavy pages (landing/marketing) by sequencing logo, nav, hero, and CTA along the natural scan route so the eye ends on the conversion point.",
+      "key_facts": [
+        "Mirrors left-to-right, top-to-bottom reading with a diagonal sweep between the horizontals.",
+        "Best for pages that are not content-dense, unlike the text-heavy F-pattern.",
+        "Common sequence: brand top-left, nav/CTA top-right, feature diagonal, primary CTA bottom-right.",
+        "NN/g documents multiple scan patterns (F, spotted, layer-cake, commitment); Z is a design heuristic for light pages."
+      ],
+      "defining_traits": [
+        "diagonal eye path",
+        "sparse content",
+        "terminal CTA"
+      ],
+      "examples": [
+        "single-offer landing pages",
+        "simple product splash pages"
+      ],
+      "related": [
+        "f-pattern",
+        "hero-section",
+        "sticky-cta"
+      ],
+      "sources": [
+        {
+          "title": "F-Shaped Pattern of Reading on the Web (context on scan patterns)",
+          "url": "https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "single-column",
+      "name": "Single-Column (Long-Form) Layout",
+      "category": "page-layout",
+      "tags": [
+        "reading",
+        "long-form",
+        "content",
+        "mobile-first"
+      ],
+      "summary": "A single centered column of content with generous margins, optimized for uninterrupted linear reading of long-form text.",
+      "significance": "Maximizes readability and focus by controlling measure (line length) and removing sidebars; the default for articles, blogs, and documentation, and inherently mobile-friendly.",
+      "key_facts": [
+        "Constrains the content column to a comfortable reading measure (commonly ~45-75 characters per line).",
+        "Removes competing sidebars so attention stays on the linear content flow.",
+        "Naturally responsive: a single column needs little rearrangement across breakpoints (see Tiny Tweaks).",
+        "Often paired with a sticky header or reading-progress indicator for navigation."
+      ],
+      "defining_traits": [
+        "one centered column",
+        "constrained measure",
+        "generous margins"
+      ],
+      "examples": [
+        "Medium articles",
+        "Substack posts",
+        "most documentation body content"
+      ],
+      "related": [
+        "magazine-editorial",
+        "tiny-tweaks",
+        "sticky-header"
+      ],
+      "sources": [
+        {
+          "title": "CSS Layout (guide)",
+          "url": "https://www.smashingmagazine.com/guides/css-layout/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "sidebar-layout",
+      "name": "Sidebar Layout",
+      "category": "page-layout",
+      "tags": [
+        "navigation",
+        "two-column",
+        "app-shell",
+        "docs"
+      ],
+      "summary": "A two-column layout pairing a persistent navigation/utility sidebar with a wider main content area.",
+      "significance": "Standard for documentation, web apps, and settings screens where global navigation must stay visible; the sidebar anchors orientation while content scrolls.",
+      "key_facts": [
+        "Usually a fixed- or min-width nav column beside a fluid main column (e.g. Grid: 250px 1fr).",
+        "Sidebar commonly becomes an off-canvas drawer on small screens.",
+        "The sidebar is often made sticky so navigation stays in view while the main column scrolls.",
+        "A dual-sidebar variant is the classic Holy Grail layout."
+      ],
+      "defining_traits": [
+        "persistent nav column",
+        "fluid content column",
+        "collapses to drawer"
+      ],
+      "examples": [
+        "Notion",
+        "Slack",
+        "MDN docs",
+        "GitHub repo pages"
+      ],
+      "related": [
+        "holy-grail",
+        "sticky-sidebar",
+        "off-canvas-nav",
+        "dashboard-admin"
+      ],
+      "sources": [
+        {
+          "title": "Relationship of grid layout to other layout methods",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "dashboard-admin",
+      "name": "Dashboard / Admin Layout",
+      "category": "page-layout",
+      "tags": [
+        "dashboard",
+        "data",
+        "app-shell",
+        "widgets"
+      ],
+      "summary": "An app-shell layout combining a persistent nav sidebar, a top bar, and a main region filled with modular widget cards (charts, tables, stats).",
+      "significance": "The canonical structure for data-dense back-office and analytics tools; the modular grid lets diverse widgets coexist and rearrange, while the shell keeps navigation and context fixed.",
+      "key_facts": [
+        "Combines an app shell (persistent sidebar + top bar) with a widget grid main area.",
+        "Widgets are typically cards sized on a grid to imply relative importance (overlaps with bento layout).",
+        "Prioritizes information density and at-a-glance scanning over marketing polish.",
+        "Frequently uses CSS Grid for the widget region and Flexbox within each widget."
+      ],
+      "defining_traits": [
+        "app shell",
+        "widget card grid",
+        "high data density",
+        "persistent nav"
+      ],
+      "examples": [
+        "Google Analytics",
+        "Stripe Dashboard",
+        "Vercel dashboard"
+      ],
+      "related": [
+        "sidebar-layout",
+        "bento-grid",
+        "card-grid",
+        "empty-state"
+      ],
+      "sources": [
+        {
+          "title": "Understanding layout",
+          "url": "https://m2.material.io/design/layout/understanding-layout.html",
+          "publisher": "Material Design (Google)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "sticky-header",
+      "name": "Sticky Header",
+      "category": "navigation-pattern",
+      "tags": [
+        "navigation",
+        "sticky",
+        "persistent",
+        "scroll"
+      ],
+      "summary": "A header/navigation bar that remains fixed to the top of the viewport as the user scrolls, keeping brand and primary navigation always accessible.",
+      "significance": "Keeps navigation and key actions reachable without scrolling back up, reducing interaction cost on long pages; a near-universal pattern that trades a slice of vertical space for constant access.",
+      "key_facts": [
+        "Implemented with CSS position: sticky (or fixed) so the bar detaches at a scroll threshold.",
+        "Consumes permanent viewport height, so it must be kept shallow (especially on mobile).",
+        "Often combined with hide-on-scroll-down / show-on-scroll-up behavior to reclaim space.",
+        "Requires scroll-margin/scroll-padding fixes so anchor jumps aren't hidden behind the bar."
+      ],
+      "defining_traits": [
+        "fixed to top",
+        "persists on scroll",
+        "always-visible nav"
+      ],
+      "examples": [
+        "most SaaS marketing sites",
+        "e-commerce headers",
+        "documentation top bars"
+      ],
+      "related": [
+        "sticky-sidebar",
+        "sticky-cta",
+        "mega-menu"
+      ],
+      "sources": [
+        {
+          "title": "CSS Layout (guide)",
+          "url": "https://www.smashingmagazine.com/guides/css-layout/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "sticky-sidebar",
+      "name": "Sticky Sidebar",
+      "category": "navigation-pattern",
+      "tags": [
+        "sidebar",
+        "sticky",
+        "toc",
+        "scroll"
+      ],
+      "summary": "A sidebar (table of contents, filters, or ad rail) that scrolls with the page until it reaches a boundary, then sticks in view while the main content continues to scroll.",
+      "significance": "Keeps secondary navigation or context visible during long reads without a full fixed panel; common for in-page tables of contents and product filter rails.",
+      "key_facts": [
+        "Built with position: sticky and a top offset, within a container taller than the sidebar.",
+        "Sticks only within its parent's bounds; it releases at the container's end.",
+        "Popular for article tables of contents that highlight the current section.",
+        "Fails silently if an ancestor has overflow:hidden or the parent isn't tall enough to allow sticking."
+      ],
+      "defining_traits": [
+        "sticks within container",
+        "secondary navigation",
+        "follows scroll"
+      ],
+      "examples": [
+        "documentation table-of-contents rails",
+        "e-commerce filter sidebars"
+      ],
+      "related": [
+        "sidebar-layout",
+        "sticky-header",
+        "progressive-disclosure-accordion"
+      ],
+      "sources": [
+        {
+          "title": "Relationship of grid layout to other layout methods",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "off-canvas-nav",
+      "name": "Off-Canvas / Hamburger Navigation",
+      "category": "navigation-pattern",
+      "tags": [
+        "mobile",
+        "hamburger",
+        "drawer",
+        "nng"
+      ],
+      "summary": "Navigation hidden off-screen behind a hamburger (or menu) icon that slides in as a drawer when toggled, reserving screen space for content.",
+      "significance": "Solves limited mobile width by hiding secondary navigation, but NN/g research shows hidden navigation measurably hurts discoverability and task performance, so it should be used deliberately.",
+      "key_facts": [
+        "Content stays on-canvas; navigation lives off-screen and slides in via a toggle (JavaScript/CSS transform).",
+        "NN/g found hidden navigation cuts discoverability roughly in half versus visible navigation.",
+        "Hidden menus also increase task time and perceived task difficulty in NN/g studies.",
+        "The three-line 'hamburger' icon is now widely recognized but still carries these usability tradeoffs."
+      ],
+      "defining_traits": [
+        "hidden nav",
+        "toggle icon",
+        "slide-in drawer"
+      ],
+      "examples": [
+        "most mobile web menus",
+        "responsive site headers under a breakpoint"
+      ],
+      "related": [
+        "off-canvas-responsive",
+        "tab-bar-mobile",
+        "mega-menu"
+      ],
+      "sources": [
+        {
+          "title": "Hamburger Menus and Hidden Navigation Hurt UX Metrics",
+          "url": "https://www.nngroup.com/articles/hamburger-menus/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "mega-menu",
+      "name": "Mega Menu",
+      "category": "navigation-pattern",
+      "tags": [
+        "navigation",
+        "dropdown",
+        "large-sites",
+        "ecommerce"
+      ],
+      "summary": "A large, two-dimensional dropdown panel that reveals many navigation options at once, grouped into labeled columns, on hover or click of a top-level nav item.",
+      "significance": "Lets users of large sites see and scan a whole category tree simultaneously instead of drilling through nested single-column dropdowns; favored by e-commerce and enterprise sites with deep hierarchies.",
+      "key_facts": [
+        "Displays grouped links in a wide panel so options are scannable in parallel rather than sequentially.",
+        "Suited to sites with large, structured content hierarchies (retail, enterprise, universities).",
+        "On mobile, mega menus are typically converted to accordion-style expandable sections.",
+        "Grouping and clear labels are essential; an ungrouped wall of links overwhelms rather than helps."
+      ],
+      "defining_traits": [
+        "wide two-dimensional panel",
+        "grouped columns",
+        "reveals full category tree"
+      ],
+      "examples": [
+        "Amazon 'All' menu",
+        "large university sites",
+        "enterprise B2B navigation"
+      ],
+      "related": [
+        "off-canvas-nav",
+        "progressive-disclosure-accordion"
+      ],
+      "sources": [
+        {
+          "title": "Mega Menus (topic overview)",
+          "url": "https://www.interaction-design.org/literature/topics/mega-menus",
+          "publisher": "Interaction Design Foundation",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "tab-bar-mobile",
+      "name": "Bottom Tab Bar (Mobile)",
+      "category": "navigation-pattern",
+      "tags": [
+        "mobile",
+        "navigation",
+        "thumb-zone",
+        "app"
+      ],
+      "summary": "A persistent horizontal bar of 3-5 primary destinations fixed to the bottom of the screen, used as top-level navigation in mobile apps and app-like web experiences.",
+      "significance": "Places core navigation in the thumb-reachable zone and keeps it always visible, avoiding the discoverability loss of hidden hamburger menus; the standard for native mobile apps.",
+      "key_facts": [
+        "Positioned at the bottom of the screen for one-handed thumb reach.",
+        "Typically limited to 3-5 top-level destinations with icon + label.",
+        "Keeps navigation persistently visible, unlike off-canvas hamburger menus.",
+        "Codified in both iOS (Tab Bar) and Material Design (Navigation Bar) guidelines."
+      ],
+      "defining_traits": [
+        "bottom-fixed",
+        "3-5 destinations",
+        "thumb-reachable",
+        "icons + labels"
+      ],
+      "examples": [
+        "Instagram",
+        "Twitter/X mobile",
+        "YouTube app"
+      ],
+      "related": [
+        "off-canvas-nav",
+        "bottom-sheet"
+      ],
+      "sources": [
+        {
+          "title": "Understanding layout",
+          "url": "https://m2.material.io/design/layout/understanding-layout.html",
+          "publisher": "Material Design (Google)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "bottom-sheet",
+      "name": "Bottom Sheet",
+      "category": "content-pattern",
+      "tags": [
+        "mobile",
+        "modal",
+        "drawer",
+        "thumb-zone"
+      ],
+      "summary": "A surface that slides up from the bottom edge of the screen to present supplementary content or actions, either partially (peeking) or fully expanded, and dismissed by swiping down.",
+      "significance": "A mobile-native alternative to center modals that keeps interaction anchored in the thumb zone; supports progressive expansion so users see a preview before committing to the full surface.",
+      "key_facts": [
+        "Animates up from the bottom edge; dismissed by swipe-down or tapping the scrim.",
+        "Two main types: modal (blocks the app behind a scrim) and standard/persistent (coexists with content).",
+        "Often supports a partially-expanded 'peek' state before full expansion.",
+        "Defined as a component in Material Design guidelines."
+      ],
+      "defining_traits": [
+        "slides from bottom",
+        "peek + expand states",
+        "swipe-to-dismiss"
+      ],
+      "examples": [
+        "Google Maps place details",
+        "iOS/Android share sheets",
+        "mobile filter panels"
+      ],
+      "related": [
+        "modal-dialog",
+        "tab-bar-mobile",
+        "progressive-disclosure-accordion"
+      ],
+      "sources": [
+        {
+          "title": "Understanding layout",
+          "url": "https://m2.material.io/design/layout/understanding-layout.html",
+          "publisher": "Material Design (Google)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "modal-dialog",
+      "name": "Modal / Dialog",
+      "category": "content-pattern",
+      "tags": [
+        "overlay",
+        "focus",
+        "interruption",
+        "accessibility"
+      ],
+      "summary": "An overlay window that appears above the page, dims the background with a scrim, and requires the user to act on or dismiss it before returning to the underlying content.",
+      "significance": "Focuses attention on a single decision or task (confirmations, forms, media), but because it interrupts flow and traps focus it should be reserved for content that genuinely requires immediate attention.",
+      "key_facts": [
+        "Modal variants block interaction with the page behind a scrim until dismissed; non-modal overlays do not.",
+        "Accessible modals must trap focus, be dismissible via Escape, and return focus to the trigger on close.",
+        "The native <dialog> element and its showModal() method provide built-in modal semantics.",
+        "Overuse creates interruption fatigue; reserve for confirmations, critical input, or focused media."
+      ],
+      "defining_traits": [
+        "overlay + scrim",
+        "focus trap",
+        "blocks background",
+        "explicit dismiss"
+      ],
+      "examples": [
+        "login modals",
+        "delete-confirmation dialogs",
+        "lightbox image viewers"
+      ],
+      "related": [
+        "bottom-sheet",
+        "progressive-disclosure-accordion",
+        "sticky-cta"
+      ],
+      "sources": [
+        {
+          "title": "CSS Layout (guide)",
+          "url": "https://www.smashingmagazine.com/guides/css-layout/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "full-bleed-imagery",
+      "name": "Full-Bleed Imagery",
+      "category": "content-pattern",
+      "tags": [
+        "imagery",
+        "edge-to-edge",
+        "hero",
+        "immersive"
+      ],
+      "summary": "Images or video that extend edge-to-edge across the full viewport width, breaking out of the content container's margins for an immersive effect.",
+      "significance": "Creates dramatic, immersive moments and strong visual anchors; borrowed from print's 'bleed' concept and used to punctuate long content or headline a hero.",
+      "key_facts": [
+        "Term 'bleed' comes from print, where ink extends past the trim edge of the page.",
+        "On the web it means media spanning 100% of viewport width, ignoring the content column's max-width.",
+        "Commonly implemented via a full-width breakout technique inside an otherwise constrained layout grid.",
+        "Requires responsive art direction so focal points survive cropping across aspect ratios."
+      ],
+      "defining_traits": [
+        "edge-to-edge media",
+        "breaks the content margin",
+        "immersive"
+      ],
+      "examples": [
+        "Apple product hero images",
+        "travel and editorial photo features"
+      ],
+      "related": [
+        "hero-section",
+        "magazine-editorial",
+        "aspect-ratios"
+      ],
+      "sources": [
+        {
+          "title": "CSS Layout (guide)",
+          "url": "https://www.smashingmagazine.com/guides/css-layout/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "asymmetric-layout",
+      "name": "Asymmetric Layout",
+      "category": "page-layout",
+      "tags": [
+        "asymmetry",
+        "editorial",
+        "dynamic",
+        "hierarchy"
+      ],
+      "summary": "A deliberately unbalanced arrangement where elements of different sizes and weights are placed off-center to create visual tension, movement, and clear focal points.",
+      "significance": "Escapes the static feel of perfectly centered layouts; used to convey energy and modernity and to steer the eye toward a dominant element, while still resting on an underlying grid.",
+      "key_facts": [
+        "Balance is achieved through visual weight rather than mirror symmetry.",
+        "Typically built on a grid but placing content off the central axis.",
+        "Creates directional flow and dynamic tension that guides the eye.",
+        "Rooted in Swiss/International Typographic Style, which favored asymmetric grid composition."
+      ],
+      "defining_traits": [
+        "off-center placement",
+        "weight-based balance",
+        "dynamic tension"
+      ],
+      "examples": [
+        "design studio portfolios",
+        "modern editorial sites"
+      ],
+      "related": [
+        "broken-grid",
+        "magazine-editorial",
+        "split-screen"
+      ],
+      "sources": [
+        {
+          "title": "CSS Layout (guide)",
+          "url": "https://www.smashingmagazine.com/guides/css-layout/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "broken-grid",
+      "name": "Broken Grid / Overlap Layout",
+      "category": "page-layout",
+      "tags": [
+        "experimental",
+        "overlap",
+        "editorial",
+        "grid"
+      ],
+      "summary": "A layout that establishes a grid then intentionally violates it, overlapping elements or letting content spill across gridlines to create depth and an editorial, hand-made feel.",
+      "significance": "Signals creativity and craft by subverting the expected grid; effective for portfolios and fashion/editorial sites where distinctiveness matters more than strict order.",
+      "key_facts": [
+        "Requires a strong underlying grid first, so the 'breaks' read as intentional rather than accidental.",
+        "Overlapping layers use CSS Grid stacking (same grid cell) plus z-index for depth.",
+        "Text and images may cross column boundaries to create tension.",
+        "Higher risk of accessibility/readability issues, so contrast and reading order need care."
+      ],
+      "defining_traits": [
+        "intentional grid violation",
+        "overlapping elements",
+        "layered depth"
+      ],
+      "examples": [
+        "fashion brand lookbooks",
+        "award-winning design portfolios (Awwwards)"
+      ],
+      "related": [
+        "asymmetric-layout",
+        "magazine-editorial",
+        "z-index-layering"
+      ],
+      "sources": [
+        {
+          "title": "Relationship of grid layout to other layout methods",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "feature-zigzag",
+      "name": "Feature Sections (Zig-Zag / Alternating)",
+      "category": "content-pattern",
+      "tags": [
+        "marketing",
+        "features",
+        "alternating",
+        "landing"
+      ],
+      "summary": "A stack of feature blocks that alternate image and text sides down the page (image left/text right, then reversed), creating rhythm while explaining multiple features.",
+      "significance": "Standard for SaaS and product marketing pages: the alternation maintains visual interest across many features and keeps each feature paired clearly with its supporting visual.",
+      "key_facts": [
+        "Each row pairs one feature's copy with a supporting image or screenshot.",
+        "Alternating the image side row-to-row creates a zig-zag rhythm and prevents monotony.",
+        "On mobile, rows collapse to a consistent stacked order (usually image then text).",
+        "The reversal is often achieved by toggling flex-direction or grid column order per row."
+      ],
+      "defining_traits": [
+        "alternating image/text sides",
+        "repeating rows",
+        "one feature per row"
+      ],
+      "examples": [
+        "most SaaS product pages",
+        "Slack and Notion feature sections"
+      ],
+      "related": [
+        "split-screen",
+        "hero-section",
+        "pricing-table"
+      ],
+      "sources": [
+        {
+          "title": "CSS Layout (guide)",
+          "url": "https://www.smashingmagazine.com/guides/css-layout/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "pricing-table",
+      "name": "Pricing Table",
+      "category": "content-pattern",
+      "tags": [
+        "pricing",
+        "comparison",
+        "conversion",
+        "saas"
+      ],
+      "summary": "A row of side-by-side plan columns listing price, features, and a CTA per tier, usually with one tier visually highlighted as recommended.",
+      "significance": "The conversion-critical layout for subscription products; enabling quick tier comparison and steering choice via a highlighted 'most popular' plan directly affects revenue.",
+      "key_facts": [
+        "Typically 3-4 plan columns aligned so features can be compared horizontally across tiers.",
+        "One tier is usually visually emphasized (badge, elevation, accent) to anchor choice.",
+        "Often includes a monthly/annual toggle that updates displayed prices.",
+        "Collapses to stacked cards on mobile, generally leading with the recommended tier."
+      ],
+      "defining_traits": [
+        "side-by-side tiers",
+        "highlighted plan",
+        "per-column CTA"
+      ],
+      "examples": [
+        "Stripe pricing",
+        "Notion pricing",
+        "most SaaS /pricing pages"
+      ],
+      "related": [
+        "comparison-table",
+        "card-grid",
+        "feature-zigzag"
+      ],
+      "sources": [
+        {
+          "title": "CSS Layout (guide)",
+          "url": "https://www.smashingmagazine.com/guides/css-layout/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "comparison-table",
+      "name": "Comparison Table",
+      "category": "content-pattern",
+      "tags": [
+        "table",
+        "comparison",
+        "features",
+        "decision"
+      ],
+      "summary": "A matrix with items as columns and attributes as rows (often with check/cross marks), letting users compare options feature-by-feature.",
+      "significance": "Supports decision-making by making differences scannable at a glance; essential for product/plan comparisons but demands careful responsive handling because wide tables break on small screens.",
+      "key_facts": [
+        "Structured as a matrix: options across columns, attributes down rows.",
+        "Boolean features are commonly shown with check/cross icons for fast scanning.",
+        "A sticky header row and/or sticky first column keeps labels visible while scrolling large tables.",
+        "Responsive strategies include horizontal scroll, column priority, or a card-per-item transform on mobile."
+      ],
+      "defining_traits": [
+        "attribute matrix",
+        "check/cross cells",
+        "sticky labels"
+      ],
+      "examples": [
+        "plan comparison pages",
+        "product spec comparisons",
+        "'us vs. competitor' tables"
+      ],
+      "related": [
+        "pricing-table",
+        "sticky-header"
+      ],
+      "sources": [
+        {
+          "title": "CSS Layout (guide)",
+          "url": "https://www.smashingmagazine.com/guides/css-layout/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "testimonial-wall",
+      "name": "Testimonial Wall",
+      "category": "content-pattern",
+      "tags": [
+        "social-proof",
+        "testimonials",
+        "grid",
+        "trust"
+      ],
+      "summary": "A dense grid or masonry of customer quotes, often with avatars, names, and company logos, presenting social proof at scale.",
+      "significance": "Builds credibility through volume and specificity of praise; the wall format signals that many real people endorse the product, reinforcing conversion.",
+      "key_facts": [
+        "Frequently laid out as a masonry/multi-column grid because testimonials vary in length.",
+        "Each card typically includes a quote, a name, an avatar, and a company/role for authenticity.",
+        "A specific attributed quote is more persuasive than an anonymous or generic one.",
+        "Often combined with a logo cloud to pair qualitative and quantitative social proof."
+      ],
+      "defining_traits": [
+        "quote cards",
+        "avatars + attribution",
+        "grid/masonry density"
+      ],
+      "examples": [
+        "SaaS 'loved by teams' sections",
+        "Testimonial.to walls"
+      ],
+      "related": [
+        "logo-cloud",
+        "masonry",
+        "trust-bar"
+      ],
+      "sources": [
+        {
+          "title": "CSS Layout (guide)",
+          "url": "https://www.smashingmagazine.com/guides/css-layout/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "logo-cloud",
+      "name": "Logo Cloud / Social Proof Bar",
+      "category": "content-pattern",
+      "tags": [
+        "social-proof",
+        "logos",
+        "trust",
+        "brands"
+      ],
+      "summary": "A horizontal band of recognizable customer or partner logos, usually monochrome and evenly spaced, signaling credibility by association.",
+      "significance": "Provides fast, low-effort trust: recognizable brand logos borrow their credibility for the host product, which is why 'trusted by' bars sit high on landing pages.",
+      "key_facts": [
+        "Logos are typically desaturated/monochrome to unify disparate brand colors and reduce distraction.",
+        "Usually placed just below the hero as an early trust signal ('trusted by' / 'as seen in').",
+        "Even spacing and consistent optical sizing matter because logos have different intrinsic proportions.",
+        "Often animated as a slow marquee when there are more logos than fit in one row."
+      ],
+      "defining_traits": [
+        "row of brand logos",
+        "monochrome treatment",
+        "even spacing"
+      ],
+      "examples": [
+        "'trusted by' bars on SaaS homepages",
+        "press 'as featured in' strips"
+      ],
+      "related": [
+        "trust-bar",
+        "testimonial-wall",
+        "hero-section"
+      ],
+      "sources": [
+        {
+          "title": "CSS Layout (guide)",
+          "url": "https://www.smashingmagazine.com/guides/css-layout/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "fat-footer",
+      "name": "Fat Footer",
+      "category": "page-layout",
+      "tags": [
+        "footer",
+        "navigation",
+        "sitemap",
+        "utility"
+      ],
+      "summary": "A large, multi-column footer that acts as a secondary sitemap, grouping links to products, resources, company info, legal pages, and social/contact details.",
+      "significance": "Catches users who scroll to the bottom looking for wayfinding or utility links; consolidates deep navigation that doesn't belong in the primary header, improving findability of secondary pages.",
+      "key_facts": [
+        "Organized into labeled link columns functioning as a secondary site map.",
+        "Common groups: Product, Resources, Company, Legal, plus contact and social icons.",
+        "Serves users who habitually scroll to the footer to find utility or wayfinding links.",
+        "Frequently includes newsletter signup, language/region switchers, and copyright."
+      ],
+      "defining_traits": [
+        "multi-column links",
+        "secondary sitemap",
+        "utility + legal + social"
+      ],
+      "examples": [
+        "most enterprise and e-commerce sites",
+        "GitHub footer",
+        "Shopify footer"
+      ],
+      "related": [
+        "mega-menu",
+        "trust-bar"
+      ],
+      "sources": [
+        {
+          "title": "CSS Layout (guide)",
+          "url": "https://www.smashingmagazine.com/guides/css-layout/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "trust-bar",
+      "name": "Hero + Trust Bar",
+      "category": "content-pattern",
+      "tags": [
+        "social-proof",
+        "hero",
+        "trust",
+        "conversion"
+      ],
+      "summary": "A thin strip directly beneath the hero that surfaces credibility signals such as customer count, ratings, awards, or a compact logo row.",
+      "significance": "Reinforces the hero's claim with immediate proof at the moment of highest attention, reducing skepticism before the visitor scrolls further.",
+      "key_facts": [
+        "Placed immediately after the hero, in the high-attention above-the-fold zone.",
+        "Content types: user/customer counts, star ratings, awards, or a monochrome logo cloud.",
+        "Acts as a bridge between the aspirational hero message and concrete evidence.",
+        "Kept visually lightweight so it supports rather than competes with the hero CTA."
+      ],
+      "defining_traits": [
+        "thin strip under hero",
+        "credibility metrics",
+        "lightweight"
+      ],
+      "examples": [
+        "'Join 10,000+ teams' strips",
+        "star-rating bars under SaaS heroes"
+      ],
+      "related": [
+        "hero-section",
+        "logo-cloud",
+        "testimonial-wall"
+      ],
+      "sources": [
+        {
+          "title": "CSS Layout (guide)",
+          "url": "https://www.smashingmagazine.com/guides/css-layout/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "sticky-cta",
+      "name": "Sticky CTA",
+      "category": "navigation-pattern",
+      "tags": [
+        "cta",
+        "sticky",
+        "conversion",
+        "mobile"
+      ],
+      "summary": "A call-to-action button or bar that stays fixed in view (often bottom of the mobile screen or within a header) as the user scrolls, keeping the primary action always one tap away.",
+      "significance": "Reduces the effort to convert at any scroll depth by keeping the primary action persistently reachable; especially valuable on long mobile pages where the hero CTA scrolls out of view.",
+      "key_facts": [
+        "Implemented with position: sticky/fixed so the action persists across scroll.",
+        "On mobile it commonly anchors to the bottom edge within the thumb zone.",
+        "Keeps a single primary action reachable at any scroll depth, unlike a one-time hero CTA.",
+        "Must be shallow and dismissible-aware so it doesn't obscure content or block the last screen row."
+      ],
+      "defining_traits": [
+        "persistent action",
+        "fixed position",
+        "single primary CTA"
+      ],
+      "examples": [
+        "mobile 'Add to cart' bars",
+        "'Book now' sticky buttons on booking sites"
+      ],
+      "related": [
+        "sticky-header",
+        "hero-section",
+        "tab-bar-mobile"
+      ],
+      "sources": [
+        {
+          "title": "CSS Layout (guide)",
+          "url": "https://www.smashingmagazine.com/guides/css-layout/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "progressive-disclosure-accordion",
+      "name": "Progressive Disclosure / Accordion",
+      "category": "content-pattern",
+      "tags": [
+        "accordion",
+        "disclosure",
+        "cognitive-load",
+        "faq"
+      ],
+      "summary": "A pattern that hides secondary detail behind expandable sections (accordions, 'show more' toggles), revealing complexity only as the user requests it.",
+      "significance": "Reduces cognitive load and visual clutter by deferring advanced or lengthy content; introduced by Jakob Nielsen in 1995 as a way to keep common tasks simple while keeping advanced options available.",
+      "key_facts": [
+        "Progressive disclosure was introduced by Jakob Nielsen (1995) as an interaction design technique to reduce errors and cognitive load.",
+        "An accordion is a vertically stacked set of expandable headers that show/hide their content on click.",
+        "Shows only the information a user needs at a given moment, deferring the rest until requested.",
+        "Widely used for FAQs, help centers, mobile navigation, and 'advanced settings' panels."
+      ],
+      "defining_traits": [
+        "expandable sections",
+        "deferred detail",
+        "reduced initial clutter"
+      ],
+      "examples": [
+        "FAQ accordions",
+        "'Advanced options' toggles",
+        "mobile menu accordions"
+      ],
+      "related": [
+        "mega-menu",
+        "bottom-sheet",
+        "modal-dialog"
+      ],
+      "sources": [
+        {
+          "title": "The art of progressive disclosure in web design",
+          "url": "https://webflow.com/blog/the-art-of-progressive-disclosure-in-web-design",
+          "publisher": "Webflow",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "infinite-scroll",
+      "name": "Infinite Scroll",
+      "category": "content-pattern",
+      "tags": [
+        "scroll",
+        "feed",
+        "pagination-alternative",
+        "nng"
+      ],
+      "summary": "A pattern that automatically loads and appends more content as the user approaches the bottom, creating a continuous feed without explicit page breaks.",
+      "significance": "Minimizes interaction cost and boosts engagement for continuous, flat-hierarchy content (social feeds, media), but NN/g cautions it removes landmarks, harms orientation, and can suppress conversions.",
+      "key_facts": [
+        "NN/g: infinite scrolling reduces interruptions and is best for continuously streaming, flat-hierarchy content.",
+        "It removes landmarks, making it hard for users to orient themselves or return to a spot.",
+        "It can cause inaction and lower conversions, the opposite of most business goals, per NN/g.",
+        "A 'Load More' button is often a better compromise, preserving control while avoiding full pagination."
+      ],
+      "defining_traits": [
+        "auto-append on scroll",
+        "no page breaks",
+        "continuous feed"
+      ],
+      "examples": [
+        "Twitter/X feed",
+        "Instagram feed",
+        "Pinterest"
+      ],
+      "related": [
+        "pagination",
+        "skeleton-loading",
+        "card-grid"
+      ],
+      "sources": [
+        {
+          "title": "Infinite Scrolling: When to Use It, When to Avoid It",
+          "url": "https://www.nngroup.com/articles/infinite-scrolling-tips/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Infinite Scrolling Is Not for Every Website",
+          "url": "https://www.nngroup.com/articles/infinite-scrolling/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "pagination",
+      "name": "Pagination",
+      "category": "navigation-pattern",
+      "tags": [
+        "pagination",
+        "navigation",
+        "ecommerce",
+        "control"
+      ],
+      "summary": "Splitting a large content set into discrete numbered pages with previous/next and page controls, so users move through it in defined chunks.",
+      "significance": "Gives users a sense of scope, completion, and control (they can gauge remaining effort and return to a specific page); NN/g notes it suits goal-oriented tasks like e-commerce browsing better than infinite scroll.",
+      "key_facts": [
+        "Provides a clear beginning and end, giving users a sense of completion and control (NN/g).",
+        "Lets users anticipate effort and deliberately choose whether to continue to the next page.",
+        "Preferred for goal-oriented browsing such as e-commerce product listings and search results.",
+        "Enables deep-linking and bookmarking of a specific page, which infinite scroll typically breaks."
+      ],
+      "defining_traits": [
+        "numbered pages",
+        "prev/next controls",
+        "discrete chunks"
+      ],
+      "examples": [
+        "Google search results",
+        "e-commerce category pages",
+        "forum threads"
+      ],
+      "related": [
+        "infinite-scroll",
+        "comparison-table"
+      ],
+      "sources": [
+        {
+          "title": "Infinite Scrolling: When to Use It, When to Avoid It",
+          "url": "https://www.nngroup.com/articles/infinite-scrolling-tips/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "skeleton-loading",
+      "name": "Skeleton Loading Layout",
+      "category": "content-pattern",
+      "tags": [
+        "loading",
+        "placeholder",
+        "perceived-performance",
+        "nng"
+      ],
+      "summary": "Grey placeholder shapes that mirror the final layout's structure while content loads, previewing where text and images will appear.",
+      "significance": "Reduces perceived wait time by signaling progress and the coming layout, and avoids the jank of empty space or spinners; NN/g documents it as a perceived-performance technique.",
+      "key_facts": [
+        "A skeleton screen is a placeholder shown while a page loads, per NN/g.",
+        "It reduces the perception of long loading time by hinting at the final layout.",
+        "Placeholder shapes echo real content positions (text bars, image blocks, avatars).",
+        "Often animated with a shimmer to signal active loading rather than a frozen state."
+      ],
+      "defining_traits": [
+        "grey placeholder shapes",
+        "mirrors final layout",
+        "shimmer animation"
+      ],
+      "examples": [
+        "Facebook and LinkedIn feed loading",
+        "YouTube thumbnail placeholders"
+      ],
+      "related": [
+        "empty-state",
+        "infinite-scroll",
+        "card-grid"
+      ],
+      "sources": [
+        {
+          "title": "Skeleton Screens 101",
+          "url": "https://www.nngroup.com/articles/skeleton-screens/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "empty-state",
+      "name": "Empty State",
+      "category": "content-pattern",
+      "tags": [
+        "empty-state",
+        "onboarding",
+        "guidance",
+        "nng"
+      ],
+      "summary": "The designed view shown when a container has no content yet (a new inbox, empty list, or zero search results), using guidance and a clear next action instead of blank space.",
+      "significance": "Turns a dead-end into onboarding: NN/g notes well-designed empty states increase user confidence, improve learnability, and help users start key tasks, especially in complex or newly-set-up apps.",
+      "key_facts": [
+        "Empty states are common during onboarding and initial use of complex, not-yet-configured apps (NN/g).",
+        "Well-designed empty states increase user confidence, improve learnability, and speed first tasks (NN/g).",
+        "Effective empty states explain why the area is empty and offer a clear primary next action.",
+        "Three contexts exist: first-use (no data yet), user-cleared (all done), and error/zero-results."
+      ],
+      "defining_traits": [
+        "guidance in place of blankness",
+        "clear next action",
+        "onboarding role"
+      ],
+      "examples": [
+        "empty inbox 'you're all caught up' screens",
+        "no-search-results states",
+        "new-project empty views"
+      ],
+      "related": [
+        "onboarding-flow",
+        "skeleton-loading",
+        "dashboard-admin"
+      ],
+      "sources": [
+        {
+          "title": "Designing Empty States in Complex Applications: 3 Guidelines",
+          "url": "https://www.nngroup.com/articles/empty-state-interface-design/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "onboarding-flow",
+      "name": "Onboarding Flow",
+      "category": "content-pattern",
+      "tags": [
+        "onboarding",
+        "guidance",
+        "progressive",
+        "first-run"
+      ],
+      "summary": "A guided sequence (welcome screens, tooltips/coach marks, checklists, or a step-by-step setup) that introduces a new user to a product and its first key tasks.",
+      "significance": "Shapes activation and retention by reducing the initial learning curve; layers on progressive disclosure and empty-state guidance to get users to their first success quickly.",
+      "key_facts": [
+        "Common formats: welcome carousels, coach-mark tooltips, setup checklists, and interactive walkthroughs.",
+        "Applies progressive disclosure so users aren't shown all features at once.",
+        "Ties closely to empty states, which double as first-run onboarding surfaces.",
+        "Best practice keeps steps skippable and focused on reaching a first meaningful outcome ('aha moment')."
+      ],
+      "defining_traits": [
+        "guided sequence",
+        "first-run focus",
+        "step or checklist structure"
+      ],
+      "examples": [
+        "Slack setup checklist",
+        "Duolingo first-lesson flow",
+        "Notion welcome templates"
+      ],
+      "related": [
+        "empty-state",
+        "progressive-disclosure-accordion",
+        "modal-dialog"
+      ],
+      "sources": [
+        {
+          "title": "Designing Empty States in Complex Applications: 3 Guidelines",
+          "url": "https://www.nngroup.com/articles/empty-state-interface-design/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "mostly-fluid",
+      "name": "Mostly Fluid",
+      "category": "responsive-pattern",
+      "tags": [
+        "responsive",
+        "fluid-grid",
+        "wroblewski",
+        "breakpoint"
+      ],
+      "summary": "A responsive pattern with a fluid multi-column grid that mainly adds margins on large screens and stacks columns on the narrowest screens, with minimal structural change in between.",
+      "significance": "One of Luke Wroblewski's five multi-device layout patterns (2012); the most common approach because a single max-width plus a stacking breakpoint handles most content sites with little effort.",
+      "key_facts": [
+        "One of five patterns catalogued by Luke Wroblewski in 'Multi-Device Layout Patterns' (March 14, 2012).",
+        "Content reflows fluidly within a container capped by max-width; large screens gain wider margins.",
+        "At the narrowest sizes, columns stack vertically.",
+        "Often needs only a single breakpoint on the parent container, with children reflowing automatically."
+      ],
+      "defining_traits": [
+        "fluid grid",
+        "max-width cap",
+        "big-screen margins",
+        "narrow-screen stacking"
+      ],
+      "examples": [
+        "typical blog and content marketing sites"
+      ],
+      "related": [
+        "column-drop",
+        "card-grid",
+        "responsive-breakpoints"
+      ],
+      "sources": [
+        {
+          "title": "Multi-Device Layout Patterns",
+          "url": "https://www.lukew.com/ff/entry.asp?1514=",
+          "publisher": "LukeW (Luke Wroblewski)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "column-drop",
+      "name": "Column Drop",
+      "category": "responsive-pattern",
+      "tags": [
+        "responsive",
+        "stacking",
+        "wroblewski",
+        "breakpoint"
+      ],
+      "summary": "A responsive pattern that starts multi-column and progressively 'drops' columns to stack them into a single column as the viewport narrows, while element sizes stay fairly consistent.",
+      "significance": "One of Wroblewski's five patterns; the intuitive default for turning a desktop multi-column layout into a mobile stack without redesigning the composition.",
+      "key_facts": [
+        "One of five patterns from Luke Wroblewski's 'Multi-Device Layout Patterns' (2012).",
+        "Columns stack one at a time into a single column as width decreases.",
+        "Unlike Mostly Fluid, element sizes tend to stay consistent rather than scaling with the viewport.",
+        "Column stacking order becomes an important content-priority decision on mobile."
+      ],
+      "defining_traits": [
+        "progressive column stacking",
+        "consistent element sizes",
+        "multi-to-single column"
+      ],
+      "examples": [
+        "three-column marketing pages that stack on mobile"
+      ],
+      "related": [
+        "mostly-fluid",
+        "split-screen",
+        "responsive-breakpoints"
+      ],
+      "sources": [
+        {
+          "title": "Multi-Device Layout Patterns",
+          "url": "https://www.lukew.com/ff/entry.asp?1514=",
+          "publisher": "LukeW (Luke Wroblewski)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "layout-shifter",
+      "name": "Layout Shifter",
+      "category": "responsive-pattern",
+      "tags": [
+        "responsive",
+        "reflow",
+        "wroblewski",
+        "breakpoint"
+      ],
+      "summary": "A responsive pattern that uses distinctly different layouts at different breakpoints, actively rearranging content rather than just reflowing or stacking it.",
+      "significance": "The most flexible and creative of Wroblewski's five patterns, and the most work: it does the most to adapt across screen sizes, enabling tailored compositions per device class.",
+      "key_facts": [
+        "One of five patterns from Luke Wroblewski's 'Multi-Device Layout Patterns' (2012).",
+        "Uses genuinely different layouts for large, medium, and small screens.",
+        "Adapts the most across screen sizes and is where much innovative responsive design happens.",
+        "Requires the most effort because multiple distinct layouts must be designed and maintained."
+      ],
+      "defining_traits": [
+        "distinct per-breakpoint layouts",
+        "active rearrangement",
+        "high effort"
+      ],
+      "examples": [
+        "bespoke marketing sites with device-specific compositions"
+      ],
+      "related": [
+        "holy-grail",
+        "mostly-fluid",
+        "container-queries"
+      ],
+      "sources": [
+        {
+          "title": "Multi-Device Layout Patterns",
+          "url": "https://www.lukew.com/ff/entry.asp?1514=",
+          "publisher": "LukeW (Luke Wroblewski)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "tiny-tweaks",
+      "name": "Tiny Tweaks",
+      "category": "responsive-pattern",
+      "tags": [
+        "responsive",
+        "single-column",
+        "wroblewski",
+        "minimal"
+      ],
+      "summary": "A responsive pattern that keeps one layout and only makes minor adjustments (font size, image sizing, margins/padding) as the viewport changes.",
+      "significance": "The simplest of Wroblewski's five patterns; ideal for single-column, text-centric pages where no structural rearrangement is needed, only proportional refinement.",
+      "key_facts": [
+        "One of five patterns from Luke Wroblewski's 'Multi-Device Layout Patterns' (2012).",
+        "Adjusts only small details such as font sizes, image layout, margins, and padding.",
+        "Keeps the same overall layout across all screen sizes.",
+        "Was the least common of the five, since few sites are simple enough single-column designs to use it alone."
+      ],
+      "defining_traits": [
+        "single layout",
+        "proportional-only changes",
+        "no restructuring"
+      ],
+      "examples": [
+        "minimal single-column articles and landing pages"
+      ],
+      "related": [
+        "single-column",
+        "mostly-fluid",
+        "fluid-typography"
+      ],
+      "sources": [
+        {
+          "title": "Multi-Device Layout Patterns",
+          "url": "https://www.lukew.com/ff/entry.asp?1514=",
+          "publisher": "LukeW (Luke Wroblewski)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "off-canvas-responsive",
+      "name": "Off Canvas (Responsive Pattern)",
+      "category": "responsive-pattern",
+      "tags": [
+        "responsive",
+        "off-canvas",
+        "wroblewski",
+        "navigation"
+      ],
+      "summary": "A responsive pattern that pushes less-frequently used content (typically navigation) off-screen on small viewports and reveals it on demand or when the screen widens.",
+      "significance": "One of Wroblewski's five patterns and the structural basis of the hamburger/drawer navigation; it conserves scarce small-screen space instead of stacking everything into a long scroll.",
+      "key_facts": [
+        "One of five patterns from Luke Wroblewski's 'Multi-Device Layout Patterns' (2012).",
+        "Hides secondary content/navigation off-screen rather than stacking or shrinking it.",
+        "Hidden content is retrieved on user action (JavaScript-driven) or shown when the viewport is wide enough.",
+        "It is the responsive-layout basis for the off-canvas / hamburger navigation UI pattern."
+      ],
+      "defining_traits": [
+        "off-screen storage",
+        "reveal on demand",
+        "small-screen space saving"
+      ],
+      "examples": [
+        "responsive sites hiding nav behind a hamburger on mobile"
+      ],
+      "related": [
+        "off-canvas-nav",
+        "layout-shifter",
+        "tab-bar-mobile"
+      ],
+      "sources": [
+        {
+          "title": "Multi-Device Layout Patterns",
+          "url": "https://www.lukew.com/ff/entry.asp?1514=",
+          "publisher": "LukeW (Luke Wroblewski)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    }
+  ]
+}

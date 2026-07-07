@@ -1,0 +1,1391 @@
+{
+  "topic": "iconic-palettes",
+  "title": "Iconic Brand Palettes & Classic Color Schemes",
+  "description": "Famous brand/product color palettes with verified hex codes, plus classic design-system palettes and developer color themes.",
+  "schema_version": "1.0",
+  "count": 35,
+  "last_updated": "2026-07-07",
+  "entries": [
+    {
+      "id": "spotify-palette",
+      "name": "Spotify",
+      "category": "brand-palette",
+      "tags": [
+        "music",
+        "green",
+        "dark-ui",
+        "tech"
+      ],
+      "org": "Spotify",
+      "summary": "Spotify's brand palette pairs a single vivid green with near-black and white for a high-energy, dark-first look.",
+      "significance": "One of the most recognizable single-color brands in tech; the green reads as 'alive/growth' against the app's dark background and is used for the logo, play button, and primary actions.",
+      "key_facts": [
+        "Primary Spotify Green is #1DB954 (RGB 29, 185, 84).",
+        "Brand black is #191414, not pure black.",
+        "White #FFFFFF completes the core three-color system."
+      ],
+      "colors": [
+        "#1DB954",
+        "#191414",
+        "#FFFFFF"
+      ],
+      "examples": [
+        "Spotify logo",
+        "Play button",
+        "Now-playing bar"
+      ],
+      "sources": [
+        {
+          "title": "Spotify Brand Color Codes",
+          "url": "https://www.brandcolorcode.com/spotify",
+          "publisher": "BrandColorCode",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Spotify Colors",
+          "url": "https://usbrandcolors.com/spotify-colors/",
+          "publisher": "US Brand Colors",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "slack-palette",
+      "name": "Slack",
+      "category": "brand-palette",
+      "tags": [
+        "saas",
+        "productivity",
+        "aubergine",
+        "multicolor"
+      ],
+      "org": "Salesforce (Slack)",
+      "summary": "Slack combines a deep aubergine base with a four-color hashtag mark in cyan, green, yellow, and magenta.",
+      "significance": "The 2019 rebrand standardized aubergine as the anchor and gave the octothorpe logo four fixed accent hues used across marketing and UI.",
+      "key_facts": [
+        "Aubergine base is #4A154B.",
+        "Logo accents: blue #36C5F0, green #2EB67D, yellow #ECB22E, red #E01E5A."
+      ],
+      "colors": [
+        "#4A154B",
+        "#36C5F0",
+        "#2EB67D",
+        "#ECB22E",
+        "#E01E5A"
+      ],
+      "examples": [
+        "Slack logo",
+        "Workspace sidebar"
+      ],
+      "sources": [
+        {
+          "title": "Slack Logo Color Codes",
+          "url": "https://brandpalettes.com/slack-logo-color-codes/",
+          "publisher": "Brand Palettes",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Slack Color Palette",
+          "url": "https://www.onlinepalette.com/slack/",
+          "publisher": "Online Palette",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "stripe-palette",
+      "name": "Stripe",
+      "category": "brand-palette",
+      "tags": [
+        "fintech",
+        "payments",
+        "indigo",
+        "developer"
+      ],
+      "org": "Stripe",
+      "summary": "Stripe's identity centers on a purple-leaning indigo that deliberately avoids the navy most fintech brands use.",
+      "significance": "The distinctive indigo plus generous whitespace and gradient accents became a widely imitated 'developer product' aesthetic.",
+      "key_facts": [
+        "Primary Stripe indigo (Blurple) is #635BFF (RGB 99, 91, 255)."
+      ],
+      "colors": [
+        "#635BFF",
+        "#0A2540",
+        "#FFFFFF"
+      ],
+      "examples": [
+        "Stripe.com",
+        "Stripe Dashboard"
+      ],
+      "sources": [
+        {
+          "title": "Stripe Brand Color Palette",
+          "url": "https://mobbin.com/colors/brand/stripe",
+          "publisher": "Mobbin",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Stripe Brand Color Codes",
+          "url": "https://www.brandcolorcode.com/stripe",
+          "publisher": "BrandColorCode",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "airbnb-palette",
+      "name": "Airbnb",
+      "category": "brand-palette",
+      "tags": [
+        "travel",
+        "coral",
+        "marketplace"
+      ],
+      "org": "Airbnb",
+      "summary": "Airbnb's signature coral-red 'Rausch' anchors a warm, friendly palette.",
+      "significance": "The 2014 Belo rebrand named the color 'Rausch' after 19 Rausch Street, the address of the founders' first hosted stay.",
+      "key_facts": [
+        "Rausch is #FF5A5F (RGB 255, 90, 95).",
+        "Named after 19 Rausch Street, San Francisco."
+      ],
+      "colors": [
+        "#FF5A5F",
+        "#FC642D",
+        "#484848",
+        "#767676"
+      ],
+      "examples": [
+        "Airbnb logo (Belo)",
+        "Book button"
+      ],
+      "sources": [
+        {
+          "title": "Airbnb Colors",
+          "url": "https://usbrandcolors.com/airbnb-colors/",
+          "publisher": "US Brand Colors",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Airbnb brand colors",
+          "url": "https://brandcolors.net/b/airbnb",
+          "publisher": "BrandColors",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "coca-cola-palette",
+      "name": "Coca-Cola",
+      "category": "brand-palette",
+      "tags": [
+        "beverage",
+        "red",
+        "heritage"
+      ],
+      "org": "The Coca-Cola Company",
+      "summary": "Coca-Cola's identity is built on a single bright red paired with white.",
+      "significance": "One of the oldest and most globally recognized single-color brand systems; 'Coca-Cola Red' is effectively synonymous with the product.",
+      "key_facts": [
+        "Coca-Cola red is commonly documented as #F40009 (sources vary slightly, e.g. #FE001A).",
+        "White #FFFFFF is the standard secondary."
+      ],
+      "colors": [
+        "#F40009",
+        "#FFFFFF"
+      ],
+      "examples": [
+        "Coca-Cola logo",
+        "Can and bottle labels"
+      ],
+      "sources": [
+        {
+          "title": "Coca-Cola Colors",
+          "url": "https://usbrandcolors.com/coca-cola-colors/",
+          "publisher": "US Brand Colors",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Coca-Cola Color Codes",
+          "url": "https://brandpalettes.com/coca-cola-color-codes/",
+          "publisher": "Brand Palettes",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "tiffany-palette",
+      "name": "Tiffany & Co. (Tiffany Blue)",
+      "category": "brand-palette",
+      "tags": [
+        "luxury",
+        "robin-egg",
+        "trademarked",
+        "pantone"
+      ],
+      "org": "Tiffany & Co.",
+      "summary": "Tiffany Blue is a trademarked robin's-egg blue-green used on the brand's boxes and bags.",
+      "significance": "A rare example of a legally protected brand color; standardized with Pantone as a private custom color named '1837 Blue' after the company's founding year.",
+      "key_facts": [
+        "Tiffany Blue hex is #0ABAB5 (RGB 10, 186, 181).",
+        "Pantone custom color '1837 Blue', named for the 1837 founding year.",
+        "Registered as a color trademark in 1998; not sold in standard Pantone swatch books."
+      ],
+      "colors": [
+        "#0ABAB5"
+      ],
+      "examples": [
+        "Tiffany gift box",
+        "Shopping bag"
+      ],
+      "sources": [
+        {
+          "title": "Tiffany Blue",
+          "url": "https://en.wikipedia.org/wiki/Tiffany_Blue",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "#0abab5 Hex Color",
+          "url": "https://encycolorpedia.com/0abab5",
+          "publisher": "Encycolorpedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "meta-palette",
+      "name": "Meta / Facebook",
+      "category": "brand-palette",
+      "tags": [
+        "social",
+        "blue",
+        "tech"
+      ],
+      "org": "Meta Platforms",
+      "summary": "Facebook's long-standing blue was refreshed to a brighter Meta blue in the 2021 corporate rebrand.",
+      "significance": "'Facebook Blue' defined a generation of social-web UI; the color was reportedly chosen partly because founder Mark Zuckerberg is red-green colorblind.",
+      "key_facts": [
+        "Classic Facebook Blue is #1877F2.",
+        "Refreshed Meta blue is #0866FF."
+      ],
+      "colors": [
+        "#0866FF",
+        "#1877F2",
+        "#FFFFFF"
+      ],
+      "examples": [
+        "Facebook app",
+        "Meta corporate branding"
+      ],
+      "sources": [
+        {
+          "title": "Social Media Colors",
+          "url": "https://lockedownseo.com/social-media-colors/",
+          "publisher": "Locked Down SEO",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Facebook brand colors",
+          "url": "https://brandcolors.net/b/facebook",
+          "publisher": "BrandColors",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "twitter-x-palette",
+      "name": "Twitter / X",
+      "category": "brand-palette",
+      "tags": [
+        "social",
+        "black",
+        "blue",
+        "rebrand"
+      ],
+      "org": "X Corp.",
+      "summary": "The platform shifted from a light-blue bird identity to a monochrome black-and-white 'X' in 2023.",
+      "significance": "Illustrates a dramatic palette pivot: the iconic '1DA1F2' Twitter blue was largely replaced by black/white after the X rebrand.",
+      "key_facts": [
+        "Classic Twitter Blue is #1DA1F2.",
+        "X brand is primarily black #000000 on white #FFFFFF."
+      ],
+      "colors": [
+        "#000000",
+        "#FFFFFF",
+        "#1DA1F2"
+      ],
+      "examples": [
+        "X logo",
+        "Legacy Twitter bird"
+      ],
+      "sources": [
+        {
+          "title": "Social Media Colors",
+          "url": "https://lockedownseo.com/social-media-colors/",
+          "publisher": "Locked Down SEO",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "ibm-palette",
+      "name": "IBM (Carbon Blue)",
+      "category": "brand-palette",
+      "tags": [
+        "enterprise",
+        "blue",
+        "design-system"
+      ],
+      "org": "IBM",
+      "summary": "IBM's Carbon Design System centers on 'Blue 60' as the primary interactive color across a full blue ramp.",
+      "significance": "Carbon's blue and neutral gray ramps are among the most influential enterprise UI color systems.",
+      "key_facts": [
+        "IBM primary interactive Blue 60 is #0F62FE.",
+        "Carbon defines a 10-step blue scale from Blue 10 to Blue 100."
+      ],
+      "colors": [
+        "#0F62FE",
+        "#001141",
+        "#161616",
+        "#F4F4F4"
+      ],
+      "examples": [
+        "IBM Cloud",
+        "Carbon components"
+      ],
+      "sources": [
+        {
+          "title": "Carbon Design System",
+          "url": "https://carbondesignsystem.com/",
+          "publisher": "IBM",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "google-palette",
+      "name": "Google (Four Colors)",
+      "category": "brand-palette",
+      "tags": [
+        "tech",
+        "multicolor",
+        "playful"
+      ],
+      "org": "Google",
+      "summary": "Google's identity uses four primary hues — blue, red, yellow, green — in the logo and product icons.",
+      "significance": "The four-color mark signals approachability and has anchored Google's identity since the late 1990s; the current flat values were set with the 2015 logo refresh.",
+      "key_facts": [
+        "Google Blue #4285F4, Red #EA4335, Yellow #FBBC05, Green #34A853."
+      ],
+      "colors": [
+        "#4285F4",
+        "#EA4335",
+        "#FBBC05",
+        "#34A853"
+      ],
+      "examples": [
+        "Google logo",
+        "Chrome icon"
+      ],
+      "sources": [
+        {
+          "title": "Google Colors",
+          "url": "https://brandpalettes.com/google-colors/",
+          "publisher": "Brand Palettes",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "netflix-palette",
+      "name": "Netflix",
+      "category": "brand-palette",
+      "tags": [
+        "streaming",
+        "red",
+        "dark-ui"
+      ],
+      "org": "Netflix",
+      "summary": "Netflix uses a bold red on near-black, a high-contrast cinematic pairing.",
+      "significance": "'Netflix Red' is a defining streaming-era brand color; the dark UI foregrounds cover art.",
+      "key_facts": [
+        "Netflix Red is #E50914 per brand logo guidance.",
+        "Brand black is #221F1F / #141414 in-app."
+      ],
+      "colors": [
+        "#E50914",
+        "#221F1F",
+        "#FFFFFF"
+      ],
+      "examples": [
+        "Netflix logo",
+        "Streaming app UI"
+      ],
+      "sources": [
+        {
+          "title": "Netflix Symbol & Logo Guidance (PDF)",
+          "url": "https://assets.ctfassets.net/4cd45et68cgf/viVq3fhHa1cmQTo3g3p6i/e649362c86a78c3744beebc641e6ec19/2020_Netflix_Symbol_Logo_Guidance.pdf",
+          "publisher": "Netflix",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Netflix Color Codes",
+          "url": "https://brandpalettes.com/netflix-color-codes/",
+          "publisher": "Brand Palettes",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "notion-palette",
+      "name": "Notion",
+      "category": "brand-palette",
+      "tags": [
+        "productivity",
+        "monochrome",
+        "minimal"
+      ],
+      "org": "Notion Labs",
+      "summary": "Notion's brand is near-monochrome: black on white/off-white with muted, low-saturation content accents.",
+      "significance": "Popularized a restrained, editorial black-and-white product aesthetic; content colors are intentionally desaturated to avoid competing with user data.",
+      "key_facts": [
+        "Primary is black #000000 / near-black #191919 on white.",
+        "In-app accent swatches are muted pastels rather than saturated brand hues."
+      ],
+      "colors": [
+        "#191919",
+        "#FFFFFF",
+        "#EB5757",
+        "#2F80ED"
+      ],
+      "examples": [
+        "Notion logo",
+        "Notion editor"
+      ],
+      "sources": [
+        {
+          "title": "Notion Brand Color Palette",
+          "url": "https://mobbin.com/colors/brand/notion",
+          "publisher": "Mobbin",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "linear-palette",
+      "name": "Linear",
+      "category": "brand-palette",
+      "tags": [
+        "saas",
+        "dark-ui",
+        "indigo",
+        "developer"
+      ],
+      "org": "Linear",
+      "summary": "Linear pairs a violet-indigo brand accent with a refined dark-gray UI.",
+      "significance": "Linear's dark, high-craft aesthetic and indigo accent became a reference point for modern developer-tool design.",
+      "key_facts": [
+        "Brand accent is an indigo/violet around #5E6AD2.",
+        "UI is built on a neutral dark-gray ramp."
+      ],
+      "colors": [
+        "#5E6AD2",
+        "#08090A",
+        "#1C1C1F",
+        "#F7F8F8"
+      ],
+      "examples": [
+        "Linear app",
+        "Linear.app marketing"
+      ],
+      "sources": [
+        {
+          "title": "Linear Brand Color Palette",
+          "url": "https://mobbin.com/colors/brand/linear",
+          "publisher": "Mobbin",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "discord-palette",
+      "name": "Discord (Blurple)",
+      "category": "brand-palette",
+      "tags": [
+        "chat",
+        "gaming",
+        "blurple",
+        "dark-ui"
+      ],
+      "org": "Discord",
+      "summary": "Discord's identity is anchored by 'Blurple', a blue-purple hybrid, on a dark neutral UI.",
+      "significance": "The 2021 rebrand shifted Blurple from #7289DA to a brighter, more accessible #5865F2.",
+      "key_facts": [
+        "Current Blurple is #5865F2 (RGB 88, 101, 242).",
+        "Original (pre-2021) Blurple was #7289DA.",
+        "Dark UI base is around #2C2F33 / #23272A."
+      ],
+      "colors": [
+        "#5865F2",
+        "#7289DA",
+        "#2C2F33",
+        "#23272A"
+      ],
+      "examples": [
+        "Discord logo",
+        "Discord app"
+      ],
+      "sources": [
+        {
+          "title": "Blurple",
+          "url": "https://discord.fandom.com/wiki/Blurple",
+          "publisher": "Discord Wiki",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Discord Blue #5865F2",
+          "url": "https://www.color-name.com/discord-blue.color",
+          "publisher": "Color-Name",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "cash-app-palette",
+      "name": "Cash App",
+      "category": "brand-palette",
+      "tags": [
+        "fintech",
+        "green",
+        "payments"
+      ],
+      "org": "Block, Inc.",
+      "summary": "Cash App uses a single bright, high-chroma green as its dominant brand color.",
+      "significance": "The vivid green signals money and immediacy and is used near-monochromatically across the app.",
+      "key_facts": [
+        "Primary Cash App green is #00D632."
+      ],
+      "colors": [
+        "#00D632",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "examples": [
+        "Cash App logo",
+        "Cash App UI"
+      ],
+      "sources": [
+        {
+          "title": "The Cash App Logo, Colors and Meaning",
+          "url": "https://www.designyourway.net/blog/cash-app-logo/",
+          "publisher": "Design Your Way",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "mailchimp-palette",
+      "name": "Mailchimp (Cavendish Yellow)",
+      "category": "brand-palette",
+      "tags": [
+        "marketing",
+        "yellow",
+        "email"
+      ],
+      "org": "Mailchimp (Intuit)",
+      "summary": "Mailchimp's brand centers on 'Cavendish' yellow paired with near-black.",
+      "significance": "A rare high-visibility yellow-led identity; the yellow-plus-black system is distinctive in the SaaS space.",
+      "key_facts": [
+        "Cavendish yellow is #FFE01B.",
+        "Brand black is #241C15."
+      ],
+      "colors": [
+        "#FFE01B",
+        "#241C15"
+      ],
+      "examples": [
+        "Mailchimp logo (Freddie)",
+        "Mailchimp dashboard"
+      ],
+      "sources": [
+        {
+          "title": "Mailchimp brand colors",
+          "url": "https://brandcolors.net/b/mailchimp",
+          "publisher": "BrandColors",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Mailchimp Color Palette",
+          "url": "https://www.designpieces.com/palette/mailchimp-color-palette-hex-and-rgb/",
+          "publisher": "Design Pieces",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "instagram-palette",
+      "name": "Instagram (Gradient)",
+      "category": "brand-palette",
+      "tags": [
+        "social",
+        "gradient",
+        "multicolor"
+      ],
+      "org": "Meta Platforms",
+      "summary": "Instagram's 2016 rebrand replaced its skeuomorphic camera with a warm purple-to-orange gradient mark.",
+      "significance": "Popularized multi-stop brand gradients; the sunset gradient became widely imitated across app branding.",
+      "key_facts": [
+        "Gradient runs roughly from purple/blue through magenta to orange/yellow.",
+        "Common stops include #405DE6, #833AB4, #C13584, #E1306C, #FD1D1D, #F77737, #FCAF45 (exact stops vary by asset)."
+      ],
+      "colors": [
+        "#405DE6",
+        "#833AB4",
+        "#C13584",
+        "#E1306C",
+        "#FD1D1D",
+        "#F77737",
+        "#FCAF45"
+      ],
+      "examples": [
+        "Instagram app icon",
+        "Story ring gradient"
+      ],
+      "sources": [
+        {
+          "title": "Social Media Colors",
+          "url": "https://lockedownseo.com/social-media-colors/",
+          "publisher": "Locked Down SEO",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "firefox-palette",
+      "name": "Firefox",
+      "category": "brand-palette",
+      "tags": [
+        "browser",
+        "orange",
+        "gradient"
+      ],
+      "org": "Mozilla",
+      "summary": "Firefox's identity uses a warm orange-to-magenta gradient wrapping a stylized fox.",
+      "significance": "The 2019 Firefox brand system introduced a gradient-based logo family spanning the browser and related products.",
+      "key_facts": [
+        "Primary brand orange is around #FF7139.",
+        "Logo gradient extends into red/magenta and yellow."
+      ],
+      "colors": [
+        "#FF7139",
+        "#FF980E",
+        "#E31587",
+        "#FFCB2E"
+      ],
+      "examples": [
+        "Firefox logo",
+        "Firefox browser chrome"
+      ],
+      "sources": [
+        {
+          "title": "Firefox brand colors",
+          "url": "https://brandcolors.net/b/firefox",
+          "publisher": "BrandColors",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "twitch-palette",
+      "name": "Twitch",
+      "category": "brand-palette",
+      "tags": [
+        "streaming",
+        "purple",
+        "gaming"
+      ],
+      "org": "Twitch (Amazon)",
+      "summary": "Twitch uses a saturated purple as its dominant brand color on a dark UI.",
+      "significance": "The purple 'Glitch' mark is instantly associated with live game streaming.",
+      "key_facts": [
+        "Twitch purple is #9146FF."
+      ],
+      "colors": [
+        "#9146FF",
+        "#FFFFFF",
+        "#0E0E10"
+      ],
+      "examples": [
+        "Twitch logo",
+        "Twitch app"
+      ],
+      "sources": [
+        {
+          "title": "Twitch brand colors",
+          "url": "https://brandcolors.net/b/twitch",
+          "publisher": "BrandColors",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "youtube-palette",
+      "name": "YouTube",
+      "category": "brand-palette",
+      "tags": [
+        "video",
+        "red",
+        "media"
+      ],
+      "org": "YouTube (Google)",
+      "summary": "YouTube's identity is built on a bright red play button on white or dark backgrounds.",
+      "significance": "The red play triangle is one of the most recognized UI marks in the world.",
+      "key_facts": [
+        "YouTube red is #FF0000 (the 2017 refresh moved the red into the play button)."
+      ],
+      "colors": [
+        "#FF0000",
+        "#282828",
+        "#FFFFFF"
+      ],
+      "examples": [
+        "YouTube logo",
+        "Play button"
+      ],
+      "sources": [
+        {
+          "title": "YouTube brand colors",
+          "url": "https://brandcolors.net/b/youtube",
+          "publisher": "BrandColors",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "material-design-palette",
+      "name": "Material Design Color Palette",
+      "category": "classic-scheme",
+      "tags": [
+        "google",
+        "design-system",
+        "swatches"
+      ],
+      "org": "Google",
+      "summary": "Material Design's original palette defines a set of hues (Red, Pink, Blue, Green, etc.) each with tonal steps from 50 to 900 plus accent values.",
+      "significance": "The 50-900 numeric tonal ramp became a de-facto convention for organizing UI color scales across the industry.",
+      "key_facts": [
+        "Representative 500-level swatches: Red #F44336, Pink #E91E63, Purple #9C27B0, Indigo #3F51B5, Blue #2196F3, Teal #009688, Green #4CAF50, Amber #FFC107.",
+        "Each hue defines steps 50, 100–900 plus A100–A700 accents.",
+        "Material 3 later replaced fixed swatches with dynamic tonal palettes generated from a seed color."
+      ],
+      "colors": [
+        "#F44336",
+        "#E91E63",
+        "#9C27B0",
+        "#3F51B5",
+        "#2196F3",
+        "#009688",
+        "#4CAF50",
+        "#FFC107"
+      ],
+      "examples": [
+        "Android apps",
+        "Google Workspace"
+      ],
+      "sources": [
+        {
+          "title": "The color system",
+          "url": "https://m2.material.io/design/color/the-color-system.html",
+          "publisher": "Google Material Design",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "tailwind-palette",
+      "name": "Tailwind CSS Default Palette",
+      "category": "classic-scheme",
+      "tags": [
+        "css",
+        "utility",
+        "swatches",
+        "ramps"
+      ],
+      "org": "Tailwind Labs",
+      "summary": "Tailwind ships a default palette of named hues (slate, red, blue, green, etc.), each as an 11-step 50–950 ramp.",
+      "significance": "Tailwind's carefully-tuned ramps became the default color vocabulary for a large share of modern web UIs; v4 redefined the swatches in the OKLCH color space for wider-gamut vibrancy.",
+      "key_facts": [
+        "Representative 500-level swatches: Red #EF4444, Amber #F59E0B, Green #22C55E, Blue #3B82F6, Indigo #6366F1, Slate #64748B.",
+        "Each color spans 11 steps: 50, 100–900, 950.",
+        "Tailwind v4 (2025) defines the default palette in OKLCH."
+      ],
+      "colors": [
+        "#EF4444",
+        "#F59E0B",
+        "#22C55E",
+        "#3B82F6",
+        "#6366F1",
+        "#64748B"
+      ],
+      "examples": [
+        "Tailwind-built sites",
+        "shadcn/ui defaults"
+      ],
+      "sources": [
+        {
+          "title": "Colors",
+          "url": "https://tailwindcss.com/docs/colors",
+          "publisher": "Tailwind CSS",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "radix-colors-palette",
+      "name": "Radix Colors",
+      "category": "classic-scheme",
+      "tags": [
+        "design-system",
+        "accessible",
+        "12-step",
+        "ui"
+      ],
+      "org": "WorkOS (Radix)",
+      "summary": "Radix Colors is an open-source system of 12-step scales engineered for specific UI roles (backgrounds, components, borders, solids, text).",
+      "significance": "Its role-based 12-step model (rather than arbitrary shades) and APCA-based contrast targets made it a reference for accessible UI color systems.",
+      "key_facts": [
+        "Each scale has 12 steps: backgrounds (1–2), interactive components (3–5), borders (6–8), solid colors (9–10), accessible text (11–12).",
+        "Ships 22 color scales, 6 grays, plus transparent variants (336 colors total).",
+        "Contrast targets use the APCA algorithm."
+      ],
+      "colors": [
+        "#0D3868",
+        "#0954A5",
+        "#0091FF",
+        "#369EFF",
+        "#52A9FF",
+        "#EAF6FF"
+      ],
+      "examples": [
+        "Radix Themes",
+        "Many React design systems"
+      ],
+      "sources": [
+        {
+          "title": "Radix Colors",
+          "url": "https://www.radix-ui.com/colors",
+          "publisher": "Radix",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Scales",
+          "url": "https://www.radix-ui.com/colors/docs/palette-composition/scales",
+          "publisher": "Radix",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "ios-system-colors",
+      "name": "iOS / Apple System Colors",
+      "category": "classic-scheme",
+      "tags": [
+        "apple",
+        "mobile",
+        "semantic",
+        "adaptive"
+      ],
+      "org": "Apple",
+      "summary": "Apple's Human Interface Guidelines define semantic system colors (systemBlue, systemGreen, etc.) that adapt between light and dark appearances.",
+      "significance": "System colors give apps a consistent, accessible, appearance-aware palette; the light-mode default values are widely referenced.",
+      "key_facts": [
+        "Light-mode defaults: systemBlue #007AFF, systemGreen #34C759, systemRed #FF3B30, systemOrange #FF9500, systemYellow #FFCC00, systemPink #FF2D55, systemPurple #AF52DE, systemIndigo #5856D6.",
+        "Values shift automatically in Dark Mode and for increased-contrast settings."
+      ],
+      "colors": [
+        "#007AFF",
+        "#34C759",
+        "#FF3B30",
+        "#FF9500",
+        "#FFCC00",
+        "#FF2D55",
+        "#AF52DE",
+        "#5856D6"
+      ],
+      "examples": [
+        "iOS apps",
+        "UIKit / SwiftUI"
+      ],
+      "sources": [
+        {
+          "title": "Color — Human Interface Guidelines",
+          "url": "https://developer.apple.com/design/human-interface-guidelines/color",
+          "publisher": "Apple",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "nord-theme",
+      "name": "Nord",
+      "category": "classic-scheme",
+      "tags": [
+        "theme",
+        "arctic",
+        "muted",
+        "developer"
+      ],
+      "org": "Nord (Arctic Ice Studio)",
+      "summary": "Nord is a cool, arctic-inspired 16-color palette grouped into Polar Night, Snow Storm, Frost, and Aurora.",
+      "significance": "A very popular editor/terminal theme known for its muted, low-contrast blue-gray aesthetic.",
+      "key_facts": [
+        "Polar Night: #2E3440, #3B4252, #434C5E, #4C566A.",
+        "Snow Storm: #D8DEE9, #E5E9F0, #ECEFF4.",
+        "Frost: #8FBCBB, #88C0D0, #81A1C1, #5E81AC.",
+        "Aurora: #BF616A, #D08770, #EBCB8B, #A3BE8C, #B48EAD."
+      ],
+      "colors": [
+        "#2E3440",
+        "#3B4252",
+        "#434C5E",
+        "#4C566A",
+        "#D8DEE9",
+        "#E5E9F0",
+        "#ECEFF4",
+        "#8FBCBB",
+        "#88C0D0",
+        "#81A1C1",
+        "#5E81AC",
+        "#BF616A",
+        "#D08770",
+        "#EBCB8B",
+        "#A3BE8C",
+        "#B48EAD"
+      ],
+      "examples": [
+        "VS Code Nord theme",
+        "Terminal themes"
+      ],
+      "sources": [
+        {
+          "title": "Colors and Palettes",
+          "url": "https://www.nordtheme.com/docs/colors-and-palettes",
+          "publisher": "Nord Theme",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "dracula-theme",
+      "name": "Dracula",
+      "category": "classic-scheme",
+      "tags": [
+        "theme",
+        "dark",
+        "vibrant",
+        "developer"
+      ],
+      "org": "Dracula Theme",
+      "summary": "Dracula is a dark theme with a purple-tinted background and a set of vivid pastel accents.",
+      "significance": "One of the most widely ported dark developer themes, with a formal spec covering dozens of apps.",
+      "key_facts": [
+        "Background #282A36, current line #44475A, foreground #F8F8F2, comment #6272A4.",
+        "Accents: cyan #8BE9FD, green #50FA7B, orange #FFB86C, pink #FF79C6, purple #BD93F9, red #FF5555, yellow #F1FA8C."
+      ],
+      "colors": [
+        "#282A36",
+        "#44475A",
+        "#F8F8F2",
+        "#6272A4",
+        "#8BE9FD",
+        "#50FA7B",
+        "#FFB86C",
+        "#FF79C6",
+        "#BD93F9",
+        "#FF5555",
+        "#F1FA8C"
+      ],
+      "examples": [
+        "VS Code Dracula theme",
+        "iTerm, Vim ports"
+      ],
+      "sources": [
+        {
+          "title": "Dracula Theme Spec",
+          "url": "https://draculatheme.com/spec",
+          "publisher": "Dracula",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "solarized-theme",
+      "name": "Solarized",
+      "category": "classic-scheme",
+      "tags": [
+        "theme",
+        "precision",
+        "light-dark",
+        "developer"
+      ],
+      "org": "Ethan Schoonover",
+      "summary": "Solarized is a sixteen-color palette (light and dark modes) built on carefully measured CIELAB relationships.",
+      "significance": "Influential for its methodical, perceptually-tuned design: the base tones share fixed lightness relationships so light and dark modes use the same accent hues.",
+      "key_facts": [
+        "Base tones: base03 #002B36, base02 #073642, base01 #586E75, base00 #657B83, base0 #839496, base1 #93A1A1, base2 #EEE8D5, base3 #FDF6E3.",
+        "Accents: yellow #B58900, orange #CB4B16, red #DC322F, magenta #D33682, violet #6C71C4, blue #268BD2, cyan #2AA198, green #859900."
+      ],
+      "colors": [
+        "#002B36",
+        "#073642",
+        "#586E75",
+        "#657B83",
+        "#839496",
+        "#93A1A1",
+        "#EEE8D5",
+        "#FDF6E3",
+        "#B58900",
+        "#CB4B16",
+        "#DC322F",
+        "#D33682",
+        "#6C71C4",
+        "#268BD2",
+        "#2AA198",
+        "#859900"
+      ],
+      "examples": [
+        "Vim/Emacs themes",
+        "Terminal color schemes"
+      ],
+      "sources": [
+        {
+          "title": "Solarized",
+          "url": "https://ethanschoonover.com/solarized/",
+          "publisher": "Ethan Schoonover",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "catppuccin-theme",
+      "name": "Catppuccin",
+      "category": "classic-scheme",
+      "tags": [
+        "theme",
+        "pastel",
+        "soothing",
+        "developer"
+      ],
+      "org": "Catppuccin",
+      "summary": "Catppuccin is a soothing pastel theme with four flavors — Latte (light), Frappe, Macchiato, and Mocha (darkest).",
+      "significance": "A modern community theme known for balanced pastel accents; widely ported across editors, terminals, and apps.",
+      "key_facts": [
+        "Mocha base #1E1E2E, text #CDD6F4.",
+        "Mocha accents include rosewater #F5E0DC, mauve #CBA6F7, red #F38BA8, green #A6E3A1, blue #89B4FA, yellow #F9E2AF.",
+        "Four flavors: Latte, Frappe, Macchiato, Mocha."
+      ],
+      "colors": [
+        "#1E1E2E",
+        "#CDD6F4",
+        "#F5E0DC",
+        "#CBA6F7",
+        "#F38BA8",
+        "#A6E3A1",
+        "#89B4FA",
+        "#F9E2AF"
+      ],
+      "examples": [
+        "VS Code",
+        "Neovim",
+        "Terminal themes"
+      ],
+      "sources": [
+        {
+          "title": "Palette",
+          "url": "https://catppuccin.com/palette/",
+          "publisher": "Catppuccin",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "gruvbox-theme",
+      "name": "Gruvbox",
+      "category": "classic-scheme",
+      "tags": [
+        "theme",
+        "retro",
+        "warm",
+        "developer"
+      ],
+      "org": "Pavel Pertsev (morhetz)",
+      "summary": "Gruvbox is a retro-groove theme with warm, earthy tones and both dark and light variants.",
+      "significance": "Popular for its warm, low-eye-strain palette that avoids the cool blues of most dark themes.",
+      "key_facts": [
+        "Dark bg #282828, fg #EBDBB2.",
+        "Accents: red #CC241D, green #98971A, yellow #D79921, blue #458588, purple #B16286, aqua #689D6A, orange #D65D0E."
+      ],
+      "colors": [
+        "#282828",
+        "#EBDBB2",
+        "#CC241D",
+        "#98971A",
+        "#D79921",
+        "#458588",
+        "#B16286",
+        "#689D6A",
+        "#D65D0E"
+      ],
+      "examples": [
+        "Vim/Neovim",
+        "Terminal themes"
+      ],
+      "sources": [
+        {
+          "title": "gruvbox",
+          "url": "https://github.com/morhetz/gruvbox",
+          "publisher": "GitHub (morhetz)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "pantone-color-of-the-year",
+      "name": "Pantone Color of the Year (Overview)",
+      "category": "classic-scheme",
+      "tags": [
+        "pantone",
+        "trend",
+        "annual"
+      ],
+      "org": "Pantone Color Institute",
+      "summary": "Since 2000, Pantone has named an annual Color of the Year intended to reflect the cultural moment and influence design across industries.",
+      "significance": "A widely-watched trend signal that ripples through fashion, product, and graphic design each year.",
+      "key_facts": [
+        "2020 Classic Blue #0F4C81.",
+        "2021 Ultimate Gray #939597 + Illuminating #F5DF4D (a pair).",
+        "2022 Very Peri #6667AB.",
+        "2023 Viva Magenta #BB2649.",
+        "2024 Peach Fuzz #FFBE98.",
+        "2025 Mocha Mousse #A47864.",
+        "2026 Cloud Dancer (a soft white)."
+      ],
+      "colors": [
+        "#0F4C81",
+        "#939597",
+        "#F5DF4D",
+        "#6667AB",
+        "#BB2649",
+        "#FFBE98",
+        "#A47864"
+      ],
+      "examples": [
+        "Annual Pantone announcements"
+      ],
+      "sources": [
+        {
+          "title": "Color of the Year 2026",
+          "url": "https://www.pantone.com/color-of-the-year/2026",
+          "publisher": "Pantone",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Every Pantone Color of the Year",
+          "url": "https://looka.com/blog/every-pantone-color-of-the-year/",
+          "publisher": "Looka",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "pantone-classic-blue-2020",
+      "name": "Pantone Classic Blue (2020)",
+      "category": "classic-scheme",
+      "tags": [
+        "pantone",
+        "blue",
+        "2020"
+      ],
+      "org": "Pantone Color Institute",
+      "summary": "Classic Blue was Pantone's 2020 Color of the Year, a calm, dependable dusk-sky blue.",
+      "significance": "Chosen to convey reassurance and stability entering a new decade.",
+      "key_facts": [
+        "Hex #0F4C81 (RGB 15, 76, 129).",
+        "Pantone 19-4052."
+      ],
+      "colors": [
+        "#0F4C81"
+      ],
+      "examples": [
+        "2020 design trend palettes"
+      ],
+      "sources": [
+        {
+          "title": "Every Pantone Color of the Year",
+          "url": "https://looka.com/blog/every-pantone-color-of-the-year/",
+          "publisher": "Looka",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "pantone-very-peri-2022",
+      "name": "Pantone Very Peri (2022)",
+      "category": "classic-scheme",
+      "tags": [
+        "pantone",
+        "periwinkle",
+        "2022"
+      ],
+      "org": "Pantone Color Institute",
+      "summary": "Very Peri was a periwinkle blue with a violet-red undertone, the first COTY Pantone created new rather than selecting from existing colors.",
+      "significance": "Notable as a purpose-designed color reflecting a digitally-influenced moment.",
+      "key_facts": [
+        "Hex #6667AB (RGB 102, 103, 171).",
+        "Pantone 17-3938."
+      ],
+      "colors": [
+        "#6667AB"
+      ],
+      "examples": [
+        "2022 design trend palettes"
+      ],
+      "sources": [
+        {
+          "title": "Every Pantone Color of the Year",
+          "url": "https://looka.com/blog/every-pantone-color-of-the-year/",
+          "publisher": "Looka",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "pantone-viva-magenta-2023",
+      "name": "Pantone Viva Magenta (2023)",
+      "category": "classic-scheme",
+      "tags": [
+        "pantone",
+        "magenta",
+        "2023"
+      ],
+      "org": "Pantone Color Institute",
+      "summary": "Viva Magenta was a bold crimson-red 2023 Color of the Year signaling energy and boldness.",
+      "significance": "Represented a shift toward vivid, assertive color after several muted years.",
+      "key_facts": [
+        "Hex #BB2649 (RGB 187, 38, 73).",
+        "Pantone 18-1750."
+      ],
+      "colors": [
+        "#BB2649"
+      ],
+      "examples": [
+        "2023 design trend palettes"
+      ],
+      "sources": [
+        {
+          "title": "Every Pantone Color of the Year",
+          "url": "https://looka.com/blog/every-pantone-color-of-the-year/",
+          "publisher": "Looka",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "pantone-peach-fuzz-2024",
+      "name": "Pantone Peach Fuzz (2024)",
+      "category": "classic-scheme",
+      "tags": [
+        "pantone",
+        "peach",
+        "2024"
+      ],
+      "org": "Pantone Color Institute",
+      "summary": "Peach Fuzz was a soft, warm pastel peach chosen as 2024 Color of the Year.",
+      "significance": "Emphasized gentleness, comfort, and connection.",
+      "key_facts": [
+        "Hex #FFBE98 (RGB 255, 190, 152).",
+        "Pantone 13-1023."
+      ],
+      "colors": [
+        "#FFBE98"
+      ],
+      "examples": [
+        "2024 design trend palettes"
+      ],
+      "sources": [
+        {
+          "title": "Every Pantone Color of the Year",
+          "url": "https://looka.com/blog/every-pantone-color-of-the-year/",
+          "publisher": "Looka",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "pantone-mocha-mousse-2025",
+      "name": "Pantone Mocha Mousse (2025)",
+      "category": "classic-scheme",
+      "tags": [
+        "pantone",
+        "brown",
+        "2025"
+      ],
+      "org": "Pantone Color Institute",
+      "summary": "Mocha Mousse was a warm, rich brown chosen as 2025 Color of the Year.",
+      "significance": "Reflected a move toward comforting, grounded earth tones.",
+      "key_facts": [
+        "Hex #A47864 (RGB 164, 120, 100).",
+        "Pantone 17-1230."
+      ],
+      "colors": [
+        "#A47864"
+      ],
+      "examples": [
+        "2025 design trend palettes"
+      ],
+      "sources": [
+        {
+          "title": "Pantone 2025 Color of the Year is Mocha Mousse",
+          "url": "https://www.gmanetwork.com/news/lifestyle/artandculture/929162/pantone-s-2025-color-of-the-year-is-mocha-mousse/story/",
+          "publisher": "GMA News",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    }
+  ]
+}

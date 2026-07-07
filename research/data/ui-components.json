@@ -1,0 +1,2276 @@
+{
+  "topic": "ui-components",
+  "title": "Standard UI Components & Design Best Practices",
+  "description": "Catalog of common front-end UI components with anatomy, UX and accessibility best practices, and defining traits.",
+  "schema_version": "1.0",
+  "count": 45,
+  "last_updated": "2026-07-07",
+  "entries": [
+    {
+      "id": "button-primary",
+      "name": "Button (primary / secondary / ghost / destructive)",
+      "category": "action",
+      "tags": [
+        "button",
+        "cta",
+        "action",
+        "variants"
+      ],
+      "summary": "A clickable control that triggers an action or event. Variants signal hierarchy: primary (filled, one per view), secondary (outlined/tonal), ghost/text (low emphasis), and destructive (danger red).",
+      "significance": "The most fundamental interactive control; button hierarchy is how an interface communicates the single most important next action versus supporting ones.",
+      "key_facts": [
+        "Touch target should be at least 44x44 pt (Apple HIG) or 48x48 dp (Material); WCAG 2.5.8 AA requires 24x24 CSS px minimum.",
+        "Use one primary (high-emphasis) button per view to keep visual hierarchy clear; overusing primary buttons flattens hierarchy.",
+        "Button label should be a verb describing the outcome ('Save changes', 'Delete account'), not generic 'OK'/'Submit' where avoidable.",
+        "Must have a visible focus state (focus-visible outline) and support activation via both Enter and Space keys per ARIA button pattern.",
+        "Destructive actions should use color plus text/icon (not color alone) and often a confirmation step to prevent accidental irreversible loss."
+      ],
+      "defining_traits": [
+        "emphasis hierarchy",
+        "verb label",
+        "focus ring",
+        "keyboard-activatable"
+      ],
+      "anatomy": [
+        "container",
+        "label text",
+        "optional leading/trailing icon",
+        "state layer (hover/pressed)"
+      ],
+      "examples": [
+        "Material filled/tonal/text buttons",
+        "GitHub 'Merge pull request' (primary) + 'Close' (secondary)"
+      ],
+      "related": [
+        "icon-button",
+        "fab",
+        "segmented-control",
+        "microinteractions"
+      ],
+      "sources": [
+        {
+          "title": "Button Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/button/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "All accessible touch target sizes",
+          "url": "https://blog.logrocket.com/ux-design/all-accessible-touch-target-sizes/",
+          "publisher": "LogRocket",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "icon-button",
+      "name": "Icon button",
+      "category": "action",
+      "tags": [
+        "button",
+        "icon",
+        "toolbar",
+        "compact"
+      ],
+      "summary": "A button whose only visible content is an icon, used for compact or repeated actions such as toolbar controls, close (x), or favorite (heart).",
+      "significance": "Saves space in dense toolbars and mobile bars, but is the single most common source of unlabeled controls that break screen-reader access.",
+      "key_facts": [
+        "Requires an accessible name via aria-label or visually-hidden text because there is no visible label; icon alone is not announced meaningfully.",
+        "The interactive hit area should remain at least 44x44 pt / 48x48 dp even when the icon glyph is small (e.g. 24px).",
+        "Ambiguous icons (icon-only) benefit from a tooltip on hover/focus to disclose meaning.",
+        "Toggle icon buttons (e.g. mute/unmute) should expose state with aria-pressed."
+      ],
+      "defining_traits": [
+        "icon-only",
+        "requires aria-label",
+        "generous hit area"
+      ],
+      "anatomy": [
+        "hit-area container",
+        "icon glyph",
+        "state layer",
+        "optional tooltip"
+      ],
+      "examples": [
+        "Close (x) on dialogs",
+        "Toolbar bold/italic buttons",
+        "Twitter/X action row icons"
+      ],
+      "related": [
+        "button-primary",
+        "tooltip",
+        "toggle-switch"
+      ],
+      "sources": [
+        {
+          "title": "Button Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/button/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Accessible tap target sizes",
+          "url": "https://smart-interface-design-patterns.com/articles/accessible-tap-target-sizes/",
+          "publisher": "Smart Interface Design Patterns",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "fab",
+      "name": "Floating Action Button (FAB)",
+      "category": "action",
+      "tags": [
+        "fab",
+        "material",
+        "primary-action",
+        "mobile"
+      ],
+      "summary": "A circular, elevated button that floats above content in a fixed position to represent the primary, most common action of a screen (e.g. compose, add).",
+      "significance": "A signature Material Design pattern that promotes a single screen-level action to persistent, thumb-reachable prominence on mobile.",
+      "key_facts": [
+        "Represents one primary action per screen; multiple competing FABs dilute its purpose.",
+        "Standard Material FAB is 56dp; small FAB 40dp; large FAB 96dp, keeping it within the 48dp minimum touch guidance.",
+        "Should not obscure other controls, bottom navigation, or important content beneath it.",
+        "Because it is fixed-position, ensure it does not overlap content or the on-screen keyboard on small viewports."
+      ],
+      "defining_traits": [
+        "circular",
+        "elevated",
+        "fixed position",
+        "single screen action"
+      ],
+      "anatomy": [
+        "circular container",
+        "icon",
+        "optional extended label",
+        "shadow/elevation"
+      ],
+      "examples": [
+        "Gmail 'Compose'",
+        "Google Maps directions FAB"
+      ],
+      "related": [
+        "button-primary",
+        "icon-button"
+      ],
+      "sources": [
+        {
+          "title": "Motion / components overview",
+          "url": "https://m3.material.io/styles/motion/overview/how-it-works",
+          "publisher": "Material Design 3",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "All accessible touch target sizes",
+          "url": "https://blog.logrocket.com/ux-design/all-accessible-touch-target-sizes/",
+          "publisher": "LogRocket",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "text-input",
+      "name": "Text input (text field)",
+      "category": "input",
+      "tags": [
+        "form",
+        "input",
+        "field",
+        "label"
+      ],
+      "summary": "A single-line field for entering short free-form text such as a name, email, or search term.",
+      "significance": "The workhorse of forms; small details of labeling and validation drive most form-completion success or failure.",
+      "key_facts": [
+        "Every field needs a persistent visible label programmatically associated via <label for> or aria-labelledby; placeholder text is not a substitute (it disappears on input).",
+        "Use the correct input type/inputmode (email, tel, url, number) so mobile keyboards and validation adapt.",
+        "Show validation errors inline next to the field, with an icon plus text (not color alone) for colorblind users.",
+        "Do not disable copy/paste; support browser autofill via correct autocomplete attributes."
+      ],
+      "defining_traits": [
+        "persistent label",
+        "single line",
+        "typed input semantics"
+      ],
+      "anatomy": [
+        "label",
+        "input area",
+        "placeholder/hint",
+        "helper text",
+        "error/validation message"
+      ],
+      "examples": [
+        "Login email field",
+        "Material outlined/filled text fields"
+      ],
+      "related": [
+        "textarea",
+        "form-validation",
+        "search",
+        "combobox"
+      ],
+      "sources": [
+        {
+          "title": "<input> element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "10 Design Guidelines for Reporting Errors in Forms",
+          "url": "https://www.nngroup.com/articles/errors-forms-design-guidelines/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "textarea",
+      "name": "Textarea (multi-line input)",
+      "category": "input",
+      "tags": [
+        "form",
+        "input",
+        "multiline",
+        "textarea"
+      ],
+      "summary": "A resizable, multi-line text field for longer free-form content such as comments, messages, or descriptions.",
+      "significance": "Signals to users that a longer response is expected; sizing communicates the anticipated answer length.",
+      "key_facts": [
+        "Initial height should hint at expected input length; auto-grow avoids scrollbars for long content.",
+        "Requires an associated visible label like any input.",
+        "Provide a character counter when a max length applies, and announce remaining count to assistive tech.",
+        "Preserve the user's resize handle where the platform supports it rather than locking dimensions."
+      ],
+      "defining_traits": [
+        "multi-line",
+        "resizable",
+        "length-hinting height"
+      ],
+      "anatomy": [
+        "label",
+        "multi-line input area",
+        "resize handle",
+        "character counter",
+        "helper/error text"
+      ],
+      "examples": [
+        "GitHub issue comment box",
+        "Contact form message field"
+      ],
+      "related": [
+        "text-input",
+        "form-validation"
+      ],
+      "sources": [
+        {
+          "title": "<textarea> element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "select",
+      "name": "Select / Dropdown",
+      "category": "input",
+      "tags": [
+        "form",
+        "select",
+        "dropdown",
+        "listbox"
+      ],
+      "summary": "A control that lets a user choose one (or several) options from a predefined list revealed in a popup.",
+      "significance": "Efficient for many mutually-exclusive options, but native selects and custom listboxes differ sharply in accessibility and styling tradeoffs.",
+      "key_facts": [
+        "Prefer the native <select> where possible for built-in keyboard, mobile, and screen-reader support; custom widgets must implement the ARIA listbox pattern.",
+        "For fewer than ~5 mutually exclusive options, radio buttons are often more usable than a dropdown because all choices are visible.",
+        "Provide a clear label and, when required, a sensible or empty default rather than a pre-selected value the user might miss.",
+        "Custom dropdowns must support arrow-key navigation, type-ahead, Home/End, and Escape to close."
+      ],
+      "defining_traits": [
+        "collapsed trigger",
+        "popup option list",
+        "single or multi select"
+      ],
+      "anatomy": [
+        "trigger/combobox",
+        "chevron",
+        "popup listbox",
+        "options",
+        "selected indicator"
+      ],
+      "examples": [
+        "Country selector",
+        "Material dropdown menu"
+      ],
+      "related": [
+        "combobox",
+        "radio",
+        "menu"
+      ],
+      "sources": [
+        {
+          "title": "Listbox Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/listbox/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "<select> element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "combobox",
+      "name": "Combobox / Autocomplete",
+      "category": "input",
+      "tags": [
+        "form",
+        "combobox",
+        "autocomplete",
+        "typeahead"
+      ],
+      "summary": "A text input paired with a filtered popup of suggestions, letting users type to narrow a large set of options.",
+      "significance": "Bridges free text and constrained choice; essential when the option set is too large for a plain dropdown (cities, tags, users).",
+      "key_facts": [
+        "Implements the ARIA combobox pattern: the input has role combobox with aria-expanded and aria-controls pointing to the popup.",
+        "Suggestions should update as the user types and be navigable with arrow keys; Escape closes the popup.",
+        "The popup may be a listbox, grid, tree, or dialog per the APG combobox definition.",
+        "Announce the number of results and the active option to screen readers via aria-activedescendant."
+      ],
+      "defining_traits": [
+        "type-to-filter",
+        "input + popup",
+        "aria-expanded"
+      ],
+      "anatomy": [
+        "text input",
+        "popup (listbox/grid)",
+        "suggestion options",
+        "active-option highlight"
+      ],
+      "examples": [
+        "Google search suggestions",
+        "GitHub @mention autocomplete"
+      ],
+      "related": [
+        "select",
+        "search",
+        "text-input",
+        "command-palette"
+      ],
+      "sources": [
+        {
+          "title": "Combobox Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "checkbox",
+      "name": "Checkbox",
+      "category": "input",
+      "tags": [
+        "form",
+        "checkbox",
+        "boolean",
+        "multi-select"
+      ],
+      "summary": "A control for independent on/off choices, allowing zero, one, or many selections within a group.",
+      "significance": "The standard for multi-select and single boolean opt-ins (terms acceptance); its independence distinguishes it from radios.",
+      "key_facts": [
+        "Use checkboxes when options are independent and multiple can be selected; use radios for mutually exclusive choice.",
+        "The label must be clickable and associated with the box; clicking the text should toggle the state.",
+        "Supports three visual states where needed: unchecked, checked, and indeterminate (partial group selection).",
+        "Follows the ARIA checkbox pattern: toggled with Space, exposes aria-checked including 'mixed'."
+      ],
+      "defining_traits": [
+        "independent toggle",
+        "multi-select",
+        "indeterminate state"
+      ],
+      "anatomy": [
+        "box/tick",
+        "label",
+        "focus ring",
+        "optional group heading"
+      ],
+      "examples": [
+        "Accept terms checkbox",
+        "Filter facets with multiple selections"
+      ],
+      "related": [
+        "radio",
+        "toggle-switch",
+        "form-validation"
+      ],
+      "sources": [
+        {
+          "title": "Checkbox Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/checkbox/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "radio",
+      "name": "Radio button (radio group)",
+      "category": "input",
+      "tags": [
+        "form",
+        "radio",
+        "single-select",
+        "mutually-exclusive"
+      ],
+      "summary": "A set of buttons where selecting one deselects the others, used for mutually exclusive choices from a small visible list.",
+      "significance": "Makes all options visible at once, reducing interaction cost versus a dropdown for short option sets.",
+      "key_facts": [
+        "Radios belong to a named group; only one may be selected at a time.",
+        "Per the ARIA radiogroup pattern, arrow keys move selection within the group and the group is a single Tab stop (roving tabindex).",
+        "Best for 2-5 mutually exclusive options; beyond that consider a select/dropdown.",
+        "Avoid pre-selecting a default when a deliberate choice matters (e.g. sensitive settings)."
+      ],
+      "defining_traits": [
+        "single-select group",
+        "roving tabindex",
+        "all options visible"
+      ],
+      "anatomy": [
+        "group container/legend",
+        "radio circles",
+        "labels",
+        "selected dot"
+      ],
+      "examples": [
+        "Shipping speed options",
+        "Survey single-answer questions"
+      ],
+      "related": [
+        "checkbox",
+        "select",
+        "segmented-control"
+      ],
+      "sources": [
+        {
+          "title": "Radio Group Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/radio/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "toggle-switch",
+      "name": "Toggle / Switch",
+      "category": "input",
+      "tags": [
+        "form",
+        "switch",
+        "toggle",
+        "setting"
+      ],
+      "summary": "A control that flips a single setting immediately on or off, mimicking a physical light switch.",
+      "significance": "Signals an instant state change (no Save needed), distinguishing it from a checkbox that typically commits with form submission.",
+      "key_facts": [
+        "Use a switch for settings that take effect immediately; use a checkbox when the choice is submitted as part of a form.",
+        "Follows the ARIA switch pattern with role switch and aria-checked true/false, toggled by Space/Enter.",
+        "State must be conveyed by more than thumb position/color, e.g. an on/off label or icon, for colorblind users.",
+        "The whole track/thumb plus label should meet the minimum touch target size."
+      ],
+      "defining_traits": [
+        "immediate effect",
+        "binary on/off",
+        "track + thumb"
+      ],
+      "anatomy": [
+        "track",
+        "thumb",
+        "on/off label or icon",
+        "focus ring"
+      ],
+      "examples": [
+        "iOS Settings toggles",
+        "Dark mode switch"
+      ],
+      "related": [
+        "checkbox",
+        "icon-button"
+      ],
+      "sources": [
+        {
+          "title": "Switch Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/switch/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "slider",
+      "name": "Slider (range)",
+      "category": "input",
+      "tags": [
+        "form",
+        "slider",
+        "range",
+        "value"
+      ],
+      "summary": "A control for selecting a value (or range) from a continuous or stepped scale by dragging a thumb along a track.",
+      "significance": "Good for approximate, visual value setting (volume, brightness, price range) where exact precision is secondary.",
+      "key_facts": [
+        "Follows the ARIA slider pattern: arrow keys adjust by step, Home/End jump to min/max, and it exposes aria-valuenow/min/max.",
+        "Provide a visible current value and, when precision matters, pair with a numeric input.",
+        "The draggable thumb must meet touch-target size even if the visual dot is small.",
+        "Range (two-thumb) sliders should prevent thumbs from crossing and label each thumb."
+      ],
+      "defining_traits": [
+        "draggable thumb",
+        "continuous/stepped scale",
+        "keyboard-adjustable"
+      ],
+      "anatomy": [
+        "track",
+        "filled portion",
+        "thumb(s)",
+        "value label/tooltip",
+        "tick marks"
+      ],
+      "examples": [
+        "Volume control",
+        "Price range filter"
+      ],
+      "related": [
+        "stepper-input",
+        "text-input"
+      ],
+      "sources": [
+        {
+          "title": "Slider Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/slider/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "<input type=range>",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "stepper-input",
+      "name": "Stepper / Number spinner",
+      "category": "input",
+      "tags": [
+        "form",
+        "stepper",
+        "spinbutton",
+        "quantity"
+      ],
+      "summary": "A numeric field with increment and decrement buttons for adjusting a value in discrete steps (e.g. quantity).",
+      "significance": "Best for small numeric adjustments near a known value; direct typing plus buttons covers both fine and coarse changes.",
+      "key_facts": [
+        "Follows the ARIA spinbutton pattern with aria-valuenow/min/max; Up/Down arrows step the value.",
+        "The +/- buttons must each meet minimum touch target size and be spaced to avoid mis-taps.",
+        "Allow direct keyboard entry for large jumps rather than forcing many button presses.",
+        "Clamp to min/max and give feedback when a limit is reached."
+      ],
+      "defining_traits": [
+        "+/- buttons",
+        "discrete steps",
+        "numeric field"
+      ],
+      "anatomy": [
+        "decrement button",
+        "numeric field",
+        "increment button",
+        "min/max bounds"
+      ],
+      "examples": [
+        "Cart quantity selector",
+        "Numeric settings"
+      ],
+      "related": [
+        "slider",
+        "text-input"
+      ],
+      "sources": [
+        {
+          "title": "Spinbutton Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/spinbutton/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "date-picker",
+      "name": "Date picker",
+      "category": "input",
+      "tags": [
+        "form",
+        "date",
+        "calendar",
+        "input"
+      ],
+      "summary": "A control for selecting a date (or range) via a calendar grid, often paired with a typed date field.",
+      "significance": "One of the hardest components to get right for accessibility and localization; date format ambiguity causes frequent user errors.",
+      "key_facts": [
+        "Offer both a typeable date field and a calendar picker; typing is faster for known dates, the calendar helps for relative ones.",
+        "The calendar grid should use a proper grid/table structure with arrow-key navigation between days and clear focus.",
+        "Show the date format expected (e.g. DD/MM/YYYY) to avoid ambiguity; respect locale.",
+        "Disable and announce unavailable dates rather than allowing invalid selection."
+      ],
+      "defining_traits": [
+        "calendar grid",
+        "typed + visual entry",
+        "date-range support"
+      ],
+      "anatomy": [
+        "input field",
+        "calendar popup",
+        "month/year nav",
+        "day grid",
+        "today/selected markers"
+      ],
+      "examples": [
+        "Booking check-in/out picker",
+        "Material date picker"
+      ],
+      "related": [
+        "text-input",
+        "popover",
+        "form-validation"
+      ],
+      "sources": [
+        {
+          "title": "<input type=date>",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Grid Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/grid/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "file-upload",
+      "name": "File upload",
+      "category": "input",
+      "tags": [
+        "form",
+        "upload",
+        "file",
+        "dropzone"
+      ],
+      "summary": "A control for selecting files from the device, often supporting drag-and-drop plus a fallback file-browse button.",
+      "significance": "Involves error-prone edge cases (size limits, types, progress, failure) where feedback quality determines success.",
+      "key_facts": [
+        "Always provide a clickable button fallback in addition to any drag-and-drop zone; drag-and-drop alone is inaccessible.",
+        "State accepted file types and size limits up front, and validate with a clear error on violation.",
+        "Show upload progress and allow cancel/retry; confirm success and let users remove added files.",
+        "The underlying <input type=file> must have an associated label for screen readers."
+      ],
+      "defining_traits": [
+        "browse + drag-drop",
+        "type/size constraints",
+        "progress feedback"
+      ],
+      "anatomy": [
+        "dropzone",
+        "browse button",
+        "file list",
+        "progress bar",
+        "remove/retry controls"
+      ],
+      "examples": [
+        "Gmail attachment",
+        "Profile photo upload"
+      ],
+      "related": [
+        "progress-bar",
+        "form-validation",
+        "toast-snackbar"
+      ],
+      "sources": [
+        {
+          "title": "<input type=file>",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "search",
+      "name": "Search field",
+      "category": "input",
+      "tags": [
+        "search",
+        "input",
+        "query",
+        "autocomplete"
+      ],
+      "summary": "A specialized text input for entering queries, typically with a magnifier icon, clear (x) button, and often suggestions.",
+      "significance": "A primary navigation path on content-heavy sites; discoverability and forgiving matching drive its usefulness.",
+      "key_facts": [
+        "Use input type=search and a labeled control (role search landmark for the region) so assistive tech identifies it.",
+        "Provide a clear/reset (x) button once text is entered.",
+        "Suggestions/autocomplete should follow the combobox pattern and be keyboard navigable.",
+        "Keep the field visible (not hidden behind an icon) on content sites where search is heavily used."
+      ],
+      "defining_traits": [
+        "query input",
+        "clear button",
+        "optional suggestions"
+      ],
+      "anatomy": [
+        "search icon",
+        "input",
+        "clear button",
+        "suggestions popup"
+      ],
+      "examples": [
+        "Amazon search bar",
+        "Documentation site search"
+      ],
+      "related": [
+        "combobox",
+        "text-input",
+        "command-palette"
+      ],
+      "sources": [
+        {
+          "title": "<input type=search>",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Combobox Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "form-validation",
+      "name": "Form & validation",
+      "category": "input",
+      "tags": [
+        "form",
+        "validation",
+        "errors",
+        "accessibility"
+      ],
+      "summary": "The composition and validation of grouped inputs, including error reporting, required-field marking, and submission handling.",
+      "significance": "Forms are where users most often fail; how errors are surfaced and worded is decisive for completion rates.",
+      "key_facts": [
+        "Report errors inline next to the offending field and keep the message visible while the user fixes it, minimizing memory load.",
+        "Use icon plus text (not color alone) so errors are perceivable by colorblind users; associate the message via aria-describedby.",
+        "Validate on blur / after a field is completed for format checks; avoid interrupting mid-typing.",
+        "On submit, move focus to the first error or an error summary and use aria-live to announce it."
+      ],
+      "defining_traits": [
+        "inline errors",
+        "required marking",
+        "accessible announcements"
+      ],
+      "anatomy": [
+        "fields",
+        "labels",
+        "helper text",
+        "inline error messages",
+        "error summary",
+        "submit button"
+      ],
+      "examples": [
+        "Checkout forms",
+        "Sign-up flows"
+      ],
+      "related": [
+        "text-input",
+        "checkbox",
+        "alert-banner"
+      ],
+      "sources": [
+        {
+          "title": "10 Design Guidelines for Reporting Errors in Forms",
+          "url": "https://www.nngroup.com/articles/errors-forms-design-guidelines/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Error-Message Guidelines",
+          "url": "https://www.nngroup.com/articles/error-message-guidelines/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "card",
+      "name": "Card",
+      "category": "container",
+      "tags": [
+        "card",
+        "container",
+        "surface",
+        "grid"
+      ],
+      "summary": "A self-contained surface grouping related content and actions about a single subject, often arranged in grids or lists.",
+      "significance": "A flexible container that packages heterogeneous content into scannable, tappable units; central to feed and dashboard layouts.",
+      "key_facts": [
+        "A card should represent a single coherent subject; mixing unrelated content weakens scannability.",
+        "If the whole card is clickable, ensure one clear primary link and avoid nested interactive elements that trap keyboard/screen-reader users.",
+        "Maintain consistent internal padding and a clear content order (media, title, supporting text, actions).",
+        "Elevation/shadow or border should distinguish the card surface from the background for sufficient contrast."
+      ],
+      "defining_traits": [
+        "bounded surface",
+        "single subject",
+        "compositional"
+      ],
+      "anatomy": [
+        "container/surface",
+        "media/thumbnail",
+        "title",
+        "supporting text",
+        "action area"
+      ],
+      "examples": [
+        "Pinterest pins",
+        "Trello cards",
+        "Material cards"
+      ],
+      "related": [
+        "list",
+        "avatar",
+        "badge"
+      ],
+      "sources": [
+        {
+          "title": "Design-Pattern Guidelines: Study Guide",
+          "url": "https://www.nngroup.com/articles/design-pattern-guidelines/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "modal-dialog",
+      "name": "Modal / Dialog",
+      "category": "container",
+      "tags": [
+        "modal",
+        "dialog",
+        "overlay",
+        "focus-trap"
+      ],
+      "summary": "A window overlaid on the page that requires interaction before returning to the main content, which is inert while it is open.",
+      "significance": "A heavyweight interruption appropriate only when the user truly must act (destructive confirmation, blocking task); overuse harms flow.",
+      "key_facts": [
+        "Content behind a modal is inert; focus must be trapped inside and returned to the trigger on close per the APG dialog pattern.",
+        "Escape closes the dialog; the dialog uses role dialog with aria-modal and an accessible name via aria-labelledby.",
+        "Modals interrupt and demand action; reserve them for consequential or destructive decisions (NN/G).",
+        "On open, move focus into the dialog (first field or the dialog itself), not left on the background."
+      ],
+      "defining_traits": [
+        "blocks background",
+        "focus trap",
+        "explicit dismissal"
+      ],
+      "anatomy": [
+        "scrim/overlay",
+        "dialog surface",
+        "title",
+        "body content",
+        "action buttons",
+        "close (x)"
+      ],
+      "examples": [
+        "Delete confirmation",
+        "Login modal"
+      ],
+      "related": [
+        "drawer-sheet",
+        "popover",
+        "alert-banner",
+        "reduced-motion"
+      ],
+      "sources": [
+        {
+          "title": "Dialog (Modal) Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Modal & Nonmodal Dialogs: When (& When Not) to Use Them",
+          "url": "https://www.nngroup.com/articles/modal-nonmodal-dialog/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "drawer-sheet",
+      "name": "Drawer / Sheet",
+      "category": "container",
+      "tags": [
+        "drawer",
+        "sheet",
+        "panel",
+        "navigation"
+      ],
+      "summary": "A panel that slides in from a screen edge (side drawer) or bottom (bottom sheet) to reveal navigation or contextual content.",
+      "significance": "Provides on-demand access to secondary content or navigation without leaving the current context, especially on mobile.",
+      "key_facts": [
+        "Modal drawers dim and block background and need focus trapping; standard/persistent drawers coexist with content.",
+        "Bottom sheets are thumb-reachable on mobile and should be dismissable by swipe-down and by an explicit control.",
+        "Provide a visible affordance (drag handle) and an accessible close control, not gesture-only dismissal.",
+        "Ensure the drawer's scrim and content meet contrast requirements over the underlying page."
+      ],
+      "defining_traits": [
+        "edge-anchored",
+        "slides in",
+        "modal or persistent"
+      ],
+      "anatomy": [
+        "scrim (if modal)",
+        "sliding panel",
+        "drag handle",
+        "content",
+        "close control"
+      ],
+      "examples": [
+        "Navigation drawer (hamburger menu)",
+        "Mobile bottom sheet action menu"
+      ],
+      "related": [
+        "modal-dialog",
+        "sidebar-nav-rail",
+        "menu",
+        "page-transitions"
+      ],
+      "sources": [
+        {
+          "title": "Bottom Sheets: Definition and UX Guidelines",
+          "url": "https://www.nngroup.com/articles/bottom-sheet/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "popover",
+      "name": "Popover",
+      "category": "container",
+      "tags": [
+        "popover",
+        "overlay",
+        "contextual",
+        "anchored"
+      ],
+      "summary": "A small non-modal overlay anchored to a trigger element that shows contextual content or actions, dismissed by clicking away.",
+      "significance": "Delivers contextual controls/details without a full modal interruption; lighter weight than a dialog.",
+      "key_facts": [
+        "Unlike a modal, a popover is non-modal: the rest of the page stays interactive, and it dismisses on outside click or Escape.",
+        "It should be positioned relative to its trigger and reposition to stay within the viewport (flip/shift).",
+        "Manage focus: move focus in for interactive popovers and return it to the trigger on close.",
+        "Distinguish from tooltip (informational, hover) and menu (list of commands)."
+      ],
+      "defining_traits": [
+        "anchored",
+        "non-modal",
+        "dismiss on outside click"
+      ],
+      "anatomy": [
+        "trigger",
+        "anchored surface",
+        "arrow/pointer",
+        "content",
+        "optional actions"
+      ],
+      "examples": [
+        "Profile preview popover",
+        "Color picker popover"
+      ],
+      "related": [
+        "tooltip",
+        "menu",
+        "modal-dialog"
+      ],
+      "sources": [
+        {
+          "title": "Popover API",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Popover_API",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Modal & Nonmodal Dialogs",
+          "url": "https://www.nngroup.com/articles/modal-nonmodal-dialog/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "tooltip",
+      "name": "Tooltip",
+      "category": "feedback",
+      "tags": [
+        "tooltip",
+        "hint",
+        "hover",
+        "accessibility"
+      ],
+      "summary": "A small transient label that appears on hover or focus to describe an element, typically an icon-only control.",
+      "significance": "Discloses meaning of ambiguous controls, but is one of the most misused patterns for essential or interactive content.",
+      "key_facts": [
+        "Tooltips must be reachable by keyboard focus, not hover-only, per the ARIA tooltip pattern.",
+        "Never put essential information or interactive elements inside a tooltip; it is supplementary and transient.",
+        "Associate it with aria-describedby so screen readers announce it; Escape should dismiss it (WCAG 1.4.13).",
+        "Keep it brief (a few words); use a popover for richer content."
+      ],
+      "defining_traits": [
+        "transient",
+        "hover/focus triggered",
+        "supplementary text"
+      ],
+      "anatomy": [
+        "trigger element",
+        "tooltip bubble",
+        "pointer arrow"
+      ],
+      "examples": [
+        "Icon button labels",
+        "Truncated text full value on hover"
+      ],
+      "related": [
+        "icon-button",
+        "popover"
+      ],
+      "sources": [
+        {
+          "title": "Tooltip Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "toast-snackbar",
+      "name": "Toast / Snackbar",
+      "category": "feedback",
+      "tags": [
+        "toast",
+        "snackbar",
+        "notification",
+        "aria-live"
+      ],
+      "summary": "A brief, auto-dismissing message that confirms an action or reports a lightweight status without interrupting the task.",
+      "significance": "The standard non-blocking confirmation pattern; timing and persistence tradeoffs affect whether users perceive them.",
+      "key_facts": [
+        "Announce toasts through an aria-live region (polite) so screen-reader users are notified without focus change.",
+        "Keep messages short; if the toast contains an action (Undo), give enough time (Material suggests a few seconds) and a way to pause/dismiss.",
+        "Do not use auto-dismissing toasts for critical errors the user must act on; use a persistent alert instead.",
+        "Position consistently (commonly bottom on mobile, corner on desktop) and avoid stacking many at once."
+      ],
+      "defining_traits": [
+        "transient",
+        "non-blocking",
+        "auto-dismiss"
+      ],
+      "anatomy": [
+        "container",
+        "message",
+        "optional action button",
+        "optional dismiss"
+      ],
+      "examples": [
+        "'Message sent' snackbar",
+        "Gmail 'Undo' toast"
+      ],
+      "related": [
+        "alert-banner",
+        "toggle-switch",
+        "microinteractions"
+      ],
+      "sources": [
+        {
+          "title": "ARIA live regions",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "alert-banner",
+      "name": "Alert / Banner",
+      "category": "feedback",
+      "tags": [
+        "alert",
+        "banner",
+        "status",
+        "aria"
+      ],
+      "summary": "A prominent, persistent message conveying important status (error, warning, success, info) inline within the page.",
+      "significance": "Communicates conditions users must notice or act on; persistence distinguishes it from transient toasts.",
+      "key_facts": [
+        "Use role alert for time-sensitive messages so assistive tech announces them immediately; role status for less urgent updates.",
+        "Convey severity with an icon and text, not color alone, and use accessible color contrast.",
+        "Page-level banners (e.g. cookie/system notices) should be dismissable and not trap focus.",
+        "Reserve error styling for genuine errors; overusing red desensitizes users."
+      ],
+      "defining_traits": [
+        "persistent",
+        "severity-typed",
+        "inline or page-level"
+      ],
+      "anatomy": [
+        "icon",
+        "message",
+        "optional action link",
+        "dismiss control"
+      ],
+      "examples": [
+        "Form error summary",
+        "Outage/system banner"
+      ],
+      "related": [
+        "toast-snackbar",
+        "form-validation"
+      ],
+      "sources": [
+        {
+          "title": "Alert Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/alert/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "badge",
+      "name": "Badge",
+      "category": "data-display",
+      "tags": [
+        "badge",
+        "count",
+        "status",
+        "indicator"
+      ],
+      "summary": "A small numeric or dot indicator overlaid on an element to show a count (unread) or status.",
+      "significance": "Draws attention to changed or pending state at a glance; a compact notification cue.",
+      "key_facts": [
+        "Numeric badges should cap large counts (e.g. '99+') to preserve layout.",
+        "Because a badge conveys meaning, expose it to screen readers (e.g. 'Inbox, 3 unread'), not just visually.",
+        "A dot badge indicates 'something new' without a count; ensure it is perceivable beyond color alone.",
+        "Keep badges small and high-contrast against their anchor icon."
+      ],
+      "defining_traits": [
+        "overlay indicator",
+        "count or dot",
+        "attention cue"
+      ],
+      "anatomy": [
+        "anchor element (icon)",
+        "badge shape",
+        "count text or dot"
+      ],
+      "examples": [
+        "App icon unread count",
+        "Notification bell dot"
+      ],
+      "related": [
+        "chip-tag",
+        "icon-button",
+        "avatar"
+      ],
+      "sources": [
+        {
+          "title": "Design-Pattern Guidelines: Study Guide",
+          "url": "https://www.nngroup.com/articles/design-pattern-guidelines/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "chip-tag",
+      "name": "Chip / Tag",
+      "category": "data-display",
+      "tags": [
+        "chip",
+        "tag",
+        "filter",
+        "token"
+      ],
+      "summary": "A compact element representing an input, attribute, filter, or selection, often removable or toggleable.",
+      "significance": "Encapsulates discrete items (filters, recipients, tags) into scannable, manipulable tokens.",
+      "key_facts": [
+        "Chip types differ: input/token chips (removable), filter chips (toggle selection), choice/assist chips.",
+        "Removable chips need an accessible remove control with a label (e.g. 'Remove tag: design') meeting touch-target size.",
+        "Filter chips should expose selected state to assistive tech (aria-pressed or as part of a listbox).",
+        "Keep chip labels short; truncate with a tooltip for overflow."
+      ],
+      "defining_traits": [
+        "compact token",
+        "removable/toggleable",
+        "represents an item"
+      ],
+      "anatomy": [
+        "container",
+        "optional leading icon/avatar",
+        "label",
+        "remove (x) or check"
+      ],
+      "examples": [
+        "Email 'To' recipient tokens",
+        "Search filter chips"
+      ],
+      "related": [
+        "badge",
+        "avatar",
+        "combobox"
+      ],
+      "sources": [
+        {
+          "title": "Design-Pattern Guidelines: Study Guide",
+          "url": "https://www.nngroup.com/articles/design-pattern-guidelines/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "avatar",
+      "name": "Avatar",
+      "category": "data-display",
+      "tags": [
+        "avatar",
+        "identity",
+        "profile",
+        "image"
+      ],
+      "summary": "A small graphic representing a person or entity: a photo, initials, or icon fallback.",
+      "significance": "Provides quick visual identity in lists, comments, and headers; personalizes and speeds recognition.",
+      "key_facts": [
+        "Provide a text fallback (initials or generic icon) when no image exists, and meaningful alt text for the person's name.",
+        "Decorative avatars adjacent to a visible name can use empty alt to avoid duplicate announcement.",
+        "Avatar groups/stacks should indicate overflow (e.g. '+5') accessibly.",
+        "Maintain consistent shape (circle/square) and size scale across the system."
+      ],
+      "defining_traits": [
+        "identity graphic",
+        "image/initials fallback",
+        "consistent shape"
+      ],
+      "anatomy": [
+        "container shape",
+        "image or initials",
+        "optional status dot/badge"
+      ],
+      "examples": [
+        "Slack user avatars",
+        "GitHub profile pictures"
+      ],
+      "related": [
+        "badge",
+        "chip-tag",
+        "list"
+      ],
+      "sources": [
+        {
+          "title": "Design-Pattern Guidelines: Study Guide",
+          "url": "https://www.nngroup.com/articles/design-pattern-guidelines/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "accordion",
+      "name": "Accordion",
+      "category": "container",
+      "tags": [
+        "accordion",
+        "disclosure",
+        "collapse",
+        "faq"
+      ],
+      "summary": "A vertically stacked set of headers that expand and collapse to reveal or hide their associated content sections.",
+      "significance": "Manages long content by progressive disclosure, reducing scrolling; common for FAQs and settings.",
+      "key_facts": [
+        "Each header is a button with aria-expanded and aria-controls pointing to its panel, per the APG accordion pattern.",
+        "Enter/Space toggles a section; the header button should span the full clickable width.",
+        "Decide whether multiple panels can be open at once; single-open behavior should be predictable.",
+        "Avoid hiding content users need to compare across sections or that should be indexable/printed."
+      ],
+      "defining_traits": [
+        "stacked headers",
+        "expand/collapse",
+        "progressive disclosure"
+      ],
+      "anatomy": [
+        "header buttons",
+        "expand icon (chevron)",
+        "collapsible panels"
+      ],
+      "examples": [
+        "FAQ sections",
+        "Mobile settings groups"
+      ],
+      "related": [
+        "tabs",
+        "list",
+        "morphing"
+      ],
+      "sources": [
+        {
+          "title": "Accordion Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/accordion/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "tabs",
+      "name": "Tabs",
+      "category": "navigation",
+      "tags": [
+        "tabs",
+        "navigation",
+        "panels",
+        "sections"
+      ],
+      "summary": "A set of layered content panels where a row of tabs lets users switch which single panel is visible.",
+      "significance": "Organizes peer content into one region, saving space; effective when only one section is needed at a time.",
+      "key_facts": [
+        "Follows the APG tabs pattern: tablist with roving tabindex, arrow keys move between tabs, each tab controls a tabpanel.",
+        "The selected tab uses aria-selected; its panel is associated via aria-controls / aria-labelledby.",
+        "Keep tab labels short and equally-weighted (peer content); do not use tabs for sequential steps (use a wizard).",
+        "Avoid too many tabs that wrap or scroll off-screen; consider a menu or different structure instead."
+      ],
+      "defining_traits": [
+        "one panel visible",
+        "peer sections",
+        "roving tabindex"
+      ],
+      "anatomy": [
+        "tablist",
+        "individual tabs",
+        "selection indicator",
+        "tabpanels"
+      ],
+      "examples": [
+        "Browser tabs",
+        "Product page 'Details/Reviews' tabs"
+      ],
+      "related": [
+        "accordion",
+        "segmented-control",
+        "wizard-stepper"
+      ],
+      "sources": [
+        {
+          "title": "Tabs Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/tabs/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "breadcrumb",
+      "name": "Breadcrumb",
+      "category": "navigation",
+      "tags": [
+        "breadcrumb",
+        "navigation",
+        "hierarchy",
+        "wayfinding"
+      ],
+      "summary": "A horizontal trail showing the current page's location within the site hierarchy, with links back to ancestor levels.",
+      "significance": "Aids wayfinding in deep hierarchies and provides quick one-click ascent without replacing primary navigation.",
+      "key_facts": [
+        "Wrap in a nav element with an accessible name (e.g. aria-label='Breadcrumb') per the APG breadcrumb pattern.",
+        "The current page is the last item and marked with aria-current='page' (usually non-linked).",
+        "Separators (>, /) should be decorative/CSS, not read as content by screen readers.",
+        "Best for hierarchical sites with depth; unnecessary on flat structures."
+      ],
+      "defining_traits": [
+        "hierarchical trail",
+        "ancestor links",
+        "aria-current"
+      ],
+      "anatomy": [
+        "nav landmark",
+        "ordered links",
+        "separators",
+        "current-page item"
+      ],
+      "examples": [
+        "E-commerce category path",
+        "Documentation location trail"
+      ],
+      "related": [
+        "pagination",
+        "navbar",
+        "sidebar-nav-rail"
+      ],
+      "sources": [
+        {
+          "title": "Breadcrumb Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/breadcrumb/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "pagination",
+      "name": "Pagination",
+      "category": "navigation",
+      "tags": [
+        "pagination",
+        "navigation",
+        "pages",
+        "list"
+      ],
+      "summary": "Controls that split a large result set into discrete numbered pages with previous/next navigation.",
+      "significance": "Gives users control and a sense of scope over long lists, and supports returning to a known position, versus infinite scroll.",
+      "key_facts": [
+        "Wrap in a nav landmark with an accessible name; mark the active page with aria-current='page'.",
+        "Prev/Next controls need discernible labels and a disabled state at the boundaries.",
+        "Page-number targets must meet minimum touch-target size and spacing.",
+        "Prefer pagination over infinite scroll when users need to find, bookmark, or return to specific items or reach a footer."
+      ],
+      "defining_traits": [
+        "discrete pages",
+        "prev/next",
+        "current-page marker"
+      ],
+      "anatomy": [
+        "nav landmark",
+        "page number links",
+        "prev/next buttons",
+        "current indicator"
+      ],
+      "examples": [
+        "Search results pages",
+        "Data table paging"
+      ],
+      "related": [
+        "breadcrumb",
+        "data-table",
+        "list"
+      ],
+      "sources": [
+        {
+          "title": "Design-Pattern Guidelines: Study Guide",
+          "url": "https://www.nngroup.com/articles/design-pattern-guidelines/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "navbar",
+      "name": "Navbar (top navigation)",
+      "category": "navigation",
+      "tags": [
+        "navbar",
+        "navigation",
+        "header",
+        "menu"
+      ],
+      "summary": "A persistent horizontal bar, usually at the top, containing primary navigation, branding, and global actions.",
+      "significance": "The primary orientation and navigation anchor of most sites and apps; its clarity shapes the whole information architecture.",
+      "key_facts": [
+        "Use a nav landmark; the current section should be indicated with aria-current='page'.",
+        "On small screens it commonly collapses into a menu button ('hamburger') that must be labeled and keyboard operable.",
+        "Keep top-level items few and stable; prioritize the most important destinations.",
+        "Ensure the whole bar and its controls are keyboard-navigable in a logical order and have visible focus."
+      ],
+      "defining_traits": [
+        "persistent",
+        "primary destinations",
+        "brand + global actions"
+      ],
+      "anatomy": [
+        "logo/brand",
+        "primary links",
+        "search/actions",
+        "mobile menu toggle"
+      ],
+      "examples": [
+        "Site header navigation",
+        "App top app bar"
+      ],
+      "related": [
+        "sidebar-nav-rail",
+        "menu",
+        "breadcrumb",
+        "drawer-sheet"
+      ],
+      "sources": [
+        {
+          "title": "Design-Pattern Guidelines: Study Guide",
+          "url": "https://www.nngroup.com/articles/design-pattern-guidelines/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "sidebar-nav-rail",
+      "name": "Sidebar / Navigation rail",
+      "category": "navigation",
+      "tags": [
+        "sidebar",
+        "navigation",
+        "rail",
+        "app"
+      ],
+      "summary": "A vertical navigation panel along the screen edge; a full-width sidebar (with labels) or a compact icon-only rail.",
+      "significance": "Standard for app-like layouts with many destinations; the rail form conserves space while keeping navigation persistent.",
+      "key_facts": [
+        "Use a nav landmark and indicate the active destination with aria-current.",
+        "Icon-only rails need accessible labels (aria-label or tooltip) for each item.",
+        "Collapsible sidebars should remember state and provide an accessible toggle.",
+        "Each destination target should meet touch-target size, especially in compact rails."
+      ],
+      "defining_traits": [
+        "vertical",
+        "persistent destinations",
+        "full or compact rail"
+      ],
+      "anatomy": [
+        "nav container",
+        "destination items (icon + label)",
+        "active indicator",
+        "collapse toggle"
+      ],
+      "examples": [
+        "Gmail left rail",
+        "VS Code activity bar",
+        "Discord server rail"
+      ],
+      "related": [
+        "navbar",
+        "drawer-sheet",
+        "menu"
+      ],
+      "sources": [
+        {
+          "title": "Design-Pattern Guidelines: Study Guide",
+          "url": "https://www.nngroup.com/articles/design-pattern-guidelines/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "menu",
+      "name": "Menu (menu button)",
+      "category": "navigation",
+      "tags": [
+        "menu",
+        "dropdown",
+        "actions",
+        "context-menu"
+      ],
+      "summary": "A popup list of commands or links revealed by a trigger (menu button) or right-click (context menu).",
+      "significance": "Consolidates a set of actions into an on-demand list, keeping the interface uncluttered.",
+      "key_facts": [
+        "Follows the APG menu button pattern: the trigger has aria-haspopup and aria-expanded; the popup uses role menu with menuitem children.",
+        "Arrow keys move between items, Enter/Space activates, Escape closes and returns focus to the trigger.",
+        "A menu is for actions/commands; a listbox/select is for choosing a value, do not conflate them.",
+        "Keep menus shallow; deep nested submenus are hard to operate, especially on touch."
+      ],
+      "defining_traits": [
+        "command list",
+        "aria-haspopup",
+        "keyboard-driven"
+      ],
+      "anatomy": [
+        "trigger button",
+        "popup menu",
+        "menu items",
+        "separators/submenus"
+      ],
+      "examples": [
+        "Overflow (three-dot) menus",
+        "Right-click context menu"
+      ],
+      "related": [
+        "select",
+        "popover",
+        "command-palette",
+        "navbar"
+      ],
+      "sources": [
+        {
+          "title": "Menu Button Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "command-palette",
+      "name": "Command palette",
+      "category": "navigation",
+      "tags": [
+        "command-palette",
+        "search",
+        "shortcut",
+        "productivity"
+      ],
+      "summary": "A keyboard-invoked overlay (often Cmd/Ctrl+K) combining search with a filtered list of commands and destinations.",
+      "significance": "A power-user pattern that turns navigation and actions into fast, type-to-find interactions; popularized by developer tools.",
+      "key_facts": [
+        "Combines the modal dialog and combobox patterns: a focus-trapped overlay containing a filterable command input.",
+        "Typically invoked with Cmd+K / Ctrl+K; arrow keys navigate results, Enter executes, Escape closes.",
+        "Results should be fuzzy-matched and ranked, showing keyboard shortcuts where they exist.",
+        "Must remain accessible: announce result counts and the active option via combobox semantics."
+      ],
+      "defining_traits": [
+        "keyboard-invoked",
+        "search + commands",
+        "fuzzy match"
+      ],
+      "anatomy": [
+        "overlay/dialog",
+        "search input",
+        "result list",
+        "shortcut hints"
+      ],
+      "examples": [
+        "VS Code Command Palette",
+        "Linear / Slack Cmd+K"
+      ],
+      "related": [
+        "combobox",
+        "modal-dialog",
+        "search",
+        "menu"
+      ],
+      "sources": [
+        {
+          "title": "Combobox Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Dialog (Modal) Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "data-table",
+      "name": "Table / Data grid",
+      "category": "data-display",
+      "tags": [
+        "table",
+        "data-grid",
+        "sorting",
+        "rows"
+      ],
+      "summary": "A grid of rows and columns for displaying and comparing structured data, often with sorting, filtering, and selection.",
+      "significance": "The primary way to present dense structured data for scanning and comparison; accessibility and responsive behavior are notoriously tricky.",
+      "key_facts": [
+        "Use semantic table markup (th with scope) for static data; interactive editable grids follow the APG grid pattern with arrow-key cell navigation.",
+        "Header cells must be associated with their columns/rows so screen readers announce context per cell.",
+        "Sortable columns expose sort state via aria-sort; row selection controls need accessible labels.",
+        "On small screens, reflow or prioritize columns rather than forcing horizontal scroll of everything."
+      ],
+      "defining_traits": [
+        "rows and columns",
+        "header association",
+        "sort/filter/select"
+      ],
+      "anatomy": [
+        "column headers",
+        "rows/cells",
+        "sort controls",
+        "selection checkboxes",
+        "pagination/footer"
+      ],
+      "examples": [
+        "Spreadsheet-like grids",
+        "Admin dashboard tables"
+      ],
+      "related": [
+        "list",
+        "pagination",
+        "checkbox"
+      ],
+      "sources": [
+        {
+          "title": "Grid Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/grid/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Table Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/table/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "list",
+      "name": "List",
+      "category": "data-display",
+      "tags": [
+        "list",
+        "items",
+        "collection",
+        "rows"
+      ],
+      "summary": "A vertical sequence of related items, each often combining an icon/avatar, primary and secondary text, and trailing controls.",
+      "significance": "The most common way to present a collection of homogeneous items for scanning and selection.",
+      "key_facts": [
+        "Use semantic list markup (ul/ol/li) so assistive tech announces item count and position.",
+        "Keep a consistent row structure so users can scan; align leading and trailing elements.",
+        "Interactive list items need a clear primary action and adequate row height for touch targets.",
+        "For very long lists, use virtualization for performance while preserving keyboard access and semantics."
+      ],
+      "defining_traits": [
+        "vertical items",
+        "consistent row template",
+        "scannable"
+      ],
+      "anatomy": [
+        "list container",
+        "list items",
+        "leading media",
+        "primary/secondary text",
+        "trailing action"
+      ],
+      "examples": [
+        "Email inbox rows",
+        "Settings lists",
+        "Contact lists"
+      ],
+      "related": [
+        "data-table",
+        "card",
+        "avatar"
+      ],
+      "sources": [
+        {
+          "title": "Design-Pattern Guidelines: Study Guide",
+          "url": "https://www.nngroup.com/articles/design-pattern-guidelines/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "progress-bar",
+      "name": "Progress bar",
+      "category": "feedback",
+      "tags": [
+        "progress",
+        "loading",
+        "determinate",
+        "feedback"
+      ],
+      "summary": "A horizontal indicator showing how far a determinate task has advanced, or indeterminate activity when the end is unknown.",
+      "significance": "Reduces perceived wait and uncertainty by showing that work is happening and, ideally, how much remains.",
+      "key_facts": [
+        "Use role progressbar with aria-valuenow/min/max for determinate progress so assistive tech reads the percentage.",
+        "Use a determinate bar when completion can be estimated; use indeterminate (or a spinner) when it cannot.",
+        "For long operations, show progress and, where possible, remaining time or step so users decide whether to wait.",
+        "Respect prefers-reduced-motion for animated stripes/indeterminate motion."
+      ],
+      "defining_traits": [
+        "determinate/indeterminate",
+        "aria-valuenow",
+        "advancement feedback"
+      ],
+      "anatomy": [
+        "track",
+        "fill",
+        "percentage/label",
+        "optional buffer segment"
+      ],
+      "examples": [
+        "File upload progress",
+        "Multi-step form progress"
+      ],
+      "related": [
+        "spinner-loader",
+        "skeleton",
+        "loading-animation",
+        "wizard-stepper"
+      ],
+      "sources": [
+        {
+          "title": "<progress> element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "spinner-loader",
+      "name": "Spinner / Loader",
+      "category": "feedback",
+      "tags": [
+        "spinner",
+        "loader",
+        "indeterminate",
+        "loading"
+      ],
+      "summary": "An animated indeterminate indicator signaling that a process is running when its duration is unknown.",
+      "significance": "The simplest 'working' signal, but overuse for content loading feels slower than skeletons because it hides layout.",
+      "key_facts": [
+        "For content that will populate a known layout, skeleton screens are perceived as faster than a bare spinner.",
+        "Use aria-busy or a role status live region so screen readers know content is loading and when it finishes.",
+        "For very short waits (well under ~1s) avoid flashing a spinner at all; for longer waits switch to progress or messaging.",
+        "Respect prefers-reduced-motion by reducing spin speed or providing a static alternative."
+      ],
+      "defining_traits": [
+        "indeterminate",
+        "animated",
+        "unknown duration"
+      ],
+      "anatomy": [
+        "spinning glyph",
+        "optional label",
+        "live-region announcement"
+      ],
+      "examples": [
+        "Button loading state",
+        "Inline data fetch spinner"
+      ],
+      "related": [
+        "skeleton",
+        "progress-bar",
+        "loading-animation",
+        "perceived-performance"
+      ],
+      "sources": [
+        {
+          "title": "Everything you need to know about skeleton screens",
+          "url": "https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a",
+          "publisher": "UX Collective",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "skeleton",
+      "name": "Skeleton screen",
+      "category": "feedback",
+      "tags": [
+        "skeleton",
+        "placeholder",
+        "loading",
+        "perceived-performance"
+      ],
+      "summary": "Low-fidelity gray placeholders shaped like the incoming content, shown while data loads to preview the forthcoming layout.",
+      "significance": "Improves perceived performance by shifting attention from waiting to the content taking shape; standard on content-heavy apps.",
+      "key_facts": [
+        "The term was popularized by Luke Wroblewski in 2013 for reducing perceived wait time.",
+        "Users perceive skeletons as faster than spinners even when actual load time is identical, because layout is anticipated.",
+        "Skeletons should mirror the real content's structure; mismatched shapes cause a jarring swap.",
+        "Expose loading state to assistive tech (aria-busy / status) rather than announcing empty placeholder shapes."
+      ],
+      "defining_traits": [
+        "content-shaped placeholder",
+        "low-fidelity",
+        "perceived-speed boost"
+      ],
+      "anatomy": [
+        "placeholder blocks",
+        "shimmer animation",
+        "matched layout regions"
+      ],
+      "examples": [
+        "LinkedIn feed loading",
+        "YouTube thumbnail placeholders"
+      ],
+      "related": [
+        "spinner-loader",
+        "skeleton-screens",
+        "perceived-performance",
+        "progress-bar"
+      ],
+      "sources": [
+        {
+          "title": "Everything you need to know about skeleton screens",
+          "url": "https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a",
+          "publisher": "UX Collective",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "What Are Skeleton Screens?",
+          "url": "https://blog.hubspot.com/website/skeleton-screens",
+          "publisher": "HubSpot",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "carousel",
+      "name": "Carousel",
+      "category": "data-display",
+      "tags": [
+        "carousel",
+        "slider",
+        "gallery",
+        "rotator"
+      ],
+      "summary": "A rotating set of slides showing one or a few items at a time, with controls to advance through the sequence.",
+      "significance": "Fits multiple items in limited space, but auto-rotating carousels are widely shown to have low engagement past the first slide.",
+      "key_facts": [
+        "Auto-advancing carousels must offer pause/stop controls and respect prefers-reduced-motion (WCAG 2.2.2 for moving content).",
+        "Provide accessible previous/next controls and slide indicators with labels per the APG carousel pattern.",
+        "Content beyond the first slide gets little attention; put the most important content on slide one or avoid carousels for critical info.",
+        "Ensure keyboard operation and that off-screen slides are hidden from tab order/screen readers appropriately."
+      ],
+      "defining_traits": [
+        "rotating slides",
+        "prev/next + indicators",
+        "optional autoplay"
+      ],
+      "anatomy": [
+        "slide track",
+        "slides",
+        "prev/next controls",
+        "position indicators",
+        "play/pause"
+      ],
+      "examples": [
+        "Homepage hero carousels",
+        "Product image galleries"
+      ],
+      "related": [
+        "parallax",
+        "reduced-motion",
+        "pagination"
+      ],
+      "sources": [
+        {
+          "title": "Carousel Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/carousel/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "wizard-stepper",
+      "name": "Stepper / Wizard (multi-step flow)",
+      "category": "navigation",
+      "tags": [
+        "wizard",
+        "stepper",
+        "flow",
+        "progress"
+      ],
+      "summary": "A guided multi-step process that breaks a complex task into sequential steps with a visible progress indicator.",
+      "significance": "Reduces cognitive load for long tasks (checkout, onboarding) by chunking them and showing where the user is and what remains.",
+      "key_facts": [
+        "Show the current step and total (e.g. 'Step 2 of 4') so users understand scope and progress.",
+        "Provide Back navigation and preserve entered data when moving between steps.",
+        "Validate each step before advancing, surfacing errors before the user moves on.",
+        "Distinguish a linear wizard (must complete in order) from a non-linear stepper (jump between steps)."
+      ],
+      "defining_traits": [
+        "sequential steps",
+        "progress indicator",
+        "chunked task"
+      ],
+      "anatomy": [
+        "step indicator",
+        "step content",
+        "back/next buttons",
+        "completion/summary"
+      ],
+      "examples": [
+        "Checkout flow",
+        "Account onboarding wizard"
+      ],
+      "related": [
+        "progress-bar",
+        "tabs",
+        "form-validation"
+      ],
+      "sources": [
+        {
+          "title": "Design-Pattern Guidelines: Study Guide",
+          "url": "https://www.nngroup.com/articles/design-pattern-guidelines/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "rating",
+      "name": "Rating (star rating)",
+      "category": "input",
+      "tags": [
+        "rating",
+        "stars",
+        "feedback",
+        "score"
+      ],
+      "summary": "A control (commonly stars) for capturing or displaying a score on a fixed scale, e.g. 1-5.",
+      "significance": "A compact way to collect subjective feedback and display aggregate quality signals in reviews and listings.",
+      "key_facts": [
+        "Interactive ratings need keyboard support and an accessible value (e.g. radio group or slider semantics reporting 'X of 5 stars').",
+        "Display-only ratings must convey the value in text, not stars alone, for screen readers.",
+        "Allow clearing/changing a selection; consider half-star granularity only if the data supports it.",
+        "Star targets should meet touch-target spacing so users don't mis-tap adjacent stars."
+      ],
+      "defining_traits": [
+        "fixed scale",
+        "star glyphs",
+        "input or display"
+      ],
+      "anatomy": [
+        "scale items (stars)",
+        "filled/empty states",
+        "value label",
+        "hover preview"
+      ],
+      "examples": [
+        "Amazon product ratings",
+        "App store review input"
+      ],
+      "related": [
+        "radio",
+        "slider"
+      ],
+      "sources": [
+        {
+          "title": "Radio Group Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/radio/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "segmented-control",
+      "name": "Segmented control",
+      "category": "action",
+      "tags": [
+        "segmented",
+        "toggle-group",
+        "switcher",
+        "single-select"
+      ],
+      "summary": "A linear set of two or more equal segments where selecting one switches a view or setting; a compact single-select toggle group.",
+      "significance": "A space-efficient way to switch between a small number of mutually exclusive views (e.g. List/Grid) with all options visible.",
+      "key_facts": [
+        "Best for 2-5 mutually exclusive, equally-weighted options that fit on one line.",
+        "Implement as a single-select group (radiogroup or tablist depending on whether it switches views), with roving tabindex.",
+        "The selected segment must be visually distinct beyond color and expose selected state to assistive tech.",
+        "Each segment must meet touch-target size; avoid long labels that unbalance segments."
+      ],
+      "defining_traits": [
+        "equal segments",
+        "single-select",
+        "all options visible"
+      ],
+      "anatomy": [
+        "segment group",
+        "individual segments",
+        "selection highlight",
+        "labels/icons"
+      ],
+      "examples": [
+        "iOS segmented control (Day/Week/Month)",
+        "List vs Grid view switch"
+      ],
+      "related": [
+        "radio",
+        "tabs",
+        "toggle-switch"
+      ],
+      "sources": [
+        {
+          "title": "Radio Group Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/radio/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "empty-state",
+      "name": "Empty state",
+      "category": "feedback",
+      "tags": [
+        "empty-state",
+        "zero-data",
+        "onboarding",
+        "guidance"
+      ],
+      "summary": "The screen shown when a view has no content yet (first use, no results, or cleared data), explaining why and what to do next.",
+      "significance": "Turns a potentially confusing blank screen into guidance, onboarding, or reassurance, and is a key first-run experience moment.",
+      "key_facts": [
+        "Distinguish types: first-use (no data yet), user-cleared (e.g. empty inbox), and no-results (search/filter returned nothing).",
+        "Explain the cause and offer a clear next action (e.g. 'Add your first project') rather than a bare 'No data'.",
+        "For no-results states, suggest how to broaden or correct the query.",
+        "Keep illustrations lightweight and ensure the guidance text is accessible, not conveyed by image alone."
+      ],
+      "defining_traits": [
+        "zero-data screen",
+        "explanatory",
+        "actionable"
+      ],
+      "anatomy": [
+        "illustration/icon",
+        "headline",
+        "supporting text",
+        "primary action",
+        "optional help link"
+      ],
+      "examples": [
+        "Empty inbox ('You're all caught up')",
+        "No search results screen"
+      ],
+      "related": [
+        "skeleton",
+        "alert-banner",
+        "list"
+      ],
+      "sources": [
+        {
+          "title": "Design-Pattern Guidelines: Study Guide",
+          "url": "https://www.nngroup.com/articles/design-pattern-guidelines/",
+          "publisher": "Nielsen Norman Group",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "tree-view",
+      "name": "Tree view",
+      "category": "data-display",
+      "tags": [
+        "tree",
+        "hierarchy",
+        "nested",
+        "navigation"
+      ],
+      "summary": "A hierarchical list of nested, expandable/collapsible nodes for browsing parent-child structures like file systems.",
+      "significance": "The standard way to present and navigate deep hierarchical data while managing complexity through collapse.",
+      "key_facts": [
+        "Follows the APG tree view pattern with role tree/treeitem, aria-expanded on parent nodes, and aria-level for depth.",
+        "Arrow keys navigate and expand/collapse: Right expands, Left collapses/moves to parent, Up/Down move between visible nodes.",
+        "Indentation communicates depth visually; expose depth to assistive tech via aria-level/setsize/posinset.",
+        "Provide clear expand/collapse affordances (disclosure triangles) with adequate touch targets."
+      ],
+      "defining_traits": [
+        "nested nodes",
+        "expand/collapse",
+        "depth semantics"
+      ],
+      "anatomy": [
+        "tree container",
+        "parent nodes",
+        "child nodes",
+        "disclosure triangles",
+        "indentation guides"
+      ],
+      "examples": [
+        "File explorer sidebar",
+        "Nested category browser"
+      ],
+      "related": [
+        "accordion",
+        "sidebar-nav-rail",
+        "list"
+      ],
+      "sources": [
+        {
+          "title": "Tree View Pattern",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/treeview/",
+          "publisher": "W3C ARIA Authoring Practices Guide",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    }
+  ]
+}

@@ -1,0 +1,2091 @@
+{
+  "topic": "typefaces",
+  "title": "Iconic and Important Typefaces",
+  "description": "Reference dataset of historically and practically significant typefaces across serif, sans-serif, slab, monospace, display and script categories, with verified attributions.",
+  "schema_version": "1.0",
+  "count": 47,
+  "last_updated": "2026-07-07",
+  "entries": [
+    {
+      "id": "helvetica",
+      "name": "Helvetica",
+      "category": "grotesque",
+      "tags": [
+        "sans-serif",
+        "neo-grotesque",
+        "swiss",
+        "signage",
+        "1950s"
+      ],
+      "creator": "Max Miedinger with Eduard Hoffmann (Haas Type Foundry)",
+      "year": 1957,
+      "classification": "neo-grotesque sans-serif",
+      "summary": "A neutral neo-grotesque sans-serif developed at the Haas Type Foundry in Switzerland, originally released as Neue Haas Grotesk and renamed Helvetica when Linotype licensed it in 1960.",
+      "significance": "Arguably the most widely used and imitated typeface of the 20th century; the emblem of Swiss/International Typographic Style and corporate modernism.",
+      "key_facts": [
+        "Designed in 1957 by Max Miedinger with Eduard Hoffmann at the Haas Type Foundry in Münchenstein, Switzerland.",
+        "Originally named Neue Haas Grotesk; renamed 'Helvetica' (Latin for 'Swiss') in 1960 for Linotype's international release.",
+        "A neo-grotesque design strongly influenced by the 1890s Berthold typeface Akzidenz-Grotesk.",
+        "Redrawn as a coordinated superfamily, Helvetica Neue, in 1983.",
+        "Used by brands including American Airlines, Lufthansa, Jeep, and (historically) by the NYC Subway signage system."
+      ],
+      "examples": [
+        "American Airlines (historic)",
+        "Lufthansa",
+        "Jeep",
+        "NYC Subway signage",
+        "Toyota (historic)"
+      ],
+      "related": [
+        "neue-haas-grotesk",
+        "helvetica-neue",
+        "akzidenz-grotesk",
+        "arial",
+        "univers"
+      ],
+      "sources": [
+        {
+          "title": "Helvetica",
+          "url": "https://en.wikipedia.org/wiki/Helvetica",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Neue Haas Grotesk in use",
+          "url": "https://fontsinuse.com/typefaces/12/neue-haas-grotesk",
+          "publisher": "Fonts In Use",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "neue-haas-grotesk",
+      "name": "Neue Haas Grotesk",
+      "category": "grotesque",
+      "tags": [
+        "sans-serif",
+        "neo-grotesque",
+        "swiss",
+        "revival",
+        "helvetica"
+      ],
+      "creator": "Max Miedinger & Eduard Hoffmann; digital revival by Christian Schwartz (2010)",
+      "year": 1957,
+      "classification": "neo-grotesque sans-serif",
+      "summary": "The original 1957 name of the typeface that became Helvetica; a faithful modern digital revival by Christian Schwartz was released in 2010 with optical Display and Text sizes.",
+      "significance": "Restores the finer detailing and optical sizing of the original metal design that was flattened in later Helvetica digitizations.",
+      "key_facts": [
+        "The name under which Helvetica was first released by the Haas Type Foundry in 1957.",
+        "Commissioned by Haas director Eduard Hoffmann and drawn by Max Miedinger.",
+        "Digitally revived by Christian Schwartz (with Berton Hasebe) and issued by Font Bureau / Linotype around 2010.",
+        "The revival separates Display and Text optical sizes, unlike the single-master 1980s Helvetica."
+      ],
+      "examples": [
+        "Editorial and branding revivals of classic Helvetica"
+      ],
+      "related": [
+        "helvetica",
+        "helvetica-neue",
+        "akzidenz-grotesk"
+      ],
+      "sources": [
+        {
+          "title": "Neue Haas Grotesk in use",
+          "url": "https://fontsinuse.com/typefaces/12/neue-haas-grotesk",
+          "publisher": "Fonts In Use",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Neue Haas Grotesk",
+          "url": "https://www.myfonts.com/collections/neue-haas-grotesk-font-linotype/",
+          "publisher": "MyFonts",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "helvetica-neue",
+      "name": "Helvetica Neue",
+      "category": "grotesque",
+      "tags": [
+        "sans-serif",
+        "neo-grotesque",
+        "superfamily",
+        "1980s",
+        "ui"
+      ],
+      "creator": "Linotype design staff (D. Stempel AG)",
+      "year": 1983,
+      "classification": "neo-grotesque sans-serif",
+      "summary": "A 1983 reworking of Helvetica into a rationalized, coordinated superfamily with unified weights and widths and a numeric naming scheme.",
+      "significance": "The digital-era standard form of Helvetica; long the default UI font on Apple's macOS and iOS before San Francisco.",
+      "key_facts": [
+        "Released in 1983 by D. Stempel AG / Linotype as a redesign of Helvetica.",
+        "Uses a Univers-style numeric naming system (e.g., 55 Roman, 75 Bold, 25 Ultra Light).",
+        "Was the system font of iOS 7-8 and OS X Yosemite before Apple's San Francisco.",
+        "Provides more consistent weights and spacing than the original 1957 metal cutting."
+      ],
+      "examples": [
+        "Apple iOS 7-8 UI",
+        "OS X Yosemite",
+        "countless corporate identities"
+      ],
+      "related": [
+        "helvetica",
+        "univers",
+        "sf-pro"
+      ],
+      "sources": [
+        {
+          "title": "Helvetica",
+          "url": "https://en.wikipedia.org/wiki/Helvetica",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "arial",
+      "name": "Arial",
+      "category": "grotesque",
+      "tags": [
+        "sans-serif",
+        "neo-grotesque",
+        "microsoft",
+        "metric-compatible",
+        "1980s"
+      ],
+      "creator": "Robin Nicholas & Patricia Saunders (Monotype)",
+      "year": 1982,
+      "classification": "neo-grotesque sans-serif",
+      "summary": "A neo-grotesque sans-serif drawn by Monotype in 1982 that is metrically compatible with Helvetica, meaning text set in each occupies the same width.",
+      "significance": "Bundled with Microsoft Windows and Office since the early 1990s, making it one of the most ubiquitous fonts on personal computers, and a frequent (controversial) Helvetica substitute.",
+      "key_facts": [
+        "Designed in 1982 by Robin Nicholas and Patricia Saunders at Monotype.",
+        "Metrically identical to Helvetica so it can replace it without reflowing text.",
+        "Shipped with Windows 3.1 (1992) and later became a Microsoft/Office core font.",
+        "Distinguished from Helvetica by angled (rather than horizontal) stroke terminals, e.g., on the 'R' leg, 'G', 'S', and 't'."
+      ],
+      "examples": [
+        "Microsoft Windows / Office default",
+        "web-safe font stacks"
+      ],
+      "related": [
+        "helvetica",
+        "franklin-gothic"
+      ],
+      "sources": [
+        {
+          "title": "Arial",
+          "url": "https://en.wikipedia.org/wiki/Arial",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "akzidenz-grotesk",
+      "name": "Akzidenz-Grotesk",
+      "category": "grotesque",
+      "tags": [
+        "sans-serif",
+        "grotesque",
+        "berthold",
+        "19th-century",
+        "swiss-style"
+      ],
+      "creator": "Berthold Type Foundry (specific designer unknown)",
+      "year": 1898,
+      "classification": "grotesque sans-serif",
+      "summary": "A late-19th-century German grotesque sans-serif released by the Berthold Type Foundry, with no single documented designer.",
+      "significance": "The direct ancestor of the Swiss neo-grotesques; heavily used by Swiss Style designers and the model for Helvetica and Univers.",
+      "key_facts": [
+        "Released by the H. Berthold AG foundry of Berlin; commonly dated to 1898 (some sources cite 1896).",
+        "No single designer is documented; long-standing attribution to Ferdinand Theinhardt has been disproven.",
+        "Its regular weight derives from the earlier Schattierte Grotesk shown by Bauer & Co. of Stuttgart in the 1890s.",
+        "Directly influenced Helvetica (1957) and Univers (1957)."
+      ],
+      "examples": [
+        "Swiss International Typographic Style posters",
+        "American Apparel wordmark (historic)"
+      ],
+      "related": [
+        "helvetica",
+        "univers",
+        "neue-haas-grotesk"
+      ],
+      "sources": [
+        {
+          "title": "Akzidenz-Grotesk",
+          "url": "https://en.wikipedia.org/wiki/Akzidenz-Grotesk",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "New details about the origins of Akzidenz-Grotesk",
+          "url": "https://klim.co.nz/blog/new-details-about-origins-akzidenz-grotesk/",
+          "publisher": "Klim Type Foundry",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "univers",
+      "name": "Univers",
+      "category": "grotesque",
+      "tags": [
+        "sans-serif",
+        "neo-grotesque",
+        "superfamily",
+        "swiss",
+        "1950s"
+      ],
+      "creator": "Adrian Frutiger (Deberny & Peignot)",
+      "year": 1957,
+      "classification": "neo-grotesque sans-serif",
+      "summary": "A neo-grotesque sans-serif released by Deberny & Peignot in 1957, planned from the outset as a coordinated system of weights and widths.",
+      "significance": "The first type family conceived as a unified system with a rational two-digit numbering scheme, influencing how superfamilies are organized to this day.",
+      "key_facts": [
+        "Designed by Adrian Frutiger and released by the Deberny & Peignot foundry in Paris in 1957.",
+        "Introduced a two-digit numbering system: first digit = weight, second digit = width/posture (odd = roman, even = oblique).",
+        "Launched with 21 coordinated variants planned as a single system.",
+        "Its numbering approach was later echoed by Helvetica Neue (55, 75, etc.)."
+      ],
+      "examples": [
+        "Deutsche Bank identity",
+        "Apple product manuals (historic)",
+        "eBay logo (historic)"
+      ],
+      "related": [
+        "frutiger",
+        "helvetica",
+        "akzidenz-grotesk"
+      ],
+      "sources": [
+        {
+          "title": "Deberny et Peignot's 'Univers', 1957",
+          "url": "https://productiontype.com/article/deberny-et-peignot-s-univers-1957",
+          "publisher": "Production Type",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Adrian Frutiger",
+          "url": "https://en.wikipedia.org/wiki/Adrian_Frutiger",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "futura",
+      "name": "Futura",
+      "category": "geometric-sans",
+      "tags": [
+        "sans-serif",
+        "geometric",
+        "bauhaus",
+        "modernist",
+        "1920s"
+      ],
+      "creator": "Paul Renner (Bauersche Gießerei)",
+      "year": 1927,
+      "classification": "geometric sans-serif",
+      "summary": "A geometric sans-serif designed by Paul Renner and released by the Bauer foundry in 1927, built on the circle, square and triangle.",
+      "significance": "The archetypal geometric sans and one of the most-used typefaces of the 20th century; visually embodies Bauhaus-era modernism.",
+      "key_facts": [
+        "Designed by Paul Renner and released by Bauersche Gießerei (Bauer Type Foundry) in 1927.",
+        "Based on simple geometric forms; the 'o' is a near-perfect (slightly ovoid) circle.",
+        "Renner was not a Bauhaus member but shared its modernist ideals; created amid the New Frankfurt project.",
+        "A version accompanied the Apollo 11 mission plaque left on the Moon in 1969.",
+        "Long associated with Volkswagen and used in Wes Anderson film titling."
+      ],
+      "examples": [
+        "Volkswagen (historic)",
+        "Apollo 11 lunar plaque",
+        "Nike 'Just Do It' era",
+        "Wes Anderson film titles"
+      ],
+      "related": [
+        "avenir",
+        "gotham",
+        "proxima-nova"
+      ],
+      "sources": [
+        {
+          "title": "Futura (typeface)",
+          "url": "https://en.wikipedia.org/wiki/Futura_(typeface)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Futura",
+          "url": "https://bauertypes.com/bauer-classics/futura-nd/",
+          "publisher": "Bauer Types",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "gotham",
+      "name": "Gotham",
+      "category": "geometric-sans",
+      "tags": [
+        "sans-serif",
+        "geometric",
+        "american",
+        "2000s",
+        "signage"
+      ],
+      "creator": "Tobias Frere-Jones (Hoefler & Frere-Jones)",
+      "year": 2000,
+      "classification": "geometric sans-serif",
+      "summary": "A geometric sans-serif designed by Tobias Frere-Jones, inspired by mid-20th-century American architectural signage and lettering in New York City.",
+      "significance": "Defined a confident, approachable American vernacular; propelled to fame by Barack Obama's 2008 campaign and the One World Trade Center cornerstone.",
+      "key_facts": [
+        "Designed in 2000 by Tobias Frere-Jones (with Jesse Ragan) and released through Hoefler & Frere-Jones, publicly around 2002.",
+        "Originally commissioned by GQ magazine.",
+        "Letterforms derive from vernacular architectural signage of mid-century New York (e.g., the Port Authority Bus Terminal).",
+        "Used prominently in Barack Obama's 2008 presidential campaign identity.",
+        "Engraved on the cornerstone of One World Trade Center (Freedom Tower)."
+      ],
+      "examples": [
+        "Obama 2008 campaign",
+        "One World Trade Center cornerstone",
+        "Spotify (historic)",
+        "Netflix (historic)"
+      ],
+      "related": [
+        "futura",
+        "proxima-nova",
+        "avenir"
+      ],
+      "sources": [
+        {
+          "title": "Gotham (typeface)",
+          "url": "https://en.wikipedia.org/wiki/Gotham_(typeface)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Gotham in use",
+          "url": "https://fontsinuse.com/typefaces/20/gotham",
+          "publisher": "Fonts In Use",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "proxima-nova",
+      "name": "Proxima Nova",
+      "category": "geometric-sans",
+      "tags": [
+        "sans-serif",
+        "geometric",
+        "web",
+        "2000s",
+        "ui"
+      ],
+      "creator": "Mark Simonson (Mark Simonson Studio)",
+      "year": 2005,
+      "classification": "geometric-grotesque sans-serif",
+      "summary": "A sans-serif blending geometric proportions with grotesque warmth, expanded in 2005 from Simonson's earlier Proxima Sans (1994).",
+      "significance": "One of the defining web fonts of the 2010s; extremely popular on the early web-font market and across major media brands.",
+      "key_facts": [
+        "Designed by Mark Simonson; roots trace to 1981 sketches, first released as Proxima Sans in 1994.",
+        "Fully overhauled and reissued as Proxima Nova in 2005 with rebuilt hinting and 1,400+ glyphs.",
+        "Combines geometric structure with grotesque proportions for on-screen readability.",
+        "Widely licensed via web-font services; used by BuzzFeed, Mashable, NBC, Wired and TikTok."
+      ],
+      "examples": [
+        "Spotify (historic)",
+        "BuzzFeed",
+        "NBC",
+        "Wired",
+        "Twitter web (historic)"
+      ],
+      "related": [
+        "futura",
+        "gotham",
+        "avenir"
+      ],
+      "sources": [
+        {
+          "title": "Proxima Nova",
+          "url": "https://www.marksimonson.com/fonts/view/proxima-nova/",
+          "publisher": "Mark Simonson Studio",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Mark Simonson",
+          "url": "https://en.wikipedia.org/wiki/Mark_Simonson",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "avenir",
+      "name": "Avenir",
+      "category": "geometric-sans",
+      "tags": [
+        "sans-serif",
+        "geometric",
+        "humanist",
+        "1980s",
+        "swiss"
+      ],
+      "creator": "Adrian Frutiger (Linotype)",
+      "year": 1988,
+      "classification": "geometric sans-serif (with humanist proportions)",
+      "summary": "A geometric sans-serif by Adrian Frutiger that softens strict geometry with humanist proportions for improved warmth and readability.",
+      "significance": "A refined, more organic alternative to Futura; Avenir Next became widely known as an Apple system-adjacent font and in transit/wayfinding.",
+      "key_facts": [
+        "Designed by Adrian Frutiger and released by Linotype in 1988; 'avenir' is French for 'future,' nodding to Futura.",
+        "Deliberately less geometric than Futura, with subtle stroke-weight variation for legibility.",
+        "Reworked with Akira Kobayashi as Avenir Next in 2004.",
+        "Used by Apple in some products, Amazon Kindle interface, and numerous transit systems."
+      ],
+      "examples": [
+        "Apple Maps (historic)",
+        "Amazon Kindle UI",
+        "LG identity",
+        "various transit wayfinding"
+      ],
+      "related": [
+        "futura",
+        "frutiger",
+        "univers"
+      ],
+      "sources": [
+        {
+          "title": "Avenir (typeface)",
+          "url": "https://en.wikipedia.org/wiki/Avenir_(typeface)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "frutiger",
+      "name": "Frutiger",
+      "category": "humanist-sans",
+      "tags": [
+        "sans-serif",
+        "humanist",
+        "signage",
+        "wayfinding",
+        "1970s"
+      ],
+      "creator": "Adrian Frutiger",
+      "year": 1976,
+      "classification": "humanist sans-serif",
+      "summary": "A humanist sans-serif originally designed as signage for Charles de Gaulle Airport (as 'Roissy') and released for general use in 1976.",
+      "significance": "Set the template for modern wayfinding and legibility-first humanist sans-serifs; hugely influential on later screen and signage faces.",
+      "key_facts": [
+        "Designed by Adrian Frutiger from 1968-1975 as signage for Paris's Charles de Gaulle (Roissy) Airport.",
+        "Publicly released by Linotype under the name Frutiger in 1976.",
+        "Features open apertures and prominent ascenders/descenders for legibility at a distance and at angles.",
+        "Basis for many derivatives, including the UK NHS font and Frutiger's later Astra-Frutiger for Swiss signage."
+      ],
+      "examples": [
+        "Charles de Gaulle Airport signage",
+        "UK NHS (Frutiger derivative)",
+        "Swiss road signage"
+      ],
+      "related": [
+        "univers",
+        "avenir",
+        "segoe-ui"
+      ],
+      "sources": [
+        {
+          "title": "Frutiger (typeface)",
+          "url": "https://en.wikipedia.org/wiki/Frutiger_(typeface)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "franklin-gothic",
+      "name": "Franklin Gothic",
+      "category": "grotesque",
+      "tags": [
+        "sans-serif",
+        "grotesque",
+        "american",
+        "editorial",
+        "1900s"
+      ],
+      "creator": "Morris Fuller Benton (American Type Founders)",
+      "year": 1902,
+      "classification": "grotesque (gothic) sans-serif",
+      "summary": "An early-20th-century American grotesque sans-serif by Morris Fuller Benton, robust and slightly heavy, named after Benjamin Franklin.",
+      "significance": "A cornerstone of American advertising and editorial typography; still a go-to for bold headlines a century later.",
+      "key_facts": [
+        "Designed by Morris Fuller Benton for American Type Founders (ATF), released beginning 1902.",
+        "Named in honor of printer Benjamin Franklin.",
+        "Notable for a double-story 'g' and sturdy, slightly variable stroke weight (unlike geometric sans).",
+        "Expanded over decades; ITT/ITC issued a widely used revival, ITC Franklin Gothic, in 1980."
+      ],
+      "examples": [
+        "newspaper and magazine headlines",
+        "Sicko / mid-century advertising"
+      ],
+      "related": [
+        "akzidenz-grotesk",
+        "helvetica"
+      ],
+      "sources": [
+        {
+          "title": "Franklin Gothic",
+          "url": "https://en.wikipedia.org/wiki/Franklin_Gothic",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "gill-sans",
+      "name": "Gill Sans",
+      "category": "humanist-sans",
+      "tags": [
+        "sans-serif",
+        "humanist",
+        "british",
+        "monotype",
+        "1920s"
+      ],
+      "creator": "Eric Gill (Monotype)",
+      "year": 1928,
+      "classification": "humanist sans-serif",
+      "summary": "A British humanist sans-serif by Eric Gill, based on Edward Johnston's London Underground lettering, released by Monotype in 1928.",
+      "significance": "The quintessential English sans-serif; long the corporate face of the BBC and British Railways, and a humanist counterpart to continental geometrics.",
+      "key_facts": [
+        "Designed by Eric Gill and released by the British branch of Monotype in 1928.",
+        "Derived from Edward Johnston's 1916 sans-serif alphabet for the London Underground, which Gill helped develop.",
+        "Humanist proportions based on classical Roman capitals and pen-written forms.",
+        "Adopted by the London and North Eastern Railway, British Railways, Penguin Books covers, and the BBC identity."
+      ],
+      "examples": [
+        "BBC logo (historic)",
+        "British Railways",
+        "Penguin Books covers",
+        "Tommy Hilfiger wordmark"
+      ],
+      "related": [
+        "optima",
+        "frutiger",
+        "trajan"
+      ],
+      "sources": [
+        {
+          "title": "Gill Sans",
+          "url": "https://en.wikipedia.org/wiki/Gill_Sans",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "optima",
+      "name": "Optima",
+      "category": "humanist-sans",
+      "tags": [
+        "sans-serif",
+        "humanist",
+        "flared",
+        "glyphic",
+        "1950s"
+      ],
+      "creator": "Hermann Zapf (D. Stempel AG)",
+      "year": 1958,
+      "classification": "humanist sans-serif (flared / glyphic)",
+      "summary": "A humanist sans-serif with subtly flared, contrasting strokes designed by Hermann Zapf, inspired by Renaissance Roman stone lettering in Florence.",
+      "significance": "A rare 'sans with contrast' that bridges serif elegance and sans cleanliness; widely used for luxury and cosmetics branding.",
+      "key_facts": [
+        "Designed by Hermann Zapf and released by D. Stempel AG, Frankfurt, in 1958.",
+        "Inspired by inscriptional Roman capitals Zapf sketched at the Basilica di Santa Croce in Florence in 1950.",
+        "Has stroke contrast and flared terminals rather than true serifs.",
+        "Reissued as Optima Nova by Linotype in 2002.",
+        "Used by brands such as Estée Lauder and Aston Martin, and on the Vietnam Veterans Memorial."
+      ],
+      "examples": [
+        "Estée Lauder",
+        "Aston Martin (historic)",
+        "Vietnam Veterans Memorial inscriptions"
+      ],
+      "related": [
+        "gill-sans",
+        "trajan",
+        "garamond"
+      ],
+      "sources": [
+        {
+          "title": "Optima",
+          "url": "https://en.wikipedia.org/wiki/Optima",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Optima font guide",
+          "url": "https://www.typewolf.com/optima",
+          "publisher": "Typewolf",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "ff-din",
+      "name": "DIN (FF DIN)",
+      "category": "grotesque",
+      "tags": [
+        "sans-serif",
+        "industrial",
+        "german",
+        "signage",
+        "1990s"
+      ],
+      "creator": "Albert-Jan Pool (FontFont / FontShop); based on DIN 1451",
+      "year": 1995,
+      "classification": "industrial / grotesque sans-serif",
+      "summary": "A refined digital reinterpretation of Germany's DIN 1451 engineering standard lettering, drawn by Albert-Jan Pool and released by FontFont in 1995.",
+      "significance": "Brought utilitarian German industrial/road-sign lettering into mainstream graphic design; a hallmark of clean, technical branding.",
+      "key_facts": [
+        "DIN 1451 is a German standard (Deutsches Institut für Normung) lettering used on road signs and machinery, standardized in 1936.",
+        "FF DIN was designed by Albert-Jan Pool and released via FontShop's FontFont library in 1995.",
+        "Pool was encouraged to make the revival by Erik Spiekermann at a 1994 ATypI conference.",
+        "FF DIN added extra weights, old-style figures, and improved screen hinting beyond the raw standard."
+      ],
+      "examples": [
+        "German road signage (DIN 1451)",
+        "numerous tech and industrial brand identities"
+      ],
+      "related": [
+        "univers",
+        "helvetica"
+      ],
+      "sources": [
+        {
+          "title": "FF DIN",
+          "url": "https://en.wikipedia.org/wiki/FF_DIN",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "DIN 1451",
+          "url": "https://en.wikipedia.org/wiki/DIN_1451",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "inter",
+      "name": "Inter",
+      "category": "grotesque",
+      "tags": [
+        "sans-serif",
+        "neo-grotesque",
+        "ui",
+        "open-source",
+        "variable",
+        "2010s"
+      ],
+      "creator": "Rasmus Andersson",
+      "year": 2017,
+      "classification": "neo-grotesque sans-serif (UI-optimized)",
+      "summary": "A free, open-source neo-grotesque sans-serif engineered specifically for user-interface text and small-size screen readability.",
+      "significance": "One of the most widely adopted UI typefaces of its era; a default choice for modern web apps, dashboards, and design systems.",
+      "key_facts": [
+        "Designed by Rasmus Andersson; started in a private repo in November 2016 and first published in August 2017.",
+        "Distributed free and open-source (SIL Open Font License) via GitHub (rsms/inter).",
+        "Designed for on-screen UI clarity with a tall x-height and features like tabular figures and contextual alternates.",
+        "Shipped as a variable font and includes a display optical variant."
+      ],
+      "examples": [
+        "GitHub UI",
+        "Figma UI (historic)",
+        "countless SaaS dashboards and design systems"
+      ],
+      "related": [
+        "roboto",
+        "sf-pro",
+        "helvetica"
+      ],
+      "sources": [
+        {
+          "title": "Inter (typeface)",
+          "url": "https://en.wikipedia.org/wiki/Inter_(typeface)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Inter font family",
+          "url": "https://rsms.me/inter/",
+          "publisher": "Rasmus Andersson",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "roboto",
+      "name": "Roboto",
+      "category": "grotesque",
+      "tags": [
+        "sans-serif",
+        "neo-grotesque",
+        "google",
+        "android",
+        "material",
+        "2010s"
+      ],
+      "creator": "Christian Robertson (Google)",
+      "year": 2011,
+      "classification": "neo-grotesque sans-serif (with humanist details)",
+      "summary": "Google's system typeface, introduced with Android 4.0 and central to Material Design, mixing mechanical grotesque skeletons with friendly, open curves.",
+      "significance": "The default face of the Android ecosystem and Material Design; one of the most-served fonts on the web via Google Fonts.",
+      "key_facts": [
+        "Designed by Christian Robertson and introduced by Google with Android 4.0 (Ice Cream Sandwich) in 2011.",
+        "Combines largely geometric/grotesque forms with some open, humanist terminals.",
+        "The core typeface of Google's Material Design guidelines.",
+        "Later expanded into a variable font and a companion Roboto Flex, plus Serif, Slab, Mono and Condensed siblings."
+      ],
+      "examples": [
+        "Android OS UI",
+        "Google Material Design",
+        "YouTube (historic)"
+      ],
+      "related": [
+        "inter",
+        "open-sans",
+        "helvetica"
+      ],
+      "sources": [
+        {
+          "title": "Roboto",
+          "url": "https://fonts.google.com/specimen/Roboto",
+          "publisher": "Google Fonts",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "open-sans",
+      "name": "Open Sans",
+      "category": "humanist-sans",
+      "tags": [
+        "sans-serif",
+        "humanist",
+        "google",
+        "web",
+        "open-source",
+        "2010s"
+      ],
+      "creator": "Steve Matteson (Ascender Corp / Monotype)",
+      "year": 2011,
+      "classification": "humanist sans-serif",
+      "summary": "A humanist sans-serif commissioned by Google, closely related to Matteson's earlier Droid Sans, optimized for print, web and mobile.",
+      "significance": "One of the most popular Google Fonts of the 2010s and a default body face across countless websites and CMS themes.",
+      "key_facts": [
+        "Designed by Steve Matteson and released through Google in 2011.",
+        "Based on Matteson's Droid Sans, drawn for Android.",
+        "Neutral, upright humanist design with open forms and good legibility at small sizes.",
+        "Distributed free under the Apache License via Google Fonts."
+      ],
+      "examples": [
+        "WordPress admin (historic)",
+        "Mozilla sites (historic)",
+        "many website body texts"
+      ],
+      "related": [
+        "roboto",
+        "lato",
+        "source-sans"
+      ],
+      "sources": [
+        {
+          "title": "Open Sans",
+          "url": "https://fonts.google.com/specimen/Open+Sans",
+          "publisher": "Google Fonts",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "lato",
+      "name": "Lato",
+      "category": "humanist-sans",
+      "tags": [
+        "sans-serif",
+        "humanist",
+        "web",
+        "open-source",
+        "polish",
+        "2010s"
+      ],
+      "creator": "Łukasz Dziedzic (tyPoland)",
+      "year": 2010,
+      "classification": "humanist sans-serif",
+      "summary": "A warm, semi-rounded humanist sans-serif by Polish designer Łukasz Dziedzic, offered free via Google Fonts.",
+      "significance": "A hugely popular free web font praised for a friendly-yet-professional tone that works for both body and display.",
+      "key_facts": [
+        "Designed by Łukasz Dziedzic (foundry tyPoland) and released in 2010.",
+        "'Lato' means 'summer' in Polish.",
+        "Originally developed for a corporate client, then released free under the SIL Open Font License.",
+        "Humanist proportions with subtly organic curves and semi-rounded details."
+      ],
+      "examples": [
+        "numerous corporate and marketing websites",
+        "presentation templates"
+      ],
+      "related": [
+        "open-sans",
+        "montserrat",
+        "source-sans"
+      ],
+      "sources": [
+        {
+          "title": "Lato",
+          "url": "https://fonts.google.com/specimen/Lato",
+          "publisher": "Google Fonts",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "montserrat",
+      "name": "Montserrat",
+      "category": "geometric-sans",
+      "tags": [
+        "sans-serif",
+        "geometric",
+        "web",
+        "open-source",
+        "argentine",
+        "2010s"
+      ],
+      "creator": "Julieta Ulanovsky",
+      "year": 2011,
+      "classification": "geometric sans-serif",
+      "summary": "A geometric sans-serif inspired by early-20th-century signage and posters of the Montserrat neighborhood of Buenos Aires.",
+      "significance": "One of the most-used geometric display sans-serifs on the web, a common free stand-in for Gotham-style faces.",
+      "key_facts": [
+        "Designed by Julieta Ulanovsky and released in 2011, funded partly via a Kickstarter and released open-source.",
+        "Based on vintage posters, signs and painted lettering in the Montserrat district of Buenos Aires.",
+        "Distributed free under the SIL Open Font License via Google Fonts.",
+        "Offers many weights and an Alternates variant; frequently used for headlines."
+      ],
+      "examples": [
+        "headlines on marketing sites",
+        "logos and posters"
+      ],
+      "related": [
+        "futura",
+        "gotham",
+        "proxima-nova"
+      ],
+      "sources": [
+        {
+          "title": "Montserrat",
+          "url": "https://fonts.google.com/specimen/Montserrat",
+          "publisher": "Google Fonts",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "source-sans",
+      "name": "Source Sans (Source Sans 3)",
+      "category": "humanist-sans",
+      "tags": [
+        "sans-serif",
+        "humanist",
+        "adobe",
+        "open-source",
+        "ui",
+        "2010s"
+      ],
+      "creator": "Paul D. Hunt (Adobe)",
+      "year": 2012,
+      "classification": "humanist sans-serif",
+      "summary": "Adobe's first open-source typeface, a clean humanist sans-serif designed for user interfaces and general text.",
+      "significance": "Kicked off Adobe's respected open-source Source family (Sans, Serif, Code) widely used in software UIs and documentation.",
+      "key_facts": [
+        "Designed by Paul D. Hunt and released by Adobe in 2012 as Source Sans Pro, Adobe's first open-source font family.",
+        "Renamed Source Sans 3 in the 2021 open-source update.",
+        "Humanist proportions influenced by early-20th-century American gothics such as those of Morris Fuller Benton.",
+        "Released under the SIL Open Font License; paired with Source Serif and Source Code Pro."
+      ],
+      "examples": [
+        "Adobe product UIs",
+        "developer documentation sites"
+      ],
+      "related": [
+        "open-sans",
+        "franklin-gothic",
+        "ibm-plex"
+      ],
+      "sources": [
+        {
+          "title": "Source Sans 3",
+          "url": "https://fonts.google.com/specimen/Source+Sans+3",
+          "publisher": "Google Fonts",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "sf-pro",
+      "name": "San Francisco (SF Pro)",
+      "category": "grotesque",
+      "tags": [
+        "sans-serif",
+        "neo-grotesque",
+        "apple",
+        "ui",
+        "system-font",
+        "2010s"
+      ],
+      "creator": "Apple Inc.",
+      "year": 2017,
+      "classification": "neo-grotesque sans-serif (UI system font)",
+      "summary": "Apple's proprietary system typeface family across its platforms, engineered with optical sizes (Display/Text) that adapt spacing and detail by size.",
+      "significance": "Replaced Helvetica Neue as Apple's system font; a benchmark for UI typography with dynamic optical sizing.",
+      "key_facts": [
+        "Apple first shipped a 'San Francisco' font for Apple Watch in 2015, then rolled SF out across iOS/macOS from 2015 onward; SF Pro branding solidified around 2017.",
+        "Includes optical variants: SF Pro Display for large sizes and SF Pro Text for body, with tuned tracking.",
+        "Replaced Helvetica Neue as Apple's UI typeface.",
+        "Companion families include SF Compact (Apple Watch), SF Mono, SF Arabic, and New York (serif)."
+      ],
+      "examples": [
+        "iOS and macOS UI",
+        "Apple Watch (SF Compact)",
+        "Apple marketing"
+      ],
+      "related": [
+        "helvetica-neue",
+        "inter",
+        "segoe-ui"
+      ],
+      "sources": [
+        {
+          "title": "San Francisco (sans-serif typeface)",
+          "url": "https://en.wikipedia.org/wiki/San_Francisco_(sans-serif_typeface)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "segoe-ui",
+      "name": "Segoe UI",
+      "category": "humanist-sans",
+      "tags": [
+        "sans-serif",
+        "humanist",
+        "microsoft",
+        "ui",
+        "system-font",
+        "2000s"
+      ],
+      "creator": "Steve Matteson (Agfa Monotype) for Microsoft",
+      "year": 2004,
+      "classification": "humanist sans-serif (UI system font)",
+      "summary": "Microsoft's humanist sans-serif UI system font, introduced broadly with Windows Vista and used across Windows and Microsoft products.",
+      "significance": "The face of the Windows interface for over 15 years and a core part of Microsoft's brand typography.",
+      "key_facts": [
+        "The UI variant was adopted as the Windows system font starting with Windows Vista (2007).",
+        "Drawn by Steve Matteson; its humanist forms are widely noted as close to Frutiger.",
+        "Expanded into a large family (Segoe UI, Segoe UI Symbol, Segoe UI Emoji, Segoe UI Variable).",
+        "Segoe UI Variable was introduced for Windows 11 with optical sizing."
+      ],
+      "examples": [
+        "Windows Vista/7/10/11 UI",
+        "Microsoft Office and web properties"
+      ],
+      "related": [
+        "frutiger",
+        "sf-pro",
+        "open-sans"
+      ],
+      "sources": [
+        {
+          "title": "Segoe",
+          "url": "https://en.wikipedia.org/wiki/Segoe",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "garamond",
+      "name": "Garamond",
+      "category": "serif",
+      "tags": [
+        "serif",
+        "old-style",
+        "french",
+        "16th-century",
+        "book"
+      ],
+      "creator": "Claude Garamond (with later revivals)",
+      "year": 1540,
+      "classification": "old-style (Garalde) serif",
+      "summary": "A group of old-style serif typefaces based on the 16th-century roman types of Parisian punchcutter Claude Garamond.",
+      "significance": "One of the most enduring and legible book faces in Western typography; a template for old-style serifs for centuries.",
+      "key_facts": [
+        "Named for Claude Garamond (c. 1510-1561), a Parisian punchcutter whose roman types date largely to the 1530s-1540s.",
+        "Modern 'Garamond' fonts are revivals; some (e.g., certain Monotype/Simoncini cuts) are actually based on Jean Jannon's 17th-century types.",
+        "Old-style traits: low stroke contrast, angled (humanist) axis, and small, bracketed serifs.",
+        "Notable digital revivals include Adobe Garamond (Robert Slimbach, 1989), Garamond Premier, and Sabon (a Garamond-based design)."
+      ],
+      "examples": [
+        "book body text worldwide",
+        "Apple print materials (historic Apple Garamond)"
+      ],
+      "related": [
+        "sabon",
+        "caslon",
+        "minion"
+      ],
+      "sources": [
+        {
+          "title": "Garamond",
+          "url": "https://en.wikipedia.org/wiki/Garamond",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Claude Garamond",
+          "url": "https://en.wikipedia.org/wiki/Claude_Garamond",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "times-new-roman",
+      "name": "Times New Roman",
+      "category": "serif",
+      "tags": [
+        "serif",
+        "transitional",
+        "newspaper",
+        "1930s",
+        "microsoft"
+      ],
+      "creator": "Stanley Morison & Victor Lardent (The Times / Monotype)",
+      "year": 1932,
+      "classification": "transitional / old-style serif (Times class)",
+      "summary": "A serif typeface commissioned by The Times of London for compact, legible newspaper setting, first used in 1932.",
+      "significance": "Became the 20th century's default document face, and later a bundled core system font, making it one of the most-seen typefaces ever.",
+      "key_facts": [
+        "Commissioned by The Times after Stanley Morison criticized the paper's printing; drawn by Victor Lardent under Morison's direction.",
+        "First appeared in The Times on 3 October 1932; issued commercially by Monotype in 1933.",
+        "Based on the older Monotype face Plantin, with sharper serifs and higher contrast for economy and legibility.",
+        "Bundled with Microsoft Windows, cementing its status as a default document typeface."
+      ],
+      "examples": [
+        "The Times (historic)",
+        "Microsoft Word default (historic)",
+        "academic manuscripts"
+      ],
+      "related": [
+        "georgia",
+        "baskerville",
+        "caslon"
+      ],
+      "sources": [
+        {
+          "title": "Times New Roman",
+          "url": "https://en.wikipedia.org/wiki/Times_New_Roman",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "georgia",
+      "name": "Georgia",
+      "category": "serif",
+      "tags": [
+        "serif",
+        "transitional",
+        "screen",
+        "microsoft",
+        "web-safe",
+        "1990s"
+      ],
+      "creator": "Matthew Carter (hinted by Tom Rickner) for Microsoft",
+      "year": 1996,
+      "classification": "transitional / Scotch-modern serif",
+      "summary": "A serif designed by Matthew Carter to remain elegant and legible on low-resolution screens, with a large x-height and sturdy strokes.",
+      "significance": "One of the original web-safe 'core fonts for the Web'; a benchmark for on-screen serif readability before high-DPI displays.",
+      "key_facts": [
+        "Designed by Matthew Carter in 1993 and hinted by Tom Rickner; publicly released by Microsoft on 1 November 1996.",
+        "Part of Microsoft's Core fonts for the Web collection.",
+        "Inspired by 19th-century Scotch Roman designs, related to Carter's print face Miller.",
+        "Large x-height and thickened thin strokes aid legibility at small screen sizes; includes text (old-style) figures."
+      ],
+      "examples": [
+        "web body text (web-safe stacks)",
+        "The New York Times website (historic)"
+      ],
+      "related": [
+        "times-new-roman",
+        "baskerville",
+        "merriweather"
+      ],
+      "sources": [
+        {
+          "title": "Georgia (typeface)",
+          "url": "https://en.wikipedia.org/wiki/Georgia_(typeface)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "baskerville",
+      "name": "Baskerville",
+      "category": "serif",
+      "tags": [
+        "serif",
+        "transitional",
+        "english",
+        "18th-century",
+        "book"
+      ],
+      "creator": "John Baskerville (punchcut by John Handy)",
+      "year": 1757,
+      "classification": "transitional serif",
+      "summary": "A transitional serif designed by John Baskerville in Birmingham, refining old-style forms with higher contrast and sharper, more tapered serifs.",
+      "significance": "The defining transitional serif, bridging old-style (Caslon/Garamond) and modern (Bodoni/Didot); prized for elegance and clarity.",
+      "key_facts": [
+        "Designed in 1757 by John Baskerville; punches cut by John Handy.",
+        "Debuted in Baskerville's 1757 edition of Virgil's works, printed on smooth wove paper.",
+        "Increased thick/thin contrast and shifted stress toward vertical versus old-style faces.",
+        "Widely revived; Mrs Eaves (Zuzana Licko, 1996) is a popular modern interpretation."
+      ],
+      "examples": [
+        "fine book printing",
+        "wedding invitations and luxury print"
+      ],
+      "related": [
+        "caslon",
+        "bodoni",
+        "times-new-roman"
+      ],
+      "sources": [
+        {
+          "title": "Baskerville",
+          "url": "https://en.wikipedia.org/wiki/Baskerville",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "bodoni",
+      "name": "Bodoni",
+      "category": "serif",
+      "tags": [
+        "serif",
+        "modern",
+        "didone",
+        "italian",
+        "high-contrast",
+        "18th-century"
+      ],
+      "creator": "Giambattista Bodoni",
+      "year": 1798,
+      "classification": "modern (Didone) serif",
+      "summary": "A modern (Didone) serif marked by extreme thick/thin contrast, hairline unbracketed serifs, and vertical stress, from Italian printer Giambattista Bodoni.",
+      "significance": "An archetype of the 'modern' serif and a staple of fashion and luxury branding; instantly connotes elegance and high contrast.",
+      "key_facts": [
+        "Developed by Giambattista Bodoni (1740-1813), master printer in Parma, in the late 18th century.",
+        "Didone traits: dramatic stroke contrast, thin flat (unbracketed) serifs, strict vertical axis.",
+        "Influenced by, and evolving alongside, Firmin Didot's contemporaneous French 'modern' types.",
+        "Ubiquitous in fashion mastheads and logos (e.g., historic Vogue, Elle, Nirvana wordmark)."
+      ],
+      "examples": [
+        "Vogue masthead (historic)",
+        "Elle",
+        "Nirvana logo",
+        "Calvin Klein branding"
+      ],
+      "related": [
+        "didot",
+        "baskerville",
+        "clarendon"
+      ],
+      "sources": [
+        {
+          "title": "Bodoni",
+          "url": "https://en.wikipedia.org/wiki/Bodoni",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "didot",
+      "name": "Didot",
+      "category": "serif",
+      "tags": [
+        "serif",
+        "modern",
+        "didone",
+        "french",
+        "high-contrast",
+        "fashion"
+      ],
+      "creator": "Firmin Didot (Didot family)",
+      "year": 1784,
+      "classification": "modern (Didone) serif",
+      "summary": "A modern (Didone) serif from the French Didot family, credited to Firmin Didot, characterized by extreme contrast and fine hairline serifs.",
+      "significance": "Along with Bodoni, defines the Didone genre; a favorite of high-fashion editorial and luxury branding.",
+      "key_facts": [
+        "The first 'modern' typeface is generally attributed to Firmin Didot, first used around 1784.",
+        "Developed by the Didot family, prominent French printers and typefounders.",
+        "Extreme thick/thin contrast, unbracketed hairline serifs, vertical stress — the namesake of the 'Didone' class.",
+        "Hoefler & Co.'s HTF Didot (1991) is a well-known digital revival with multiple optical sizes."
+      ],
+      "examples": [
+        "Harper's Bazaar",
+        "CBS (in some titling)",
+        "Giorgio Armani (historic)",
+        "Ralph Lauren editorial"
+      ],
+      "related": [
+        "bodoni",
+        "baskerville",
+        "playfair-display"
+      ],
+      "sources": [
+        {
+          "title": "Didot (typeface)",
+          "url": "https://en.wikipedia.org/wiki/Didot_(typeface)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "caslon",
+      "name": "Caslon",
+      "category": "serif",
+      "tags": [
+        "serif",
+        "old-style",
+        "english",
+        "18th-century",
+        "book"
+      ],
+      "creator": "William Caslon",
+      "year": 1722,
+      "classification": "old-style serif",
+      "summary": "The first widely successful English old-style serif, cut by William Caslon in London, based on 17th-century Dutch models.",
+      "significance": "Dominated English-language printing in the 18th century ('When in doubt, use Caslon'); used to set early printings of the US Declaration of Independence.",
+      "key_facts": [
+        "Designed and cut by William Caslon; first sizes issued around 1722 in London.",
+        "Modeled on Dutch Baroque old-style types then common in England.",
+        "Old-style traits: modest contrast, sturdy bracketed serifs, and a slightly irregular, warm texture.",
+        "Used to set an early broadside printing of the American Declaration of Independence."
+      ],
+      "examples": [
+        "18th-century English books",
+        "US Declaration of Independence printing",
+        "The New Yorker (Caslon-derived)"
+      ],
+      "related": [
+        "garamond",
+        "baskerville",
+        "times-new-roman"
+      ],
+      "sources": [
+        {
+          "title": "Adobe Caslon",
+          "url": "https://fonts.adobe.com/fonts/adobe-caslon",
+          "publisher": "Adobe Fonts",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "William Caslon",
+          "url": "https://www.britannica.com/biography/William-Caslon",
+          "publisher": "Encyclopaedia Britannica",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "minion",
+      "name": "Minion",
+      "category": "serif",
+      "tags": [
+        "serif",
+        "old-style",
+        "adobe",
+        "book",
+        "1990s"
+      ],
+      "creator": "Robert Slimbach (Adobe)",
+      "year": 1990,
+      "classification": "old-style (Garalde) serif",
+      "summary": "An Adobe Originals old-style serif by Robert Slimbach, inspired by late-Renaissance types, designed as a highly functional text family.",
+      "significance": "A workhorse book and body face; Minion Pro shipped widely with Adobe software, making it a default in publishing workflows.",
+      "key_facts": [
+        "Designed by Robert Slimbach for Adobe; released in 1990.",
+        "Inspired by classical, late-Renaissance old-style typefaces.",
+        "Minion Pro (2000) offered optical sizes, small caps, and extensive OpenType features.",
+        "Bundled with Adobe applications, making it a common academic and book text face."
+      ],
+      "examples": [
+        "book publishing",
+        "academic typesetting",
+        "Adobe application defaults"
+      ],
+      "related": [
+        "garamond",
+        "sabon",
+        "caslon"
+      ],
+      "sources": [
+        {
+          "title": "Minion (typeface)",
+          "url": "https://en.wikipedia.org/wiki/Minion_(typeface)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "sabon",
+      "name": "Sabon",
+      "category": "serif",
+      "tags": [
+        "serif",
+        "old-style",
+        "garamond",
+        "book",
+        "1960s"
+      ],
+      "creator": "Jan Tschichold",
+      "year": 1967,
+      "classification": "old-style (Garalde) serif",
+      "summary": "A Garamond-based old-style serif designed by Jan Tschichold to set identically across three metal-typesetting systems (foundry, Linotype, Monotype).",
+      "significance": "A refined, robust book face beloved for elegance and even color on the page; a classic choice for fine bookwork.",
+      "key_facts": [
+        "Designed by Jan Tschichold and released in 1967, jointly by Stempel, Linotype and Monotype.",
+        "Based on the roman types of Claude Garamond and the italics of Robert Granjon.",
+        "Engineered to produce identical results across three different typesetting technologies of the era.",
+        "Named after typefounder Jacques Sabon; updated as Sabon Next by Jean François Porchez (2002)."
+      ],
+      "examples": [
+        "book publishing",
+        "corporate and editorial body text"
+      ],
+      "related": [
+        "garamond",
+        "minion",
+        "caslon"
+      ],
+      "sources": [
+        {
+          "title": "Sabon",
+          "url": "https://en.wikipedia.org/wiki/Sabon",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "playfair-display",
+      "name": "Playfair Display",
+      "category": "serif",
+      "tags": [
+        "serif",
+        "transitional",
+        "didone",
+        "display",
+        "web",
+        "open-source",
+        "2010s"
+      ],
+      "creator": "Claus Eggers Sørensen",
+      "year": 2011,
+      "classification": "transitional / Didone display serif",
+      "summary": "A high-contrast display serif inspired by 18th-century Enlightenment-era types (Baskerville/Didone), designed for large sizes and headlines.",
+      "significance": "One of the most popular free display serifs for the web, frequently paired with a neutral sans for elegant editorial headers.",
+      "key_facts": [
+        "Designed by Claus Eggers Sørensen and released in 2011, free via Google Fonts.",
+        "References transitional and modern types of the late-18th-century (Baskerville, Didone).",
+        "High stroke contrast and delicate details make it a display face, not a body face.",
+        "Very commonly paired with sans-serifs like Source Sans or Montserrat."
+      ],
+      "examples": [
+        "editorial website headlines",
+        "portfolio and blog titling"
+      ],
+      "related": [
+        "didot",
+        "bodoni",
+        "baskerville"
+      ],
+      "sources": [
+        {
+          "title": "Playfair Display",
+          "url": "https://fonts.google.com/specimen/Playfair+Display",
+          "publisher": "Google Fonts",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "merriweather",
+      "name": "Merriweather",
+      "category": "serif",
+      "tags": [
+        "serif",
+        "screen",
+        "web",
+        "open-source",
+        "2010s"
+      ],
+      "creator": "Eben Sorkin (Sorkin Type)",
+      "year": 2010,
+      "classification": "transitional serif (screen-optimized)",
+      "summary": "A serif designed specifically for comfortable on-screen reading, with a large x-height, sturdy serifs, and slightly condensed letters.",
+      "significance": "A go-to free screen serif for long-form web reading, widely paired with sans-serifs for body text.",
+      "key_facts": [
+        "Designed by Eben Sorkin and released around 2010, free via Google Fonts.",
+        "Optimized for screen legibility: large x-height, moderate contrast, robust serifs.",
+        "Includes a companion sans-serif, Merriweather Sans.",
+        "Distributed under the SIL Open Font License."
+      ],
+      "examples": [
+        "long-form article body text",
+        "blog and news templates"
+      ],
+      "related": [
+        "georgia",
+        "playfair-display",
+        "source-sans"
+      ],
+      "sources": [
+        {
+          "title": "Merriweather",
+          "url": "https://fonts.google.com/specimen/Merriweather",
+          "publisher": "Google Fonts",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "clarendon",
+      "name": "Clarendon",
+      "category": "slab-serif",
+      "tags": [
+        "slab-serif",
+        "ionic",
+        "english",
+        "19th-century",
+        "display"
+      ],
+      "creator": "Robert Besley (Fann Street Foundry)",
+      "year": 1845,
+      "classification": "slab serif (Ionic / clarendon)",
+      "summary": "A 19th-century English slab serif with bracketed serifs and clear stroke contrast, designed as a sturdy face for emphasis and advertising.",
+      "significance": "Defined the 'Clarendon' sub-genre of slab serifs; enormously influential on display and signage type, and one of the first registered typefaces.",
+      "key_facts": [
+        "Designed by Robert Besley and released by the Fann Street Foundry in London in 1845.",
+        "Its bracketed slab serifs distinguish the 'Clarendon' style from geometric slabs like Rockwell.",
+        "Among the earliest typefaces to be registered under Britain's Ornamental Designs Act.",
+        "Used on US National Park Service signage and historically in wanted posters and job printing."
+      ],
+      "examples": [
+        "US National Park Service signage",
+        "Sony wordmark heritage",
+        "Wells Fargo (historic)"
+      ],
+      "related": [
+        "rockwell",
+        "bodoni",
+        "cooper-black"
+      ],
+      "sources": [
+        {
+          "title": "Clarendon (typeface)",
+          "url": "https://en.wikipedia.org/wiki/Clarendon_(typeface)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "rockwell",
+      "name": "Rockwell",
+      "category": "slab-serif",
+      "tags": [
+        "slab-serif",
+        "geometric",
+        "monotype",
+        "1930s",
+        "display"
+      ],
+      "creator": "Monotype design studio (attrib. Frank Hinman Pierpont)",
+      "year": 1934,
+      "classification": "geometric slab serif",
+      "summary": "A bold geometric slab serif (Egyptian) from Monotype with nearly uniform stroke weight and unbracketed square serifs.",
+      "significance": "A definitive geometric slab serif; a classic for strong, industrial-feeling headlines and branding.",
+      "key_facts": [
+        "Released by Monotype in 1934, developed by its in-house studio (often associated with Frank Hinman Pierpont).",
+        "Geometric slab (Egyptian) with unbracketed, nearly monoline square serifs.",
+        "The capital 'O' is close to a true circle, reflecting geometric construction.",
+        "Popular for display, packaging and sports/athletic branding."
+      ],
+      "examples": [
+        "Guinness (historic branding elements)",
+        "athletic and sports identities",
+        "packaging headlines"
+      ],
+      "related": [
+        "clarendon",
+        "courier",
+        "futura"
+      ],
+      "sources": [
+        {
+          "title": "Rockwell (typeface)",
+          "url": "https://en.wikipedia.org/wiki/Rockwell_(typeface)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "courier",
+      "name": "Courier",
+      "category": "monospace",
+      "tags": [
+        "monospace",
+        "slab-serif",
+        "typewriter",
+        "ibm",
+        "1950s"
+      ],
+      "creator": "Howard 'Bud' Kettler (IBM)",
+      "year": 1955,
+      "classification": "monospaced slab serif",
+      "summary": "A monospaced slab-serif originally designed for IBM typewriters, later released royalty-free and a longtime default for code, scripts and legal text.",
+      "significance": "The archetypal typewriter/monospace face; a screenwriting and plain-text standard, and the ancestor of Courier New.",
+      "key_facts": [
+        "Designed by Howard 'Bud' Kettler at IBM, introduced around 1955 for IBM typewriters.",
+        "Monospaced (every glyph the same width), with slab serifs aiding character distinction.",
+        "IBM did not secure exclusive rights, so it became widely copied and available.",
+        "Courier New (a Monotype redraw) ships with Microsoft Windows; Courier remains a screenwriting standard."
+      ],
+      "examples": [
+        "screenplay formatting",
+        "code and terminal output (historic)",
+        "legal documents"
+      ],
+      "related": [
+        "cascadia-code",
+        "jetbrains-mono",
+        "rockwell"
+      ],
+      "sources": [
+        {
+          "title": "Courier (typeface)",
+          "url": "https://en.wikipedia.org/wiki/Courier_(typeface)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "jetbrains-mono",
+      "name": "JetBrains Mono",
+      "category": "monospace",
+      "tags": [
+        "monospace",
+        "coding",
+        "ligatures",
+        "open-source",
+        "2020s"
+      ],
+      "creator": "Philipp Nurullin & Konstantin Bulenkov (JetBrains)",
+      "year": 2020,
+      "classification": "monospaced sans-serif (coding font)",
+      "summary": "A free, open-source monospaced typeface made for developers, with a tall x-height, distinct glyphs, and optional coding ligatures.",
+      "significance": "A leading modern coding font, bundled with JetBrains IDEs and widely adopted in editors and terminals.",
+      "key_facts": [
+        "Designed by Philipp Nurullin and Konstantin Bulenkov at JetBrains; released in January 2020.",
+        "Open-source under the SIL Open Font License (Apache 2.0 in earlier releases).",
+        "Includes programming ligatures (toggleable), plus a JetBrains Mono NL variant without ligatures.",
+        "Optimized for long coding sessions with increased letter height and clearly differentiated characters."
+      ],
+      "examples": [
+        "JetBrains IDEs (IntelliJ, PyCharm)",
+        "VS Code and terminal setups"
+      ],
+      "related": [
+        "fira-code",
+        "cascadia-code",
+        "ibm-plex"
+      ],
+      "sources": [
+        {
+          "title": "JetBrains Mono",
+          "url": "https://www.jetbrains.com/lp/mono/",
+          "publisher": "JetBrains",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "JetBrains Mono on GitHub",
+          "url": "https://github.com/JetBrains/JetBrainsMono",
+          "publisher": "GitHub",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "fira-code",
+      "name": "Fira Code",
+      "category": "monospace",
+      "tags": [
+        "monospace",
+        "coding",
+        "ligatures",
+        "open-source",
+        "2010s"
+      ],
+      "creator": "Nikita Prokopov (based on Fira Mono / Mozilla's Fira)",
+      "year": 2015,
+      "classification": "monospaced sans-serif (coding font with ligatures)",
+      "summary": "A monospaced coding font extending Mozilla's Fira Mono with programming ligatures that render multi-character operators as single glyphs.",
+      "significance": "Popularized coding ligatures; its ligature OpenType work was reused by later fonts including Microsoft's Cascadia Code.",
+      "key_facts": [
+        "Created by Nikita Prokopov; the Fira Code project began around 2015.",
+        "Built on Fira Mono, part of the Fira family Mozilla commissioned (designed by Erik Spiekermann's Carrois Type Design) for Firefox OS.",
+        "Adds ligatures for sequences like ->, =>, != and === for readability.",
+        "Its ligature implementation was credited/reused by Microsoft's Cascadia Code."
+      ],
+      "examples": [
+        "code editors and terminals",
+        "developer dotfiles configurations"
+      ],
+      "related": [
+        "jetbrains-mono",
+        "cascadia-code",
+        "ibm-plex"
+      ],
+      "sources": [
+        {
+          "title": "Fira Code on GitHub",
+          "url": "https://github.com/tonsky/FiraCode",
+          "publisher": "GitHub",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "cascadia-code",
+      "name": "Cascadia Code",
+      "category": "monospace",
+      "tags": [
+        "monospace",
+        "coding",
+        "ligatures",
+        "microsoft",
+        "open-source",
+        "2010s"
+      ],
+      "creator": "Aaron Bell (Saja Typeworks) for Microsoft",
+      "year": 2019,
+      "classification": "monospaced sans-serif (coding font with ligatures)",
+      "summary": "Microsoft's monospaced coding font built for Windows Terminal, featuring programming ligatures and companion variants with/without ligatures.",
+      "significance": "The default face of Windows Terminal and a modern, freely available coding font from Microsoft.",
+      "key_facts": [
+        "Designed by Aaron Bell of Saja Typeworks with Microsoft; announced at Build in May 2019, released 18 September 2019.",
+        "Purpose-built for Windows Terminal, Visual Studio and VS Code.",
+        "Includes programming ligatures; the project credits Fira Code's OpenType ligature code.",
+        "Open-source under the SIL Open Font License; ships variants like Cascadia Mono (no ligatures)."
+      ],
+      "examples": [
+        "Windows Terminal default",
+        "Visual Studio / VS Code"
+      ],
+      "related": [
+        "fira-code",
+        "jetbrains-mono",
+        "courier"
+      ],
+      "sources": [
+        {
+          "title": "Cascadia Code on GitHub",
+          "url": "https://github.com/microsoft/cascadia-code",
+          "publisher": "GitHub",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Cascadia Code",
+          "url": "https://en.wikipedia.org/wiki/Cascadia_Code",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "ibm-plex",
+      "name": "IBM Plex",
+      "category": "grotesque",
+      "tags": [
+        "sans-serif",
+        "serif",
+        "monospace",
+        "superfamily",
+        "corporate",
+        "open-source",
+        "2010s"
+      ],
+      "creator": "Mike Abbink (IBM) with Bold Monday",
+      "year": 2017,
+      "classification": "neo-grotesque superfamily (Sans, Serif, Mono)",
+      "summary": "IBM's open-source corporate typeface superfamily (Sans, Serif, Mono), designed to express the relationship between humanity and machine.",
+      "significance": "Replaced Helvetica as IBM's global corporate face after 50+ years, and is one of the few major corporate types released free and open-source.",
+      "key_facts": [
+        "Conceived by Mike Abbink at IBM and developed with the Dutch foundry Bold Monday; released in 2017.",
+        "Replaced Helvetica as IBM's corporate typeface, ending decades of license fees.",
+        "Ships as a superfamily: IBM Plex Sans, IBM Plex Serif, and IBM Plex Mono, plus condensed cuts.",
+        "Released free under the SIL Open Font License."
+      ],
+      "examples": [
+        "IBM global branding",
+        "IBM Carbon Design System",
+        "developer documentation"
+      ],
+      "related": [
+        "helvetica",
+        "source-sans",
+        "jetbrains-mono"
+      ],
+      "sources": [
+        {
+          "title": "IBM Plex",
+          "url": "https://en.wikipedia.org/wiki/IBM_Plex",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "IBM Plex",
+          "url": "https://boldmonday.com/custom/ibm/",
+          "publisher": "Bold Monday",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "comic-sans",
+      "name": "Comic Sans",
+      "category": "display",
+      "tags": [
+        "display",
+        "casual",
+        "script-like",
+        "microsoft",
+        "1990s",
+        "lore"
+      ],
+      "creator": "Vincent Connare (Microsoft)",
+      "year": 1994,
+      "classification": "casual display sans-serif",
+      "summary": "A casual, comic-book-inspired display face designed at Microsoft, famous both for its ubiquity and for the backlash it provoked when misused.",
+      "significance": "The internet's most-mocked typeface, but also a genuinely useful casual/accessible face; a case study in appropriate context for type.",
+      "key_facts": [
+        "Designed by Vincent Connare at Microsoft in 1994 for the software Microsoft Bob's cartoon speech balloons.",
+        "Inspired by comic-book lettering, specifically The Dark Knight Returns and Watchmen.",
+        "Missed the Bob deadline; first shipped with the Windows 95 Plus! Pack in August 1995.",
+        "Often cited as more readable for some dyslexic readers due to its distinct, irregular letterforms."
+      ],
+      "examples": [
+        "informal signage and flyers",
+        "children's materials",
+        "CERN's 2012 Higgs boson slides"
+      ],
+      "related": [
+        "papyrus",
+        "lobster"
+      ],
+      "sources": [
+        {
+          "title": "Comic Sans",
+          "url": "https://en.wikipedia.org/wiki/Comic_Sans",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "papyrus",
+      "name": "Papyrus",
+      "category": "display",
+      "tags": [
+        "display",
+        "textured",
+        "1980s",
+        "lore"
+      ],
+      "creator": "Chris Costello",
+      "year": 1982,
+      "classification": "textured display serif",
+      "summary": "A hand-drawn, rough-textured display face evoking ancient manuscripts, notorious for overuse and for its appearance in the film Avatar.",
+      "significance": "Alongside Comic Sans, a byword for typographic cliché; the subject of a famous Saturday Night Live sketch about the Avatar logo.",
+      "key_facts": [
+        "Designed by Chris Costello over several months around 1982-1983.",
+        "Features irregular, rough edges and high horizontal strokes evoking ancient papyrus/handwriting.",
+        "Bundled with Windows and macOS, driving its ubiquity in casual design.",
+        "Used (in a bold cut) for the Avatar (2009) film logo, later parodied by SNL."
+      ],
+      "examples": [
+        "Avatar film logo",
+        "spa / new-age branding",
+        "café menus"
+      ],
+      "related": [
+        "comic-sans",
+        "trajan"
+      ],
+      "sources": [
+        {
+          "title": "Papyrus (typeface)",
+          "url": "https://en.wikipedia.org/wiki/Papyrus_(typeface)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "trajan",
+      "name": "Trajan",
+      "category": "display",
+      "tags": [
+        "display",
+        "serif",
+        "inscriptional",
+        "adobe",
+        "roman-caps",
+        "1980s"
+      ],
+      "creator": "Carol Twombly (Adobe)",
+      "year": 1989,
+      "classification": "glyphic / inscriptional display serif (caps only)",
+      "summary": "An all-capitals display serif based on the classical Roman letters inscribed on Trajan's Column in Rome (AD 113).",
+      "significance": "The default 'prestige' typeface of movie posters, book covers, and institutions for decades; shorthand for gravitas.",
+      "key_facts": [
+        "Designed by Carol Twombly for Adobe, released in 1989.",
+        "Modeled on the inscription at the base of Trajan's Column in Rome (completed c. AD 113).",
+        "Contains capitals only (no lowercase), reflecting its Roman monumental source.",
+        "Extremely common on Hollywood film posters and law-firm/university branding."
+      ],
+      "examples": [
+        "countless movie posters (e.g., Titanic era)",
+        "university and law-firm identities",
+        "book covers"
+      ],
+      "related": [
+        "optima",
+        "garamond",
+        "papyrus"
+      ],
+      "sources": [
+        {
+          "title": "Trajan (typeface)",
+          "url": "https://en.wikipedia.org/wiki/Trajan_(typeface)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "cooper-black",
+      "name": "Cooper Black",
+      "category": "display",
+      "tags": [
+        "display",
+        "serif",
+        "bold",
+        "1920s",
+        "retro"
+      ],
+      "creator": "Oswald Bruce Cooper (Barnhart Brothers & Spindler)",
+      "year": 1922,
+      "classification": "bold display serif (rounded)",
+      "summary": "An ultra-bold, soft-serifed display face with rounded terminals designed by Oswald Cooper, radiating warmth and friendliness.",
+      "significance": "A perennial retro favorite that defined 1920s ad type and reappears across decades of album covers, logos, and packaging.",
+      "key_facts": [
+        "Designed by Oswald Bruce Cooper and released by Barnhart Brothers & Spindler in 1922.",
+        "Extremely heavy weight with soft, rounded serifs and small counters.",
+        "Marketed originally as a face 'for far-sighted printers with near-sighted customers.'",
+        "Used on numerous album covers (e.g., The Beach Boys' Pet Sounds) and brand logos (e.g., Tootsie Roll, easyJet-style revivals)."
+      ],
+      "examples": [
+        "The Beach Boys 'Pet Sounds' cover",
+        "Tootsie Roll",
+        "Garfield logo",
+        "countless 1970s branding"
+      ],
+      "related": [
+        "clarendon",
+        "lobster",
+        "rockwell"
+      ],
+      "sources": [
+        {
+          "title": "Cooper Black",
+          "url": "https://en.wikipedia.org/wiki/Cooper_Black",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "bebas-neue",
+      "name": "Bebas Neue",
+      "category": "display",
+      "tags": [
+        "display",
+        "sans-serif",
+        "condensed",
+        "caps",
+        "free",
+        "2010s"
+      ],
+      "creator": "Ryoichi Tsunekawa (Dharma Type)",
+      "year": 2010,
+      "classification": "condensed display sans-serif (caps-focused)",
+      "summary": "A tall, condensed, all-caps display sans-serif that became one of the most popular free display fonts for headlines and posters.",
+      "significance": "Ubiquitous in modern poster, title, and social-media design thanks to its bold, clean, free-to-use headline look.",
+      "key_facts": [
+        "Designed by Ryoichi Tsunekawa of Dharma Type; Bebas Neue (a redraw of his 2005 Bebas) was first released in 2010.",
+        "Originally an all-caps condensed display face; later expanded with lowercase and multiple widths.",
+        "Free/open availability drove massive adoption in web and social design.",
+        "Used in film titling (e.g., La La Land) and countless posters and logos."
+      ],
+      "examples": [
+        "La La Land titling",
+        "poster and social-media headlines",
+        "sports graphics"
+      ],
+      "related": [
+        "montserrat",
+        "gotham",
+        "din"
+      ],
+      "sources": [
+        {
+          "title": "Bebas Neue",
+          "url": "https://dharmatype.com/bebas-neue",
+          "publisher": "Dharma Type",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Bebas Neue",
+          "url": "https://fonts.google.com/specimen/Bebas+Neue",
+          "publisher": "Google Fonts",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "lobster",
+      "name": "Lobster",
+      "category": "script",
+      "tags": [
+        "script",
+        "display",
+        "connected",
+        "free",
+        "2010s"
+      ],
+      "creator": "Pablo Impallari (Impallari Type)",
+      "year": 2010,
+      "classification": "connected display script",
+      "summary": "A bold, connected brush/script display face with many contextual alternates, released free and hugely popular for casual branding.",
+      "significance": "One of the most-downloaded free scripts of the 2010s; so widely used on cafés, logos and marketing that it became a design cliché.",
+      "key_facts": [
+        "Designed by Pablo Impallari and released free (SIL Open Font License) around 2010.",
+        "A connected script with hundreds of contextual and ligature alternates for natural-looking joins.",
+        "Distributed via Google Fonts, driving very broad adoption.",
+        "Often cited (like Comic Sans/Papyrus) as an overused, instantly recognizable 'default' choice."
+      ],
+      "examples": [
+        "café and small-business logos",
+        "marketing headers",
+        "packaging"
+      ],
+      "related": [
+        "cooper-black",
+        "bebas-neue",
+        "comic-sans"
+      ],
+      "sources": [
+        {
+          "title": "Lobster",
+          "url": "https://fonts.google.com/specimen/Lobster",
+          "publisher": "Google Fonts",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    }
+  ]
+}

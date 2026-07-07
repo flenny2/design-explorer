@@ -1,0 +1,987 @@
+{
+  "topic": "motion-interaction",
+  "title": "Motion & Interaction Design Principles",
+  "description": "Animation and interaction design principles, patterns, and techniques for UI, with concrete timing and accessibility guidance.",
+  "schema_version": "1.0",
+  "count": 23,
+  "last_updated": "2026-07-07",
+  "entries": [
+    {
+      "id": "disney-12-principles",
+      "name": "Disney's 12 principles of animation (applied to UI)",
+      "category": "principle",
+      "tags": [
+        "disney",
+        "principles",
+        "animation",
+        "foundations"
+      ],
+      "summary": "The twelve classic animation principles (squash & stretch, anticipation, staging, timing, easing/slow-in-slow-out, follow-through, etc.) adapted as a vocabulary for interface motion.",
+      "significance": "Provides a shared, decades-tested language for making UI motion feel physical and intentional rather than arbitrary; championed for the web by Val Head.",
+      "key_facts": [
+        "Originated with Disney animators Ollie Johnston and Frank Thomas in 'The Illusion of Life' (1981); comprises 12 principles.",
+        "Anticipation in UI foreshadows an action (e.g. a button reacting on hover before the change).",
+        "Staging directs the eye to what matters and keeps non-essential motion minimal.",
+        "Slow-in/slow-out corresponds to easing: Val Head argues limiting yourself to only ease-in/ease-out caps expressiveness versus custom cubic-beziers."
+      ],
+      "examples": [
+        "Hover anticipation on buttons",
+        "Staged reveal drawing focus to a new panel"
+      ],
+      "related": [
+        "easing-functions",
+        "cubic-bezier",
+        "meaningful-motion",
+        "microinteractions"
+      ],
+      "sources": [
+        {
+          "title": "What Does Disney Know About Interface Animation Anyway?",
+          "url": "https://valhead.com/2016/01/18/what-does-disney-know-about-interface-animation-anyway/",
+          "publisher": "Val Head",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "UI Animation: How to Apply Disney's 12 Principles of Animation to UI Design",
+          "url": "https://ixdf.org/literature/article/ui-animation-how-to-apply-disney-s-12-principles-of-animation-to-ui-design",
+          "publisher": "Interaction Design Foundation",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "easing-functions",
+      "name": "Easing (timing functions)",
+      "category": "easing",
+      "tags": [
+        "easing",
+        "timing",
+        "ease-in",
+        "ease-out"
+      ],
+      "summary": "Easing controls how an animation's rate changes over time. Standard curves are ease-in (slow start), ease-out (slow end), ease-in-out, and linear.",
+      "significance": "Easing is what makes motion feel natural rather than mechanical; choosing the right curve communicates weight, causality, and polish.",
+      "key_facts": [
+        "Ease-out (decelerate) suits elements entering the screen so they arrive gently under the user's eye.",
+        "Ease-in (accelerate) suits elements leaving/exiting because they need less attention.",
+        "Linear timing looks mechanical and is best reserved for continuous motion like spinners or moving color/opacity, not spatial movement.",
+        "Material's standard easing set defines emphasized, standard, and legacy accelerate/decelerate curves for consistent feel."
+      ],
+      "examples": [
+        "Enter transitions using decelerate easing",
+        "Exit transitions using accelerate easing"
+      ],
+      "related": [
+        "cubic-bezier",
+        "motion-duration-guidelines",
+        "disney-12-principles",
+        "spring-physics"
+      ],
+      "sources": [
+        {
+          "title": "Easing and duration",
+          "url": "https://m3.material.io/styles/motion/easing-and-duration",
+          "publisher": "Material Design 3",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Speed",
+          "url": "https://m2.material.io/design/motion/speed.html",
+          "publisher": "Material Design 2",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "cubic-bezier",
+      "name": "cubic-bezier() custom easing",
+      "category": "easing",
+      "tags": [
+        "cubic-bezier",
+        "css",
+        "easing-function",
+        "curve"
+      ],
+      "summary": "A CSS easing function defined by two control points, cubic-bezier(x1,y1,x2,y2), letting designers author custom acceleration curves beyond the named keywords.",
+      "significance": "Unlocks brand-specific, expressive motion; the named keywords are just presets of specific cubic-bezier curves.",
+      "key_facts": [
+        "The named CSS keywords map to fixed curves: ease is cubic-bezier(0.25, 0.1, 0.25, 1); linear is cubic-bezier(0, 0, 1, 1).",
+        "x values (time) must stay within 0-1, but y values may exceed the range to create overshoot/anticipation ('bounce back').",
+        "Custom curves let a whole product share a distinctive motion signature rather than defaulting to ease.",
+        "CSS also offers steps() and, more recently, linear() for approximating springs and complex curves."
+      ],
+      "examples": [
+        "Overshoot on a modal entrance",
+        "Brand-tuned easing across a design system"
+      ],
+      "related": [
+        "easing-functions",
+        "spring-physics",
+        "disney-12-principles"
+      ],
+      "sources": [
+        {
+          "title": "<easing-function> (CSS)",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "spring-physics",
+      "name": "Spring physics animation",
+      "category": "easing",
+      "tags": [
+        "spring",
+        "physics",
+        "framer-motion",
+        "natural-motion"
+      ],
+      "summary": "Physics-based motion driven by stiffness, damping, and mass instead of a fixed duration and curve, producing naturally settling, velocity-aware movement.",
+      "significance": "Springs feel more organic and interruptible than duration-based tweens, and carry gesture velocity into the animation; core to Framer Motion / Motion and iOS animation.",
+      "key_facts": [
+        "Configured by stiffness (higher = snappier), damping (higher = less oscillation/bounce), and mass (higher = more sluggish).",
+        "Motion (Framer Motion) defaults are stiffness 100, damping 10, mass 1.",
+        "If damping is 0 the spring oscillates indefinitely; damping dissipates energy until it settles.",
+        "Springs incorporate the velocity of an in-progress gesture, giving continuous, interruptible feedback that fixed-duration tweens cannot."
+      ],
+      "examples": [
+        "Drag-to-dismiss cards that spring back",
+        "iOS-style bouncy sheet transitions"
+      ],
+      "related": [
+        "easing-functions",
+        "cubic-bezier",
+        "gesture-interaction",
+        "flip-technique"
+      ],
+      "sources": [
+        {
+          "title": "React transitions (spring)",
+          "url": "https://motion.dev/docs/react-transitions",
+          "publisher": "Motion (Framer Motion)",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "useSpring",
+          "url": "https://motion.dev/docs/react-use-spring",
+          "publisher": "Motion (Framer Motion)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "motion-duration-guidelines",
+      "name": "Motion duration guidelines",
+      "category": "principle",
+      "tags": [
+        "duration",
+        "timing",
+        "material",
+        "milliseconds"
+      ],
+      "summary": "Guidance on how long UI transitions should last, scaled to the size of the moving element and the platform.",
+      "significance": "Duration is the single most impactful motion parameter for whether an interface feels responsive or sluggish; Material publishes concrete ranges.",
+      "key_facts": [
+        "Small transitions (icons, selection controls) are short: around 100ms; a switch toggle is about 100ms.",
+        "Most mobile transitions occur around 300ms; complex full-screen transitions may run up to ~375ms.",
+        "Transitions exceeding 400ms tend to feel too slow.",
+        "Exit/dismiss transitions use shorter durations than enter transitions; tablet durations run ~30% longer than mobile, desktop often shorter."
+      ],
+      "examples": [
+        "100ms checkbox tick",
+        "~300ms mobile screen transition"
+      ],
+      "related": [
+        "easing-functions",
+        "doherty-threshold",
+        "page-transitions",
+        "perceived-performance"
+      ],
+      "sources": [
+        {
+          "title": "Easing and duration",
+          "url": "https://m3.material.io/styles/motion/easing-and-duration",
+          "publisher": "Material Design 3",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Duration & easing",
+          "url": "https://m1.material.io/motion/duration-easing.html",
+          "publisher": "Material Design",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "microinteractions",
+      "name": "Microinteractions (Saffer's model)",
+      "category": "microinteraction",
+      "tags": [
+        "microinteraction",
+        "saffer",
+        "feedback",
+        "details"
+      ],
+      "summary": "Small, single-purpose interaction moments (toggling a setting, liking a post) that Dan Saffer models as four parts: trigger, rules, feedback, and loops & modes.",
+      "significance": "Microinteractions are where a product's craft and personality show; Saffer's 2013 book made them a first-class design concern.",
+      "key_facts": [
+        "Trigger: what initiates the microinteraction, either user-initiated (tap/click) or system-initiated (a condition is met).",
+        "Rules: the logic determining what happens once triggered.",
+        "Feedback: what the user perceives about the rules, via visual cue, sound, or haptic.",
+        "Loops & modes: the duration/repetition of the interaction and any change to normal behavior (e.g. a 'do not disturb' mode)."
+      ],
+      "examples": [
+        "Pull-to-refresh",
+        "Like button burst animation",
+        "Toggle switch feedback"
+      ],
+      "related": [
+        "hover-states",
+        "haptics",
+        "meaningful-motion",
+        "disney-12-principles"
+      ],
+      "sources": [
+        {
+          "title": "Microinteractions: Designing with Details (Dan Saffer)",
+          "url": "https://www.oreilly.com/library/view/microinteractions/9781449342760/",
+          "publisher": "O'Reilly",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "The 4 Components of a Microinteraction",
+          "url": "https://blog.prototypr.io/the-4-components-of-a-microinteraction-836732173c7c",
+          "publisher": "Prototypr",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "hover-states",
+      "name": "Hover states & interactive feedback",
+      "category": "microinteraction",
+      "tags": [
+        "hover",
+        "feedback",
+        "affordance",
+        "state"
+      ],
+      "summary": "Visual changes on pointer hover (and focus) that signal an element is interactive and reacts before the user commits.",
+      "significance": "Hover feedback communicates affordance and anticipation, a key confidence-builder on pointer devices; it must have non-hover equivalents for touch/keyboard.",
+      "key_facts": [
+        "Hover is an anticipation cue: reacting on hover tells users an element is interactive before they click.",
+        "Hover does not exist on touch, so critical information must never be hover-only; provide focus and touch equivalents.",
+        "Pair hover with a visible :focus-visible state so keyboard users get equivalent feedback.",
+        "Keep hover transitions fast (roughly 100-200ms) so the interface feels immediately responsive."
+      ],
+      "examples": [
+        "Button color/elevation change on hover",
+        "Link underline on hover and focus"
+      ],
+      "related": [
+        "microinteractions",
+        "disney-12-principles",
+        "motion-duration-guidelines"
+      ],
+      "sources": [
+        {
+          "title": ":hover (CSS)",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:hover",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "What Does Disney Know About Interface Animation Anyway?",
+          "url": "https://valhead.com/2016/01/18/what-does-disney-know-about-interface-animation-anyway/",
+          "publisher": "Val Head",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "loading-animation",
+      "name": "Loading & progress animation",
+      "category": "microinteraction",
+      "tags": [
+        "loading",
+        "progress",
+        "waiting",
+        "feedback"
+      ],
+      "summary": "Motion shown while the system works, ranging from indeterminate spinners to determinate progress and content-shaped skeletons.",
+      "significance": "Loading feedback keeps users engaged during unavoidable waits and reduces the sense of a frozen or broken interface.",
+      "key_facts": [
+        "Provide feedback within the Doherty ~400ms window so users know the system responded.",
+        "Use a determinate progress indicator when completion can be estimated; indeterminate (spinner) when it cannot.",
+        "For content that will fill a known layout, skeleton screens are perceived as faster than spinners.",
+        "Animation buys patience: a visually engaging wait feels shorter than a static or blank one."
+      ],
+      "examples": [
+        "Button spinner while submitting",
+        "Determinate upload progress bar"
+      ],
+      "related": [
+        "skeleton-screens",
+        "perceived-performance",
+        "doherty-threshold",
+        "spinner-loader"
+      ],
+      "sources": [
+        {
+          "title": "Doherty Threshold",
+          "url": "https://lawsofux.com/doherty-threshold/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Everything you need to know about skeleton screens",
+          "url": "https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a",
+          "publisher": "UX Collective",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "skeleton-screens",
+      "name": "Skeleton screens (motion)",
+      "category": "transition",
+      "tags": [
+        "skeleton",
+        "placeholder",
+        "perceived-performance",
+        "loading"
+      ],
+      "summary": "Animated gray placeholders shaped like incoming content, often with a subtle shimmer, shown during load to preview the forthcoming layout.",
+      "significance": "A perceived-performance technique: by anticipating layout, skeletons make waits feel shorter than spinners even at identical load times.",
+      "key_facts": [
+        "Coined/popularized by Luke Wroblewski in 2013 to reduce perceived wait time.",
+        "The shimmer/pulse animation should be subtle and respect prefers-reduced-motion.",
+        "Skeleton shapes must match the real content to avoid a jarring layout shift when data arrives.",
+        "Gradually revealing content shifts attention to the content forming rather than to the wait itself."
+      ],
+      "examples": [
+        "Facebook/LinkedIn feed placeholders",
+        "YouTube video card skeletons"
+      ],
+      "related": [
+        "skeleton",
+        "loading-animation",
+        "perceived-performance",
+        "reduced-motion"
+      ],
+      "sources": [
+        {
+          "title": "What Are Skeleton Screens?",
+          "url": "https://blog.hubspot.com/website/skeleton-screens",
+          "publisher": "HubSpot",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Everything you need to know about skeleton screens",
+          "url": "https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a",
+          "publisher": "UX Collective",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "page-transitions",
+      "name": "Page / view transitions",
+      "category": "transition",
+      "tags": [
+        "transition",
+        "navigation",
+        "view-transitions",
+        "continuity"
+      ],
+      "summary": "Animated changes between screens or views that preserve spatial continuity and context as the user navigates.",
+      "significance": "Well-designed transitions reduce disorientation by showing how one view relates to the next, replacing abrupt cuts.",
+      "key_facts": [
+        "Transitions should express the relationship/direction of navigation (forward, back, hierarchy) to preserve a sense of place.",
+        "Keep them within duration budgets (mobile ~300ms; large full-screen up to ~375ms) so navigation stays snappy.",
+        "The browser View Transitions API enables animated DOM state changes, including cross-document transitions.",
+        "Always honor prefers-reduced-motion by substituting a simple cross-fade or no motion."
+      ],
+      "examples": [
+        "Forward/back slide between pages",
+        "Cross-fade on route change"
+      ],
+      "related": [
+        "shared-element-transition",
+        "motion-duration-guidelines",
+        "reduced-motion",
+        "flip-technique"
+      ],
+      "sources": [
+        {
+          "title": "View Transition API",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Transitions",
+          "url": "https://m3.material.io/styles/motion/transitions",
+          "publisher": "Material Design 3",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "shared-element-transition",
+      "name": "Shared element transition",
+      "category": "transition",
+      "tags": [
+        "shared-element",
+        "continuity",
+        "hero",
+        "morph"
+      ],
+      "summary": "A transition where an element visually persists and morphs from its position in one view to its position in the next, creating a continuous link.",
+      "significance": "The strongest continuity cue in UI motion: it directly connects a source (e.g. a thumbnail) to its destination (a detail image), so users never lose the thread.",
+      "key_facts": [
+        "A shared element animates position, size, and shape from source to target rather than fading in a new element.",
+        "It is a Material 'container transform' style pattern and is expressible via the View Transitions API's named elements.",
+        "The shared element must be identifiable across both states (e.g. matching view-transition-name) to animate correctly.",
+        "Because it involves prominent motion, provide a reduced-motion fallback (simple fade/cut)."
+      ],
+      "examples": [
+        "Photo thumbnail expanding into full-screen detail",
+        "List item morphing into its detail page"
+      ],
+      "related": [
+        "page-transitions",
+        "morphing",
+        "flip-technique",
+        "reduced-motion"
+      ],
+      "sources": [
+        {
+          "title": "View Transition API",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Transitions",
+          "url": "https://m3.material.io/styles/motion/transitions",
+          "publisher": "Material Design 3",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "parallax",
+      "name": "Parallax scrolling",
+      "category": "transition",
+      "tags": [
+        "parallax",
+        "scroll",
+        "depth",
+        "decorative"
+      ],
+      "summary": "An effect where background and foreground layers move at different speeds during scroll, creating an illusion of depth.",
+      "significance": "A popular storytelling and branding device, but a common accessibility hazard and performance pitfall when overused.",
+      "key_facts": [
+        "Parallax is motion that can trigger dizziness/nausea in users with vestibular disorders; it must respect prefers-reduced-motion.",
+        "Large, screen-spanning motion is the highest-risk kind; reduce or disable it under reduced-motion.",
+        "By age 40, over 35% of adults have experienced some vestibular dysfunction, so motion sensitivity is common.",
+        "Modern CSS scroll-driven animations can implement parallax off the main thread for better performance than JS scroll listeners."
+      ],
+      "examples": [
+        "Marketing landing-page hero parallax",
+        "Layered storytelling long-scroll pages"
+      ],
+      "related": [
+        "scroll-triggered-animation",
+        "scroll-driven-animations",
+        "reduced-motion",
+        "meaningful-motion"
+      ],
+      "sources": [
+        {
+          "title": "prefers-reduced-motion",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Animation and motion",
+          "url": "https://web.dev/learn/accessibility/motion",
+          "publisher": "web.dev",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "scroll-triggered-animation",
+      "name": "Scroll-triggered animation",
+      "category": "transition",
+      "tags": [
+        "scroll",
+        "reveal",
+        "intersection-observer",
+        "on-scroll"
+      ],
+      "summary": "Animations that fire when an element enters the viewport as the user scrolls, commonly fade/slide-in reveals.",
+      "significance": "Guides attention and adds rhythm to long pages, but can harm reading if it delays or hides content.",
+      "key_facts": [
+        "Classic implementations use IntersectionObserver to trigger reveals when elements scroll into view.",
+        "Avoid making content invisible until it animates in, since failures or reduced-motion can leave content hidden.",
+        "Respect prefers-reduced-motion by showing content immediately without the entrance animation.",
+        "Newer CSS view-progress timelines can drive these reveals declaratively and off the main thread."
+      ],
+      "examples": [
+        "Fade-up-on-scroll sections",
+        "Staggered reveal of a feature grid"
+      ],
+      "related": [
+        "scroll-driven-animations",
+        "staggered-animation",
+        "parallax",
+        "reduced-motion"
+      ],
+      "sources": [
+        {
+          "title": "Animate elements on scroll with Scroll-driven animations",
+          "url": "https://developer.chrome.com/docs/css-ui/scroll-driven-animations",
+          "publisher": "Chrome for Developers",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "staggered-animation",
+      "name": "Staggered animation",
+      "category": "microinteraction",
+      "tags": [
+        "stagger",
+        "sequence",
+        "list",
+        "choreography"
+      ],
+      "summary": "Animating a group of elements with small sequential delays so they enter one after another rather than all at once.",
+      "significance": "Creates a sense of choreography and hierarchy, guiding the eye through a set of items in order and feeling more crafted than a simultaneous reveal.",
+      "key_facts": [
+        "Each item's animation starts a small offset after the previous (e.g. 20-60ms per item), producing a cascade.",
+        "Total stagger time must stay bounded so later items don't feel slow; cap the number of staggered items or the per-item delay.",
+        "Motion (Framer Motion) supports this directly via staggerChildren on a parent variant.",
+        "Respect prefers-reduced-motion by showing the group at once without the cascade."
+      ],
+      "examples": [
+        "List items cascading in",
+        "Menu entries revealing in sequence"
+      ],
+      "related": [
+        "scroll-triggered-animation",
+        "spring-physics",
+        "disney-12-principles",
+        "reduced-motion"
+      ],
+      "sources": [
+        {
+          "title": "React transitions",
+          "url": "https://motion.dev/docs/react-transitions",
+          "publisher": "Motion (Framer Motion)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "morphing",
+      "name": "Morphing / shape transformation",
+      "category": "transition",
+      "tags": [
+        "morph",
+        "transform",
+        "icon",
+        "flip"
+      ],
+      "summary": "Animating one shape or element smoothly into another, such as a hamburger icon morphing into a close (x), or a card expanding into a full view.",
+      "significance": "Reinforces that two states are the same object in different modes, preserving object continuity and clarifying cause and effect.",
+      "key_facts": [
+        "Morphing communicates that an element transformed rather than being replaced, maintaining object permanence.",
+        "Performant morphs animate transform and opacity (GPU-friendly) rather than layout properties like width/height/top/left.",
+        "The FLIP technique and libraries like GSAP Flip animate between measured start/end states for smooth layout morphs.",
+        "Keep morph durations within motion budgets and provide a reduced-motion fallback."
+      ],
+      "examples": [
+        "Hamburger-to-X icon morph",
+        "Play/pause button morph",
+        "Card-to-detail container transform"
+      ],
+      "related": [
+        "flip-technique",
+        "shared-element-transition",
+        "spring-physics",
+        "motion-duration-guidelines"
+      ],
+      "sources": [
+        {
+          "title": "FLIP | GSAP Docs",
+          "url": "https://gsap.com/docs/v3/Plugins/Flip/",
+          "publisher": "GSAP",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Animating Layouts with the FLIP Technique",
+          "url": "https://css-tricks.com/animating-layouts-with-the-flip-technique/",
+          "publisher": "CSS-Tricks",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "gesture-interaction",
+      "name": "Gesture-driven interaction",
+      "category": "microinteraction",
+      "tags": [
+        "gesture",
+        "touch",
+        "swipe",
+        "drag"
+      ],
+      "summary": "Interactions driven by touch/pointer gestures, swipe, drag, pinch, pull, where motion tracks the finger and responds to velocity.",
+      "significance": "Central to mobile UX; direct manipulation where content follows the finger feels tangible, but hidden gestures harm discoverability and accessibility.",
+      "key_facts": [
+        "Direct-manipulation gestures should track the pointer 1:1 and carry release velocity into a settling spring for a natural feel.",
+        "Gesture-only actions are inaccessible on their own; always provide a visible, operable alternative (button/control).",
+        "Provide affordances (drag handles, peeking content) so users can discover available gestures.",
+        "Handle interruption: users should be able to grab and redirect an in-flight gesture animation."
+      ],
+      "examples": [
+        "Swipe-to-delete list rows",
+        "Drag-to-dismiss sheets",
+        "Pull-to-refresh"
+      ],
+      "related": [
+        "spring-physics",
+        "haptics",
+        "microinteractions",
+        "drawer-sheet"
+      ],
+      "sources": [
+        {
+          "title": "Pointer events",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "haptics",
+      "name": "Haptic feedback",
+      "category": "microinteraction",
+      "tags": [
+        "haptics",
+        "vibration",
+        "touch",
+        "feedback"
+      ],
+      "summary": "Tactile feedback (vibration/taptic) that accompanies an interaction to confirm it physically, one of Saffer's feedback channels.",
+      "significance": "Adds a non-visual, non-auditory confirmation that strengthens microinteractions and accessibility, especially on mobile.",
+      "key_facts": [
+        "Haptics are one of the feedback modalities in Saffer's microinteraction model, alongside visual and sound.",
+        "On the web, the Vibration API can trigger simple device vibration, though support and control are limited versus native taptic engines.",
+        "Use haptics sparingly and meaningfully (confirm success, signal a boundary); overuse desensitizes and annoys.",
+        "Respect user/system settings that disable vibration, and never rely on haptics as the only feedback."
+      ],
+      "examples": [
+        "Tap confirmation on picker selection",
+        "Vibration on reaching a scroll boundary"
+      ],
+      "related": [
+        "microinteractions",
+        "gesture-interaction"
+      ],
+      "sources": [
+        {
+          "title": "Vibration API",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "doherty-threshold",
+      "name": "Doherty threshold (400ms)",
+      "category": "principle",
+      "tags": [
+        "doherty",
+        "response-time",
+        "400ms",
+        "performance"
+      ],
+      "summary": "A UX law stating that interaction stays productive and engaging when system response stays under ~400ms, so the user never shifts from doing to waiting.",
+      "significance": "Sets a concrete responsiveness target that underpins both real performance work and perceived-performance techniques.",
+      "key_facts": [
+        "Walter Doherty and Arvind Thadani published the ~400ms requirement in the IBM Systems Journal in 1982, replacing the prior 2-second standard.",
+        "Around 400ms is the last delay at which interaction still feels continuous rather than a wait.",
+        "Sub-400ms systems in the original research let users complete substantially more transactions per hour with higher satisfaction.",
+        "On the modern web, Google's INP metric sets a stricter bar of <=200ms at the 75th percentile for good responsiveness."
+      ],
+      "examples": [
+        "Instant UI feedback on tap",
+        "Optimistic UI to stay under the threshold"
+      ],
+      "related": [
+        "perceived-performance",
+        "loading-animation",
+        "motion-duration-guidelines"
+      ],
+      "sources": [
+        {
+          "title": "Doherty Threshold",
+          "url": "https://lawsofux.com/doherty-threshold/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Laws of UX, Ch.10: Doherty Threshold",
+          "url": "https://www.oreilly.com/library/view/laws-of-ux/9781492055303/ch10.html",
+          "publisher": "O'Reilly",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "perceived-performance",
+      "name": "Perceived performance",
+      "category": "principle",
+      "tags": [
+        "perceived-performance",
+        "waiting",
+        "psychology",
+        "feedback"
+      ],
+      "summary": "How fast an interface feels, which depends on feedback and expectation management as much as on actual measured speed.",
+      "significance": "Two systems with identical load times can feel very different; managing perception is often cheaper and more impactful than raw speed gains.",
+      "key_facts": [
+        "Users perceive skeleton UIs as faster than spinners even when actual load times are identical.",
+        "Immediate feedback (within the ~400ms Doherty window) keeps attention on the task rather than the wait.",
+        "Showing what is happening and letting users anticipate content makes a system feel faster and users more patient.",
+        "Optimistic UI (showing the expected result before the server confirms) shortens perceived latency."
+      ],
+      "examples": [
+        "Optimistic 'like' before server confirms",
+        "Progressive image/content loading"
+      ],
+      "related": [
+        "doherty-threshold",
+        "skeleton-screens",
+        "loading-animation"
+      ],
+      "sources": [
+        {
+          "title": "Doherty Threshold",
+          "url": "https://lawsofux.com/doherty-threshold/",
+          "publisher": "Laws of UX",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Everything you need to know about skeleton screens",
+          "url": "https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a",
+          "publisher": "UX Collective",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "meaningful-motion",
+      "name": "Meaningful vs decorative motion",
+      "category": "principle",
+      "tags": [
+        "meaningful-motion",
+        "functional",
+        "purpose",
+        "restraint"
+      ],
+      "summary": "The principle that UI animation should serve a purpose, orienting, giving feedback, showing relationships, rather than decorating for its own sake.",
+      "significance": "Distinguishes motion that improves usability from motion that distracts or slows users; a core discipline of restraint in motion design.",
+      "key_facts": [
+        "Functional motion clarifies cause/effect, spatial relationships, and hierarchy; decorative motion adds none of these.",
+        "Material frames motion as expressive but purposeful: it should focus attention and maintain continuity, not merely entertain.",
+        "Excessive or gratuitous animation increases cognitive load and can slow task completion.",
+        "Decorative, non-essential effects are the first thing to remove under prefers-reduced-motion."
+      ],
+      "examples": [
+        "Transition showing where a closed panel went (functional)",
+        "Purely ornamental looping background (decorative)"
+      ],
+      "related": [
+        "disney-12-principles",
+        "reduced-motion",
+        "microinteractions",
+        "motion-duration-guidelines"
+      ],
+      "sources": [
+        {
+          "title": "Motion: how it works",
+          "url": "https://m3.material.io/styles/motion/overview/how-it-works",
+          "publisher": "Material Design 3",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "What Does Disney Know About Interface Animation Anyway?",
+          "url": "https://valhead.com/2016/01/18/what-does-disney-know-about-interface-animation-anyway/",
+          "publisher": "Val Head",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "reduced-motion",
+      "name": "Reduced motion accessibility (prefers-reduced-motion)",
+      "category": "principle",
+      "tags": [
+        "accessibility",
+        "prefers-reduced-motion",
+        "vestibular",
+        "a11y"
+      ],
+      "summary": "A CSS media feature that detects a user's OS setting to minimize non-essential motion, letting sites tone down or remove animation for motion-sensitive users.",
+      "significance": "A required accessibility practice: motion can cause real physical harm (dizziness, nausea, migraine) for people with vestibular disorders.",
+      "key_facts": [
+        "@media (prefers-reduced-motion: reduce) detects the user's request to minimize non-essential motion.",
+        "Vestibular disorder reactions to motion include dizziness, nausea, and migraine; over 35% of adults experience vestibular dysfunction by age 40.",
+        "Best practice: remove decorative effects (parallax, large slides, autoplay) and replace essential animations with a static or minimal alternative.",
+        "WCAG 2.3.3 (Animation from Interactions, AAA) asks that motion triggered by interaction be disableable unless essential."
+      ],
+      "examples": [
+        "Swapping a slide transition for a cross-fade under reduced motion",
+        "Disabling autoplaying carousels/parallax"
+      ],
+      "related": [
+        "meaningful-motion",
+        "parallax",
+        "page-transitions",
+        "scroll-triggered-animation"
+      ],
+      "sources": [
+        {
+          "title": "prefers-reduced-motion",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "prefers-reduced-motion: Sometimes less movement is more",
+          "url": "https://web.dev/articles/prefers-reduced-motion",
+          "publisher": "web.dev",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "flip-technique",
+      "name": "FLIP technique",
+      "category": "principle",
+      "tags": [
+        "flip",
+        "performance",
+        "transform",
+        "layout-animation"
+      ],
+      "summary": "A performance pattern (First, Last, Invert, Play) for animating layout changes using cheap transforms instead of expensive layout properties.",
+      "significance": "Lets developers animate position/size changes at 60fps by avoiding layout thrash, foundational to smooth layout and shared-element animations.",
+      "key_facts": [
+        "FLIP stands for First (measure start), Last (measure end), Invert (transform back to start), Play (transition to identity); described by Paul Lewis.",
+        "It animates GPU-friendly opacity and transform instead of layout-triggering properties (width, height, top, left), avoiding reflow/repaint.",
+        "You compute the delta between start and end states, apply an inverting transform, then remove it under a transition to 'play'.",
+        "It underpins layout animations in libraries like Framer Motion and GSAP Flip."
+      ],
+      "examples": [
+        "Animating a list reflow after reorder",
+        "Card smoothly expanding to a new position"
+      ],
+      "related": [
+        "morphing",
+        "shared-element-transition",
+        "spring-physics"
+      ],
+      "sources": [
+        {
+          "title": "FLIP Your Animations",
+          "url": "https://aerotwist.com/blog/flip-your-animations/",
+          "publisher": "Aerotwist (Paul Lewis)",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Animating Layouts with the FLIP Technique",
+          "url": "https://css-tricks.com/animating-layouts-with-the-flip-technique/",
+          "publisher": "CSS-Tricks",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "scroll-driven-animations",
+      "name": "CSS scroll-driven animations",
+      "category": "transition",
+      "tags": [
+        "scroll-timeline",
+        "view-timeline",
+        "css",
+        "performance"
+      ],
+      "summary": "A CSS module that links an animation's progress to scroll position (scroll-timeline) or an element's visibility within its scroller (view-timeline), instead of clock time.",
+      "significance": "Brings performant, declarative scroll-linked motion to CSS, running off the main thread, replacing jank-prone JS scroll listeners.",
+      "key_facts": [
+        "A scroll-progress timeline is tied to a scroll container's scroll position; a view-progress timeline tracks an element's position within its scroller.",
+        "The animation-timeline property assigns a scroll or view timeline to a CSS animation.",
+        "Because they run off the main thread, they avoid the jank of JS scroll/IntersectionObserver handlers.",
+        "Still honor prefers-reduced-motion, since scroll-linked motion can affect motion-sensitive users."
+      ],
+      "examples": [
+        "Scroll progress reading bar",
+        "Elements revealing as they enter view via view-timeline"
+      ],
+      "related": [
+        "scroll-triggered-animation",
+        "parallax",
+        "reduced-motion"
+      ],
+      "sources": [
+        {
+          "title": "CSS scroll-driven animations",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "A guide to Scroll-driven Animations with just CSS",
+          "url": "https://webkit.org/blog/17101/a-guide-to-scroll-driven-animations-with-just-css/",
+          "publisher": "WebKit",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    }
+  ]
+}

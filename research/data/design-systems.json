@@ -1,0 +1,1838 @@
+{
+  "topic": "design-systems",
+  "title": "Major Design Systems and UI Component Libraries",
+  "description": "Enumerable reference of influential design systems, UI component libraries, and CSS frameworks used in front-end design, with origins, owners, and current versions.",
+  "schema_version": "1.0",
+  "count": 34,
+  "last_updated": "2026-07-07",
+  "entries": [
+    {
+      "id": "material-design-2",
+      "name": "Material Design (M2)",
+      "category": "design-system",
+      "tags": [
+        "google",
+        "mobile",
+        "android",
+        "web",
+        "material"
+      ],
+      "org": "Google",
+      "year_introduced": 2014,
+      "era": "2010s",
+      "summary": "Google's design language introduced in 2014, based on a metaphor of physical 'material' (paper and ink) with realistic lighting, shadows, and motion. Material Design 2 is the 2018 refresh of the original spec.",
+      "significance": "One of the most widely adopted design systems in history; defined the visual language of Android and Google's web products and heavily influenced mobile UI conventions industry-wide.",
+      "key_facts": [
+        "Introduced by Google at Google I/O in June 2014, led by Matias Duarte.",
+        "Built on a 'material' metaphor: surfaces with elevation, shadows, and grid-based motion.",
+        "Material Design 2 (2018) added stronger theming and customization while keeping the core metaphor.",
+        "Documented at m2.material.io; ships open-source component libraries for Android, Flutter, and web.",
+        "Defines the baseline elevation system, the floating action button (FAB), and 8dp spacing grid."
+      ],
+      "defining_traits": [
+        "elevation and shadow",
+        "bold color and imagery",
+        "grid-based motion",
+        "floating action button",
+        "8dp spacing grid"
+      ],
+      "examples": [
+        "Android",
+        "Gmail",
+        "Google Drive",
+        "Flutter apps"
+      ],
+      "url": "https://m2.material.io",
+      "related": [
+        "material-design-3",
+        "fluent-design-1",
+        "ant-design"
+      ],
+      "sources": [
+        {
+          "title": "Material Design 2 (What's new)",
+          "url": "https://m2.material.io/whats-new",
+          "publisher": "Google",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Material Design",
+          "url": "https://en.wikipedia.org/wiki/Material_Design",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "material-design-3",
+      "name": "Material Design 3 (Material You)",
+      "category": "design-system",
+      "tags": [
+        "google",
+        "android",
+        "web",
+        "material",
+        "material-you"
+      ],
+      "org": "Google",
+      "year_introduced": 2021,
+      "era": "2020s",
+      "summary": "The 2021 evolution of Material Design, branded 'Material You', centered on dynamic color that adapts palettes from a user's wallpaper and greater personalization. Material 3 Expressive (2025) is the latest iteration.",
+      "significance": "Current flagship of Google's design language, powering Android 12+ and modern Google apps; popularized algorithmic dynamic-color theming across an OS.",
+      "key_facts": [
+        "Announced at Google I/O 2021 as 'Material You' and launched with Android 12.",
+        "Introduces dynamic color: tonal palettes generated from a source color or wallpaper.",
+        "Material 3 Expressive was announced in May 2025 for Android 16 and Wear OS 6, adding richer motion and color.",
+        "Documented at m3.material.io; Jetpack Compose Material3 is the primary Android implementation.",
+        "Open-source under Apache 2.0 with Figma design kits and code libraries."
+      ],
+      "defining_traits": [
+        "dynamic color",
+        "tonal palettes",
+        "personalization",
+        "larger rounded shapes",
+        "expressive motion"
+      ],
+      "examples": [
+        "Android 12+",
+        "Google Pixel UI",
+        "Wear OS 6"
+      ],
+      "url": "https://m3.material.io",
+      "related": [
+        "material-design-2",
+        "fluent-design-2"
+      ],
+      "sources": [
+        {
+          "title": "Material Design 3",
+          "url": "https://m3.material.io/",
+          "publisher": "Google",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Material 3 Expressive launch",
+          "url": "https://blog.google/products-and-platforms/platforms/android/material-3-expressive-android-wearos-launch/",
+          "publisher": "Google (The Keyword)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "apple-hig",
+      "name": "Apple Human Interface Guidelines (HIG)",
+      "category": "design-system",
+      "tags": [
+        "apple",
+        "ios",
+        "macos",
+        "guidelines",
+        "platform"
+      ],
+      "org": "Apple",
+      "year_introduced": 1987,
+      "era": "1980s",
+      "summary": "Apple's official design guidance for building apps across its platforms (iOS, iPadOS, macOS, watchOS, tvOS, visionOS). The first printed edition dates to 1987 for the Macintosh interface.",
+      "significance": "The longest-running major interface guideline document; codified concepts like direct manipulation and consistency that shaped the entire GUI era, and still gates App Store review expectations today.",
+      "key_facts": [
+        "First edition published November 1987 by Addison-Wesley, documenting the Lisa/Macintosh interface.",
+        "Maintained online at developer.apple.com/design/human-interface-guidelines across all Apple platforms.",
+        "Guidance is normative for App Store review, not merely advisory.",
+        "Expanded to cover visionOS (spatial computing) after the Apple Vision Pro announcement in 2023.",
+        "Not an open-source component library; it is prose guidance plus SF Symbols and system frameworks (UIKit/SwiftUI)."
+      ],
+      "defining_traits": [
+        "clarity, deference, depth",
+        "platform consistency",
+        "direct manipulation",
+        "SF Symbols iconography"
+      ],
+      "examples": [
+        "iOS",
+        "macOS",
+        "watchOS",
+        "visionOS"
+      ],
+      "url": "https://developer.apple.com/design/human-interface-guidelines",
+      "related": [
+        "material-design-3"
+      ],
+      "sources": [
+        {
+          "title": "Human Interface Guidelines",
+          "url": "https://developer.apple.com/design/human-interface-guidelines",
+          "publisher": "Apple",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Apple Human Interface Guidelines (November 1987 edition)",
+          "url": "https://openlibrary.org/books/OL7406922M/Apple_Human_Interface_Guidelines",
+          "publisher": "Open Library",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "carbon-design-system",
+      "name": "IBM Carbon Design System",
+      "category": "design-system",
+      "tags": [
+        "ibm",
+        "enterprise",
+        "open-source",
+        "react",
+        "web"
+      ],
+      "org": "IBM",
+      "year_introduced": 2015,
+      "era": "2010s",
+      "summary": "IBM's open-source design system for products and digital experiences, built on the IBM Design Language and providing code, design assets, and guidelines.",
+      "significance": "A leading enterprise-grade open-source design system; widely referenced as a model for large-organization systems with strong accessibility and data-visualization support.",
+      "key_facts": [
+        "Public development began June 10, 2015; created by IBM.",
+        "Free and open-source under the Apache License 2.0.",
+        "Grounded in the IBM Design Language and IBM Plex typeface.",
+        "Current major line is Carbon v11, with React, Web Components, Angular, and Vue implementations.",
+        "Documented at carbondesignsystem.com with published data-visualization guidance."
+      ],
+      "defining_traits": [
+        "2x grid",
+        "IBM Plex type",
+        "enterprise data density",
+        "strong accessibility"
+      ],
+      "examples": [
+        "IBM Cloud",
+        "IBM Watson products",
+        "IBM.com"
+      ],
+      "url": "https://carbondesignsystem.com",
+      "related": [
+        "salesforce-lightning",
+        "spectrum"
+      ],
+      "sources": [
+        {
+          "title": "IBM Carbon Design System",
+          "url": "https://carbondesignsystem.com/",
+          "publisher": "IBM",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Carbon Design System",
+          "url": "https://en.wikipedia.org/wiki/Carbon_Design_System",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "salesforce-lightning",
+      "name": "Salesforce Lightning Design System (SLDS)",
+      "category": "design-system",
+      "tags": [
+        "salesforce",
+        "enterprise",
+        "crm",
+        "open-source"
+      ],
+      "org": "Salesforce",
+      "year_introduced": 2015,
+      "era": "2010s",
+      "summary": "Salesforce's design system providing the visual language, CSS framework, and design tokens for building apps on the Salesforce Lightning platform.",
+      "significance": "An early and influential enterprise design system credited with setting standards for large B2B/CRM UI consistency; SLDS 2 modernizes it with styling hooks.",
+      "key_facts": [
+        "SLDS 1 launched in 2015 alongside the Salesforce Lightning Experience.",
+        "SLDS 2 (beta) introduces theming via CSS custom-property 'styling hooks'.",
+        "Documented at lightningdesignsystem.com with downloadable design tokens.",
+        "Provides a CSS framework and component blueprints rather than a single JS runtime.",
+        "Used to keep third-party AppExchange apps visually aligned with Salesforce."
+      ],
+      "defining_traits": [
+        "design tokens",
+        "CSS framework",
+        "enterprise CRM patterns",
+        "styling hooks (SLDS 2)"
+      ],
+      "examples": [
+        "Salesforce Lightning Experience",
+        "AppExchange apps"
+      ],
+      "url": "https://www.lightningdesignsystem.com",
+      "related": [
+        "carbon-design-system",
+        "atlassian-design-system"
+      ],
+      "sources": [
+        {
+          "title": "What is SLDS 2 (beta)?",
+          "url": "https://www.salesforce.com/blog/what-is-slds-2/",
+          "publisher": "Salesforce",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "SLDS design system development story",
+          "url": "https://trailhead.salesforce.com/content/learn/modules/lightning-design-system-basics/learn-how-and-why-we-developed-slds",
+          "publisher": "Salesforce Trailhead",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "atlassian-design-system",
+      "name": "Atlassian Design System",
+      "category": "design-system",
+      "tags": [
+        "atlassian",
+        "enterprise",
+        "react",
+        "atlaskit"
+      ],
+      "org": "Atlassian",
+      "year_introduced": 2017,
+      "era": "2010s",
+      "summary": "Atlassian's design system unifying visual language, guidelines, and the Atlaskit React component library across Jira, Confluence, and other products.",
+      "significance": "A mature multi-product enterprise system; Atlaskit was one of the more comprehensive publicly available React component libraries from a major SaaS vendor.",
+      "key_facts": [
+        "Originated as the Atlassian Design Guidelines (ADG), first released around June 2012.",
+        "The unified atlassian.design documentation site launched in 2017.",
+        "Atlaskit is the React implementation of the system's components.",
+        "Trello's Nachos design system was later merged into the Atlassian Design System after acquisition.",
+        "Spans Jira, Confluence, Bitbucket, and Trello."
+      ],
+      "defining_traits": [
+        "multi-product tokens",
+        "Atlaskit components",
+        "accessibility focus",
+        "content and voice guidance"
+      ],
+      "examples": [
+        "Jira",
+        "Confluence",
+        "Bitbucket",
+        "Trello"
+      ],
+      "url": "https://atlassian.design",
+      "related": [
+        "trello-nachos",
+        "salesforce-lightning"
+      ],
+      "sources": [
+        {
+          "title": "Atlassian Design",
+          "url": "https://atlassian.design/",
+          "publisher": "Atlassian",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Atlaskit",
+          "url": "https://atlaskit.atlassian.com/",
+          "publisher": "Atlassian",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "shopify-polaris",
+      "name": "Shopify Polaris",
+      "category": "design-system",
+      "tags": [
+        "shopify",
+        "ecommerce",
+        "react",
+        "open-source"
+      ],
+      "org": "Shopify",
+      "year_introduced": 2017,
+      "era": "2010s",
+      "summary": "Shopify's design system for building merchant-facing admin and app experiences, including guidelines, React components, and design tokens.",
+      "significance": "The de facto standard for building Shopify apps; ensures third-party apps in the ecosystem feel native to the Shopify admin.",
+      "key_facts": [
+        "Launched by Shopify in 2017.",
+        "Open-source; documented at polaris.shopify.com.",
+        "Provides React components (polaris-react) used across the Shopify admin.",
+        "Includes detailed content/voice-and-tone guidance in addition to UI components.",
+        "Required design reference for apps distributed via the Shopify App Store."
+      ],
+      "defining_traits": [
+        "merchant-admin patterns",
+        "content guidance",
+        "design tokens",
+        "accessibility"
+      ],
+      "examples": [
+        "Shopify admin",
+        "Shopify App Store apps"
+      ],
+      "url": "https://polaris.shopify.com",
+      "related": [
+        "atlassian-design-system",
+        "twilio-paste"
+      ],
+      "sources": [
+        {
+          "title": "Shopify Polaris React",
+          "url": "https://polaris-react.shopify.com/",
+          "publisher": "Shopify",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Polaris — unified and for the web",
+          "url": "https://www.shopify.com/partners/blog/polaris-unified-and-for-the-web",
+          "publisher": "Shopify",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "fluent-design-1",
+      "name": "Microsoft Fluent Design System (v1)",
+      "category": "design-system",
+      "tags": [
+        "microsoft",
+        "windows",
+        "fluent"
+      ],
+      "org": "Microsoft",
+      "year_introduced": 2017,
+      "era": "2010s",
+      "summary": "Microsoft's design language announced in 2017, emphasizing five ingredients: Light, Depth, Motion, Material, and Scale, including the Acrylic and Reveal material effects.",
+      "significance": "Replaced Microsoft's earlier flat 'Metro'/Modern language and set the direction for Windows 10/11 UI with translucent 'Acrylic' surfaces.",
+      "key_facts": [
+        "Announced at Microsoft Build in May 2017 as the Fluent Design System.",
+        "Defined five core ingredients: Light, Depth, Motion, Material, and Scale.",
+        "Introduced Acrylic (blurred translucency) and Reveal highlight effects.",
+        "Successor to Microsoft's Metro/Modern design language.",
+        "Applied across Windows 10, Office, and Xbox interfaces."
+      ],
+      "defining_traits": [
+        "Acrylic material",
+        "Reveal highlight",
+        "depth and light",
+        "motion"
+      ],
+      "examples": [
+        "Windows 10",
+        "Office",
+        "Xbox"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Fluent_Design_System",
+      "related": [
+        "fluent-design-2",
+        "material-design-2"
+      ],
+      "sources": [
+        {
+          "title": "Fluent Design System",
+          "url": "https://en.wikipedia.org/wiki/Fluent_Design_System",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "fluent-design-2",
+      "name": "Microsoft Fluent 2",
+      "category": "design-system",
+      "tags": [
+        "microsoft",
+        "windows",
+        "fluent",
+        "react",
+        "web"
+      ],
+      "org": "Microsoft",
+      "year_introduced": 2023,
+      "era": "2020s",
+      "summary": "The 2023 evolution of Microsoft's Fluent design language, unifying design across web, Windows, and other platforms with a token-based system and Fluent UI React components.",
+      "significance": "Consolidates Microsoft's cross-platform UI into a single token-driven system, powering Windows 11, Microsoft 365, and Teams.",
+      "key_facts": [
+        "Documentation site fluent2.microsoft.design launched during Microsoft Build 2023.",
+        "Built on design tokens for cross-platform theming.",
+        "Fluent UI React v9 is the primary web component implementation.",
+        "Powers Windows 11, Microsoft 365 apps, and Teams.",
+        "Open-source component libraries maintained on GitHub."
+      ],
+      "defining_traits": [
+        "design tokens",
+        "cross-platform",
+        "Fluent UI React v9",
+        "rounded geometry"
+      ],
+      "examples": [
+        "Windows 11",
+        "Microsoft 365",
+        "Microsoft Teams"
+      ],
+      "url": "https://fluent2.microsoft.design",
+      "related": [
+        "fluent-design-1",
+        "material-design-3"
+      ],
+      "sources": [
+        {
+          "title": "Fluent 2 Design System",
+          "url": "https://fluent2.microsoft.design/",
+          "publisher": "Microsoft",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "What's new — Fluent 2",
+          "url": "https://fluent2.microsoft.design/get-started/whatisnew",
+          "publisher": "Microsoft",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "ant-design",
+      "name": "Ant Design",
+      "category": "ui-library",
+      "tags": [
+        "alibaba",
+        "ant-group",
+        "react",
+        "enterprise",
+        "open-source"
+      ],
+      "org": "Ant Group",
+      "year_introduced": 2016,
+      "era": "2010s",
+      "summary": "An enterprise-class UI design language and React component library from Ant Group (affiliate of Alibaba), widely used for admin dashboards and data-heavy applications.",
+      "significance": "One of the most popular React UI frameworks globally, especially dominant in the Chinese enterprise ecosystem and for internal tooling worldwide.",
+      "key_facts": [
+        "Developed by Ant Group (the Alibaba affiliate that runs Alipay); first released around 2015-2016.",
+        "Version 5.0 shipped in November 2022, moving styling to CSS-in-JS with design tokens.",
+        "Open-source; documented at ant.design.",
+        "Ships an extensive component set oriented toward enterprise data tables and forms.",
+        "Companion 'Ant Design Pro' scaffolds full admin applications."
+      ],
+      "defining_traits": [
+        "enterprise components",
+        "design tokens (v5)",
+        "CSS-in-JS",
+        "rich data tables"
+      ],
+      "examples": [
+        "Alibaba internal tools",
+        "Alipay",
+        "many admin dashboards"
+      ],
+      "url": "https://ant.design",
+      "related": [
+        "chakra-ui",
+        "mantine",
+        "material-design-2"
+      ],
+      "sources": [
+        {
+          "title": "Ant Design",
+          "url": "https://ant.design/",
+          "publisher": "Ant Group",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Ant Design 5.0 is Released",
+          "url": "https://medium.com/ant-design/ant-design-5-0-is-released-27b2552f14a3",
+          "publisher": "Ant Design (Medium)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "spectrum",
+      "name": "Adobe Spectrum",
+      "category": "design-system",
+      "tags": [
+        "adobe",
+        "creative",
+        "react",
+        "accessibility"
+      ],
+      "org": "Adobe",
+      "year_introduced": 2019,
+      "era": "2010s",
+      "summary": "Adobe's design system for creating cohesive experiences across its 100+ applications, with the React Aria/React Spectrum libraries providing accessible implementations. Spectrum 2 launched in 2023.",
+      "significance": "Notable for its industry-leading accessibility work via React Aria (adaptive, accessible primitives) that many other libraries now depend on.",
+      "key_facts": [
+        "Public site spectrum.adobe.com; the system has internal origins predating its public launch (~2019).",
+        "Spectrum 2 was unveiled in December 2023 to unify UX across 100+ Adobe apps.",
+        "React Spectrum and React Aria are open-source implementations maintained by Adobe.",
+        "React Aria is widely reused by other design systems for accessible behavior.",
+        "Ships Spectrum CSS and Spectrum Web Components in addition to React."
+      ],
+      "defining_traits": [
+        "accessibility-first (React Aria)",
+        "adaptive components",
+        "creative-tool density",
+        "design tokens"
+      ],
+      "examples": [
+        "Adobe Photoshop web",
+        "Adobe Express",
+        "Creative Cloud web apps"
+      ],
+      "url": "https://spectrum.adobe.com",
+      "related": [
+        "radix-ui",
+        "carbon-design-system"
+      ],
+      "sources": [
+        {
+          "title": "Spectrum, Adobe's design system",
+          "url": "https://spectrum.adobe.com/",
+          "publisher": "Adobe",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Introducing Spectrum 2",
+          "url": "https://adobe.design/stories/design-for-scale/introducing-spectrum-2",
+          "publisher": "Adobe Design",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "github-primer",
+      "name": "GitHub Primer",
+      "category": "design-system",
+      "tags": [
+        "github",
+        "open-source",
+        "react",
+        "css"
+      ],
+      "org": "GitHub",
+      "year_introduced": 2017,
+      "era": "2010s",
+      "summary": "GitHub's design system, providing the CSS, React components, design tokens, and guidelines behind GitHub.com.",
+      "significance": "A widely studied open-source design system from a developer-centric company; Primer's patterns are used well beyond GitHub itself.",
+      "key_facts": [
+        "The internal 'Primer' CSS package dates to 2012; it was open-sourced publicly around 2016-2017.",
+        "GitHub's dedicated design-systems team was formed in 2016.",
+        "Documented at primer.style with Primer CSS and Primer React implementations.",
+        "Open-source under the MIT License.",
+        "Powers the GitHub.com web interface."
+      ],
+      "defining_traits": [
+        "design tokens",
+        "Primer CSS utilities",
+        "Primer React",
+        "developer-focused patterns"
+      ],
+      "examples": [
+        "GitHub.com"
+      ],
+      "url": "https://primer.style",
+      "related": [
+        "radix-ui",
+        "tailwind-css"
+      ],
+      "sources": [
+        {
+          "title": "GitHub's Primer design system",
+          "url": "https://primer.style/",
+          "publisher": "GitHub",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Design Systems at GitHub",
+          "url": "https://medium.com/@broccolini/design-systems-at-github-c8e5378d2542",
+          "publisher": "Diana Mounter (Medium)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "uber-base",
+      "name": "Uber Base (Base Web)",
+      "category": "ui-library",
+      "tags": [
+        "uber",
+        "react",
+        "open-source",
+        "css-in-js"
+      ],
+      "org": "Uber",
+      "year_introduced": 2018,
+      "era": "2010s",
+      "summary": "Uber's design system 'Base', with Base Web as its React component library implementing the Base design language for building web applications.",
+      "significance": "A well-known open-source React library notable for its heavy use of the Styletron CSS-in-JS engine and configurable component overrides.",
+      "key_facts": [
+        "Base Web was open-sourced by Uber in 2018.",
+        "Base Web is the React implementation of the Base design language.",
+        "Uses the Styletron atomic CSS-in-JS engine for styling.",
+        "Known for its 'overrides' API allowing deep per-instance customization.",
+        "Documented at base.uber.com; code at github.com/uber/baseweb."
+      ],
+      "defining_traits": [
+        "Styletron CSS-in-JS",
+        "overrides API",
+        "device-agnostic components",
+        "theming"
+      ],
+      "examples": [
+        "Uber web applications"
+      ],
+      "url": "https://base.uber.com",
+      "related": [
+        "chakra-ui",
+        "ant-design"
+      ],
+      "sources": [
+        {
+          "title": "Base design system",
+          "url": "https://base.uber.com/",
+          "publisher": "Uber",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Introducing Base Web",
+          "url": "https://www.uber.com/us/en/blog/introducing-base-web/",
+          "publisher": "Uber",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "airbnb-dls",
+      "name": "Airbnb Design Language System (DLS)",
+      "category": "design-system",
+      "tags": [
+        "airbnb",
+        "mobile",
+        "cross-platform",
+        "internal"
+      ],
+      "org": "Airbnb",
+      "year_introduced": 2016,
+      "era": "2010s",
+      "summary": "Airbnb's internal Design Language System, one of the earliest high-profile product design systems, built to unify UI across iOS, Android, and web with reusable components.",
+      "significance": "An influential early case study that popularized the modern 'design system' concept and component-driven, cross-platform consistency.",
+      "key_facts": [
+        "Publicly introduced by designer Karri Saarinen in 2016.",
+        "Released alongside a major redesign of Airbnb's iOS and Android apps in April 2016.",
+        "Internal (not an open-source component library), though widely documented in talks and articles.",
+        "Emphasized unified, reusable, cross-platform components to increase design/engineering efficiency.",
+        "Later associated with Airbnb's experiments generating code from design (sketching-to-code research)."
+      ],
+      "defining_traits": [
+        "cross-platform components",
+        "unified visual language",
+        "reusable design tokens",
+        "component-driven design"
+      ],
+      "examples": [
+        "Airbnb iOS app",
+        "Airbnb Android app",
+        "Airbnb.com"
+      ],
+      "url": "https://karrisaarinen.com/dls/",
+      "related": [
+        "material-design-2",
+        "shopify-polaris"
+      ],
+      "sources": [
+        {
+          "title": "Building a Visual Language: Airbnb's design system",
+          "url": "https://medium.com/airbnb-design/building-a-visual-language-behind-the-scenes-of-our-airbnb-design-system-224748775e4e",
+          "publisher": "Airbnb Design (Medium)",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Airbnb Design Language System",
+          "url": "https://karrisaarinen.com/dls/",
+          "publisher": "Karri Saarinen",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "twilio-paste",
+      "name": "Twilio Paste",
+      "category": "design-system",
+      "tags": [
+        "twilio",
+        "react",
+        "open-source",
+        "accessibility"
+      ],
+      "org": "Twilio",
+      "year_introduced": 2021,
+      "era": "2020s",
+      "summary": "Twilio's design system for building consistent, accessible customer experiences, built on top of accessible primitives with a strong theming/token model.",
+      "significance": "A respected accessibility-focused enterprise design system; grew to power the majority of the Twilio Console.",
+      "key_facts": [
+        "Publicly introduced as Twilio's design system in 2021.",
+        "By 2023, about 80% of Twilio Console page views were built entirely with Paste.",
+        "Documented at paste.twilio.design; code at github.com/twilio-labs/paste.",
+        "Built on accessible primitives (e.g. Reakit/Ariakit and Radix-style behavior).",
+        "The paste.twilio.design site is scheduled to be retired on July 31, 2026, with docs moving to GitHub."
+      ],
+      "defining_traits": [
+        "accessibility-first",
+        "design tokens",
+        "theming",
+        "composable primitives"
+      ],
+      "examples": [
+        "Twilio Console",
+        "SendGrid interfaces"
+      ],
+      "url": "https://paste.twilio.design",
+      "related": [
+        "radix-ui",
+        "shopify-polaris"
+      ],
+      "sources": [
+        {
+          "title": "Paste: Twilio's design system",
+          "url": "https://paste.twilio.design/",
+          "publisher": "Twilio",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Paste 2023 year in review",
+          "url": "https://paste.twilio.design/blog/2024-02-06-paste-2023-year-in-review",
+          "publisher": "Twilio",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "workday-canvas",
+      "name": "Workday Canvas",
+      "category": "design-system",
+      "tags": [
+        "workday",
+        "enterprise",
+        "react",
+        "open-source"
+      ],
+      "org": "Workday",
+      "year_introduced": 2018,
+      "era": "2010s",
+      "summary": "Workday's design system for building enterprise experiences consistent with Workday products, including the open-source Canvas Kit React/component libraries.",
+      "significance": "A comprehensive enterprise SaaS design system with a public, open-source component kit and token-based theming.",
+      "key_facts": [
+        "Documented at canvas.workday.com; components via github.com/Workday/canvas-kit.",
+        "Canvas Kit provides React components and supports token-based theming.",
+        "Targets enterprise HR/finance application patterns.",
+        "Open-source component kit with a Storybook.",
+        "Canvas Kit was open-sourced on GitHub in July 2019; the current line is Canvas v15."
+      ],
+      "defining_traits": [
+        "design tokens",
+        "Canvas Kit React",
+        "enterprise patterns",
+        "theming"
+      ],
+      "examples": [
+        "Workday HCM",
+        "Workday Financials"
+      ],
+      "url": "https://canvas.workday.com",
+      "related": [
+        "carbon-design-system",
+        "salesforce-lightning"
+      ],
+      "sources": [
+        {
+          "title": "Workday Canvas Design System",
+          "url": "https://canvas.workday.com/",
+          "publisher": "Workday",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Workday/canvas-kit",
+          "url": "https://github.com/Workday/canvas-kit",
+          "publisher": "GitHub",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "year": 2019
+    },
+    {
+      "id": "uswds",
+      "name": "U.S. Web Design System (USWDS)",
+      "category": "design-system",
+      "tags": [
+        "government",
+        "us",
+        "accessibility",
+        "open-source",
+        "public-sector"
+      ],
+      "org": "U.S. General Services Administration",
+      "year_introduced": 2015,
+      "era": "2010s",
+      "summary": "The design system for U.S. federal government websites, providing accessible, mobile-friendly components, patterns, and guidance backed by law and Section 508.",
+      "significance": "Standardizes and improves accessibility across U.S. federal digital services; a leading public-sector design system model.",
+      "key_facts": [
+        "Originally released in 2015 (as the U.S. Web Design Standards).",
+        "USWDS 3.0 was released on April 28, 2022, adopting a Sass-based settings/utilities architecture.",
+        "Maintained by GSA (Technology Transformation Services / 18F).",
+        "Open-source; documented at designsystem.digital.gov.",
+        "Built to meet Section 508 accessibility requirements."
+      ],
+      "defining_traits": [
+        "Section 508 accessibility",
+        "government patterns",
+        "Sass tokens/utilities",
+        "mobile-first"
+      ],
+      "examples": [
+        "Federal agency websites",
+        "Login.gov",
+        "Vote.gov"
+      ],
+      "url": "https://designsystem.digital.gov",
+      "related": [
+        "govuk-design-system"
+      ],
+      "sources": [
+        {
+          "title": "USWDS: The United States Web Design System",
+          "url": "https://designsystem.digital.gov/",
+          "publisher": "GSA / TTS",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "U.S. Web Design System",
+          "url": "https://en.wikipedia.org/wiki/U.S._Web_Design_System",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "govuk-design-system",
+      "name": "GOV.UK Design System",
+      "category": "design-system",
+      "tags": [
+        "government",
+        "uk",
+        "accessibility",
+        "open-source",
+        "public-sector"
+      ],
+      "org": "UK Government Digital Service (GDS)",
+      "year_introduced": 2018,
+      "era": "2010s",
+      "summary": "The UK government's design system providing styles, components, and patterns for building accessible, consistent public-sector services.",
+      "significance": "A globally referenced model for government digital services, emphasizing accessibility, plain language, and evidence-based patterns.",
+      "key_facts": [
+        "Introduced by the Government Digital Service on June 22, 2018.",
+        "Built on the earlier GOV.UK Frontend / GOV.UK Elements work.",
+        "Open-source; documented at design-system.service.gov.uk.",
+        "Prioritizes accessibility (WCAG) and progressive enhancement.",
+        "Widely copied as a template by other national governments."
+      ],
+      "defining_traits": [
+        "accessibility-first",
+        "progressive enhancement",
+        "plain-language patterns",
+        "GOV.UK Frontend"
+      ],
+      "examples": [
+        "GOV.UK services",
+        "UK government departmental services"
+      ],
+      "url": "https://design-system.service.gov.uk",
+      "related": [
+        "uswds"
+      ],
+      "sources": [
+        {
+          "title": "Home — GOV.UK Design System",
+          "url": "https://design-system.service.gov.uk/",
+          "publisher": "GDS",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Introducing the GOV.UK Design System",
+          "url": "https://gds.blog.gov.uk/2018/06/22/introducing-the-gov-uk-design-system/",
+          "publisher": "GDS Blog",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "radix-ui",
+      "name": "Radix UI",
+      "category": "ui-library",
+      "tags": [
+        "react",
+        "headless",
+        "accessibility",
+        "open-source",
+        "primitives"
+      ],
+      "org": "WorkOS",
+      "year_introduced": 2020,
+      "era": "2020s",
+      "summary": "An open-source library of unstyled, accessible React 'primitives' (dialogs, popovers, dropdowns, etc.) for building design systems, plus the styled Radix Themes.",
+      "significance": "A foundational headless component layer for the modern React ecosystem; underpins shadcn/ui and many custom design systems.",
+      "key_facts": [
+        "Radix Primitives were first released in 2020.",
+        "Provides unstyled, WAI-ARIA-compliant, accessible component behavior.",
+        "Now maintained by WorkOS (after acquisition).",
+        "Radix Themes adds a styled component layer on top of the primitives.",
+        "Serves as the accessibility/behavior foundation for shadcn/ui."
+      ],
+      "defining_traits": [
+        "headless primitives",
+        "accessibility (WAI-ARIA)",
+        "unstyled",
+        "composable"
+      ],
+      "examples": [
+        "shadcn/ui",
+        "Vercel dashboard",
+        "many custom design systems"
+      ],
+      "url": "https://www.radix-ui.com",
+      "related": [
+        "shadcn-ui",
+        "headless-ui",
+        "spectrum"
+      ],
+      "sources": [
+        {
+          "title": "Radix Primitives",
+          "url": "https://github.com/radix-ui/primitives",
+          "publisher": "GitHub / WorkOS",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Building a design system with Radix",
+          "url": "https://blog.logrocket.com/building-design-system-radix/",
+          "publisher": "LogRocket",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "tailwind-css",
+      "name": "Tailwind CSS",
+      "category": "css-framework",
+      "tags": [
+        "css",
+        "utility-first",
+        "open-source",
+        "tailwind-labs"
+      ],
+      "org": "Tailwind Labs",
+      "creator": "Adam Wathan",
+      "year_introduced": 2017,
+      "era": "2010s",
+      "summary": "A utility-first CSS framework that provides low-level utility classes to build custom designs directly in markup, rather than prebuilt components.",
+      "significance": "Reshaped modern front-end styling around utility-first workflows; one of the most popular CSS frameworks and the styling layer for shadcn/ui.",
+      "key_facts": [
+        "Created by Adam Wathan; first released in 2017 (Tailwind Labs).",
+        "Utility-first: composes designs from atomic classes rather than semantic component classes.",
+        "Tailwind CSS v4.0 was released January 22, 2025, with a new Rust-accelerated engine.",
+        "Open-source under the MIT License.",
+        "Commercial companion 'Tailwind UI' (now Tailwind Plus) sells prebuilt component templates."
+      ],
+      "defining_traits": [
+        "utility-first classes",
+        "no prebuilt components",
+        "design tokens via config",
+        "JIT engine"
+      ],
+      "examples": [
+        "shadcn/ui",
+        "Vercel sites",
+        "GitHub Copilot UI",
+        "countless SaaS apps"
+      ],
+      "url": "https://tailwindcss.com",
+      "related": [
+        "shadcn-ui",
+        "bootstrap",
+        "bulma"
+      ],
+      "sources": [
+        {
+          "title": "Tailwind CSS v4.0",
+          "url": "https://tailwindcss.com/blog/tailwindcss-v4",
+          "publisher": "Tailwind Labs",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Tailwind CSS",
+          "url": "https://en.wikipedia.org/wiki/Tailwind_CSS",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "bootstrap",
+      "name": "Bootstrap",
+      "category": "css-framework",
+      "tags": [
+        "css",
+        "open-source",
+        "twitter",
+        "responsive"
+      ],
+      "org": "Bootstrap team (originally Twitter)",
+      "creator": "Mark Otto and Jacob Thornton",
+      "year_introduced": 2011,
+      "era": "2010s",
+      "summary": "The original mass-adopted responsive CSS/component framework, providing a grid system, prebuilt components, and utilities.",
+      "significance": "The framework that popularized the 12-column responsive grid and made consistent, mobile-friendly UI accessible to a generation of developers.",
+      "key_facts": [
+        "Created at Twitter by Mark Otto and Jacob Thornton; released as open source in August 2011.",
+        "Bootstrap 5 (2021) dropped the jQuery dependency.",
+        "As of 2026 the current line is 5.3.x (5.3.8 shipped August 25, 2025).",
+        "Open-source under the MIT License; documented at getbootstrap.com.",
+        "Popularized the responsive 12-column grid and component classes like .btn and .card."
+      ],
+      "defining_traits": [
+        "12-column responsive grid",
+        "prebuilt components",
+        "utility classes",
+        "Sass customization"
+      ],
+      "examples": [
+        "countless websites and admin templates"
+      ],
+      "url": "https://getbootstrap.com",
+      "related": [
+        "foundation",
+        "bulma",
+        "tailwind-css"
+      ],
+      "sources": [
+        {
+          "title": "Bootstrap versions",
+          "url": "https://getbootstrap.com/docs/versions/",
+          "publisher": "Bootstrap",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Bootstrap releases",
+          "url": "https://github.com/twbs/bootstrap/releases",
+          "publisher": "GitHub",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "chakra-ui",
+      "name": "Chakra UI",
+      "category": "ui-library",
+      "tags": [
+        "react",
+        "open-source",
+        "accessibility",
+        "css-in-js"
+      ],
+      "org": "Chakra UI",
+      "creator": "Segun Adebayo",
+      "year_introduced": 2019,
+      "era": "2010s",
+      "summary": "A modular, accessible React component library emphasizing developer experience, style props, and theming.",
+      "significance": "A very popular React component library that pushed accessible-by-default components and an ergonomic style-props API into the mainstream.",
+      "key_facts": [
+        "Created by Segun Adebayo; first released in 2019.",
+        "Accessible-by-default components following WAI-ARIA practices.",
+        "Popularized the 'style props' pattern for inline theming in JSX.",
+        "Open-source under the MIT License.",
+        "Spun off the headless Ark UI and Panda CSS projects from the same maintainers."
+      ],
+      "defining_traits": [
+        "style props",
+        "accessible by default",
+        "theme tokens",
+        "composable components"
+      ],
+      "examples": [
+        "many React SaaS apps and dashboards"
+      ],
+      "url": "https://chakra-ui.com",
+      "related": [
+        "mantine",
+        "ant-design",
+        "radix-ui"
+      ],
+      "sources": [
+        {
+          "title": "chakra-ui/chakra-ui",
+          "url": "https://github.com/chakra-ui/chakra-ui",
+          "publisher": "GitHub",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "The future of Chakra UI",
+          "url": "https://www.adebayosegun.com/blog/the-future-of-chakra-ui",
+          "publisher": "Segun Adebayo",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "mantine",
+      "name": "Mantine",
+      "category": "ui-library",
+      "tags": [
+        "react",
+        "open-source",
+        "hooks",
+        "css-modules"
+      ],
+      "org": "Mantine",
+      "creator": "Vitaly Rtishchev",
+      "year_introduced": 2021,
+      "era": "2020s",
+      "summary": "A fully featured React components and hooks library covering a very large component set plus form, notification, and utility packages.",
+      "significance": "A rapidly popular, batteries-included React library valued for breadth (100+ components) and a large hooks collection.",
+      "key_facts": [
+        "Development started January 2021; version 1.0 released May 3, 2021.",
+        "Created and maintained by Vitaly Rtishchev with 500+ contributors.",
+        "Ships 100+ components plus a dedicated hooks package.",
+        "Open-source under the MIT License; documented at mantine.dev.",
+        "Version 7 moved styling from Emotion to native CSS Modules."
+      ],
+      "defining_traits": [
+        "large component set",
+        "extensive hooks",
+        "CSS Modules (v7+)",
+        "dark mode / theming"
+      ],
+      "examples": [
+        "many React admin and SaaS apps"
+      ],
+      "url": "https://mantine.dev",
+      "related": [
+        "chakra-ui",
+        "ant-design"
+      ],
+      "sources": [
+        {
+          "title": "About Mantine",
+          "url": "https://mantine.dev/about/",
+          "publisher": "Mantine",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "mantinedev/mantine",
+          "url": "https://github.com/mantinedev/mantine",
+          "publisher": "GitHub",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "bulma",
+      "name": "Bulma",
+      "category": "css-framework",
+      "tags": [
+        "css",
+        "flexbox",
+        "open-source",
+        "no-javascript"
+      ],
+      "org": "Bulma",
+      "creator": "Jeremy Thomas",
+      "year_introduced": 2016,
+      "era": "2010s",
+      "summary": "A modern, open-source CSS framework based on Flexbox that provides ready-to-use components and a responsive grid, with no JavaScript included.",
+      "significance": "A popular lightweight, JS-free alternative to Bootstrap that showcased Flexbox-based layout and a clean class API.",
+      "key_facts": [
+        "Created by Jeremy Thomas; first released in 2016.",
+        "Built on CSS Flexbox for layout.",
+        "Ships CSS only — no bundled JavaScript.",
+        "Open-source under the MIT License; documented at bulma.io.",
+        "Customizable via Sass variables."
+      ],
+      "defining_traits": [
+        "Flexbox-based",
+        "CSS-only (no JS)",
+        "column grid",
+        "Sass variables"
+      ],
+      "examples": [
+        "marketing sites",
+        "documentation sites",
+        "prototypes"
+      ],
+      "url": "https://bulma.io",
+      "related": [
+        "bootstrap",
+        "foundation",
+        "tailwind-css"
+      ],
+      "sources": [
+        {
+          "title": "Bulma",
+          "url": "https://bulma.io/",
+          "publisher": "Jeremy Thomas",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "jgthms/bulma",
+          "url": "https://github.com/jgthms/bulma",
+          "publisher": "GitHub",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "foundation",
+      "name": "Foundation (ZURB)",
+      "category": "css-framework",
+      "tags": [
+        "css",
+        "responsive",
+        "open-source",
+        "zurb"
+      ],
+      "org": "ZURB (later community-maintained)",
+      "year_introduced": 2011,
+      "era": "2010s",
+      "summary": "An early responsive front-end framework by ZURB, offering a grid, components, and email templates, historically positioned as the main alternative to Bootstrap.",
+      "significance": "One of the first advanced responsive frameworks; introduced many teams to mobile-first responsive design and accessible components.",
+      "key_facts": [
+        "Created by ZURB; first released in 2011 (Foundation 2.0 open-sourced under MIT in October 2011).",
+        "Marketed as 'the most advanced responsive front-end framework in the world.'",
+        "Included Foundation for Sites, Foundation for Emails, and Foundation for Apps variants.",
+        "Adopted a mobile-first, semantic grid approach.",
+        "Development slowed after ZURB handed it to community maintenance."
+      ],
+      "defining_traits": [
+        "mobile-first grid",
+        "Sass-based",
+        "email framework",
+        "accessible components"
+      ],
+      "examples": [
+        "responsive marketing sites",
+        "HTML email templates"
+      ],
+      "url": "https://get.foundation",
+      "related": [
+        "bootstrap",
+        "bulma"
+      ],
+      "sources": [
+        {
+          "title": "Foundation (framework)",
+          "url": "https://en.wikipedia.org/wiki/Foundation_(framework)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "About Foundation",
+          "url": "https://get.foundation/showcase/about.html",
+          "publisher": "ZURB",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "shadcn-ui",
+      "name": "shadcn/ui",
+      "category": "ui-library",
+      "tags": [
+        "react",
+        "radix",
+        "tailwind",
+        "open-source",
+        "copy-paste"
+      ],
+      "org": "shadcn (Vercel)",
+      "creator": "shadcn",
+      "year_introduced": 2023,
+      "era": "2020s",
+      "summary": "A collection of copy-paste, accessible React components built on Radix UI primitives and styled with Tailwind CSS; you own the code rather than installing a dependency.",
+      "significance": "Rapidly became one of the most influential UI approaches of the 2020s by popularizing 'open code' distribution — components pasted into your repo instead of an npm package.",
+      "key_facts": [
+        "First released March 8, 2023, by shadcn (who later joined Vercel).",
+        "Built on Radix UI primitives and Tailwind CSS.",
+        "Distributed via a CLI that copies component source into the user's codebase (not a runtime dependency).",
+        "Open-source under the MIT License; documented at ui.shadcn.com.",
+        "Users fully own and customize the generated component code."
+      ],
+      "defining_traits": [
+        "copy-paste / open code",
+        "Radix + Tailwind",
+        "you own the code",
+        "CLI distribution"
+      ],
+      "examples": [
+        "Vercel dashboards",
+        "many modern React/Next.js apps"
+      ],
+      "url": "https://ui.shadcn.com",
+      "related": [
+        "radix-ui",
+        "tailwind-css",
+        "vercel-geist"
+      ],
+      "sources": [
+        {
+          "title": "shadcn/ui",
+          "url": "https://ui.shadcn.com/",
+          "publisher": "shadcn",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "shadcn-ui/ui",
+          "url": "https://github.com/shadcn-ui/ui",
+          "publisher": "GitHub",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "headless-ui",
+      "name": "Headless UI",
+      "category": "ui-library",
+      "tags": [
+        "react",
+        "vue",
+        "tailwind",
+        "headless",
+        "accessibility",
+        "open-source"
+      ],
+      "org": "Tailwind Labs",
+      "year_introduced": 2020,
+      "era": "2020s",
+      "summary": "A set of completely unstyled, fully accessible UI components for React and Vue, built by the Tailwind CSS team to pair with Tailwind styling.",
+      "significance": "Provided the accessible-behavior layer designed to be styled with Tailwind, filling the gap between raw markup and styled component libraries.",
+      "key_facts": [
+        "Built and maintained by Tailwind Labs (the Tailwind CSS team); first released in 2020.",
+        "Ships unstyled, accessible components for both React and Vue.",
+        "Designed to be styled with Tailwind CSS utility classes.",
+        "Open-source under the MIT License; documented at headlessui.com.",
+        "Covers primitives like Menu, Dialog, Listbox, Combobox, and Tabs."
+      ],
+      "defining_traits": [
+        "unstyled/headless",
+        "React + Vue",
+        "accessibility",
+        "pairs with Tailwind"
+      ],
+      "examples": [
+        "Tailwind Plus components",
+        "many Tailwind-based apps"
+      ],
+      "url": "https://headlessui.com",
+      "related": [
+        "radix-ui",
+        "tailwind-css",
+        "shadcn-ui"
+      ],
+      "sources": [
+        {
+          "title": "Headless UI",
+          "url": "https://headlessui.com/",
+          "publisher": "Tailwind Labs",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Top Headless UI libraries for React in 2026",
+          "url": "https://www.greatfrontend.com/blog/top-headless-ui-libraries-for-react-in-2026",
+          "publisher": "GreatFrontEnd",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "reshaped",
+      "name": "Reshaped",
+      "category": "ui-library",
+      "tags": [
+        "react",
+        "figma",
+        "design-system",
+        "shopify"
+      ],
+      "org": "Reshaped",
+      "creator": "Dmitry Belyaev and Oleksii Drozdenko",
+      "year_introduced": 2022,
+      "era": "2020s",
+      "summary": "A professionally crafted React and Figma component library intended as a foundation for building products or your own design system.",
+      "significance": "A well-regarded design system with tightly synchronized Figma and React sources; started commercial and later moved to open source.",
+      "key_facts": [
+        "Created by Dmitry Belyaev (with Oleksii Drozdenko).",
+        "Provides paired React components and Figma libraries.",
+        "Originally sold under a paid license, later moved to fully open source.",
+        "Documented at reshaped.so; code at github.com/reshaped-ui/reshaped.",
+        "Developed as a paid product for ~5 years; the React package was made free ~2023 and the system fully open-sourced under MIT in 2025."
+      ],
+      "defining_traits": [
+        "Figma + React parity",
+        "design tokens",
+        "theming",
+        "productized components"
+      ],
+      "examples": [
+        "products building on the Reshaped foundation"
+      ],
+      "url": "https://reshaped.so",
+      "related": [
+        "chakra-ui",
+        "mantine"
+      ],
+      "sources": [
+        {
+          "title": "Reshaped is now open-source",
+          "url": "https://www.reshaped.so/blog/reshaped-oss",
+          "publisher": "Reshaped",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "reshaped-ui/reshaped",
+          "url": "https://github.com/reshaped-ui/reshaped",
+          "publisher": "GitHub",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "trello-nachos",
+      "name": "Trello Nachos",
+      "category": "design-system",
+      "tags": [
+        "trello",
+        "atlassian",
+        "product"
+      ],
+      "org": "Trello (Atlassian)",
+      "year_introduced": 2017,
+      "era": "2010s",
+      "summary": "Trello's in-house design system, named 'Nachos', built before and around its acquisition by Atlassian to unify Trello's UI.",
+      "significance": "A widely cited product design system; note that the seed list's 'Nord' label is incorrect — Trello's system is Nachos, later merged into the Atlassian Design System.",
+      "key_facts": [
+        "Trello's design system is named Nachos (after the team's favorite snack), not 'Nord'.",
+        "Introduced by Trello to standardize its product UI.",
+        "Nachos has since merged into the Atlassian Design System after Atlassian acquired Trello (2017).",
+        "The Nachos visual spirit still persists within the Trello product.",
+        "Publicly introduced on the Trello blog on October 9, 2017."
+      ],
+      "defining_traits": [
+        "product-specific components",
+        "Trello brand color",
+        "board/card UI patterns"
+      ],
+      "examples": [
+        "Trello web app",
+        "Trello mobile"
+      ],
+      "url": "https://atlassian.design",
+      "related": [
+        "atlassian-design-system"
+      ],
+      "sources": [
+        {
+          "title": "Introducing Nachos: a design system for Trello",
+          "url": "https://blog.trello.com/introducing-nachos-a-tasty-new-design-system-for-trello",
+          "publisher": "Trello / Atlassian",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Trello's Design System: Nachos",
+          "url": "https://adele.uxpin.com/trello-nachos",
+          "publisher": "Adele (UXPin)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "year": 2017
+    },
+    {
+      "id": "orbit",
+      "name": "Orbit (Kiwi.com)",
+      "category": "design-system",
+      "tags": [
+        "kiwi",
+        "travel",
+        "react",
+        "open-source"
+      ],
+      "org": "Kiwi.com",
+      "year_introduced": 2018,
+      "era": "2010s",
+      "summary": "Kiwi.com's open-source design system built for travel-focused products, providing React and SwiftUI component libraries.",
+      "significance": "A rare open-source, domain-specific (travel) design system that other travel projects can adopt directly.",
+      "key_facts": [
+        "Created by Kiwi.com; open-source from the start.",
+        "Documented at orbit.kiwi; React components at github.com/kiwicom/orbit.",
+        "Explicitly designed for travel-industry product needs.",
+        "Also offers a SwiftUI implementation (orbit-swiftui).",
+        "Public launch year approximately 2018 (needs-check for exact date)."
+      ],
+      "defining_traits": [
+        "travel-focused patterns",
+        "open-source",
+        "React + SwiftUI",
+        "design tokens"
+      ],
+      "examples": [
+        "Kiwi.com booking product"
+      ],
+      "url": "https://orbit.kiwi",
+      "related": [
+        "shopify-polaris"
+      ],
+      "sources": [
+        {
+          "title": "Orbit design system",
+          "url": "https://orbit.kiwi/",
+          "publisher": "Kiwi.com",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "kiwicom/orbit",
+          "url": "https://github.com/kiwicom/orbit",
+          "publisher": "GitHub",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "pajamas",
+      "name": "Pajamas (GitLab)",
+      "category": "design-system",
+      "tags": [
+        "gitlab",
+        "open-source",
+        "vue",
+        "devops"
+      ],
+      "org": "GitLab",
+      "year_introduced": 2019,
+      "era": "2010s",
+      "summary": "GitLab's design system, named 'Pajamas', providing design guidelines and the GitLab UI Vue component library behind the GitLab product.",
+      "significance": "A fully open, publicly documented design system from an all-remote DevOps company; notable for its transparency and Vue-based components.",
+      "key_facts": [
+        "GitLab's design system is named Pajamas.",
+        "Documented at design.gitlab.com; components ship as GitLab UI (Vue).",
+        "Open-source and developed publicly in GitLab repositories.",
+        "Covers foundations, components, and usage/content guidance.",
+        "Pajamas began in 2017 (GitLab's UX team formed in 2016); a shared design+code library followed in 2018."
+      ],
+      "defining_traits": [
+        "Vue components (GitLab UI)",
+        "open/transparent development",
+        "design tokens",
+        "DevOps product patterns"
+      ],
+      "examples": [
+        "GitLab web application"
+      ],
+      "url": "https://design.gitlab.com",
+      "related": [
+        "github-primer",
+        "carbon-design-system"
+      ],
+      "sources": [
+        {
+          "title": "Pajamas Design System",
+          "url": "https://design.gitlab.com/",
+          "publisher": "GitLab",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Pajamas Design System | GitLab Handbook",
+          "url": "https://handbook.gitlab.com/handbook/product/ux/pajamas-design-system/",
+          "publisher": "GitLab",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "year": 2017
+    },
+    {
+      "id": "vercel-geist",
+      "name": "Vercel Geist",
+      "category": "design-system",
+      "tags": [
+        "vercel",
+        "nextjs",
+        "react",
+        "typeface"
+      ],
+      "org": "Vercel",
+      "year_introduced": 2023,
+      "era": "2020s",
+      "summary": "Vercel's design system, 'Geist', for building consistent web experiences across Vercel products, including the Geist typeface and brand guidelines for Next.js and Turbo.",
+      "significance": "A high-visibility modern design system from Vercel; its Geist typeface and minimalist aesthetic are widely emulated in developer-tool UIs.",
+      "key_facts": [
+        "Geist is Vercel's design system, first launched in 2023.",
+        "Includes the Geist and Geist Mono typefaces (developed with Basement Studio).",
+        "Provides components, color systems, and brand guidelines for Vercel, Next.js, and Turbo.",
+        "Documented at vercel.com/geist.",
+        "Geist Pixel is a later pixel-art extension of the system."
+      ],
+      "defining_traits": [
+        "Geist typeface",
+        "minimalist monochrome aesthetic",
+        "developer-tool patterns",
+        "design tokens"
+      ],
+      "examples": [
+        "Vercel dashboard",
+        "Next.js website",
+        "Turbo"
+      ],
+      "url": "https://vercel.com/geist/introduction",
+      "related": [
+        "shadcn-ui",
+        "github-primer"
+      ],
+      "sources": [
+        {
+          "title": "Geist",
+          "url": "https://vercel.com/geist/introduction",
+          "publisher": "Vercel",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Introducing Geist Pixel",
+          "url": "https://vercel.com/blog/introducing-geist-pixel",
+          "publisher": "Vercel",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "mailchimp-pattern-library",
+      "name": "Mailchimp Pattern Library",
+      "category": "design-system",
+      "tags": [
+        "mailchimp",
+        "pattern-library",
+        "marketing"
+      ],
+      "org": "Mailchimp",
+      "year_introduced": 2013,
+      "era": "2010s",
+      "summary": "Mailchimp's design/pattern library documenting color, typography, data visualization, grid, and components used across its marketing platform.",
+      "significance": "An early, influential public pattern library often cited as a model for documenting UI patterns and content voice; its playful voice-and-tone work was widely referenced.",
+      "key_facts": [
+        "A public Mailchimp pattern library was documented as early as the mid-2010s (A List Apart coverage).",
+        "Covered color, typography, data visualization, grid, buttons, lists, and navigation.",
+        "As of early 2025 the public pattern library was removed and its links broken.",
+        "Mailchimp also maintains a separate public Content Style Guide (voice and tone).",
+        "Publicly launched in 2013 alongside Mailchimp's responsive app redesign (ux.mailchimp.com/patterns)."
+      ],
+      "defining_traits": [
+        "pattern documentation",
+        "data-visualization guidance",
+        "distinctive voice and tone",
+        "grid system"
+      ],
+      "examples": [
+        "Mailchimp marketing app"
+      ],
+      "url": "https://ux.mailchimp.com/patterns",
+      "related": [
+        "shopify-polaris"
+      ],
+      "sources": [
+        {
+          "title": "MailChimp Pattern Library",
+          "url": "https://alistapart.com/blog/post/mailchimp-pattern-library/",
+          "publisher": "A List Apart",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Mailchimp Content Style Guide",
+          "url": "https://styleguide.mailchimp.com/",
+          "publisher": "Mailchimp",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "audi-ui",
+      "name": "Audi UI",
+      "category": "design-system",
+      "tags": [
+        "audi",
+        "automotive",
+        "brand",
+        "react"
+      ],
+      "org": "Audi",
+      "year_introduced": null,
+      "era": "2010s",
+      "summary": "Audi's corporate design system providing components, foundations, typography, and multi-brand theming for consistent digital experiences across Audi products.",
+      "significance": "A prominent automotive-brand design system, illustrating how large consumer brands extend visual identity into reusable digital components.",
+      "key_facts": [
+        "Maintained by Audi's DesignOps team; React components documented at react.ui.audi.",
+        "Provides reusable components, foundational directories, design tokens, and animations.",
+        "Supports multi-brand theming and a shared Figma library.",
+        "Includes voice-and-tone guidance for content creators.",
+        "Public launch year is not clearly documented; the React system is published at react.ui.audi."
+      ],
+      "defining_traits": [
+        "automotive brand identity",
+        "multi-brand theming",
+        "design tokens",
+        "animation guidance"
+      ],
+      "examples": [
+        "Audi.com",
+        "Audi digital services and apps"
+      ],
+      "url": "https://react.ui.audi",
+      "related": [
+        "material-design-2"
+      ],
+      "sources": [
+        {
+          "title": "Audi DesignOps (React UI)",
+          "url": "https://react.ui.audi/",
+          "publisher": "Audi",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Audi Design System overview",
+          "url": "https://designsystems.surf/design-systems/audi",
+          "publisher": "designsystems.surf",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    }
+  ]
+}

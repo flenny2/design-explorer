@@ -1,0 +1,2327 @@
+{
+  "topic": "iconic-websites",
+  "title": "Iconic, Landmark & Award-Winning Websites and Product UIs",
+  "description": "Canonical reference examples of great front-end design: influential product UIs, marketing sites, award-winning web experiences, and seminal historical websites.",
+  "schema_version": "1.0",
+  "count": 50,
+  "last_updated": "2026-07-07",
+  "entries": [
+    {
+      "id": "stripe",
+      "name": "Stripe.com",
+      "category": "marketing-site",
+      "tags": [
+        "saas",
+        "fintech",
+        "gradient",
+        "developer",
+        "marketing"
+      ],
+      "org": "Stripe",
+      "creator": "Stripe in-house design & marketing team",
+      "era": "2010s-2020s",
+      "summary": "Marketing and documentation site for the payments company Stripe, known for polished gradients, embedded code samples, and clarity in explaining a technical product.",
+      "significance": "Widely regarded as the template modern SaaS marketing copies; its animated multi-color gradient hero and product-clarity approach became a cultural design moment, spawning countless imitators ('make it like Stripe').",
+      "key_facts": [
+        "Its animated hero gradient (blue, purple, pink, orange, red) became one of the most imitated web design motifs of the late 2010s.",
+        "Pairs marketing pages with live code samples, signaling deep understanding of a developer audience.",
+        "Frequently cited alongside Linear and Vercel as defining the 'modern SaaS' aesthetic.",
+        "Design commentators note new Stripe redesigns immediately trigger a wave of copycat sites."
+      ],
+      "defining_traits": [
+        "animated gradient hero",
+        "code samples in marketing",
+        "high-clarity product storytelling",
+        "restrained typography"
+      ],
+      "url": "https://stripe.com",
+      "related": [
+        "linear",
+        "vercel"
+      ],
+      "sources": [
+        {
+          "title": "\"Make It Like Stripe,\" or Why Imitation Is a Tricky Design Strategy",
+          "url": "https://www.eleken.co/blog-posts/making-it-like-stripe",
+          "publisher": "Eleken",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Inside Marketing Design at Stripe",
+          "url": "https://insidemarketingdesign.com/at/stripe",
+          "publisher": "Inside Marketing Design",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Four design principles behind Stripe, Linear, and Vercel",
+          "url": "https://www.pixeldarts.com/en/post/four-design-principles-behind-stripe-linear-and-vercel",
+          "publisher": "Pixeldarts",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "category": "product-ui",
+      "tags": [
+        "saas",
+        "dark-ui",
+        "productivity",
+        "gradient",
+        "product"
+      ],
+      "org": "Linear",
+      "creator": "Karri Saarinen (co-founder & design lead) and team",
+      "era": "2020s",
+      "summary": "Project and issue-tracking app whose dark, keyboard-driven interface and marketing site set a benchmark for premium, high-craft B2B software UI.",
+      "significance": "Credited with popularizing the refined dark-mode SaaS aesthetic (subtle gradients, glow, meticulous micro-interactions); 'Linear-like' became shorthand for high-polish product design.",
+      "key_facts": [
+        "Co-founder Karri Saarinen previously built Airbnb's Design Language System.",
+        "Known for keyboard-first navigation and a command menu-driven UX.",
+        "Cited as 'the most consistent execution' of the gradient-on-dark system in modern web design.",
+        "Its marketing site and product feel like they share one unified visual language."
+      ],
+      "defining_traits": [
+        "dark UI with subtle gradients",
+        "keyboard-first UX",
+        "micro-interaction polish",
+        "unified product/marketing language"
+      ],
+      "url": "https://linear.app",
+      "related": [
+        "stripe",
+        "vercel",
+        "airbnb-dls"
+      ],
+      "sources": [
+        {
+          "title": "Four design principles behind Stripe, Linear, and Vercel",
+          "url": "https://www.pixeldarts.com/en/post/four-design-principles-behind-stripe-linear-and-vercel",
+          "publisher": "Pixeldarts",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Linear",
+          "url": "https://linear.app",
+          "publisher": "Linear",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "apple-com",
+      "name": "Apple.com",
+      "category": "marketing-site",
+      "tags": [
+        "apple",
+        "product-page",
+        "minimal",
+        "scrollytelling",
+        "marketing"
+      ],
+      "org": "Apple",
+      "creator": "Apple Marketing Communications",
+      "era": "2000s-2020s",
+      "summary": "Apple's product marketing website, known for generous whitespace, large product photography, restrained typography (San Francisco), and immersive scroll-driven product pages.",
+      "significance": "A long-standing gold standard for premium product marketing; its minimal, image-forward layouts and scroll-triggered animations are endlessly referenced and imitated across the industry.",
+      "key_facts": [
+        "Uses Apple's own San Francisco typeface and heavy whitespace for a premium feel.",
+        "Product pages pioneered mainstream scroll-triggered <canvas>/WebGL animation sequences.",
+        "Individual product pages (AirPods Pro, Mac Pro, iPhone) are studied as standalone design references.",
+        "Consistent visual grammar across decades reinforces brand recognition."
+      ],
+      "defining_traits": [
+        "whitespace-forward layout",
+        "large product photography",
+        "scroll-triggered animation",
+        "restrained typography"
+      ],
+      "url": "https://www.apple.com",
+      "related": [
+        "apple-airpods-pro-page",
+        "early-apple-com"
+      ],
+      "sources": [
+        {
+          "title": "Let's Make One of Those Fancy Scrolling Animations Used on Apple Product Pages",
+          "url": "https://css-tricks.com/lets-make-one-of-those-fancy-scrolling-animations-used-on-apple-product-pages/",
+          "publisher": "CSS-Tricks",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Apple",
+          "url": "https://www.apple.com",
+          "publisher": "Apple",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "category": "product-ui",
+      "tags": [
+        "saas",
+        "productivity",
+        "minimal",
+        "editor",
+        "product"
+      ],
+      "org": "Notion Labs",
+      "creator": "Notion Labs design team",
+      "era": "2010s-2020s",
+      "summary": "All-in-one docs, notes, and database workspace whose clean, monochrome, block-based editor became a signature look for modern productivity software.",
+      "significance": "Popularized the block-based editing paradigm and a warm-minimal aesthetic (hand-drawn illustrations, generous whitespace, restrained mono/serif accents) widely emulated by productivity startups.",
+      "key_facts": [
+        "Interface is built around composable 'blocks' users can drag and restructure.",
+        "Known for a friendly monochrome palette accented with custom illustrations and emoji.",
+        "Slash-command menu became a widely-copied editing interaction pattern.",
+        "Its aesthetic strongly influenced a generation of note-taking and docs tools."
+      ],
+      "defining_traits": [
+        "block-based editor",
+        "slash-command UX",
+        "monochrome + illustration",
+        "generous whitespace"
+      ],
+      "url": "https://www.notion.so",
+      "related": [
+        "linear",
+        "figma"
+      ],
+      "sources": [
+        {
+          "title": "Notion",
+          "url": "https://www.notion.so",
+          "publisher": "Notion Labs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "category": "webapp",
+      "tags": [
+        "design-tool",
+        "collaboration",
+        "webapp",
+        "product"
+      ],
+      "org": "Figma",
+      "creator": "Figma design team",
+      "era": "2010s-2020s",
+      "summary": "Browser-based collaborative interface-design tool whose real-time multiplayer canvas and marketing site are themselves showcases of web app craft.",
+      "significance": "Proved a professional-grade design tool could run in the browser with real-time collaboration; its playful, colorful brand and expressive marketing site are design-community reference points.",
+      "key_facts": [
+        "Runs a full vector design editor in the browser using WebGL/WebAssembly.",
+        "Pioneered real-time multiplayer editing (multiple cursors) as a core design workflow.",
+        "Brand refresh embraced bold color and playful 3D/illustration on marketing pages.",
+        "Acquired attention as a canonical example of ambitious in-browser product UI."
+      ],
+      "defining_traits": [
+        "in-browser vector editor",
+        "multiplayer cursors",
+        "playful colorful brand",
+        "performance-heavy web app"
+      ],
+      "url": "https://www.figma.com",
+      "related": [
+        "framer",
+        "webflow"
+      ],
+      "sources": [
+        {
+          "title": "Figma",
+          "url": "https://www.figma.com",
+          "publisher": "Figma",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "category": "marketing-site",
+      "tags": [
+        "saas",
+        "developer",
+        "dark-ui",
+        "marketing",
+        "craft"
+      ],
+      "org": "Vercel",
+      "creator": "Vercel design & design-engineering team",
+      "era": "2020s",
+      "summary": "Front-end cloud platform (makers of Next.js) whose black-and-white, geometrically precise marketing site and design system are a benchmark for developer-brand craft.",
+      "significance": "Defines the minimal monochrome 'developer premium' look; its design-engineering culture (interaction polish, open-source UI like cmdk) influences how modern dev tools present themselves.",
+      "key_facts": [
+        "Signature high-contrast black/white palette with geometric precision.",
+        "Employs staff design engineers (e.g. Rauno Freiberg) focused on interaction detail.",
+        "Cited alongside Stripe and Linear as defining modern SaaS/dev-tool aesthetics.",
+        "Marketing pages for Next.js Conf are studied examples of interaction polish."
+      ],
+      "defining_traits": [
+        "monochrome high-contrast",
+        "geometric precision",
+        "design-engineering polish",
+        "developer-focused"
+      ],
+      "url": "https://vercel.com",
+      "related": [
+        "stripe",
+        "linear",
+        "rauno-freiberg-craft"
+      ],
+      "sources": [
+        {
+          "title": "Four design principles behind Stripe, Linear, and Vercel",
+          "url": "https://www.pixeldarts.com/en/post/four-design-principles-behind-stripe-linear-and-vercel",
+          "publisher": "Pixeldarts",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Vercel",
+          "url": "https://vercel.com",
+          "publisher": "Vercel",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "category": "product-ui",
+      "tags": [
+        "music",
+        "dark-ui",
+        "brand",
+        "product"
+      ],
+      "org": "Spotify",
+      "creator": "Spotify design team",
+      "era": "2010s-2020s",
+      "summary": "Music-streaming product whose dark UI, duotone imagery, and bold typographic brand system are widely referenced examples of expressive product design at scale.",
+      "significance": "Popularized duotone photo treatments and an energetic dark interface; its data-driven Wrapped campaigns are landmark examples of personalized, shareable web/motion design.",
+      "key_facts": [
+        "Signature dark UI with vivid green accent (#1DB954).",
+        "Duotone image treatment became a widely-copied brand device.",
+        "Annual 'Wrapped' experience is a reference example of personalized data storytelling.",
+        "Uses a bold custom typographic system (Spotify Circular / later custom faces)."
+      ],
+      "defining_traits": [
+        "dark UI + green accent",
+        "duotone imagery",
+        "bold typography",
+        "personalized data storytelling"
+      ],
+      "url": "https://open.spotify.com",
+      "related": [
+        "netflix",
+        "discord"
+      ],
+      "sources": [
+        {
+          "title": "Spotify",
+          "url": "https://www.spotify.com",
+          "publisher": "Spotify",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "airbnb-dls",
+      "name": "Airbnb Design Language System (DLS)",
+      "category": "product-ui",
+      "tags": [
+        "design-system",
+        "travel",
+        "components",
+        "product"
+      ],
+      "org": "Airbnb",
+      "creator": "Karri Saarinen and Airbnb design team (with ustwo)",
+      "year": 2016,
+      "summary": "Airbnb's unified component-based design language, released around 2016 to bring consistency across web, iOS, and Android.",
+      "significance": "One of the earliest large-product design systems documented with a public voice; a foundational case study in scaling design via reusable components.",
+      "key_facts": [
+        "Officially released mid-April 2016 alongside a major mobile app redesign.",
+        "Built to unify iOS, Android, and web under one component library.",
+        "Design lead Karri Saarinen later co-founded Linear.",
+        "Its 'Building a Visual Language' write-up is a widely-cited design-systems reference."
+      ],
+      "defining_traits": [
+        "component-based system",
+        "cross-platform consistency",
+        "documented design language",
+        "accessibility focus"
+      ],
+      "url": "https://airbnb.design",
+      "related": [
+        "linear",
+        "figma"
+      ],
+      "sources": [
+        {
+          "title": "Building a Visual Language: Behind the scenes of our Airbnb design system",
+          "url": "https://medium.com/airbnb-design/building-a-visual-language-behind-the-scenes-of-our-airbnb-design-system-224748775e4e",
+          "publisher": "Airbnb Design (Medium)",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Airbnb Design Language System",
+          "url": "https://karrisaarinen.com/dls/",
+          "publisher": "Karri Saarinen",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "category": "webapp",
+      "tags": [
+        "developer",
+        "design-system",
+        "webapp",
+        "product"
+      ],
+      "org": "GitHub",
+      "creator": "GitHub design team (Primer design system)",
+      "era": "2010s-2020s",
+      "summary": "Code-hosting platform whose interface and open-source Primer design system are widely-used references for information-dense developer product UI.",
+      "significance": "A benchmark for functional, high-density product UI; its Primer design system is publicly documented and adopted/studied broadly by developer tools.",
+      "key_facts": [
+        "Maintains Primer, an open-source design system, documented publicly.",
+        "Interface balances high information density with clarity for code and collaboration.",
+        "Octocat mascot and marketing pages are recognizable brand-design references.",
+        "Its diff, PR, and issue UIs are studied as developer-workflow design patterns."
+      ],
+      "defining_traits": [
+        "information-dense UI",
+        "open design system (Primer)",
+        "developer-focused",
+        "recognizable brand mascot"
+      ],
+      "url": "https://github.com",
+      "related": [
+        "vercel",
+        "linear"
+      ],
+      "sources": [
+        {
+          "title": "Primer Design System",
+          "url": "https://primer.style",
+          "publisher": "GitHub",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "category": "product-ui",
+      "tags": [
+        "streaming",
+        "dark-ui",
+        "cards",
+        "product"
+      ],
+      "org": "Netflix",
+      "creator": "Netflix design team",
+      "era": "2010s-2020s",
+      "summary": "Streaming product whose dark, poster-forward card grid and horizontal carousels are among the most recognizable and imitated media-browsing UIs.",
+      "significance": "Defined the modern streaming interface pattern (dark canvas, artwork-led rows, hover previews); the 'Netflix-style' card carousel is a ubiquitous reference.",
+      "key_facts": [
+        "Dark interface centered on poster artwork rather than text.",
+        "Horizontal carousels ('rows') per category became an industry-standard pattern.",
+        "Personalized artwork/thumbnails driven by data are a landmark UX technique.",
+        "Signature red (#E50914) is a strongly recognized brand color."
+      ],
+      "defining_traits": [
+        "dark artwork-led UI",
+        "horizontal card carousels",
+        "hover previews",
+        "personalized thumbnails"
+      ],
+      "url": "https://www.netflix.com",
+      "related": [
+        "spotify",
+        "discord"
+      ],
+      "sources": [
+        {
+          "title": "Netflix",
+          "url": "https://www.netflix.com",
+          "publisher": "Netflix",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "category": "product-ui",
+      "tags": [
+        "chat",
+        "community",
+        "dark-ui",
+        "playful",
+        "product"
+      ],
+      "org": "Discord",
+      "creator": "Discord design team",
+      "era": "2010s-2020s",
+      "summary": "Community chat platform known for a friendly dark UI, the blurple brand color, and playful illustration and copy.",
+      "significance": "A reference for approachable, community-first product design; its playful illustration style and 'blurple' identity are widely recognized and emulated by community apps.",
+      "key_facts": [
+        "Signature 'blurple' brand color and Clyde mascot.",
+        "Dark, three-column layout (servers / channels / chat) is a studied IA pattern.",
+        "Playful microcopy and loading messages are a brand-voice reference.",
+        "Custom illustration system reinforces an approachable, community tone."
+      ],
+      "defining_traits": [
+        "blurple brand color",
+        "playful illustration",
+        "three-column chat IA",
+        "friendly microcopy"
+      ],
+      "url": "https://discord.com",
+      "related": [
+        "slack",
+        "spotify"
+      ],
+      "sources": [
+        {
+          "title": "Discord",
+          "url": "https://discord.com",
+          "publisher": "Discord",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "category": "product-ui",
+      "tags": [
+        "chat",
+        "productivity",
+        "brand",
+        "product"
+      ],
+      "org": "Slack (Salesforce)",
+      "creator": "Slack design team; 2019 rebrand with Michael Bierut / Pentagram",
+      "era": "2010s-2020s",
+      "summary": "Workplace messaging product recognized for warm, human branding, colorful illustration, and a friendly onboarding experience.",
+      "significance": "A landmark in humanizing enterprise software through friendly voice, custom illustration, and playful details; its 2019 Pentagram rebrand is a notable identity case study.",
+      "key_facts": [
+        "2019 logo/rebrand led by Michael Bierut of Pentagram.",
+        "Known for warm brand voice and Loading messages that reduce enterprise dryness.",
+        "Custom illustration system softened the perception of workplace software.",
+        "The colorful octothorpe/pinwheel mark is a widely-recognized identity."
+      ],
+      "defining_traits": [
+        "warm brand voice",
+        "custom illustration",
+        "friendly onboarding",
+        "recognizable pinwheel mark"
+      ],
+      "url": "https://slack.com",
+      "related": [
+        "discord",
+        "mailchimp-rebrand"
+      ],
+      "sources": [
+        {
+          "title": "Slack",
+          "url": "https://slack.com",
+          "publisher": "Slack",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "superhuman",
+      "name": "Superhuman",
+      "category": "product-ui",
+      "tags": [
+        "email",
+        "keyboard",
+        "premium",
+        "product"
+      ],
+      "org": "Superhuman",
+      "creator": "Superhuman design team",
+      "era": "2010s-2020s",
+      "summary": "Premium email client positioned around speed and a fully keyboard-driven workflow, marketed with a sleek, exclusive brand feel.",
+      "significance": "A reference example of speed-as-design-value: keyboard-first UX, deliberate onboarding, and premium positioning made it a touchstone for high-craft productivity tools.",
+      "key_facts": [
+        "Built around keyboard shortcuts for near-mouse-free email triage.",
+        "Emphasizes sub-100ms interaction speed as a core design principle.",
+        "Uses a hands-on, invite-based onboarding as part of the product experience.",
+        "Premium, minimal branding reinforces exclusivity and craft."
+      ],
+      "defining_traits": [
+        "keyboard-first UX",
+        "speed as a feature",
+        "premium minimal brand",
+        "guided onboarding"
+      ],
+      "url": "https://superhuman.com",
+      "related": [
+        "linear",
+        "arc-browser"
+      ],
+      "sources": [
+        {
+          "title": "Superhuman",
+          "url": "https://superhuman.com",
+          "publisher": "Superhuman",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "arc-browser",
+      "name": "Arc (The Browser Company)",
+      "category": "product-ui",
+      "tags": [
+        "browser",
+        "craft",
+        "playful",
+        "product"
+      ],
+      "org": "The Browser Company of New York",
+      "creator": "The Browser Company design team (incl. Rauno Freiberg early on)",
+      "era": "2020s",
+      "summary": "Reimagined web browser and its marketing site (arc.net), known for playful, high-craft interaction design and an opinionated sidebar-based UX.",
+      "significance": "A reference for injecting delight and craft into a mature category; its interaction polish and expressive marketing site made it a design-community favorite.",
+      "key_facts": [
+        "Rethinks browser UI around a sidebar with Spaces rather than horizontal tabs.",
+        "Heavy emphasis on delightful micro-interactions and motion.",
+        "Interaction designer Rauno Freiberg contributed to early Arc design.",
+        "The arc.net marketing site is itself a studied example of playful craft."
+      ],
+      "defining_traits": [
+        "sidebar-based browsing",
+        "playful micro-interactions",
+        "opinionated UX",
+        "high interaction craft"
+      ],
+      "url": "https://arc.net",
+      "related": [
+        "rauno-freiberg-craft",
+        "superhuman"
+      ],
+      "sources": [
+        {
+          "title": "Interview with Rauno Freiberg, Design Engineer at Vercel",
+          "url": "https://spaces.is/loversmagazine/interviews/rauno-freiberg",
+          "publisher": "Lovers Magazine",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Arc from The Browser Company",
+          "url": "https://arc.net",
+          "publisher": "The Browser Company",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "framer",
+      "name": "Framer",
+      "category": "webapp",
+      "tags": [
+        "design-tool",
+        "no-code",
+        "motion",
+        "product"
+      ],
+      "org": "Framer",
+      "creator": "Framer design team",
+      "era": "2010s-2020s",
+      "summary": "Design-to-website tool that evolved from a prototyping library into a no-code site builder, with a marketing site showcasing motion and interaction.",
+      "significance": "A reference for expressive, motion-rich web building; its own site demonstrates advanced animation and is used to sell the promise of high-craft no-code design.",
+      "key_facts": [
+        "Started as a code-based prototyping tool before pivoting to a visual site builder.",
+        "Marketing site is a showcase of scroll and hover motion built in-product.",
+        "Positioned as a competitor to Webflow in the visual web-design space.",
+        "Emphasizes designer-friendly animation and interaction controls."
+      ],
+      "defining_traits": [
+        "motion-rich UI",
+        "no-code site building",
+        "prototyping heritage",
+        "designer-focused"
+      ],
+      "url": "https://www.framer.com",
+      "related": [
+        "webflow",
+        "figma"
+      ],
+      "sources": [
+        {
+          "title": "Framer",
+          "url": "https://www.framer.com",
+          "publisher": "Framer",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "webflow",
+      "name": "Webflow",
+      "category": "webapp",
+      "tags": [
+        "design-tool",
+        "no-code",
+        "cms",
+        "product"
+      ],
+      "org": "Webflow",
+      "creator": "Webflow design team",
+      "era": "2010s-2020s",
+      "summary": "Visual web design and CMS platform that lets designers build production sites by manipulating the box model and CSS visually.",
+      "significance": "A landmark no-code tool that exposes real CSS concepts visually; widely used to build many of the award-winning marketing sites referenced in the design community.",
+      "key_facts": [
+        "Generates semantic HTML/CSS from a visual canvas rather than abstracting them away.",
+        "Includes a CMS and hosting, enabling full production sites without hand-coding.",
+        "Popular among agencies for producing high-craft marketing and Awwwards-style sites.",
+        "Runs an annual conference and showcases exemplary community-built sites."
+      ],
+      "defining_traits": [
+        "visual CSS box model",
+        "no-code production sites",
+        "built-in CMS",
+        "agency adoption"
+      ],
+      "url": "https://webflow.com",
+      "related": [
+        "framer",
+        "figma"
+      ],
+      "sources": [
+        {
+          "title": "Webflow",
+          "url": "https://webflow.com",
+          "publisher": "Webflow",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "basecamp-37signals",
+      "name": "Basecamp / 37signals",
+      "category": "marketing-site",
+      "tags": [
+        "saas",
+        "opinionated",
+        "minimal",
+        "marketing",
+        "product"
+      ],
+      "org": "37signals",
+      "creator": "Jason Fried, David Heinemeier Hansson and team",
+      "era": "2000s-2020s",
+      "summary": "Project-management product and company known for opinionated, plainspoken marketing, minimalism, and a strong anti-bloat philosophy.",
+      "significance": "A long-running reference for opinionated, content-first product marketing and simplicity; 37signals also birthed Ruby on Rails, shaping much of modern web development.",
+      "key_facts": [
+        "37signals created Ruby on Rails, extracted from building Basecamp.",
+        "Known for blunt, manifesto-style copywriting and anti-feature-bloat stance.",
+        "Authors of influential books 'Getting Real' and 'Rework'.",
+        "Marketing favors clear typography and words over heavy visuals."
+      ],
+      "defining_traits": [
+        "opinionated copywriting",
+        "content-first marketing",
+        "minimalism",
+        "anti-bloat philosophy"
+      ],
+      "url": "https://basecamp.com",
+      "related": [
+        "gumroad"
+      ],
+      "sources": [
+        {
+          "title": "Basecamp",
+          "url": "https://basecamp.com",
+          "publisher": "37signals",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "gumroad",
+      "name": "Gumroad",
+      "category": "marketing-site",
+      "tags": [
+        "ecommerce",
+        "bold",
+        "flat",
+        "brand",
+        "marketing"
+      ],
+      "org": "Gumroad",
+      "creator": "Sahil Lavingia and team",
+      "era": "2010s-2020s",
+      "summary": "Creator-commerce platform recognized for a bold, flat, high-contrast brand refresh with chunky typography and bright pink accents.",
+      "significance": "A reference for confident, maximal-flat branding on a SaaS product; its playful, oversized type and vivid color stand out against restrained-minimal peers.",
+      "key_facts": [
+        "Rebrand embraced bold flat color, thick borders, and oversized display type.",
+        "Signature bright pink/coral accent is a strong brand marker.",
+        "Founder Sahil Lavingia is publicly associated with the brand's direction.",
+        "Frequently cited as an example of standing out via maximal, playful flat design."
+      ],
+      "defining_traits": [
+        "bold flat design",
+        "oversized display type",
+        "vivid pink accent",
+        "playful branding"
+      ],
+      "url": "https://gumroad.com",
+      "related": [
+        "basecamp-37signals",
+        "mailchimp-rebrand"
+      ],
+      "sources": [
+        {
+          "title": "Gumroad",
+          "url": "https://gumroad.com",
+          "publisher": "Gumroad",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "apple-airpods-pro-page",
+      "name": "Apple AirPods Pro product page",
+      "category": "web-experience",
+      "tags": [
+        "apple",
+        "scrollytelling",
+        "webgl",
+        "product-page",
+        "animation"
+      ],
+      "org": "Apple",
+      "creator": "Apple Marketing Communications",
+      "era": "2019-2020s",
+      "summary": "Apple's AirPods Pro marketing page, famous for a scroll-synchronized frame-by-frame product animation rendered via the <canvas> element.",
+      "significance": "One of the most studied and cloned scroll-animation techniques on the web; it set the reference standard for premium, cinematic scroll-driven product storytelling.",
+      "key_facts": [
+        "Uses a <canvas> element swapping pre-rendered frames tied to scroll position.",
+        "Leverages requestAnimationFrame (and WebGL rendering) for smooth, flash-free playback.",
+        "Featured on Awwwards as inspiration tagged product-page, scrolling, and WebGL.",
+        "Widely recreated in tutorials on CSS-Tricks, Medium, and CodePen."
+      ],
+      "defining_traits": [
+        "scroll-synced canvas animation",
+        "frame-by-frame product reveal",
+        "cinematic premium feel",
+        "smooth 60fps playback"
+      ],
+      "url": "https://www.apple.com/airpods-pro/",
+      "related": [
+        "apple-com"
+      ],
+      "sources": [
+        {
+          "title": "Let's Make One of Those Fancy Scrolling Animations Used on Apple Product Pages",
+          "url": "https://css-tricks.com/lets-make-one-of-those-fancy-scrolling-animations-used-on-apple-product-pages/",
+          "publisher": "CSS-Tricks",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Scroll triggered product page animation - Apple Airpods Pro",
+          "url": "https://www.awwwards.com/inspiration/product-scroll-triggered-animation-apple-airpods-pro",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "nike",
+      "name": "Nike.com",
+      "category": "product-ui",
+      "tags": [
+        "ecommerce",
+        "sport",
+        "bold",
+        "brand",
+        "product"
+      ],
+      "org": "Nike",
+      "creator": "Nike digital design team",
+      "era": "2010s-2020s",
+      "summary": "Nike's commerce site, known for bold black-and-white typography, energetic imagery, and confident brand-driven product presentation.",
+      "significance": "A reference for editorial, brand-forward e-commerce; combines strong typographic hierarchy with athletic imagery to sell aspiration rather than just products.",
+      "key_facts": [
+        "Uses a bold, editorial black/white system with the Futura-style Nike typography.",
+        "Product and campaign pages foreground large action photography.",
+        "Balances high-volume commerce with an aspirational brand narrative.",
+        "The Swoosh and 'Just Do It' voice anchor a consistent identity."
+      ],
+      "defining_traits": [
+        "bold editorial typography",
+        "athletic imagery",
+        "brand-forward commerce",
+        "high contrast"
+      ],
+      "url": "https://www.nike.com",
+      "related": [
+        "apple-com"
+      ],
+      "sources": [
+        {
+          "title": "Nike",
+          "url": "https://www.nike.com",
+          "publisher": "Nike",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "dropbox-2017-rebrand",
+      "name": "Dropbox 2017 Rebrand",
+      "category": "marketing-site",
+      "tags": [
+        "rebrand",
+        "brand",
+        "illustration",
+        "typography",
+        "collins"
+      ],
+      "org": "Dropbox",
+      "creator": "Dropbox brand team with COLLINS (Brian Collins)",
+      "year": 2017,
+      "summary": "Dropbox's 2017 identity overhaul introduced a simplified logo, the Sharp Grotesk typeface, and a vivid, clashing illustration and color system.",
+      "significance": "A landmark, polarizing rebrand that pushed a bold maximal direction to reposition Dropbox from 'storage' to a creative workspace; widely debated as a design-industry case study.",
+      "key_facts": [
+        "Logo simplified to a set of five isometric squares ('diamonds').",
+        "Introduced Sharp Grotesk as the brand typeface.",
+        "Used deliberately clashing colors and bold illustration collaborations.",
+        "Developed in conjunction with studio COLLINS to broaden the brand's positioning."
+      ],
+      "defining_traits": [
+        "simplified geometric logo",
+        "bold clashing color",
+        "Sharp Grotesk type",
+        "illustration-forward"
+      ],
+      "url": "https://wearecollins.com/case-studies/dropbox/",
+      "related": [
+        "mailchimp-rebrand"
+      ],
+      "sources": [
+        {
+          "title": "The Dropbox rebrand features a logo update, new typography and vibrant illustration",
+          "url": "https://www.itsnicethat.com/news/dropbox-rebrand-collins-graphic-design-041017",
+          "publisher": "It's Nice That",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Dropbox | COLLINS",
+          "url": "https://wearecollins.com/case-studies/dropbox/",
+          "publisher": "COLLINS",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "mailchimp-rebrand",
+      "name": "Mailchimp Rebrand",
+      "category": "marketing-site",
+      "tags": [
+        "rebrand",
+        "brand",
+        "illustration",
+        "playful",
+        "collins"
+      ],
+      "org": "Mailchimp",
+      "creator": "Mailchimp brand team with COLLINS",
+      "year": 2018,
+      "summary": "Mailchimp's rebrand paired a bold yellow palette and Cavendish Yellow wordmark with quirky, hand-drawn illustration and the Freddie mascot.",
+      "significance": "A widely-praised example of brand personality at scale; its distinctive, imperfect illustration style and confident yellow became a reference for expressive SaaS branding.",
+      "key_facts": [
+        "Led by studio COLLINS around 2018.",
+        "Anchored by 'Cavendish Yellow' and a bold black wordmark.",
+        "Playful, childlike illustrations paired with authentic portrait photography.",
+        "Freddie the chimp mascot reinforces the brand's quirky personality."
+      ],
+      "defining_traits": [
+        "bold yellow palette",
+        "quirky illustration",
+        "distinct wordmark",
+        "playful personality"
+      ],
+      "url": "https://mailchimp.com",
+      "related": [
+        "dropbox-2017-rebrand",
+        "slack"
+      ],
+      "sources": [
+        {
+          "title": "Rebranding at Juventus, Dropbox and Mailchimp",
+          "url": "https://www.pixartprinting.co.uk/blog/rebranding-examples/",
+          "publisher": "Pixartprinting",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rauno-freiberg-craft",
+      "name": "Rauno Freiberg — Interaction Craft",
+      "category": "web-experience",
+      "tags": [
+        "interaction-design",
+        "craft",
+        "design-engineering",
+        "portfolio"
+      ],
+      "org": "Vercel (formerly The Browser Company)",
+      "creator": "Rauno Freiberg",
+      "era": "2020s",
+      "summary": "Estonian design engineer whose personal site, essays, and open-source UI work are reference material for fine-grained web interaction detail.",
+      "significance": "A leading voice in the 'design engineering' movement; his essays (e.g. Invisible Details of Interaction Design) and cmdk library shape how modern web apps approach interaction polish.",
+      "key_facts": [
+        "Staff Design Engineer at Vercel; previously designed Arc at The Browser Company.",
+        "Author of the essay 'Invisible Details of Interaction Design'.",
+        "Created the open-source cmdk command-menu library used by many modern apps.",
+        "Runs 'Devouring Details', a project focused on interaction-design craft."
+      ],
+      "defining_traits": [
+        "interaction micro-detail",
+        "design-engineering",
+        "open-source UI",
+        "essayistic craft focus"
+      ],
+      "url": "https://rauno.me",
+      "related": [
+        "arc-browser",
+        "vercel"
+      ],
+      "sources": [
+        {
+          "title": "Interview with Rauno Freiberg, Design Engineer at Vercel",
+          "url": "https://spaces.is/loversmagazine/interviews/rauno-freiberg",
+          "publisher": "Lovers Magazine",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Devouring Details",
+          "url": "https://devouringdetails.com/",
+          "publisher": "Rauno Freiberg",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "bruno-simon-portfolio",
+      "name": "Bruno Simon Portfolio",
+      "category": "web-experience",
+      "tags": [
+        "webgl",
+        "threejs",
+        "3d",
+        "portfolio",
+        "awwwards",
+        "game"
+      ],
+      "org": "Independent",
+      "creator": "Bruno Simon",
+      "year": 2019,
+      "summary": "A 3D WebGL portfolio where visitors drive a toy car through a playful physics world to explore the creative developer's work.",
+      "significance": "A landmark interactive portfolio that showcased what browser 3D could be; it won top web awards and became the reference example for playful WebGL/Three.js sites.",
+      "key_facts": [
+        "Won Awwwards Site of the Year 2019.",
+        "Won CSS Design Awards Website of the Year 2019.",
+        "Built with Three.js/WebGL and drivable-car physics navigation.",
+        "Bruno Simon is a Paris-based freelance creative developer and Three.js educator."
+      ],
+      "defining_traits": [
+        "drivable 3D car navigation",
+        "WebGL/Three.js",
+        "physics playground",
+        "playful gamified UX"
+      ],
+      "url": "https://bruno-simon.com",
+      "related": [
+        "igloo-inc",
+        "lusion",
+        "aristide-benoist-portfolio"
+      ],
+      "sources": [
+        {
+          "title": "Bruno Simon Portfolio - Awwwards SOTD",
+          "url": "https://www.awwwards.com/sites/bruno-simon-portfolio",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Website of the Year 2019 winners!",
+          "url": "https://www.cssdesignawards.com/blog/website-of-the-year-2019-winners/330/",
+          "publisher": "CSS Design Awards",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "igloo-inc",
+      "name": "Igloo Inc",
+      "category": "web-experience",
+      "tags": [
+        "webgl",
+        "3d",
+        "awwwards",
+        "immersive",
+        "web3"
+      ],
+      "org": "Igloo Inc (site by Active Theory)",
+      "creator": "Active Theory",
+      "year": 2024,
+      "summary": "Immersive 3D brand site for Igloo Inc (parent of Pudgy Penguins), built as a highly cinematic WebGL experience.",
+      "significance": "Won Awwwards Site of the Year 2024, cementing the era's benchmark for real-time 3D brand storytelling on the web.",
+      "key_facts": [
+        "Awarded Awwwards Site of the Year 2024.",
+        "Produced by studio Active Theory.",
+        "Igloo Inc is the parent company of Pudgy Penguins and OverpassIP.",
+        "A published Awwwards case study documents its build and technique."
+      ],
+      "defining_traits": [
+        "cinematic WebGL",
+        "real-time 3D branding",
+        "immersive scroll",
+        "high production value"
+      ],
+      "url": "https://igloo.inc",
+      "related": [
+        "active-theory",
+        "bruno-simon-portfolio",
+        "lusion"
+      ],
+      "sources": [
+        {
+          "title": "Igloo Inc - Awwwards SOTD",
+          "url": "https://www.awwwards.com/sites/igloo-inc",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Igloo Inc: Case Study",
+          "url": "https://www.awwwards.com/igloo-inc-case-study.html",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "active-theory",
+      "name": "Active Theory",
+      "category": "web-experience",
+      "tags": [
+        "studio",
+        "webgl",
+        "immersive",
+        "creative-tech",
+        "agency"
+      ],
+      "org": "Active Theory",
+      "creator": "Active Theory (founded 2012)",
+      "era": "2010s-2020s",
+      "summary": "Los Angeles/Amsterdam creative studio blending story, art, and technology to build award-winning immersive web and WebGL experiences.",
+      "significance": "One of the most decorated creative-technology studios; its industry-leading web toolset and repeated Awwwards wins make it a defining name in immersive web experience design.",
+      "key_facts": [
+        "Founded in 2012 as an in-house team of creative technologists.",
+        "Built the Igloo Inc site that won Awwwards Site of the Year 2024.",
+        "Contributed builds to Google Chrome Experiments (e.g. Chrome Racer, 2013).",
+        "Known for a custom high-performance WebGL toolchain across projects."
+      ],
+      "defining_traits": [
+        "immersive WebGL",
+        "custom web toolset",
+        "story + tech",
+        "repeat award winner"
+      ],
+      "url": "https://activetheory.net",
+      "related": [
+        "igloo-inc",
+        "resn",
+        "lusion"
+      ],
+      "sources": [
+        {
+          "title": "Active Theory · Creative Digital Experiences",
+          "url": "https://activetheory.net/",
+          "publisher": "Active Theory",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "The Story of Technology Built at Active Theory",
+          "url": "https://medium.com/active-theory/the-story-of-technology-built-at-active-theory-5d17ae0e3fb4",
+          "publisher": "Active Theory (Medium)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "lusion",
+      "name": "Lusion",
+      "category": "web-experience",
+      "tags": [
+        "studio",
+        "webgl",
+        "real-time",
+        "awwwards",
+        "3d"
+      ],
+      "org": "Lusion",
+      "creator": "Lusion (creative studio)",
+      "era": "2020s",
+      "summary": "Real-time-focused creative studio whose own portfolio site (Lusion v3) is a showcase of interactive WebGL and generative visuals.",
+      "significance": "Lusion v3 won Awwwards Site of the Year 2023, marking the studio as a leading reference for cutting-edge real-time web graphics.",
+      "key_facts": [
+        "Lusion v3 won Awwwards Site of the Year 2023.",
+        "Studio focuses on real-time applications and interactive WebGL.",
+        "Repeatedly recognized with Awwwards Site of the Month honors.",
+        "Publishes case studies detailing its real-time graphics techniques."
+      ],
+      "defining_traits": [
+        "real-time WebGL",
+        "generative visuals",
+        "interactive 3D",
+        "technical showcase"
+      ],
+      "url": "https://lusion.co",
+      "related": [
+        "active-theory",
+        "igloo-inc",
+        "bruno-simon-portfolio"
+      ],
+      "sources": [
+        {
+          "title": "Lusion - Awwwards",
+          "url": "https://www.awwwards.com/lusion/",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Sites Of The Year - Awwwards",
+          "url": "https://www.awwwards.com/websites/sites_of_the_year/",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "species-in-pieces",
+      "name": "In Pieces (Species in Pieces)",
+      "category": "web-experience",
+      "tags": [
+        "css",
+        "animation",
+        "interactive",
+        "editorial",
+        "conservation"
+      ],
+      "org": "Independent",
+      "creator": "Bryan James",
+      "year": 2015,
+      "summary": "An interactive exhibition of 30 endangered species rendered entirely with animated CSS polygon shapes that morph from one animal to the next.",
+      "significance": "A celebrated proof that pure CSS could produce complex, emotive animation; it pushed CSS polygons (clip-path) far beyond typical use and became a canonical CSS-art reference.",
+      "key_facts": [
+        "Built primarily with CSS using clip-path polygons, minimal JavaScript.",
+        "Features 30 endangered species, each composed of shard-like fragments.",
+        "Created by designer/developer Bryan James around 2015.",
+        "Frequently cited as a landmark example of CSS as an expressive animation medium."
+      ],
+      "defining_traits": [
+        "pure-CSS polygon animation",
+        "morphing transitions",
+        "editorial/cause-driven",
+        "technical constraint art"
+      ],
+      "url": "http://species-in-pieces.com/",
+      "related": [
+        "every-last-drop"
+      ],
+      "sources": [
+        {
+          "title": "In Pieces – 30 Species, 30 Pieces. 1 Fragmented Survival.",
+          "url": "http://species-in-pieces.com/",
+          "publisher": "Bryan James",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "the-boat-sbs",
+      "name": "The Boat (SBS)",
+      "category": "web-experience",
+      "tags": [
+        "interactive",
+        "scrollytelling",
+        "editorial",
+        "graphic-novel"
+      ],
+      "org": "SBS (Special Broadcasting Service, Australia)",
+      "creator": "SBS interactive team (adapting Nam Le's story)",
+      "year": 2015,
+      "summary": "An interactive graphic-novel adaptation of Nam Le's short story 'The Boat', told through a long, atmospheric scroll with animation and sound.",
+      "significance": "A landmark of immersive digital storytelling; its cinematic scroll, illustration, and sound design set an early benchmark for interactive editorial 'graphic novels' on the web.",
+      "key_facts": [
+        "Adapts the title story from Nam Le's anthology 'The Boat'.",
+        "Uses a long deep-scroll narrative with auto-scroll and manual interaction modes.",
+        "Combines animated illustration, typography, and ambient sound design.",
+        "Produced by SBS as its first interactive graphic novel."
+      ],
+      "defining_traits": [
+        "long-scroll narrative",
+        "animated illustration",
+        "ambient sound",
+        "cinematic editorial"
+      ],
+      "url": "https://www.sbs.com.au/theboat/",
+      "related": [
+        "nytimes-snow-fall",
+        "pitchfork-cover-story"
+      ],
+      "sources": [
+        {
+          "title": "Creative Website Design Inspiration: The Boat by SBS",
+          "url": "https://www.designrush.com/best-designs/websites/the-boat-sbs",
+          "publisher": "DesignRush",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "nytimes-snow-fall",
+      "name": "Snow Fall: The Avalanche at Tunnel Creek",
+      "category": "web-experience",
+      "tags": [
+        "journalism",
+        "scrollytelling",
+        "multimedia",
+        "editorial",
+        "nytimes"
+      ],
+      "org": "The New York Times",
+      "creator": "John Branch (reporter) and NYT multimedia/graphics team",
+      "year": 2012,
+      "summary": "A six-part New York Times multimedia feature about the 2012 Tunnel Creek avalanche, interweaving text with interactive graphics, animation, and aerial video.",
+      "significance": "The piece that made 'Snowfall' a verb in journalism; it defined immersive scroll-driven longform storytelling and inspired a wave of multimedia editorial design.",
+      "key_facts": [
+        "Published December 20, 2012.",
+        "Won the 2013 Pulitzer Prize for Feature Writing and a Peabody Award.",
+        "Blended prose with animated simulations, interactive graphics, and aerial video.",
+        "'Snowfall' became industry shorthand for immersive multimedia longform."
+      ],
+      "defining_traits": [
+        "immersive longform",
+        "scroll-triggered media",
+        "full-bleed imagery/video",
+        "editorial storytelling"
+      ],
+      "url": "https://www.nytimes.com/projects/2012/snow-fall/",
+      "related": [
+        "the-boat-sbs",
+        "pitchfork-cover-story",
+        "bloomberg-businessweek"
+      ],
+      "sources": [
+        {
+          "title": "Snow Fall - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Snow_Fall",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Inside \"Snow Fall,\" the New York Times multimedia storytelling sensation",
+          "url": "https://niemanstoryboard.org/2013/03/29/inside-snow-fall-the-new-york-times-multimedia-storytelling-sensation/",
+          "publisher": "Nieman Storyboard",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "pitchfork-cover-story",
+      "name": "Pitchfork \"Cover Story\" (Daft Punk)",
+      "category": "web-experience",
+      "tags": [
+        "editorial",
+        "typography",
+        "longform",
+        "music",
+        "html5"
+      ],
+      "org": "Pitchfork",
+      "creator": "Pitchfork editorial/design team (writer Ryan Dombal)",
+      "year": 2013,
+      "summary": "Pitchfork's dynamic 'Cover Story' interview with Daft Punk, a responsive longform read with animated split-flap typography and scroll effects.",
+      "significance": "A reference for how longform online editorial can be visually rich yet highly legible; its split-flap type animation and restrained motion showed content-first interactive design.",
+      "key_facts": [
+        "Built with HTML5 as a responsive 'dynamic' version of the print cover story.",
+        "Characters animate like an airport split-flap display, flipping between text and 1s/0s.",
+        "Pull quotes set in Colfax swing into position on scroll.",
+        "Prioritizes reading experience over spectacle while still feeling cinematic."
+      ],
+      "defining_traits": [
+        "split-flap type animation",
+        "content-first longform",
+        "responsive editorial",
+        "subtle scroll motion"
+      ],
+      "url": "https://pitchfork.com/features/cover-story/reader/daft-punk/",
+      "related": [
+        "nytimes-snow-fall",
+        "the-boat-sbs"
+      ],
+      "sources": [
+        {
+          "title": "Pitchfork—Daft Punk cover story",
+          "url": "https://www.hoverstat.es/features/pitchfork-daft-punk-cover-story/",
+          "publisher": "Hoverstat.es",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "\"Machines for Life\" Pitchfork cover story",
+          "url": "https://fontsinuse.com/uses/3878/machines-for-life-pitchfork-cover-story",
+          "publisher": "Fonts In Use",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "bloomberg-businessweek",
+      "name": "Bloomberg / Businessweek digital design",
+      "category": "web-experience",
+      "tags": [
+        "editorial",
+        "bold",
+        "typography",
+        "journalism",
+        "awwwards"
+      ],
+      "org": "Bloomberg L.P.",
+      "creator": "Bloomberg Businessweek design team",
+      "era": "2010s-2020s",
+      "summary": "Bloomberg's news and Businessweek feature design, recognized for daring, unconventional typography, bold color, and provocative editorial layouts.",
+      "significance": "A reference for high-risk, high-craft editorial design at scale; Bloomberg's willingness to break typographic convention influenced a generation of digital publication design.",
+      "key_facts": [
+        "Bloomberg Businessweek's acclaimed redesign was led by creative director Richard Turley (2010–2014) with editor Josh Tyrangiel.",
+        "Known for bold, provocative typography, stretched graphics, and deliberately 'messed-with' photography.",
+        "Won multiple honors incl. the Society of Publication Designers' Magazine of the Year; Turley took Creative Review's Studio of the Year in 2012.",
+        "Later art direction under CD Rob Vargas continued the distinctive editorial style; Bloomberg.com is separately noted for dense, high-contrast data design."
+      ],
+      "defining_traits": [
+        "bold experimental typography",
+        "art-directed features",
+        "provocative color",
+        "editorial risk-taking"
+      ],
+      "url": "https://www.bloomberg.com",
+      "related": [
+        "nytimes-snow-fall",
+        "pitchfork-cover-story"
+      ],
+      "sources": [
+        {
+          "title": "Richard Turley (graphic designer)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Turley_(graphic_designer)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Bloomberg Businessweek relaunches with new design",
+          "url": "https://www.creativereview.co.uk/bloomberg-businessweek-redesign/",
+          "publisher": "Creative Review",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "every-last-drop",
+      "name": "Every Last Drop",
+      "category": "web-experience",
+      "tags": [
+        "parallax",
+        "scrollytelling",
+        "cause",
+        "interactive",
+        "editorial"
+      ],
+      "org": "Waterwise (charity)",
+      "creator": "Nice and Serious (studio)",
+      "year": 2013,
+      "summary": "A scrolling, parallax interactive that follows a character through a day to reveal how much water everyday activities consume.",
+      "significance": "An early, widely-awarded example of parallax scrollytelling used for cause-driven persuasion; a reference for narrative scroll experiences.",
+      "key_facts": [
+        "Created by studio Nice and Serious for the charity Waterwise, launched 2013.",
+        "Won Awwwards Site of the Day and CSS Design Awards Site of the Day.",
+        "Parallax scroll reveals hidden water-usage stats scene by scene.",
+        "Was nominated for a Webby and drew over a million unique visitors."
+      ],
+      "defining_traits": [
+        "parallax scrollytelling",
+        "narrative persuasion",
+        "reveal-on-scroll stats",
+        "cause-driven"
+      ],
+      "url": "http://everylastdrop.co.uk/",
+      "related": [
+        "species-in-pieces",
+        "nytimes-snow-fall"
+      ],
+      "sources": [
+        {
+          "title": "Waterwise - Every Last Drop",
+          "url": "https://niceandserious.com/work/every-last-drop",
+          "publisher": "Nice and Serious",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Every Last Drop - Awwwards SOTD",
+          "url": "https://www.awwwards.com/sites/every-last-drop",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "google-arts-culture",
+      "name": "Google Arts & Culture",
+      "category": "web-experience",
+      "tags": [
+        "google",
+        "art",
+        "webgl",
+        "experiments",
+        "immersive"
+      ],
+      "org": "Google",
+      "creator": "Google Arts & Culture / Google Creative Lab",
+      "era": "2010s-2020s",
+      "summary": "A platform of high-resolution artworks, museum tours, and playful experiments (like Art Selfie and Blob Opera) exploring culture through web technology.",
+      "significance": "A reference for creative-technology experiences that make culture interactive; its experiments showcase machine learning, WebGL, and gigapixel imagery in accessible design.",
+      "key_facts": [
+        "Hosts gigapixel-resolution artwork via the Art Camera project.",
+        "Produced viral experiments like Art Selfie and Blob Opera.",
+        "Built in collaboration with Google Creative Lab and cultural institutions.",
+        "Frequently cited as a showcase of ML + web tech applied to culture."
+      ],
+      "defining_traits": [
+        "gigapixel imagery",
+        "ML-driven experiments",
+        "playful interactivity",
+        "cultural accessibility"
+      ],
+      "url": "https://artsandculture.google.com",
+      "related": [
+        "wilderness-downtown",
+        "active-theory"
+      ],
+      "sources": [
+        {
+          "title": "Google Arts & Culture",
+          "url": "https://artsandculture.google.com",
+          "publisher": "Google",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "locomotive",
+      "name": "Locomotive",
+      "category": "web-experience",
+      "tags": [
+        "studio",
+        "agency",
+        "awwwards",
+        "montreal",
+        "scroll"
+      ],
+      "org": "Locomotive",
+      "creator": "Locomotive (Montreal digital agency)",
+      "era": "2010s-2020s",
+      "summary": "Montreal-based digital agency known for meaningful, high-craft web experiences and for creating the widely-used Locomotive Scroll smooth-scrolling library.",
+      "significance": "A repeat Awwwards Agency of the Year and author of Locomotive Scroll, the studio shaped the smooth-scroll, motion-forward aesthetic that dominates award-winning marketing sites.",
+      "key_facts": [
+        "Named Awwwards Agency of the Year multiple consecutive times.",
+        "Created the open-source Locomotive Scroll smooth-scrolling library.",
+        "Focuses on innovative, results-driven digital experiences and branding.",
+        "Its work is heavily represented in Awwwards Site of the Day archives."
+      ],
+      "defining_traits": [
+        "smooth-scroll motion",
+        "high-craft experiences",
+        "open-source tooling",
+        "award-winning agency"
+      ],
+      "url": "https://locomotive.ca",
+      "related": [
+        "obys",
+        "cuberto",
+        "resn"
+      ],
+      "sources": [
+        {
+          "title": "Locomotive - Awwwards",
+          "url": "https://www.awwwards.com/locomotive/",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Agency | Locomotive",
+          "url": "https://locomotive.ca/en/agency",
+          "publisher": "Locomotive",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "cuberto",
+      "name": "Cuberto",
+      "category": "web-experience",
+      "tags": [
+        "studio",
+        "agency",
+        "interaction",
+        "illustration",
+        "awwwards"
+      ],
+      "org": "Cuberto",
+      "creator": "Cuberto (design & branding studio)",
+      "era": "2010s-2020s",
+      "summary": "Digital design and branding studio known for slick interactive web experiences, custom cursor effects, and cohesive illustration systems.",
+      "significance": "A frequently-awarded studio whose signature fluid cursor interactions and polished motion are widely referenced and imitated across modern agency and product sites.",
+      "key_facts": [
+        "Recognized with Awwwards honors including Honorable Mentions.",
+        "Known for distinctive custom-cursor and magnetic hover interactions.",
+        "Produces cohesive illustration and motion systems for clients.",
+        "Frequently featured in Awwwards and design-inspiration roundups."
+      ],
+      "defining_traits": [
+        "custom cursor interactions",
+        "fluid motion",
+        "illustration systems",
+        "polished agency craft"
+      ],
+      "url": "https://cuberto.com",
+      "related": [
+        "locomotive",
+        "obys",
+        "resn"
+      ],
+      "sources": [
+        {
+          "title": "Cuberto Agency - Awwwards Honorable Mention",
+          "url": "https://www.awwwards.com/sites/cuberto-agency-1",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "obys",
+      "name": "Obys Agency",
+      "category": "web-experience",
+      "tags": [
+        "studio",
+        "agency",
+        "typography",
+        "awwwards",
+        "experimental"
+      ],
+      "org": "Obys",
+      "creator": "Obys (creative agency)",
+      "era": "2010s-2020s",
+      "summary": "Creative agency known for bold experimental typography, brutalist-influenced layouts, and expressive interactive web/graphic experiences.",
+      "significance": "A reference for type-driven, experimental web design; Obys's distinctive aesthetic and Awwwards recognition make it a touchstone for modern editorial-brutalist direction.",
+      "key_facts": [
+        "Recognized with Awwwards Site of the Day awards.",
+        "Known for oversized experimental typography and strong grids.",
+        "Blends graphic-design sensibility with interactive motion.",
+        "Frequently cited in discussions of experimental/brutalist web design."
+      ],
+      "defining_traits": [
+        "experimental typography",
+        "editorial-brutalist layout",
+        "expressive motion",
+        "graphic-design roots"
+      ],
+      "url": "https://obys.agency",
+      "related": [
+        "locomotive",
+        "cuberto",
+        "resn"
+      ],
+      "sources": [
+        {
+          "title": "Obys - Awwwards SOTD",
+          "url": "https://www.awwwards.com/sites/obys",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "resn",
+      "name": "Resn",
+      "category": "web-experience",
+      "tags": [
+        "studio",
+        "agency",
+        "webgl",
+        "creative-tech",
+        "playful"
+      ],
+      "org": "Resn",
+      "creator": "Resn (New Zealand creative studio)",
+      "era": "2000s-2020s",
+      "summary": "New Zealand-based creative digital studio known for surreal, playful, technically ambitious interactive web experiences.",
+      "significance": "A long-standing, multi-award-winning creative-technology studio whose imaginative, weird, and polished WebGL work is a reference point for immersive campaign sites.",
+      "key_facts": [
+        "New Zealand-based studio with a long Awwwards award history.",
+        "Known for surreal, humorous, and highly interactive campaign experiences.",
+        "Works heavily in WebGL and real-time 3D.",
+        "Cited among the most-awarded creative studios in the directory era of Awwwards."
+      ],
+      "defining_traits": [
+        "surreal interactivity",
+        "WebGL/3D",
+        "playful humor",
+        "campaign experiences"
+      ],
+      "url": "https://resn.co.nz",
+      "related": [
+        "active-theory",
+        "locomotive",
+        "cuberto"
+      ],
+      "sources": [
+        {
+          "title": "Resn - Awwwards",
+          "url": "https://www.awwwards.com/resn/",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "aristide-benoist-portfolio",
+      "name": "Aristide Benoist Portfolio",
+      "category": "web-experience",
+      "tags": [
+        "portfolio",
+        "webgl",
+        "motion",
+        "creative-developer",
+        "awwwards"
+      ],
+      "org": "Independent",
+      "creator": "Aristide Benoist",
+      "era": "2020s",
+      "summary": "Portfolio of French creative developer Aristide Benoist, showcasing motion- and interaction-heavy WebGL work.",
+      "significance": "A repeatedly-awarded creative-developer portfolio; a reference example of how independent developers use their own sites to demonstrate advanced motion and WebGL craft.",
+      "key_facts": [
+        "Aristide Benoist is a French front-end developer specializing in motion and interaction.",
+        "His portfolios (2021, later editions) earned Awwwards Site of the Day.",
+        "Works independently with agencies, startups, and brands worldwide.",
+        "Portfolio pages are studied as motion/interaction references."
+      ],
+      "defining_traits": [
+        "motion-heavy interaction",
+        "WebGL",
+        "developer portfolio",
+        "award-winning craft"
+      ],
+      "url": "https://aristidebenoist.com",
+      "related": [
+        "robin-payot-portfolio",
+        "bruno-simon-portfolio",
+        "minh-pham-portfolio"
+      ],
+      "sources": [
+        {
+          "title": "Aristide Benoist – Portfolio - Awwwards SOTD",
+          "url": "https://www.awwwards.com/sites/aristide-benoist-portfolio",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "robin-payot-portfolio",
+      "name": "Robin Payot Portfolio",
+      "category": "web-experience",
+      "tags": [
+        "portfolio",
+        "webgl",
+        "3d",
+        "creative-developer",
+        "awwwards"
+      ],
+      "org": "Independent",
+      "creator": "Robin Payot",
+      "year": 2022,
+      "summary": "Portfolio of Paris-based freelance creative developer Robin Payot, featuring WebGL, canvas, and interactive 3D animation.",
+      "significance": "An Awwwards-awarded creative-developer portfolio that exemplifies the interactive-3D personal-site genre used to demonstrate high-end front-end capability.",
+      "key_facts": [
+        "Robin Payot is a Paris-based freelance creative developer.",
+        "His 2022 portfolio earned Awwwards Site of the Day.",
+        "Features WebGL, 3D, canvas, and interactive animation.",
+        "Represents the creative-developer portfolio tradition alongside Benoist and Simon."
+      ],
+      "defining_traits": [
+        "WebGL/3D",
+        "canvas animation",
+        "interactive portfolio",
+        "award-winning"
+      ],
+      "url": "https://robinpayot.com",
+      "related": [
+        "aristide-benoist-portfolio",
+        "bruno-simon-portfolio",
+        "minh-pham-portfolio"
+      ],
+      "sources": [
+        {
+          "title": "Robin Payot - Portfolio 2022 - Awwwards SOTD",
+          "url": "https://www.awwwards.com/sites/robin-payot-portfolio-2022",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "minh-pham-portfolio",
+      "name": "Minh Pham Portfolio",
+      "category": "web-experience",
+      "tags": [
+        "portfolio",
+        "3d",
+        "motion",
+        "designer",
+        "awwwards"
+      ],
+      "org": "Independent",
+      "creator": "Minh Pham",
+      "era": "2020s",
+      "summary": "Portfolio of designer/art director Minh Pham, known for bold 3D visuals and motion-forward personal branding.",
+      "significance": "Cited among standout creative portfolios of the era; a reference for 3D-led, art-directed self-presentation, though specific award records were not confirmed this session.",
+      "key_facts": [
+        "Minh Pham is a Vietnam-based multidisciplinary designer (Design Lead at Fantasy) known for 3D-heavy, motion-forward art direction.",
+        "Portfolio at minhpham.design, built on Webflow, using big type, parallax, background video, and 3D.",
+        "Recognized by Awwwards as Site of the Day and an Honorable Mention (not a Site of the Year).",
+        "Frequently referenced in design-inspiration collections (Land-book, Awwwards)."
+      ],
+      "defining_traits": [
+        "3D visuals",
+        "motion-forward",
+        "bold art direction",
+        "designer portfolio"
+      ],
+      "url": "https://minhpham.design/",
+      "related": [
+        "aristide-benoist-portfolio",
+        "robin-payot-portfolio"
+      ],
+      "sources": [
+        {
+          "title": "Minh Pham - Designer (Awwwards SOTD)",
+          "url": "https://www.awwwards.com/sites/minh-pham-designer",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Minh Pham - Multidisciplinary Designer",
+          "url": "https://minhpham.design/",
+          "publisher": "Minh Pham",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "original-google-homepage",
+      "name": "Original Google Homepage",
+      "category": "webapp",
+      "tags": [
+        "historical",
+        "minimal",
+        "search",
+        "google",
+        "utilitarian"
+      ],
+      "org": "Google",
+      "creator": "Larry Page and Sergey Brin",
+      "year": 1998,
+      "summary": "Google's original search homepage: a stark white page with a centered logo and a single search box, famously minimal for its era.",
+      "significance": "A landmark of intentional minimalism; the empty, single-purpose homepage stood in stark contrast to cluttered 1990s portals and remains the archetype of focused, function-first design.",
+      "key_facts": [
+        "Launched publicly in 1998 with a deliberately sparse layout.",
+        "Centered logo plus one input box, minimal links and no ads at launch.",
+        "Its emptiness was partly because the founders knew little HTML early on.",
+        "Became the enduring reference for single-purpose, uncluttered design."
+      ],
+      "defining_traits": [
+        "extreme minimalism",
+        "single-purpose layout",
+        "centered logo + input",
+        "function-first"
+      ],
+      "url": "https://www.google.com",
+      "related": [
+        "craigslist",
+        "early-apple-com"
+      ],
+      "sources": [
+        {
+          "title": "Google - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Google",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "early-apple-com",
+      "name": "Early Apple.com (late 1990s)",
+      "category": "marketing-site",
+      "tags": [
+        "historical",
+        "apple",
+        "brand",
+        "web-design-museum"
+      ],
+      "org": "Apple",
+      "creator": "Apple",
+      "era": "1990s",
+      "summary": "Apple's late-1990s website, spanning the pre-iMac era and the 'Think Different' relaunch, an early example of brand-led product marketing on the web.",
+      "significance": "Documents the origins of Apple's now-canonical clean, product-forward web identity; a historical reference preserved by web-design archives.",
+      "key_facts": [
+        "Reflects Apple's mid/late-1990s transition around the 1997 'Think Different' era.",
+        "Early template for Apple's product-forward, brand-led web presentation.",
+        "Preserved in archives like the Web Design Museum and the Wayback Machine.",
+        "Predates the whitespace-heavy modern Apple.com aesthetic."
+      ],
+      "defining_traits": [
+        "early brand-led web",
+        "product-forward",
+        "1990s layout conventions",
+        "historical reference"
+      ],
+      "url": "https://www.apple.com",
+      "related": [
+        "apple-com",
+        "original-google-homepage"
+      ],
+      "sources": [
+        {
+          "title": "Apple in 1997",
+          "url": "https://www.webdesignmuseum.org/gallery/apple-1997",
+          "publisher": "Web Design Museum",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Apple in 1998",
+          "url": "https://www.webdesignmuseum.org/gallery/apple-1998",
+          "publisher": "Web Design Museum",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "lings-cars",
+      "name": "Ling's Cars (LINGsCARS.com)",
+      "category": "marketing-site",
+      "tags": [
+        "historical",
+        "maximalist",
+        "iconic-bad",
+        "ecommerce",
+        "personality"
+      ],
+      "org": "LINGsCARS",
+      "creator": "Ling Valentine",
+      "era": "2000s-2020s",
+      "summary": "A UK car-leasing site famous as 'the ugliest website on the internet': a deliberate chaos of clashing colors, blinking GIFs, and animated cats.",
+      "significance": "The canonical example of 'so bad it's iconic' — proof that deliberate anti-design and strong personality can outperform sleek conformity in a commoditized market.",
+      "key_facts": [
+        "Founded by Ling Valentine, who moved from Chengdu, China to the UK in the 1990s.",
+        "Chaotic design was deliberate, to stand out in a 'sea of same-again' car sites.",
+        "By 2006 the business reportedly did over £1 million per month in sales.",
+        "Redesigned in February 2025; the original is preserved at museum.lingscars.com."
+      ],
+      "defining_traits": [
+        "deliberate maximal chaos",
+        "clashing color + GIFs",
+        "strong personality",
+        "anti-design"
+      ],
+      "url": "https://www.lingscars.com",
+      "related": [
+        "space-jam-1996",
+        "craigslist"
+      ],
+      "sources": [
+        {
+          "title": "Ling's Cars - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ling's_Cars",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Ling's Cars Has one of the Best Websites on the Internet",
+          "url": "https://www.newsweek.com/2016/12/23/lings-cars-website-532332.html",
+          "publisher": "Newsweek",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "space-jam-1996",
+      "name": "Space Jam (1996) Website",
+      "category": "marketing-site",
+      "tags": [
+        "historical",
+        "1990s",
+        "movie",
+        "preserved",
+        "iconic"
+      ],
+      "org": "Warner Bros.",
+      "creator": "Warner Bros. web team",
+      "year": 1996,
+      "summary": "The original 1996 promotional website for the film Space Jam, still online in its untouched 1990s form.",
+      "significance": "A rare, fully-preserved artifact of 1990s web design; its survival makes it a living reference for early movie-marketing web aesthetics (starfield background, image-map navigation).",
+      "key_facts": [
+        "Built in 1996 to promote the Michael Jordan/Looney Tunes film.",
+        "Still online, preserved at spacejam.com/1996/ when the 2021 site launched at the root.",
+        "Exemplifies mid-1990s conventions: tiled starfield, planet icon navigation.",
+        "Warner Bros. deliberately kept it live, acknowledging its legacy."
+      ],
+      "defining_traits": [
+        "1990s tiled background",
+        "image-map navigation",
+        "preserved artifact",
+        "movie marketing"
+      ],
+      "url": "https://www.spacejam.com/1996/",
+      "related": [
+        "lings-cars",
+        "craigslist",
+        "original-google-homepage"
+      ],
+      "sources": [
+        {
+          "title": "Why a decades-old 'Space Jam' website is still in operation",
+          "url": "https://www.wbur.org/hereandnow/2025/03/13/website-space-jam",
+          "publisher": "WBUR Here & Now",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Space Jam (1996)",
+          "url": "https://www.spacejam.com/1996/",
+          "publisher": "Warner Bros.",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "craigslist",
+      "name": "Craigslist",
+      "category": "webapp",
+      "tags": [
+        "historical",
+        "utilitarian",
+        "minimal",
+        "classifieds",
+        "iconic"
+      ],
+      "org": "Craigslist",
+      "creator": "Craig Newmark",
+      "year": 1995,
+      "summary": "A classifieds and community site whose plain, text-and-links layout has barely changed since the 1990s.",
+      "significance": "The canonical example of utilitarian, function-over-form web design; its stubborn simplicity and speed are a reference for the argument that usefulness can outweigh visual polish.",
+      "key_facts": [
+        "Started by Craig Newmark in 1995 as an email list, then a website.",
+        "Layout is almost entirely blue text links on a plain background.",
+        "Deliberately unchanged design prioritizes speed, density, and familiarity.",
+        "Cited as proof that utility and habit can trump conventional aesthetics."
+      ],
+      "defining_traits": [
+        "text-and-links layout",
+        "extreme utilitarianism",
+        "unchanged for decades",
+        "speed and density"
+      ],
+      "url": "https://www.craigslist.org",
+      "related": [
+        "original-google-homepage",
+        "lings-cars"
+      ],
+      "sources": [
+        {
+          "title": "Craigslist - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Craigslist",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "wilderness-downtown",
+      "name": "The Wilderness Downtown",
+      "category": "web-experience",
+      "tags": [
+        "html5",
+        "chrome-experiment",
+        "interactive",
+        "music",
+        "webgl"
+      ],
+      "org": "Google",
+      "creator": "Chris Milk with Google Creative Lab and B-Reel (Arcade Fire)",
+      "year": 2010,
+      "summary": "An interactive HTML5 music film for Arcade Fire's 'We Used to Wait' that personalizes the experience using the viewer's childhood home via Google Maps.",
+      "significance": "A defining early Chrome Experiment that showcased HTML5's creative potential; it pioneered choreographed multi-window, data-personalized interactive storytelling.",
+      "key_facts": [
+        "Launched in 2010 as a Chrome Experiment directed by Chris Milk.",
+        "Uses Google Maps/Street View to insert the viewer's childhood home.",
+        "Choreographs multiple synchronized browser windows as a canvas.",
+        "Widely credited with demonstrating HTML5's expressive capabilities."
+      ],
+      "defining_traits": [
+        "multi-window choreography",
+        "data personalization",
+        "HTML5 showcase",
+        "interactive music film"
+      ],
+      "url": "https://experiments.withgoogle.com/the-wilderness-downtown",
+      "related": [
+        "google-arts-culture",
+        "active-theory"
+      ],
+      "sources": [
+        {
+          "title": "The Wilderness Downtown by Google Creative Lab",
+          "url": "https://experiments.withgoogle.com/the-wilderness-downtown",
+          "publisher": "Experiments with Google",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "The Wilderness Downtown | MIT Docubase",
+          "url": "https://docubase.mit.edu/project/the-wilderness-downtown/",
+          "publisher": "MIT Docubase",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "simply-chocolate",
+      "name": "Simply Chocolate",
+      "category": "web-experience",
+      "tags": [
+        "ecommerce",
+        "awwwards",
+        "playful",
+        "scroll",
+        "product-page"
+      ],
+      "org": "Simply Chocolate",
+      "creator": "Hello Monday (studio)",
+      "year": 2017,
+      "summary": "A playful e-commerce experience for a Danish chocolate brand, using bold horizontal scrolling and characterful product presentation.",
+      "significance": "An Awwwards Site of the Year-level winner for 2017 that showed e-commerce could be joyful and experiential rather than utilitarian.",
+      "key_facts": [
+        "Designed by studio Hello Monday for Simply Chocolate Copenhagen.",
+        "Won Awwwards E-Commerce Site of the Year 2017 and Site of the Day; also honored at CSS Design Awards 2017 (UI/UX/Innovation).",
+        "Uses bold color, horizontal scroll, and playful product 'characters' with an unwrapping concept.",
+        "Frequently cited as a benchmark for experiential product/e-commerce design."
+      ],
+      "defining_traits": [
+        "horizontal scroll",
+        "playful product presentation",
+        "bold color",
+        "experiential commerce"
+      ],
+      "url": "https://www.simplychocolate.dk",
+      "related": [
+        "every-last-drop",
+        "nike"
+      ],
+      "sources": [
+        {
+          "title": "Simply Chocolate - Awwwards",
+          "url": "https://www.awwwards.com/sites/simply-chocolate",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Simply Chocolate - CSS Design Awards WOTY 2017",
+          "url": "https://www.cssdesignawards.com/woty2017/sites/simply-chocolate",
+          "publisher": "CSS Design Awards",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "persepolis-reimagined",
+      "name": "Persepolis Reimagined",
+      "category": "web-experience",
+      "tags": [
+        "webgl",
+        "3d",
+        "heritage",
+        "awwwards",
+        "immersive"
+      ],
+      "org": "Iconem / Getty",
+      "creator": "Studio production for a cultural-heritage project",
+      "year": 2022,
+      "summary": "An immersive 3D web experience reconstructing the ancient city of Persepolis, letting users explore its architecture and history interactively.",
+      "significance": "An Awwwards Site of the Year-tier winner for 2022; a reference for using WebGL to make cultural heritage explorable and educational.",
+      "key_facts": [
+        "Created by Media.Monks for the Getty Villa Museum (Los Angeles); reconstructs the Persian ceremonial capital in interactive 3D.",
+        "Recognized by Awwwards as Site of the Day (score ~7.96); built with WebGL and Vue.",
+        "Developed over ~9 months in collaboration with Getty archaeologists, historians, and curators.",
+        "Combines historical scholarship with real-time web graphics."
+      ],
+      "defining_traits": [
+        "interactive 3D reconstruction",
+        "cultural heritage",
+        "WebGL",
+        "educational immersion"
+      ],
+      "url": "https://persepolis.getty.edu",
+      "related": [
+        "igloo-inc",
+        "google-arts-culture",
+        "star-atlas"
+      ],
+      "sources": [
+        {
+          "title": "Persepolis Reimagined - Awwwards",
+          "url": "https://www.awwwards.com/sites/persepolis-reimagined",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Persepolis Reimagined - Media.Monks case",
+          "url": "https://dutchdigital.design/cases/persepolis-reimagined",
+          "publisher": "Dutch Digital Design",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Persepolis Reimagined (Getty)",
+          "url": "https://persepolis.getty.edu/",
+          "publisher": "Getty",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "star-atlas",
+      "name": "Star Atlas",
+      "category": "web-experience",
+      "tags": [
+        "webgl",
+        "3d",
+        "gaming",
+        "awwwards",
+        "web3"
+      ],
+      "org": "Star Atlas",
+      "creator": "Star Atlas team / production studio",
+      "year": 2021,
+      "summary": "A cinematic marketing/experience site for the Star Atlas space-strategy game, built as an immersive sci-fi WebGL environment.",
+      "significance": "An Awwwards Site of the Year-tier winner for 2021, exemplifying the high-production-value, real-time-3D game/web3 experience of the early 2020s.",
+      "key_facts": [
+        "Won Awwwards Site of the Year 2021 (and a Users' Choice award).",
+        "Built by Hello Monday PRO using Three.js (WebGL) for an immersive, cinematic sci-fi experience.",
+        "Tied to a blockchain-based space strategy game.",
+        "Represents the era's convergence of gaming, web3, and immersive web design."
+      ],
+      "defining_traits": [
+        "cinematic sci-fi WebGL",
+        "immersive 3D",
+        "game marketing",
+        "high production value"
+      ],
+      "url": "https://staratlas.com",
+      "related": [
+        "igloo-inc",
+        "persepolis-reimagined",
+        "lusion"
+      ],
+      "sources": [
+        {
+          "title": "Star Atlas - Awwwards",
+          "url": "https://www.awwwards.com/sites/star-atlas",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Star Atlas Wins Site of the Year",
+          "url": "https://medium.com/star-atlas/star-atlas-wins-prestigious-site-of-the-year-award-29a732730af5",
+          "publisher": "Star Atlas (Medium)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    }
+  ]
+}

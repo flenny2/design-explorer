@@ -1,0 +1,657 @@
+{
+  "topic": "color-tools",
+  "title": "Color Tools & Resources for Designers and Developers",
+  "description": "Generators, pickers, accessibility checkers, and reference systems for building and testing color palettes.",
+  "schema_version": "1.0",
+  "count": 22,
+  "last_updated": "2026-07-07",
+  "entries": [
+    {
+      "id": "coolors",
+      "name": "Coolors",
+      "category": "generator",
+      "tags": [
+        "palette",
+        "generator",
+        "spacebar",
+        "popular"
+      ],
+      "org": "Coolors",
+      "summary": "A fast palette generator that produces five-color schemes; pressing the spacebar cycles new palettes and colors can be locked.",
+      "significance": "One of the most widely used palette generators; low-friction spacebar workflow made it a default starting point for designers.",
+      "key_facts": [
+        "Generates palettes instantly via spacebar; individual swatches can be locked.",
+        "Can extract a palette from an uploaded photo.",
+        "Includes a built-in contrast checker and export options."
+      ],
+      "url": "https://coolors.co/",
+      "sources": [
+        {
+          "title": "Coolors",
+          "url": "https://coolors.co/",
+          "publisher": "Coolors",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "adobe-color",
+      "name": "Adobe Color",
+      "category": "generator",
+      "tags": [
+        "color-wheel",
+        "harmonies",
+        "adobe",
+        "accessibility"
+      ],
+      "org": "Adobe",
+      "summary": "A color-wheel tool that builds harmonies (complementary, analogous, triadic, etc.) and includes accessibility and color-blindness checks.",
+      "significance": "Long-standing, authoritative wheel-based tool integrated with Creative Cloud libraries; strong for learning harmony rules.",
+      "key_facts": [
+        "Builds schemes from harmony rules on an interactive color wheel.",
+        "Includes a contrast-ratio check and a color-blind-safe palette tool.",
+        "Palettes save to Creative Cloud libraries."
+      ],
+      "url": "https://color.adobe.com/",
+      "sources": [
+        {
+          "title": "Adobe Color Wheel",
+          "url": "https://color.adobe.com/create/color-wheel",
+          "publisher": "Adobe",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Color Accessibility Tools",
+          "url": "https://color.adobe.com/create/color-accessibility",
+          "publisher": "Adobe",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "paletton",
+      "name": "Paletton",
+      "category": "generator",
+      "tags": [
+        "color-wheel",
+        "harmonies",
+        "classic"
+      ],
+      "org": "Paletton",
+      "summary": "A color-wheel scheme designer for building mono, complementary, triadic, and tetradic palettes with live preview.",
+      "significance": "A long-running, education-friendly tool for exploring classic harmony relationships and previewing them on sample layouts.",
+      "key_facts": [
+        "Supports monochromatic, adjacent (analogous), triad, and tetrad schemes.",
+        "Previews palettes on example web-page and artwork mockups."
+      ],
+      "url": "https://paletton.com/",
+      "sources": [
+        {
+          "title": "Paletton",
+          "url": "https://paletton.com/",
+          "publisher": "Paletton",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "colormind",
+      "name": "Colormind",
+      "category": "generator",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "palette"
+      ],
+      "org": "Colormind",
+      "summary": "An AI palette generator that uses deep learning trained on photos, movies, and popular art to produce cohesive five-color schemes.",
+      "significance": "An early example of ML-driven palette generation; learns context so locked colors influence the rest of the palette.",
+      "key_facts": [
+        "Uses a neural network trained on images and existing palettes.",
+        "Can generate palettes conditioned on user-locked colors.",
+        "Offers a public API."
+      ],
+      "url": "http://colormind.io/",
+      "sources": [
+        {
+          "title": "Colormind",
+          "url": "http://colormind.io/",
+          "publisher": "Colormind",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "khroma",
+      "name": "Khroma",
+      "category": "generator",
+      "tags": [
+        "ai",
+        "personalized",
+        "palette"
+      ],
+      "org": "Khroma",
+      "summary": "An AI color tool that first learns your taste from an initial color-selection step, then generates personalized combinations.",
+      "significance": "Notable for a personalization step: it trains on colors you like, then filters generated pairs to your preferences.",
+      "key_facts": [
+        "User picks ~50 favorite colors to train a personal model.",
+        "Generates typographic, gradient, and image previews of color pairs.",
+        "Flags color pairs for contrast/accessibility."
+      ],
+      "url": "https://www.khroma.co/",
+      "sources": [
+        {
+          "title": "Khroma",
+          "url": "https://www.khroma.co/",
+          "publisher": "Khroma",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "realtime-colors",
+      "name": "Realtime Colors",
+      "category": "generator",
+      "tags": [
+        "preview",
+        "ui",
+        "theme",
+        "live"
+      ],
+      "org": "Realtime Colors (Juxtopposed)",
+      "summary": "A tool that applies a palette to a realistic website mockup in real time so you can judge text, background, primary, secondary, and accent roles in context.",
+      "significance": "Shifted palette selection from abstract swatches to seeing colors on a real UI, including live dark/light toggling.",
+      "key_facts": [
+        "Maps colors to semantic roles: text, background, primary, secondary, accent.",
+        "Previews the palette live on a full sample landing page.",
+        "Exports to CSS variables, Tailwind, and other formats."
+      ],
+      "url": "https://www.realtimecolors.com/",
+      "sources": [
+        {
+          "title": "Realtime Colors",
+          "url": "https://www.realtimecolors.com/",
+          "publisher": "Realtime Colors",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "huemint",
+      "name": "Huemint",
+      "category": "generator",
+      "tags": [
+        "ai",
+        "brand",
+        "gradient",
+        "palette"
+      ],
+      "org": "Huemint",
+      "summary": "An ML-based color generator aimed at brand and UI palettes, producing context-aware combinations for logos, websites, and graphics.",
+      "significance": "Uses a custom model to generate palettes tuned to specific layout contexts rather than generic five-swatch sets.",
+      "key_facts": [
+        "Generates palettes for specific templates (brand, website, gradient, illustration).",
+        "Lets users lock colors and adjust a 'creativity/contrast' control."
+      ],
+      "url": "https://huemint.com/",
+      "sources": [
+        {
+          "title": "Huemint",
+          "url": "https://huemint.com/",
+          "publisher": "Huemint",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "colorbox-lyft",
+      "name": "ColorBox",
+      "category": "generator",
+      "tags": [
+        "scales",
+        "systematic",
+        "lyft",
+        "ramps"
+      ],
+      "org": "Lyft Design",
+      "summary": "A tool for generating systematic color scales by defining curves for hue, saturation, and brightness across a number of steps.",
+      "significance": "Built by Lyft's design team to produce mathematically consistent tint/shade ramps for design systems rather than hand-picked swatches.",
+      "key_facts": [
+        "Generates N-step scales from configurable hue/saturation/brightness curves.",
+        "Aimed at producing consistent, reproducible color ramps for UI systems."
+      ],
+      "url": "https://colorbox.io/",
+      "sources": [
+        {
+          "title": "ColorBox",
+          "url": "https://colorbox.io/",
+          "publisher": "Lyft Design",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "leonardo-adobe",
+      "name": "Leonardo",
+      "category": "accessibility",
+      "tags": [
+        "contrast",
+        "adobe",
+        "open-source",
+        "scales"
+      ],
+      "org": "Adobe",
+      "summary": "An open-source tool that generates color scales from target contrast ratios, so every step meets a chosen accessibility threshold.",
+      "significance": "Inverts the usual workflow — you specify desired contrast ratios and Leonardo computes the colors — making accessible-by-construction palettes practical.",
+      "key_facts": [
+        "Generates colors from desired contrast ratios (e.g. every step meets 3:1 or 4.5:1).",
+        "Supports background-relative contrast and colorblind-safe cycling.",
+        "Open source on GitHub (adobe/leonardo)."
+      ],
+      "url": "https://leonardocolor.io/",
+      "sources": [
+        {
+          "title": "Leonardo",
+          "url": "https://leonardocolor.io/",
+          "publisher": "Adobe",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "adobe/leonardo",
+          "url": "https://github.com/adobe/leonardo",
+          "publisher": "GitHub",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "radix-colors",
+      "name": "Radix Colors",
+      "category": "reference",
+      "tags": [
+        "scales",
+        "accessible",
+        "12-step",
+        "ui-system"
+      ],
+      "org": "WorkOS (Radix)",
+      "summary": "An open-source color system of 12-step scales engineered for specific UI roles, with an in-browser custom-palette generator.",
+      "significance": "Provides accessible, role-mapped scales (backgrounds, borders, solids, text) that drop into design systems, plus a generator for custom brand scales.",
+      "key_facts": [
+        "12 steps per scale mapped to UI roles (bg 1-2, components 3-5, borders 6-8, solids 9-10, text 11-12).",
+        "Includes light, dark, and transparent variants.",
+        "The /custom generator builds an accessible 12-step scale from a brand color."
+      ],
+      "url": "https://www.radix-ui.com/colors",
+      "related": [
+        "radix-colors-palette"
+      ],
+      "sources": [
+        {
+          "title": "Radix Colors",
+          "url": "https://www.radix-ui.com/colors",
+          "publisher": "Radix",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Scales",
+          "url": "https://www.radix-ui.com/colors/docs/palette-composition/scales",
+          "publisher": "Radix",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "open-color",
+      "name": "Open Color",
+      "category": "reference",
+      "tags": [
+        "open-source",
+        "swatches",
+        "ui",
+        "scales"
+      ],
+      "org": "Open Color (heeyeun / yeun)",
+      "summary": "An open-source, optimized color scheme of 13 hues each in 10 numbered steps, tuned for UI use.",
+      "significance": "A free, no-dependency palette designed specifically for UI so developers can pull consistent, tested swatches without designing a ramp.",
+      "key_facts": [
+        "13 hues (gray plus 12 colors), each with 10 steps (0-9).",
+        "Distributed as CSS/SCSS/JSON variables.",
+        "Hand-tuned specifically for user interfaces."
+      ],
+      "url": "https://yeun.github.io/open-color/",
+      "sources": [
+        {
+          "title": "Open Color",
+          "url": "https://yeun.github.io/open-color/",
+          "publisher": "Open Color",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "happy-hues",
+      "name": "Happy Hues",
+      "category": "reference",
+      "tags": [
+        "curated",
+        "palette",
+        "in-context",
+        "education"
+      ],
+      "org": "Mackenzie Child",
+      "summary": "A curated palette resource that demonstrates each palette applied to an actual example website, showing how to assign colors to roles.",
+      "significance": "Teaches color application (not just selection) by showing the same page rendered in many curated palettes with role labels.",
+      "key_facts": [
+        "The site itself is the demo: switching palettes recolors the whole page live.",
+        "Labels which color to use for background, paragraph, buttons, etc."
+      ],
+      "url": "https://www.happyhues.co/",
+      "sources": [
+        {
+          "title": "Happy Hues",
+          "url": "https://www.happyhues.co/",
+          "publisher": "Happy Hues",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "color-hunt",
+      "name": "Color Hunt",
+      "category": "reference",
+      "tags": [
+        "curated",
+        "community",
+        "palette",
+        "library"
+      ],
+      "org": "Color Hunt",
+      "summary": "A community-curated library of four-color palettes, browsable and sortable by popularity and trend.",
+      "significance": "A large, browsable gallery of ready-made palettes useful for quick inspiration rather than generation.",
+      "key_facts": [
+        "Palettes are four colors each, submitted and voted on by the community.",
+        "Sortable by new, popular, and random."
+      ],
+      "url": "https://colorhunt.co/",
+      "sources": [
+        {
+          "title": "Color Hunt",
+          "url": "https://colorhunt.co/",
+          "publisher": "Color Hunt",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "webaim-contrast-checker",
+      "name": "WebAIM Contrast Checker",
+      "category": "accessibility",
+      "tags": [
+        "contrast",
+        "wcag",
+        "checker",
+        "authoritative"
+      ],
+      "org": "WebAIM (Utah State University)",
+      "summary": "A widely-trusted tool that computes the WCAG contrast ratio between two colors and reports AA/AAA pass/fail for normal and large text.",
+      "significance": "A de-facto reference for verifying WCAG 1.4.3 contrast; from WebAIM, a leading web-accessibility organization.",
+      "key_facts": [
+        "Reports pass/fail against 4.5:1 (normal text) and 3:1 (large text) at AA, and 7:1/4.5:1 at AAA.",
+        "Large text is defined as 18pt / 14pt bold.",
+        "Includes lightness sliders to nudge colors into compliance."
+      ],
+      "url": "https://webaim.org/resources/contrastchecker/",
+      "sources": [
+        {
+          "title": "WebAIM: Contrast Checker",
+          "url": "https://webaim.org/resources/contrastchecker/",
+          "publisher": "WebAIM",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "stark",
+      "name": "Stark",
+      "category": "accessibility",
+      "tags": [
+        "contrast",
+        "plugin",
+        "figma",
+        "colorblind"
+      ],
+      "org": "Stark",
+      "summary": "An accessibility toolkit (Figma/Sketch/browser plugins) that checks contrast, simulates color blindness, and audits designs against WCAG.",
+      "significance": "Brought accessibility checks directly into design tools, letting teams catch contrast issues before build.",
+      "key_facts": [
+        "Runs contrast checks and colorblind simulations inside Figma and other tools.",
+        "Includes broader accessibility auditing beyond color."
+      ],
+      "url": "https://www.getstark.co/",
+      "sources": [
+        {
+          "title": "Stark",
+          "url": "https://www.getstark.co/",
+          "publisher": "Stark",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "whocanuse",
+      "name": "WhoCanUse",
+      "category": "accessibility",
+      "tags": [
+        "contrast",
+        "empathy",
+        "vision",
+        "simulation"
+      ],
+      "org": "Corey Ginnivan",
+      "summary": "A contrast tool that frames results by who can actually use a color pairing, simulating various vision types and conditions.",
+      "significance": "Reframes contrast from an abstract ratio into human impact by estimating the share of people affected by common vision differences.",
+      "key_facts": [
+        "Shows the color pair under many vision simulations (color blindness, low vision, cataracts, etc.).",
+        "Reports the WCAG ratio plus AA/AAA status."
+      ],
+      "url": "https://whocanuse.com/",
+      "sources": [
+        {
+          "title": "WhoCanUse",
+          "url": "https://whocanuse.com/",
+          "publisher": "WhoCanUse",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "accessible-colors",
+      "name": "Accessible Colors",
+      "category": "accessibility",
+      "tags": [
+        "contrast",
+        "wcag",
+        "suggestions"
+      ],
+      "org": "Accessible Colors",
+      "summary": "A checker that validates a text/background pair against WCAG AA and, if it fails, suggests the nearest compliant colors.",
+      "significance": "Useful for quickly nudging a failing pair to the closest passing colors while preserving hue.",
+      "key_facts": [
+        "Checks against WCAG 2.0 AA for the given font size and weight.",
+        "Suggests adjusted foreground/background values that pass."
+      ],
+      "url": "https://accessible-colors.com/",
+      "sources": [
+        {
+          "title": "Accessible Colors",
+          "url": "https://accessible-colors.com/",
+          "publisher": "Accessible Colors",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "colorable",
+      "name": "Colorable",
+      "category": "accessibility",
+      "tags": [
+        "contrast",
+        "combinations",
+        "open-source"
+      ],
+      "org": "Brent Jackson",
+      "summary": "A tool that shows WCAG contrast scores for combinations of a set of colors, highlighting which foreground/background pairs pass.",
+      "significance": "Good for auditing an entire palette at once: it renders a matrix of pairings with their ratios and AA/AAA grades.",
+      "key_facts": [
+        "Displays contrast ratio and AA/AAA pass grades for color combinations.",
+        "Open source; helps validate a palette's usable text pairings."
+      ],
+      "url": "https://colorable.jxnblk.com/",
+      "sources": [
+        {
+          "title": "Colorable",
+          "url": "https://colorable.jxnblk.com/",
+          "publisher": "Brent Jackson",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "pantone-matching-system",
+      "name": "Pantone Matching System (PMS)",
+      "category": "reference",
+      "tags": [
+        "print",
+        "spot-color",
+        "standard",
+        "physical"
+      ],
+      "org": "Pantone",
+      "summary": "A standardized spot-color matching system used to specify and reproduce exact colors consistently across print and manufacturing.",
+      "significance": "The industry standard for specifying brand colors physically; PMS numbers let vendors reproduce a precise ink regardless of screen rendering.",
+      "key_facts": [
+        "Each color has a unique PMS number (e.g. Tiffany's custom '1837 Blue').",
+        "Guides come in coated (C), uncoated (U), and other finishes.",
+        "Used for spot inks where CMYK cannot reliably reproduce a color."
+      ],
+      "url": "https://www.pantone.com/",
+      "related": [
+        "pantone-color-of-the-year",
+        "tiffany-palette"
+      ],
+      "sources": [
+        {
+          "title": "Pantone",
+          "url": "https://www.pantone.com/",
+          "publisher": "Pantone",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "uigradients",
+      "name": "uiGradients",
+      "category": "reference",
+      "tags": [
+        "gradient",
+        "curated",
+        "css",
+        "library"
+      ],
+      "org": "uiGradients",
+      "summary": "A curated, community-driven collection of two-plus-color gradients with copyable CSS.",
+      "significance": "A quick source of ready gradients with exportable CSS, popular during the gradient-heavy UI era.",
+      "key_facts": [
+        "Browse named gradients and copy the CSS linear-gradient.",
+        "Community-contributed and open source."
+      ],
+      "url": "https://uigradients.com/",
+      "sources": [
+        {
+          "title": "uiGradients",
+          "url": "https://uigradients.com/",
+          "publisher": "uiGradients",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "css-gradient",
+      "name": "CSS Gradient",
+      "category": "generator",
+      "tags": [
+        "gradient",
+        "css",
+        "generator",
+        "code"
+      ],
+      "org": "CSS Gradient",
+      "summary": "A visual generator for linear and radial CSS gradients that outputs ready-to-paste code, including fallbacks.",
+      "significance": "Lowers the friction of hand-writing gradient syntax; useful for quick prototyping of gradient backgrounds.",
+      "key_facts": [
+        "Generates linear and radial gradients with adjustable stops, angle, and position.",
+        "Outputs cross-browser CSS with a solid-color fallback."
+      ],
+      "url": "https://cssgradient.io/",
+      "sources": [
+        {
+          "title": "CSS Gradient",
+          "url": "https://cssgradient.io/",
+          "publisher": "CSS Gradient",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "oklch-color-picker",
+      "name": "OKLCH Color Picker (Evil Martians)",
+      "category": "picker",
+      "tags": [
+        "oklch",
+        "perceptual",
+        "wide-gamut",
+        "modern-css"
+      ],
+      "org": "Evil Martians",
+      "summary": "A color picker built around the OKLCH model, showing lightness, chroma, and hue plus the P3/sRGB gamut boundary and contrast.",
+      "significance": "Helps designers reason in perceptually-uniform terms and see which OKLCH colors fall inside sRGB vs wide-gamut P3, supporting modern CSS color workflows.",
+      "key_facts": [
+        "Edits colors as OKLCH lightness/chroma/hue.",
+        "Visualizes the sRGB and Display-P3 gamut limits and clipping.",
+        "Shows contrast information for accessibility."
+      ],
+      "url": "https://oklch.com/",
+      "sources": [
+        {
+          "title": "OK, OKLCH: a color picker made to help think perceptively",
+          "url": "https://evilmartians.com/chronicles/oklch-a-color-picker-made-to-help-think-perceptively",
+          "publisher": "Evil Martians",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    }
+  ]
+}

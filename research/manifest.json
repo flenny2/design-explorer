@@ -1,0 +1,511 @@
+{
+  "corpus": "front-end-design-research",
+  "schema": "SCHEMA.md",
+  "schema_version": "1.0",
+  "generated": "2026-07-07",
+  "status": "complete + verified — all needs-check items resolved (4 factual corrections applied)",
+  "totals": {
+    "datasets": 15,
+    "entries": 538,
+    "essays": 3,
+    "needs_check": 0
+  },
+  "datasets": [
+    {
+      "file": "data/accessibility.json",
+      "topic": "accessibility",
+      "title": "Web Accessibility (WCAG, ARIA & Assistive Tech)",
+      "description": "Core web accessibility concepts: WCAG POUR principles and success criteria, ARIA, assistive technologies, and practical inclusive-design techniques with precise conformance numbers.",
+      "count": 29,
+      "sources_total": 36,
+      "confidence_breakdown": {
+        "verified": 29
+      },
+      "needs_check": 0,
+      "categories": [
+        "aria",
+        "assistive-tech",
+        "guideline",
+        "technique",
+        "wcag-principle"
+      ],
+      "sample_ids": [
+        "perceivable",
+        "operable",
+        "understandable",
+        "robust",
+        "conformance-levels",
+        "color-contrast-minimum",
+        "non-text-contrast",
+        "resize-text",
+        "keyboard-navigation",
+        "focus-visible"
+      ]
+    },
+    {
+      "file": "data/books-and-reading.json",
+      "topic": "books-and-reading",
+      "title": "Canonical Design, UX, Typography & Front-End Reading",
+      "description": "Foundational books and seminal articles on design, usability, typography, color, and front-end development.",
+      "count": 26,
+      "sources_total": 30,
+      "confidence_breakdown": {
+        "well-known": 22,
+        "verified": 4
+      },
+      "needs_check": 0,
+      "categories": [
+        "article",
+        "book",
+        "essay"
+      ],
+      "sample_ids": [
+        "design-of-everyday-things",
+        "dont-make-me-think",
+        "refactoring-ui",
+        "thinking-with-type",
+        "elements-of-typographic-style",
+        "grid-systems",
+        "interaction-of-color",
+        "art-of-color",
+        "visual-display-quantitative-information",
+        "designing-with-web-standards"
+      ]
+    },
+    {
+      "file": "data/color-tools.json",
+      "topic": "color-tools",
+      "title": "Color Tools & Resources for Designers and Developers",
+      "description": "Generators, pickers, accessibility checkers, and reference systems for building and testing color palettes.",
+      "count": 22,
+      "sources_total": 25,
+      "confidence_breakdown": {
+        "verified": 6,
+        "well-known": 16
+      },
+      "needs_check": 0,
+      "categories": [
+        "accessibility",
+        "generator",
+        "picker",
+        "reference"
+      ],
+      "sample_ids": [
+        "coolors",
+        "adobe-color",
+        "paletton",
+        "colormind",
+        "khroma",
+        "realtime-colors",
+        "huemint",
+        "colorbox-lyft",
+        "leonardo-adobe",
+        "radix-colors"
+      ]
+    },
+    {
+      "file": "data/design-laws.json",
+      "topic": "design-laws",
+      "title": "Design Laws, UX Principles & Heuristics",
+      "description": "Foundational laws, cognitive principles, Gestalt rules, usability heuristics, and design principles that guide front-end and interaction design.",
+      "count": 46,
+      "sources_total": 51,
+      "confidence_breakdown": {
+        "verified": 32,
+        "well-known": 14
+      },
+      "needs_check": 0,
+      "categories": [
+        "cognitive",
+        "gestalt",
+        "heuristic",
+        "principle",
+        "ux-law"
+      ],
+      "sample_ids": [
+        "law-of-proximity",
+        "law-of-similarity",
+        "law-of-closure",
+        "law-of-continuity",
+        "law-of-common-region",
+        "figure-ground",
+        "law-of-symmetry",
+        "law-of-common-fate",
+        "law-of-pragnanz",
+        "law-of-uniform-connectedness"
+      ]
+    },
+    {
+      "file": "data/design-movements.json",
+      "topic": "design-movements",
+      "title": "Design Movements, Styles, and Eras",
+      "description": "Graphic-design movements and digital/web UI styles that shaped visual and interface design, from Art Nouveau to glassmorphism and bento layouts.",
+      "count": 29,
+      "sources_total": 38,
+      "confidence_breakdown": {
+        "well-known": 17,
+        "verified": 12
+      },
+      "needs_check": 0,
+      "categories": [
+        "movement",
+        "ui-style",
+        "web-era"
+      ],
+      "sample_ids": [
+        "art-nouveau",
+        "art-deco",
+        "constructivism",
+        "de-stijl",
+        "bauhaus",
+        "swiss-style",
+        "psychedelic",
+        "memphis-group",
+        "postmodern-design",
+        "grunge-carson"
+      ]
+    },
+    {
+      "file": "data/design-systems.json",
+      "topic": "design-systems",
+      "title": "Major Design Systems and UI Component Libraries",
+      "description": "Enumerable reference of influential design systems, UI component libraries, and CSS frameworks used in front-end design, with origins, owners, and current versions.",
+      "count": 34,
+      "sources_total": 67,
+      "confidence_breakdown": {
+        "verified": 28,
+        "well-known": 6
+      },
+      "needs_check": 0,
+      "categories": [
+        "css-framework",
+        "design-system",
+        "ui-library"
+      ],
+      "sample_ids": [
+        "material-design-2",
+        "material-design-3",
+        "apple-hig",
+        "carbon-design-system",
+        "salesforce-lightning",
+        "atlassian-design-system",
+        "shopify-polaris",
+        "fluent-design-1",
+        "fluent-design-2",
+        "ant-design"
+      ]
+    },
+    {
+      "file": "data/iconic-palettes.json",
+      "topic": "iconic-palettes",
+      "title": "Iconic Brand Palettes & Classic Color Schemes",
+      "description": "Famous brand/product color palettes with verified hex codes, plus classic design-system palettes and developer color themes.",
+      "count": 35,
+      "sources_total": 47,
+      "confidence_breakdown": {
+        "verified": 20,
+        "well-known": 15
+      },
+      "needs_check": 0,
+      "categories": [
+        "brand-palette",
+        "classic-scheme"
+      ],
+      "sample_ids": [
+        "spotify-palette",
+        "slack-palette",
+        "stripe-palette",
+        "airbnb-palette",
+        "coca-cola-palette",
+        "tiffany-palette",
+        "meta-palette",
+        "twitter-x-palette",
+        "ibm-palette",
+        "google-palette"
+      ]
+    },
+    {
+      "file": "data/iconic-websites.json",
+      "topic": "iconic-websites",
+      "title": "Iconic, Landmark & Award-Winning Websites and Product UIs",
+      "description": "Canonical reference examples of great front-end design: influential product UIs, marketing sites, award-winning web experiences, and seminal historical websites.",
+      "count": 50,
+      "sources_total": 78,
+      "confidence_breakdown": {
+        "verified": 26,
+        "well-known": 24
+      },
+      "needs_check": 0,
+      "categories": [
+        "marketing-site",
+        "product-ui",
+        "web-experience",
+        "webapp"
+      ],
+      "sample_ids": [
+        "stripe",
+        "linear",
+        "apple-com",
+        "notion",
+        "figma",
+        "vercel",
+        "spotify",
+        "airbnb-dls",
+        "github",
+        "netflix"
+      ]
+    },
+    {
+      "file": "data/influential-designers.json",
+      "topic": "influential-designers",
+      "title": "Influential Designers, Typographers & Design Studios",
+      "description": "Landmark people and studios in graphic design, type design, UX/interaction, product design, and digital/creative practice, with verified attributions of their signature works.",
+      "count": 45,
+      "sources_total": 90,
+      "confidence_breakdown": {
+        "verified": 42,
+        "well-known": 3
+      },
+      "needs_check": 0,
+      "categories": [
+        "data-viz-pioneer",
+        "design-engineer",
+        "digital-designer",
+        "graphic-designer",
+        "product-designer",
+        "studio",
+        "type-designer",
+        "typographer",
+        "ux-pioneer",
+        "web-designer"
+      ],
+      "sample_ids": [
+        "dieter-rams",
+        "paul-rand",
+        "massimo-vignelli",
+        "jan-tschichold",
+        "josef-muller-brockmann",
+        "wim-crouwel",
+        "saul-bass",
+        "milton-glaser",
+        "herb-lubalin",
+        "neville-brody"
+      ]
+    },
+    {
+      "file": "data/inspiration-galleries.json",
+      "topic": "inspiration-galleries",
+      "title": "Design Inspiration Galleries & Award Sites",
+      "description": "Where designers find visual inspiration: award programs, curated web galleries, and UI/UX pattern libraries.",
+      "count": 29,
+      "sources_total": 29,
+      "confidence_breakdown": {
+        "well-known": 11,
+        "verified": 18
+      },
+      "needs_check": 0,
+      "categories": [
+        "award",
+        "curation",
+        "gallery",
+        "pattern-library"
+      ],
+      "sample_ids": [
+        "awwwards",
+        "css-design-awards",
+        "fwa",
+        "webby-awards",
+        "godly",
+        "land-book",
+        "httpster",
+        "one-page-love",
+        "siteinspire",
+        "lapa-ninja"
+      ]
+    },
+    {
+      "file": "data/layout-patterns.json",
+      "topic": "layout-patterns",
+      "title": "Reusable Front-End Layout & Page Patterns",
+      "description": "Enumerable catalog of page layouts, content patterns, navigation patterns, and responsive-design patterns used in modern web UI.",
+      "count": 41,
+      "sources_total": 45,
+      "confidence_breakdown": {
+        "well-known": 28,
+        "verified": 13
+      },
+      "needs_check": 0,
+      "categories": [
+        "content-pattern",
+        "navigation-pattern",
+        "page-layout",
+        "responsive-pattern"
+      ],
+      "sample_ids": [
+        "hero-section",
+        "split-screen",
+        "bento-grid",
+        "card-grid",
+        "masonry",
+        "holy-grail",
+        "magazine-editorial",
+        "f-pattern",
+        "z-pattern",
+        "single-column"
+      ]
+    },
+    {
+      "file": "data/motion-interaction.json",
+      "topic": "motion-interaction",
+      "title": "Motion & Interaction Design Principles",
+      "description": "Animation and interaction design principles, patterns, and techniques for UI, with concrete timing and accessibility guidance.",
+      "count": 23,
+      "sources_total": 41,
+      "confidence_breakdown": {
+        "verified": 12,
+        "well-known": 11
+      },
+      "needs_check": 0,
+      "categories": [
+        "easing",
+        "microinteraction",
+        "principle",
+        "transition"
+      ],
+      "sample_ids": [
+        "disney-12-principles",
+        "easing-functions",
+        "cubic-bezier",
+        "spring-physics",
+        "motion-duration-guidelines",
+        "microinteractions",
+        "hover-states",
+        "loading-animation",
+        "skeleton-screens",
+        "page-transitions"
+      ]
+    },
+    {
+      "file": "data/tools.json",
+      "topic": "tools",
+      "title": "Design & Front-End Tools",
+      "description": "Design, prototyping, handoff, code, icon, and asset tools used across modern front-end and product-design workflows.",
+      "count": 37,
+      "sources_total": 41,
+      "confidence_breakdown": {
+        "verified": 10,
+        "well-known": 27
+      },
+      "needs_check": 0,
+      "categories": [
+        "asset",
+        "code-tool",
+        "design-tool",
+        "handoff",
+        "icon",
+        "prototyping"
+      ],
+      "sample_ids": [
+        "figma",
+        "sketch",
+        "adobe-xd",
+        "framer",
+        "penpot",
+        "webflow",
+        "photoshop",
+        "illustrator",
+        "affinity-designer",
+        "zeplin"
+      ]
+    },
+    {
+      "file": "data/typefaces.json",
+      "topic": "typefaces",
+      "title": "Iconic and Important Typefaces",
+      "description": "Reference dataset of historically and practically significant typefaces across serif, sans-serif, slab, monospace, display and script categories, with verified attributions.",
+      "count": 47,
+      "sources_total": 63,
+      "confidence_breakdown": {
+        "verified": 24,
+        "well-known": 23
+      },
+      "needs_check": 0,
+      "categories": [
+        "display",
+        "geometric-sans",
+        "grotesque",
+        "humanist-sans",
+        "monospace",
+        "script",
+        "serif",
+        "slab-serif"
+      ],
+      "sample_ids": [
+        "helvetica",
+        "neue-haas-grotesk",
+        "helvetica-neue",
+        "arial",
+        "akzidenz-grotesk",
+        "univers",
+        "futura",
+        "gotham",
+        "proxima-nova",
+        "avenir"
+      ]
+    },
+    {
+      "file": "data/ui-components.json",
+      "topic": "ui-components",
+      "title": "Standard UI Components & Design Best Practices",
+      "description": "Catalog of common front-end UI components with anatomy, UX and accessibility best practices, and defining traits.",
+      "count": 45,
+      "sources_total": 59,
+      "confidence_breakdown": {
+        "verified": 23,
+        "well-known": 22
+      },
+      "needs_check": 0,
+      "categories": [
+        "action",
+        "container",
+        "data-display",
+        "feedback",
+        "input",
+        "navigation"
+      ],
+      "sample_ids": [
+        "button-primary",
+        "icon-button",
+        "fab",
+        "text-input",
+        "textarea",
+        "select",
+        "combobox",
+        "checkbox",
+        "radio",
+        "toggle-switch"
+      ]
+    }
+  ],
+  "essays": [
+    {
+      "file": "essays/color-theory.md",
+      "title": "Color Theory for Front-End Design",
+      "sections": 10,
+      "bytes": 10895
+    },
+    {
+      "file": "essays/layout-and-grids.md",
+      "title": "Layout & Grid Systems for the Web",
+      "sections": 18,
+      "bytes": 15053
+    },
+    {
+      "file": "essays/typography-principles.md",
+      "title": "Typography Principles for Front-End Design",
+      "sections": 13,
+      "bytes": 17386
+    }
+  ],
+  "needs_check_index": []
+}

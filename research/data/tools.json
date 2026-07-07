@@ -1,0 +1,1346 @@
+{
+  "topic": "tools",
+  "title": "Design & Front-End Tools",
+  "description": "Design, prototyping, handoff, code, icon, and asset tools used across modern front-end and product-design workflows.",
+  "schema_version": "1.0",
+  "count": 37,
+  "last_updated": "2026-07-07",
+  "entries": [
+    {
+      "id": "figma",
+      "name": "Figma",
+      "category": "design-tool",
+      "tags": [
+        "ui",
+        "collaboration",
+        "browser-based",
+        "prototyping",
+        "vector"
+      ],
+      "org": "Figma, Inc.",
+      "creator": "Dylan Field, Evan Wallace",
+      "year_introduced": 2016,
+      "summary": "Browser-based collaborative interface design tool with real-time multiplayer editing, components, auto layout, and prototyping.",
+      "significance": "The dominant UI design tool of the late 2010s and 2020s; its real-time, browser-native model displaced desktop incumbents like Sketch and Adobe XD.",
+      "key_facts": [
+        "Founded in 2012 by Dylan Field and Evan Wallace; public launch in 2016.",
+        "Adobe announced a $20 billion acquisition on September 15, 2022.",
+        "The Adobe deal was terminated in December 2023 over regulatory concerns; Adobe paid a $1 billion termination fee.",
+        "Figma went public (IPO) in July 2025.",
+        "Runs in the browser using WebGL/WebAssembly for rendering."
+      ],
+      "url": "https://www.figma.com",
+      "sources": [
+        {
+          "title": "Figma",
+          "url": "https://www.figma.com",
+          "publisher": "Figma",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Who is Figma's Dylan Field?",
+          "url": "https://fortune.com/2022/09/16/dylan-field-figma-adobe-acquisition/",
+          "publisher": "Fortune",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "sketch",
+        "adobe-xd",
+        "framer"
+      ]
+    },
+    {
+      "id": "sketch",
+      "name": "Sketch",
+      "category": "design-tool",
+      "tags": [
+        "ui",
+        "macos",
+        "vector",
+        "symbols"
+      ],
+      "org": "Sketch B.V. (Bohemian Coding)",
+      "year_introduced": 2010,
+      "summary": "macOS-native vector UI design application known for symbols, artboards, and an early plugin ecosystem.",
+      "significance": "Defined the modern UI design tool category in the early 2010s, moving digital design away from Photoshop before Figma overtook it.",
+      "key_facts": [
+        "First released in 2010 by Bohemian Coding (Netherlands).",
+        "macOS-only desktop application.",
+        "Introduced Symbols, a reusable-component model widely copied by later tools.",
+        "Added web-based collaboration and handoff features to compete with Figma."
+      ],
+      "url": "https://www.sketch.com",
+      "sources": [
+        {
+          "title": "Sketch",
+          "url": "https://www.sketch.com",
+          "publisher": "Sketch B.V.",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Sketch (software)",
+          "url": "https://en.wikipedia.org/wiki/Sketch_(software)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "figma",
+        "adobe-xd"
+      ]
+    },
+    {
+      "id": "adobe-xd",
+      "name": "Adobe XD",
+      "category": "design-tool",
+      "tags": [
+        "ui",
+        "prototyping",
+        "adobe",
+        "defunct-note"
+      ],
+      "org": "Adobe",
+      "year_introduced": 2016,
+      "summary": "Adobe's vector-based UI/UX design and prototyping tool, now in maintenance mode after Adobe halted further investment.",
+      "significance": "Adobe's answer to Sketch and Figma; its effective discontinuation marked Adobe's retreat from standalone UX tooling after the failed Figma acquisition.",
+      "key_facts": [
+        "Publicly released in 2016 (preview 2015).",
+        "Discontinued as a purchasable standalone product on June 22, 2023.",
+        "Adobe stated it would not further invest in XD after the Figma acquisition attempt.",
+        "Remains in maintenance mode (bug/security fixes only) and available inside Creative Cloud All Apps."
+      ],
+      "url": "https://www.adobe.com/products/xd.html",
+      "sources": [
+        {
+          "title": "Adobe XD",
+          "url": "https://en.wikipedia.org/wiki/Adobe_XD",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "figma",
+        "sketch",
+        "photoshop"
+      ]
+    },
+    {
+      "id": "framer",
+      "name": "Framer",
+      "category": "design-tool",
+      "tags": [
+        "prototyping",
+        "no-code",
+        "website-builder",
+        "animation"
+      ],
+      "org": "Framer B.V.",
+      "year_introduced": 2014,
+      "summary": "Originally a code-based prototyping tool, now a no-code website design-and-publish platform with advanced interactions and animation.",
+      "significance": "Pivoted from a designer-coder prototyping library to a full production website builder, blurring the line between design tool and CMS.",
+      "key_facts": [
+        "Launched in 2014 as Framer, a JavaScript prototyping toolkit.",
+        "Repositioned as a visual no-code website builder that publishes live sites.",
+        "Includes built-in CMS, animation, and responsive layout tools.",
+        "Based in Amsterdam, Netherlands."
+      ],
+      "url": "https://www.framer.com",
+      "sources": [
+        {
+          "title": "Framer",
+          "url": "https://www.framer.com",
+          "publisher": "Framer B.V.",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "webflow",
+        "figma",
+        "framer-motion"
+      ]
+    },
+    {
+      "id": "penpot",
+      "name": "Penpot",
+      "category": "design-tool",
+      "tags": [
+        "open-source",
+        "self-hostable",
+        "ui",
+        "prototyping",
+        "web-standards"
+      ],
+      "org": "Kaleidos",
+      "year_introduced": 2021,
+      "summary": "Free, open-source, self-hostable design and prototyping platform built on open web standards (SVG).",
+      "significance": "The leading open-source alternative to Figma; saw a surge of interest after Adobe's Figma acquisition announcement.",
+      "key_facts": [
+        "Developed by Kaleidos, a Madrid-based company founded in 2011.",
+        "Licensed under the Mozilla Public License 2.0.",
+        "Uses SVG as its native format, aligning design files with web standards.",
+        "Kaleidos raised $8M weeks after the Adobe-Figma deal was announced in September 2022.",
+        "Can run in-browser or be self-hosted."
+      ],
+      "url": "https://penpot.app",
+      "sources": [
+        {
+          "title": "About Us",
+          "url": "https://penpot.app/about",
+          "publisher": "Penpot",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Kaleidos raises $8M for Penpot",
+          "url": "https://techstartups.com/2022/09/28/kaleidos-startup-behind-open-source-design-software-penpot-raises-8m-funding-two-weeks-adobe-acquired-rival-figma-20-billion/",
+          "publisher": "Tech Startups",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "figma"
+      ]
+    },
+    {
+      "id": "webflow",
+      "name": "Webflow",
+      "category": "code-tool",
+      "tags": [
+        "no-code",
+        "website-builder",
+        "cms",
+        "visual-development"
+      ],
+      "org": "Webflow, Inc.",
+      "year_introduced": 2013,
+      "summary": "Visual web development platform that generates production HTML/CSS/JS, with a built-in CMS and hosting.",
+      "significance": "Popularized visual, no-code development that produces clean, standards-based code, appealing to designers who want production sites without hand-coding.",
+      "key_facts": [
+        "Founded in 2013 by Vlad Magdalin, Sergie Magdalin, and Bryant Chou.",
+        "Exposes the full CSS box model visually (flexbox, grid, positioning).",
+        "Includes a designer-friendly CMS and managed hosting.",
+        "Went through Y Combinator (2013)."
+      ],
+      "url": "https://webflow.com",
+      "sources": [
+        {
+          "title": "Webflow",
+          "url": "https://webflow.com",
+          "publisher": "Webflow, Inc.",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "framer"
+      ]
+    },
+    {
+      "id": "photoshop",
+      "name": "Adobe Photoshop",
+      "category": "design-tool",
+      "tags": [
+        "adobe",
+        "raster",
+        "image-editing",
+        "photo"
+      ],
+      "org": "Adobe",
+      "year_introduced": 1990,
+      "summary": "Industry-standard raster graphics editor for photo manipulation, compositing, and image production.",
+      "significance": "The foundational professional image editor; was the default UI/web design tool before dedicated vector UI tools emerged.",
+      "key_facts": [
+        "First released in 1990; created by Thomas and John Knoll.",
+        "Raster-based, with layers, masks, and non-destructive adjustments.",
+        "'To photoshop' became a genericized verb for image manipulation.",
+        "Distributed via Adobe Creative Cloud subscription."
+      ],
+      "url": "https://www.adobe.com/products/photoshop.html",
+      "sources": [
+        {
+          "title": "Adobe Photoshop",
+          "url": "https://en.wikipedia.org/wiki/Adobe_Photoshop",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "illustrator",
+        "adobe-xd"
+      ]
+    },
+    {
+      "id": "illustrator",
+      "name": "Adobe Illustrator",
+      "category": "design-tool",
+      "tags": [
+        "adobe",
+        "vector",
+        "logo",
+        "illustration"
+      ],
+      "org": "Adobe",
+      "year_introduced": 1987,
+      "summary": "Industry-standard vector graphics editor for logos, illustration, iconography, and scalable artwork.",
+      "significance": "The reference vector illustration tool; its Bezier pen and pathfinding tools set conventions copied by nearly every vector app.",
+      "key_facts": [
+        "First released in 1987 for the Apple Macintosh.",
+        "Vector-based using Bezier curves.",
+        "Native format is AI; also exports SVG, EPS, PDF.",
+        "Distributed via Adobe Creative Cloud."
+      ],
+      "url": "https://www.adobe.com/products/illustrator.html",
+      "sources": [
+        {
+          "title": "Adobe Illustrator",
+          "url": "https://en.wikipedia.org/wiki/Adobe_Illustrator",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "photoshop",
+        "affinity-designer"
+      ]
+    },
+    {
+      "id": "affinity-designer",
+      "name": "Affinity Designer",
+      "category": "design-tool",
+      "tags": [
+        "vector",
+        "raster",
+        "one-time-purchase",
+        "serif"
+      ],
+      "org": "Serif (owned by Canva)",
+      "year_introduced": 2014,
+      "summary": "Professional vector and raster graphic design application sold as a one-time purchase, positioned against Adobe Illustrator.",
+      "significance": "A leading non-subscription alternative to Adobe's tools; acquired by Canva in 2024, expanding Canva's professional design footprint.",
+      "key_facts": [
+        "Released in 2014 by Serif (UK).",
+        "Combines vector and raster workflows in one app.",
+        "Historically sold as a perpetual license, not a subscription.",
+        "Serif and the Affinity suite were acquired by Canva in March 2024."
+      ],
+      "url": "https://affinity.serif.com/en-us/designer/",
+      "sources": [
+        {
+          "title": "Affinity Designer",
+          "url": "https://affinity.serif.com/en-us/designer/",
+          "publisher": "Serif / Canva",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "illustrator",
+        "photoshop"
+      ]
+    },
+    {
+      "id": "zeplin",
+      "name": "Zeplin",
+      "category": "handoff",
+      "tags": [
+        "handoff",
+        "specs",
+        "developer",
+        "collaboration"
+      ],
+      "org": "Zeplin, Inc.",
+      "year_introduced": 2015,
+      "summary": "Design-to-development handoff tool that turns design files into specs, assets, and code snippets for engineers.",
+      "significance": "Popularized the dedicated 'handoff' category, bridging designers and developers before handoff features became built into Figma and Sketch.",
+      "key_facts": [
+        "Launched in 2015.",
+        "Generates measurements, colors, assets, and code snippets from designs.",
+        "Integrates with Figma, Sketch, and Adobe XD.",
+        "Organizes screens into connected flows and a design-system 'Styleguide'."
+      ],
+      "url": "https://zeplin.io",
+      "sources": [
+        {
+          "title": "Zeplin",
+          "url": "https://zeplin.io",
+          "publisher": "Zeplin, Inc.",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "abstract",
+        "figma"
+      ]
+    },
+    {
+      "id": "abstract",
+      "name": "Abstract",
+      "category": "handoff",
+      "tags": [
+        "version-control",
+        "sketch",
+        "collaboration",
+        "design-ops"
+      ],
+      "org": "Abstract",
+      "year_introduced": 2017,
+      "summary": "Version control and collaboration platform originally built for Sketch files, using a Git-like branch/commit/merge model.",
+      "significance": "Brought software-style version control to design files; later pivoted toward design-system management as Figma absorbed collaboration workflows.",
+      "key_facts": [
+        "Used a Git-inspired branch, commit, and merge workflow.",
+        "Pivoted toward design-system inspection and documentation.",
+        "Launched its public beta in July 2017 (Git-inspired version control for Sketch); later pivoted to design-system inspection."
+      ],
+      "url": "https://www.abstract.com",
+      "sources": [
+        {
+          "title": "Abstract",
+          "url": "https://www.abstract.com",
+          "publisher": "Abstract",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "zeplin",
+        "sketch"
+      ]
+    },
+    {
+      "id": "storybook",
+      "name": "Storybook",
+      "category": "code-tool",
+      "tags": [
+        "component",
+        "ui",
+        "documentation",
+        "open-source",
+        "testing"
+      ],
+      "org": "Storybook (open source)",
+      "year_introduced": 2016,
+      "summary": "Open-source workshop for building, documenting, and testing UI components in isolation across React, Vue, Angular, and more.",
+      "significance": "The de facto standard for developing and documenting component libraries and design systems in code.",
+      "key_facts": [
+        "First released in 2016 (originally 'React Storybook').",
+        "Renders components in isolation as 'stories'.",
+        "Framework-agnostic: supports React, Vue, Angular, Svelte, Web Components, and others.",
+        "Ecosystem includes addons for accessibility, interactions, and visual testing."
+      ],
+      "url": "https://storybook.js.org",
+      "sources": [
+        {
+          "title": "Storybook",
+          "url": "https://storybook.js.org",
+          "publisher": "Storybook",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "chromatic"
+      ]
+    },
+    {
+      "id": "chromatic",
+      "name": "Chromatic",
+      "category": "code-tool",
+      "tags": [
+        "visual-testing",
+        "storybook",
+        "ci",
+        "review"
+      ],
+      "org": "Chromatic (by the Storybook maintainers)",
+      "year_introduced": 2017,
+      "summary": "Cloud service for visual regression testing, review, and publishing of Storybook component libraries.",
+      "significance": "Adds automated visual testing and UI review to component-driven workflows; built and maintained by the Storybook core team.",
+      "key_facts": [
+        "Built by the maintainers of Storybook.",
+        "Captures snapshots of stories and flags visual changes across commits.",
+        "Integrates with CI and pull-request review.",
+        "Hosts and publishes Storybooks online."
+      ],
+      "url": "https://www.chromatic.com",
+      "sources": [
+        {
+          "title": "Chromatic",
+          "url": "https://www.chromatic.com",
+          "publisher": "Chromatic",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "storybook"
+      ]
+    },
+    {
+      "id": "invision",
+      "name": "InVision",
+      "category": "prototyping",
+      "tags": [
+        "prototyping",
+        "collaboration",
+        "defunct",
+        "handoff"
+      ],
+      "org": "InVisionApp, Inc.",
+      "year_introduced": 2011,
+      "summary": "Prototyping and design collaboration platform that shut down its core services at the end of 2024.",
+      "significance": "An early UX collaboration leader once valued at $2 billion; its decline is a canonical case study in being outpaced by Figma.",
+      "key_facts": [
+        "Founded in 2011; New York-based.",
+        "Peak valuation reportedly around $2 billion.",
+        "Core services shut down on December 31, 2024, after which content was deleted.",
+        "Its Freehand whiteboard product was acquired by Miro in 2023."
+      ],
+      "url": "https://www.invisionapp.com",
+      "sources": [
+        {
+          "title": "InVision, former UX trailblazer, is shutting down",
+          "url": "https://www.fastcompany.com/91006037/invision-former-ux-trailblazer-ending-services-figma-adobe",
+          "publisher": "Fast Company",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "figma",
+        "zeplin"
+      ]
+    },
+    {
+      "id": "principle",
+      "name": "Principle",
+      "category": "prototyping",
+      "tags": [
+        "animation",
+        "macos",
+        "interaction-design",
+        "prototyping"
+      ],
+      "org": "Principle (Daniel Hooper)",
+      "year_introduced": 2015,
+      "summary": "macOS app for designing animated and interactive UI prototypes with a timeline and driver-based transitions.",
+      "significance": "A favored lightweight tool for crafting polished micro-interactions and motion prototypes in the mid-2010s.",
+      "key_facts": [
+        "Released in 2015 by Daniel Hooper.",
+        "macOS-only.",
+        "Uses artboard-to-artboard animation and a timeline editor.",
+        "Imports designs from Sketch and Figma."
+      ],
+      "url": "https://principleformac.com",
+      "sources": [
+        {
+          "title": "Principle",
+          "url": "https://principleformac.com",
+          "publisher": "Principle",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "protopie",
+        "framer"
+      ]
+    },
+    {
+      "id": "protopie",
+      "name": "ProtoPie",
+      "category": "prototyping",
+      "tags": [
+        "prototyping",
+        "interaction-design",
+        "sensors",
+        "no-code"
+      ],
+      "org": "Studio XID",
+      "year_introduced": 2017,
+      "summary": "High-fidelity, no-code prototyping tool for complex interactions using sensors, variables, and conditional logic.",
+      "significance": "Enables advanced conditional and sensor-driven prototypes (tilt, sound, drag) without code, popular for hardware and multi-device UX.",
+      "key_facts": [
+        "Developed by Studio XID (South Korea).",
+        "Uses an Object-Trigger-Response model.",
+        "Supports variables, formulas, and conditional logic.",
+        "Can prototype interactions across multiple connected devices."
+      ],
+      "url": "https://www.protopie.io",
+      "sources": [
+        {
+          "title": "ProtoPie",
+          "url": "https://www.protopie.io",
+          "publisher": "Studio XID",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "principle",
+        "framer"
+      ]
+    },
+    {
+      "id": "rive",
+      "name": "Rive",
+      "category": "asset",
+      "tags": [
+        "animation",
+        "interactive",
+        "state-machine",
+        "runtime",
+        "vector"
+      ],
+      "org": "Rive",
+      "year_introduced": 2020,
+      "summary": "Real-time interactive animation tool that outputs a compact .riv format with state machines that respond to runtime inputs.",
+      "significance": "Advances beyond playback-only animation (like Lottie) by embedding interactive state machines, enabling data- and input-driven UI animation.",
+      "key_facts": [
+        "Uses its own .riv format containing animations, state machines, and interaction logic.",
+        "Key differentiator vs Lottie: interactive state machines with boolean/number/trigger inputs.",
+        "Web runtime is roughly 200KB gzipped (includes a WASM binary).",
+        "Runtimes available for web, iOS, Android, Flutter, and game engines."
+      ],
+      "url": "https://rive.app",
+      "sources": [
+        {
+          "title": "Rive vs Lottie",
+          "url": "https://rive.app/blog/rive-as-a-lottie-alternative",
+          "publisher": "Rive",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "lottie",
+        "spline"
+      ]
+    },
+    {
+      "id": "lottie",
+      "name": "Lottie / LottieFiles",
+      "category": "asset",
+      "tags": [
+        "animation",
+        "after-effects",
+        "json",
+        "svg",
+        "playback"
+      ],
+      "org": "Airbnb (format) / LottieFiles (platform)",
+      "year_introduced": 2017,
+      "summary": "An open animation format that renders After Effects animations as JSON at runtime; LottieFiles is the marketplace and tooling ecosystem around it.",
+      "significance": "Made scalable, lightweight vector animations broadly portable across web and mobile, becoming the standard for playback-only motion.",
+      "key_facts": [
+        "The Lottie format was created and open-sourced by Airbnb in 2017.",
+        "Exports .json animation data from Adobe After Effects via the Bodymovin plugin.",
+        "lottie-web runtime is roughly 60KB, smaller than Rive's runtime.",
+        "LottieFiles provides a hosting library, plugins, and editing tools."
+      ],
+      "url": "https://lottiefiles.com",
+      "sources": [
+        {
+          "title": "LottieFiles",
+          "url": "https://lottiefiles.com",
+          "publisher": "LottieFiles",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "rive"
+      ]
+    },
+    {
+      "id": "spline",
+      "name": "Spline",
+      "category": "design-tool",
+      "tags": [
+        "3d",
+        "web",
+        "no-code",
+        "interactive"
+      ],
+      "org": "Spline",
+      "year_introduced": 2020,
+      "summary": "Browser-based collaborative 3D design tool for creating interactive 3D scenes and exporting them to the web.",
+      "significance": "Lowered the barrier to web 3D by giving designers a Figma-like interface for 3D scenes without needing Blender or Three.js code.",
+      "key_facts": [
+        "Runs in the browser with real-time collaboration.",
+        "Exports interactive 3D to the web (including React and vanilla embeds).",
+        "Includes materials, lighting, physics, and event-based interactions.",
+        "Positioned as an accessible alternative to code-based 3D pipelines."
+      ],
+      "url": "https://spline.design",
+      "sources": [
+        {
+          "title": "Spline",
+          "url": "https://spline.design",
+          "publisher": "Spline",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "blender",
+        "threejs"
+      ]
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "category": "design-tool",
+      "tags": [
+        "3d",
+        "open-source",
+        "modeling",
+        "animation",
+        "rendering"
+      ],
+      "org": "Blender Foundation",
+      "year_introduced": 1994,
+      "summary": "Free, open-source 3D creation suite covering modeling, sculpting, animation, rendering, and export of assets used in web 3D.",
+      "significance": "The dominant free 3D toolchain; widely used to author glTF/GLB models for Three.js, Spline, and WebGL experiences.",
+      "key_facts": [
+        "Maintained by the non-profit Blender Foundation; first released in 1994.",
+        "Licensed under the GNU GPL.",
+        "Exports glTF/GLB, the standard format for web 3D.",
+        "Includes the Cycles and EEVEE rendering engines."
+      ],
+      "url": "https://www.blender.org",
+      "sources": [
+        {
+          "title": "Blender",
+          "url": "https://www.blender.org",
+          "publisher": "Blender Foundation",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "threejs",
+        "spline"
+      ]
+    },
+    {
+      "id": "threejs",
+      "name": "Three.js",
+      "category": "code-tool",
+      "tags": [
+        "3d",
+        "webgl",
+        "javascript",
+        "open-source",
+        "library"
+      ],
+      "org": "Three.js (open source)",
+      "creator": "Ricardo Cabello (Mr.doob)",
+      "year_introduced": 2010,
+      "summary": "JavaScript library that abstracts WebGL to make rendering 3D graphics in the browser practical.",
+      "significance": "The foundational library for web 3D; underpins most interactive 3D sites and higher-level tools like react-three-fiber.",
+      "key_facts": [
+        "First released in 2010 by Ricardo Cabello (Mr.doob).",
+        "Abstracts the low-level WebGL API.",
+        "MIT licensed and community-maintained.",
+        "Ecosystem includes react-three-fiber and drei for React integration."
+      ],
+      "url": "https://threejs.org",
+      "sources": [
+        {
+          "title": "Three.js",
+          "url": "https://threejs.org",
+          "publisher": "Three.js",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "blender",
+        "spline",
+        "gsap"
+      ]
+    },
+    {
+      "id": "gsap",
+      "name": "GSAP (GreenSock Animation Platform)",
+      "category": "code-tool",
+      "tags": [
+        "animation",
+        "javascript",
+        "library",
+        "scroll",
+        "timeline"
+      ],
+      "org": "GreenSock (Webflow)",
+      "year_introduced": 2008,
+      "summary": "High-performance JavaScript animation library for tweening, timelines, and scroll-driven effects across the DOM, SVG, and canvas.",
+      "significance": "The long-standing professional standard for complex web animation; ScrollTrigger made advanced scroll-driven storytelling accessible.",
+      "key_facts": [
+        "Created by GreenSock (Jack Doyle); roots in Flash-era animation.",
+        "Includes plugins such as ScrollTrigger, Flip, and Draggable.",
+        "Animates DOM, SVG, canvas, and arbitrary JS objects.",
+        "GreenSock was acquired by Webflow in 2024; GSAP was made fully free including its bonus plugins."
+      ],
+      "url": "https://gsap.com",
+      "sources": [
+        {
+          "title": "GSAP",
+          "url": "https://gsap.com",
+          "publisher": "GreenSock / Webflow",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "framer-motion",
+        "threejs"
+      ]
+    },
+    {
+      "id": "framer-motion",
+      "name": "Motion (Framer Motion)",
+      "category": "code-tool",
+      "tags": [
+        "animation",
+        "react",
+        "javascript",
+        "library",
+        "open-source"
+      ],
+      "org": "Motion (Matt Perry) / Framer",
+      "year_introduced": 2019,
+      "summary": "Production-ready animation library for React (and now vanilla JS) with a declarative API for gestures, layout, and spring animations.",
+      "significance": "The most popular animation library in the React ecosystem, making physics-based and layout animations simple and declarative.",
+      "key_facts": [
+        "Created by Matt Perry; originally released as Framer Motion in 2019.",
+        "Provides a declarative motion component API and layout animations.",
+        "Rebranded to 'Motion' with an added vanilla-JS API.",
+        "Open source and widely used with React."
+      ],
+      "url": "https://motion.dev",
+      "sources": [
+        {
+          "title": "Motion",
+          "url": "https://motion.dev",
+          "publisher": "Motion",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "gsap",
+        "framer"
+      ]
+    },
+    {
+      "id": "tailwind",
+      "name": "Tailwind CSS",
+      "category": "code-tool",
+      "tags": [
+        "css",
+        "utility-first",
+        "framework",
+        "open-source",
+        "design-tokens"
+      ],
+      "org": "Tailwind Labs",
+      "creator": "Adam Wathan",
+      "year_introduced": 2017,
+      "summary": "Utility-first CSS framework that composes designs from small, single-purpose classes applied directly in markup.",
+      "significance": "Popularized utility-first CSS and constrained design tokens, becoming one of the most adopted styling approaches in modern front-end.",
+      "key_facts": [
+        "Created by Adam Wathan; first released in 2017.",
+        "Utility-first: styling via composable classes like 'flex', 'pt-4', 'text-center'.",
+        "Ships a configurable design-token scale for spacing, color, and type.",
+        "Same author co-wrote the book 'Refactoring UI'."
+      ],
+      "url": "https://tailwindcss.com",
+      "sources": [
+        {
+          "title": "Tailwind CSS",
+          "url": "https://tailwindcss.com",
+          "publisher": "Tailwind Labs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "refactoring-ui"
+      ]
+    },
+    {
+      "id": "codepen",
+      "name": "CodePen",
+      "category": "code-tool",
+      "tags": [
+        "playground",
+        "front-end",
+        "community",
+        "prototyping",
+        "html-css-js"
+      ],
+      "org": "CodePen",
+      "year_introduced": 2012,
+      "summary": "Online social front-end code playground for building and sharing HTML, CSS, and JavaScript demos ('Pens').",
+      "significance": "The primary community hub for front-end experiments, demos, and teaching; a common venue for CSS and animation showcases.",
+      "key_facts": [
+        "Founded in 2012 by Chris Coyier, Alex Vazquez, and Tim Sabat.",
+        "Runs live HTML/CSS/JS in the browser with instant preview.",
+        "Supports preprocessors (Sass, Less, TypeScript, Babel).",
+        "Hosts community features like trending, collections, and Challenges."
+      ],
+      "url": "https://codepen.io",
+      "sources": [
+        {
+          "title": "CodePen",
+          "url": "https://codepen.io",
+          "publisher": "CodePen",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": []
+    },
+    {
+      "id": "font-awesome",
+      "name": "Font Awesome",
+      "category": "icon",
+      "tags": [
+        "icons",
+        "icon-font",
+        "svg",
+        "web"
+      ],
+      "org": "Fonticons, Inc.",
+      "creator": "Dave Gandy",
+      "year_introduced": 2012,
+      "summary": "Widely used icon library, originally an icon font, offering thousands of icons across free and Pro tiers.",
+      "significance": "One of the earliest and most widely deployed web icon sets; popularized icon fonts before SVG icon systems became standard.",
+      "key_facts": [
+        "Created by Dave Gandy; first released in 2012.",
+        "Launched as an icon font, later adding SVG delivery.",
+        "Offers a free tier and a paid Pro tier with more icons and styles.",
+        "Funded via a successful 2016 Kickstarter for version 5."
+      ],
+      "url": "https://fontawesome.com",
+      "sources": [
+        {
+          "title": "Font Awesome",
+          "url": "https://fontawesome.com",
+          "publisher": "Fonticons, Inc.",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "feather-icons",
+        "lucide",
+        "iconify"
+      ]
+    },
+    {
+      "id": "feather-icons",
+      "name": "Feather Icons",
+      "category": "icon",
+      "tags": [
+        "icons",
+        "svg",
+        "open-source",
+        "minimal",
+        "stroke"
+      ],
+      "org": "Feather (Cole Bemis)",
+      "creator": "Cole Bemis",
+      "year_introduced": 2017,
+      "summary": "Open-source set of simple, consistent, stroke-based SVG icons on a 24x24 grid.",
+      "significance": "Defined the minimal, uniform-stroke icon aesthetic widely copied in modern UI; the direct ancestor of Lucide.",
+      "key_facts": [
+        "Created by Cole Bemis; MIT licensed.",
+        "Roughly 287 icons drawn on a 24x24 grid with a consistent 2px stroke.",
+        "Its slowed maintenance led the community to fork it as Lucide."
+      ],
+      "url": "https://feathericons.com",
+      "sources": [
+        {
+          "title": "Feather Icons",
+          "url": "https://feathericons.com",
+          "publisher": "Feather",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "lucide",
+        "font-awesome"
+      ]
+    },
+    {
+      "id": "lucide",
+      "name": "Lucide",
+      "category": "icon",
+      "tags": [
+        "icons",
+        "svg",
+        "open-source",
+        "fork",
+        "minimal"
+      ],
+      "org": "Lucide (community)",
+      "year_introduced": 2020,
+      "summary": "Community-driven open-source icon toolkit, a fork of Feather Icons with a far larger and actively maintained set.",
+      "significance": "The most popular modern successor to Feather; ships official packages for React, Vue, Svelte, and more, and is a default in many UI kits.",
+      "key_facts": [
+        "A community fork of Feather Icons, started due to Feather's stalled maintenance.",
+        "ISC licensed and free for commercial use.",
+        "Grew to over 1,600 icons, far beyond Feather's ~287.",
+        "Version 1.0 (2026) removed all brand icons over trademark and maintenance concerns."
+      ],
+      "url": "https://lucide.dev",
+      "sources": [
+        {
+          "title": "lucide-icons/lucide",
+          "url": "https://github.com/lucide-icons/lucide",
+          "publisher": "GitHub",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Lucide Releases Version 1.0",
+          "url": "https://www.infoq.com/news/2026/06/lucide-v1-icons/",
+          "publisher": "InfoQ",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "feather-icons",
+        "heroicons",
+        "phosphor"
+      ]
+    },
+    {
+      "id": "heroicons",
+      "name": "Heroicons",
+      "category": "icon",
+      "tags": [
+        "icons",
+        "svg",
+        "tailwind",
+        "open-source"
+      ],
+      "org": "Tailwind Labs",
+      "creator": "Steve Schoger, Adam Wathan",
+      "year_introduced": 2020,
+      "summary": "Free MIT-licensed SVG icon set from the makers of Tailwind CSS, offered in outline, solid, and mini styles.",
+      "significance": "The default icon set of the Tailwind ecosystem, tightly aligned with utility-first UI conventions.",
+      "key_facts": [
+        "Made by Tailwind Labs (Steve Schoger and Adam Wathan).",
+        "MIT licensed.",
+        "Ships outline (24px), solid (24px), and mini (20px) variants.",
+        "Provides first-party React and Vue packages."
+      ],
+      "url": "https://heroicons.com",
+      "sources": [
+        {
+          "title": "Heroicons",
+          "url": "https://heroicons.com",
+          "publisher": "Tailwind Labs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "tailwind",
+        "lucide"
+      ]
+    },
+    {
+      "id": "phosphor",
+      "name": "Phosphor Icons",
+      "category": "icon",
+      "tags": [
+        "icons",
+        "svg",
+        "open-source",
+        "flexible",
+        "weights"
+      ],
+      "org": "Phosphor Icons (Helena Zhang, Tobias Fried)",
+      "year_introduced": 2020,
+      "summary": "Flexible open-source icon family offering the same icons in six weights, from thin to fill and duotone.",
+      "significance": "Distinguished by offering multiple visual weights of every icon, giving designers fine control over emphasis and density.",
+      "key_facts": [
+        "Created by Helena Zhang and Tobias Fried.",
+        "MIT licensed.",
+        "Every icon available in six weights: thin, light, regular, bold, fill, and duotone.",
+        "Packages for React, Vue, Flutter, web components, and more."
+      ],
+      "url": "https://phosphoricons.com",
+      "sources": [
+        {
+          "title": "Phosphor Icons",
+          "url": "https://phosphoricons.com",
+          "publisher": "Phosphor Icons",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "lucide",
+        "heroicons"
+      ]
+    },
+    {
+      "id": "material-symbols",
+      "name": "Material Symbols",
+      "category": "icon",
+      "tags": [
+        "icons",
+        "google",
+        "variable-font",
+        "material",
+        "svg"
+      ],
+      "org": "Google",
+      "year_introduced": 2022,
+      "summary": "Google's official icon set for Material Design, delivered as a variable font with adjustable weight, fill, grade, and optical size.",
+      "significance": "The variable-font successor to Material Icons; a single font file smoothly interpolates icon style axes, aligning icons with Material 3.",
+      "key_facts": [
+        "Introduced by Google in 2022 as the evolution of Material Icons.",
+        "Delivered as a variable font with four axes: weight, fill, grade, and optical size.",
+        "Available in outlined, rounded, and sharp styles.",
+        "Apache 2.0 licensed."
+      ],
+      "url": "https://fonts.google.com/icons",
+      "sources": [
+        {
+          "title": "Material Symbols and Icons",
+          "url": "https://fonts.google.com/icons",
+          "publisher": "Google",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "iconify"
+      ]
+    },
+    {
+      "id": "iconify",
+      "name": "Iconify",
+      "category": "icon",
+      "tags": [
+        "icons",
+        "aggregator",
+        "svg",
+        "open-source",
+        "api"
+      ],
+      "org": "Iconify",
+      "year_introduced": 2020,
+      "summary": "Unified icon framework and API that provides access to over 200,000 icons from more than 150 open-source icon sets.",
+      "significance": "Aggregates virtually every major open icon set behind one API and tooling, letting teams mix icon families without bundling each library.",
+      "key_facts": [
+        "Aggregates 150+ icon sets (over 200,000 icons) under one system.",
+        "Loads icons on demand via an API rather than shipping full sets.",
+        "Offers components for React, Vue, Svelte, and web components.",
+        "Includes design-tool plugins (e.g. Figma)."
+      ],
+      "url": "https://iconify.design",
+      "sources": [
+        {
+          "title": "Iconify",
+          "url": "https://iconify.design",
+          "publisher": "Iconify",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "lucide",
+        "phosphor",
+        "material-symbols",
+        "font-awesome"
+      ]
+    },
+    {
+      "id": "unsplash",
+      "name": "Unsplash",
+      "category": "asset",
+      "tags": [
+        "photography",
+        "stock",
+        "free",
+        "images"
+      ],
+      "org": "Unsplash (Getty Images)",
+      "year_introduced": 2013,
+      "summary": "Library of freely usable high-resolution photographs contributed by a global community of photographers.",
+      "significance": "Made high-quality, free-to-use photography ubiquitous in design mockups and production sites; acquired by Getty Images in 2021.",
+      "key_facts": [
+        "Launched in 2013, originally as a Tumblr side project.",
+        "Photos are free to use under the Unsplash License.",
+        "Acquired by Getty Images in 2021.",
+        "Provides an API used by many design and productivity tools."
+      ],
+      "url": "https://unsplash.com",
+      "sources": [
+        {
+          "title": "Unsplash",
+          "url": "https://unsplash.com",
+          "publisher": "Unsplash",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": []
+    },
+    {
+      "id": "tinypng",
+      "name": "TinyPNG",
+      "category": "asset",
+      "tags": [
+        "image-compression",
+        "optimization",
+        "png",
+        "webp",
+        "performance"
+      ],
+      "org": "Voormedia",
+      "year_introduced": 2014,
+      "summary": "Web service and API that compresses PNG, JPEG, and WebP images using smart lossy techniques to reduce file size.",
+      "significance": "A widely used, simple tool for shrinking image payloads and improving web performance.",
+      "key_facts": [
+        "Uses smart lossy compression that selectively reduces colors.",
+        "Supports PNG, JPEG, and WebP.",
+        "Offers a browser interface and an API (Tinify).",
+        "Made by Voormedia (Netherlands)."
+      ],
+      "url": "https://tinypng.com",
+      "sources": [
+        {
+          "title": "TinyPNG",
+          "url": "https://tinypng.com",
+          "publisher": "Voormedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "squoosh"
+      ]
+    },
+    {
+      "id": "squoosh",
+      "name": "Squoosh",
+      "category": "asset",
+      "tags": [
+        "image-compression",
+        "optimization",
+        "open-source",
+        "webassembly",
+        "performance"
+      ],
+      "org": "Google Chrome Labs",
+      "year_introduced": 2018,
+      "summary": "Open-source, browser-based image compression tool that runs codecs client-side via WebAssembly with live before/after comparison.",
+      "significance": "Demonstrated advanced image codecs (MozJPEG, WebP, AVIF) running entirely in-browser and is a popular free optimization tool.",
+      "key_facts": [
+        "Built by Google Chrome Labs; open source.",
+        "Runs compression codecs client-side using WebAssembly.",
+        "Supports formats including MozJPEG, WebP, and AVIF.",
+        "Provides a visual slider to compare original vs compressed output."
+      ],
+      "url": "https://squoosh.app",
+      "sources": [
+        {
+          "title": "Squoosh",
+          "url": "https://squoosh.app",
+          "publisher": "Google Chrome Labs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "tinypng"
+      ]
+    },
+    {
+      "id": "coolors",
+      "name": "Coolors",
+      "category": "design-tool",
+      "tags": [
+        "color",
+        "palette-generator",
+        "color-scheme",
+        "accessibility"
+      ],
+      "org": "Coolors (Fabrizio Bianchi)",
+      "year_introduced": 2015,
+      "summary": "Fast color palette generator that produces and locks color schemes with a spacebar, plus contrast and export tools.",
+      "significance": "One of the most popular quick palette-generation tools among designers and developers.",
+      "key_facts": [
+        "Created by Fabrizio Bianchi.",
+        "Generates and locks palettes via keyboard (spacebar) interaction.",
+        "Includes a contrast checker and palette export formats.",
+        "Offers apps, browser extensions, and a large community palette library."
+      ],
+      "url": "https://coolors.co",
+      "sources": [
+        {
+          "title": "Coolors",
+          "url": "https://coolors.co",
+          "publisher": "Coolors",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "fontjoy"
+      ]
+    },
+    {
+      "id": "fontjoy",
+      "name": "Fontjoy",
+      "category": "design-tool",
+      "tags": [
+        "typography",
+        "font-pairing",
+        "machine-learning",
+        "generator"
+      ],
+      "org": "Fontjoy (Jack Qiao)",
+      "year_introduced": 2018,
+      "summary": "Tool that generates font pairings using a neural network to balance contrast and harmony between typefaces.",
+      "significance": "An early, well-known example of applying machine learning to automate typographic pairing decisions.",
+      "key_facts": [
+        "Created by Jack Qiao.",
+        "Uses a neural network to suggest complementary font combinations.",
+        "Includes a slider from 'similar' to 'contrast' to tune pairings.",
+        "Draws from Google Fonts.",
+        "Built and shared as an Experiments with Google project."
+      ],
+      "url": "https://fontjoy.com",
+      "sources": [
+        {
+          "title": "Fontjoy",
+          "url": "https://fontjoy.com",
+          "publisher": "Fontjoy",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "coolors",
+        "typewolf"
+      ]
+    }
+  ]
+}

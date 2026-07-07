@@ -1,0 +1,1471 @@
+{
+  "topic": "design-movements",
+  "title": "Design Movements, Styles, and Eras",
+  "description": "Graphic-design movements and digital/web UI styles that shaped visual and interface design, from Art Nouveau to glassmorphism and bento layouts.",
+  "schema_version": "1.0",
+  "count": 29,
+  "last_updated": "2026-07-07",
+  "entries": [
+    {
+      "id": "art-nouveau",
+      "name": "Art Nouveau",
+      "category": "movement",
+      "tags": [
+        "graphic",
+        "decorative",
+        "poster",
+        "organic",
+        "19th-century"
+      ],
+      "era": "1890-1910",
+      "origin": "Western Europe (Paris, Brussels, Vienna, Munich); popularized by Alphonse Mucha's Paris posters and Hector Guimard's Metro entrances.",
+      "summary": "An international ornamental style built on flowing, organic 'whiplash' lines drawn from plant and floral forms, applied across posters, architecture, glass, and typography.",
+      "significance": "Reacted against 19th-century academic historicism and industrial mass production by fusing fine and applied art; its poster work established graphic design as a commercial art form and influenced later psychedelic and decorative revivals.",
+      "key_facts": [
+        "Flourished roughly 1890-1910, ending with World War I and the rise of geometric styles.",
+        "Alphonse Mucha's 1894 poster for Sarah Bernhardt's 'Gismonda' launched his signature style ('le style Mucha').",
+        "Known regionally as Jugendstil (Germany), Sezessionstil (Vienna), Stile Liberty (Italy), and Modernisme (Catalonia, e.g. Antoni Gaudi).",
+        "Defining artifacts: Mucha's decorative panels, Hector Guimard's Paris Metro entrances, Tiffany glass, and Vienna Secession posters."
+      ],
+      "defining_traits": [
+        "sinuous whiplash curves",
+        "botanical and floral motifs",
+        "asymmetry",
+        "muted earthy and jewel tones",
+        "ornamental hand-drawn lettering integrated into imagery"
+      ],
+      "examples": [
+        "Mucha 'Gismonda' poster (1894)",
+        "Hector Guimard Paris Metro entrances",
+        "Vienna Secession building and posters",
+        "Tiffany lamps and glass"
+      ],
+      "related": [
+        "art-deco",
+        "psychedelic",
+        "maximalism"
+      ],
+      "sources": [
+        {
+          "title": "Art Nouveau",
+          "url": "https://en.wikipedia.org/wiki/Art_Nouveau",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "art-deco",
+      "name": "Art Deco",
+      "category": "movement",
+      "tags": [
+        "graphic",
+        "geometric",
+        "luxury",
+        "1920s",
+        "1930s"
+      ],
+      "era": "1920-1939",
+      "origin": "France; named after the 1925 Paris Exposition Internationale des Arts Decoratifs et Industriels Modernes.",
+      "summary": "A style of luxury and modernity defined by streamlined geometry, symmetry, and machine-age motifs, spanning architecture, poster art, product design, and typography.",
+      "significance": "Bridged decorative craft and industrial modernism; countered Art Nouveau's organic curves with rectilinear geometry, and its glamorous machine-age look shaped interwar advertising, cinema, and skyscraper design.",
+      "key_facts": [
+        "Named retroactively after the 1925 Paris 'Arts Decoratifs' exposition; peak popularity 1920s-1930s.",
+        "Characterized by symmetry, stepped 'ziggurat' forms, sunbursts, and chevron patterns.",
+        "Iconic architecture includes the Chrysler Building (1930) and Empire State Building (1931) in New York.",
+        "Cassandre's travel and product posters (e.g. 'Normandie', 1935) are landmark Art Deco graphic works."
+      ],
+      "defining_traits": [
+        "bold geometric shapes and zigzags",
+        "symmetry and streamlining",
+        "metallic gold/black/chrome palettes",
+        "sunburst and fan motifs",
+        "geometric sans and stylized display lettering"
+      ],
+      "examples": [
+        "Chrysler Building (1930)",
+        "Cassandre 'Normandie' poster (1935)",
+        "Radio City Music Hall interiors"
+      ],
+      "related": [
+        "art-nouveau",
+        "bauhaus",
+        "constructivism"
+      ],
+      "sources": [
+        {
+          "title": "Art Deco",
+          "url": "https://en.wikipedia.org/wiki/Art_Deco",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "constructivism",
+      "name": "Constructivism",
+      "category": "movement",
+      "tags": [
+        "graphic",
+        "russian",
+        "avant-garde",
+        "photomontage",
+        "typography"
+      ],
+      "era": "1915-1937",
+      "origin": "Russia/Soviet Union; key figures Vladimir Tatlin, Alexander Rodchenko, El Lissitzky, Varvara Stepanova.",
+      "summary": "A Russian avant-garde movement that treated art as a tool for social construction, pioneering dynamic diagonal layouts, photomontage, and bold typographic propaganda.",
+      "significance": "Rejected 'art for art's sake' in favor of art serving the revolution; its geometric abstraction, diagonal grids, and photomontage directly fed the Bauhaus and the Swiss International Typographic Style.",
+      "key_facts": [
+        "Emerged around 1915-1920 following the Russian Revolution; Vladimir Tatlin is often credited as a founder.",
+        "El Lissitzky's 1919 poster 'Beat the Whites with the Red Wedge' is a defining propaganda work.",
+        "Alexander Rodchenko and Varvara Stepanova advanced photomontage and asymmetric typographic layout.",
+        "Used a restricted palette dominated by red, black, and white with sans-serif type."
+      ],
+      "defining_traits": [
+        "diagonal dynamic compositions",
+        "red/black/white palette",
+        "photomontage",
+        "heavy sans-serif and stenciled type",
+        "geometric abstraction (circles, bars, wedges)"
+      ],
+      "examples": [
+        "El Lissitzky 'Beat the Whites with the Red Wedge' (1919)",
+        "Rodchenko advertising posters for Dobrolet/Gosizdat",
+        "Tatlin's Monument to the Third International (design)"
+      ],
+      "related": [
+        "de-stijl",
+        "bauhaus",
+        "swiss-style"
+      ],
+      "sources": [
+        {
+          "title": "Constructivism (art)",
+          "url": "https://en.wikipedia.org/wiki/Constructivism_(art)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "de-stijl",
+      "name": "De Stijl",
+      "category": "movement",
+      "tags": [
+        "graphic",
+        "dutch",
+        "neoplasticism",
+        "geometric",
+        "abstraction"
+      ],
+      "era": "1917-1931",
+      "origin": "Netherlands (Leiden); founded around the journal 'De Stijl' by Theo van Doesburg with Piet Mondrian, Gerrit Rietveld, and others.",
+      "summary": "A Dutch movement (also called Neoplasticism) reducing design to straight horizontal and vertical lines, rectangular planes, and the primary colors red, blue, and yellow plus black, white, and gray.",
+      "significance": "Sought a universal visual language of pure abstraction; its rigorous grid-and-primary-color vocabulary profoundly shaped the Bauhaus, modern architecture, graphic design, and later digital minimalism.",
+      "key_facts": [
+        "Launched in 1917 with the founding of the journal 'De Stijl' by Theo van Doesburg.",
+        "Piet Mondrian's grid paintings of red, blue, and yellow rectangles are its signature imagery.",
+        "Gerrit Rietveld's Red and Blue Chair (1917-1918) and Rietveld Schroder House (1924) translated the ideas into three dimensions.",
+        "Restricted to primary colors plus non-colors (black, white, gray) and orthogonal lines only."
+      ],
+      "defining_traits": [
+        "black grid lines",
+        "rectangular color blocks",
+        "primary red/blue/yellow",
+        "strict horizontal-vertical geometry",
+        "asymmetric balance"
+      ],
+      "examples": [
+        "Piet Mondrian grid compositions",
+        "Gerrit Rietveld Red and Blue Chair",
+        "Rietveld Schroder House (1924)"
+      ],
+      "related": [
+        "constructivism",
+        "bauhaus",
+        "minimalism"
+      ],
+      "sources": [
+        {
+          "title": "De Stijl",
+          "url": "https://en.wikipedia.org/wiki/De_Stijl",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "bauhaus",
+      "name": "Bauhaus",
+      "category": "movement",
+      "tags": [
+        "graphic",
+        "german",
+        "modernism",
+        "typography",
+        "school"
+      ],
+      "era": "1919-1933",
+      "origin": "Germany; founded 1919 in Weimar by architect Walter Gropius, later in Dessau (1925) and Berlin (1932).",
+      "summary": "An influential German art-and-design school that unified fine art, craft, and industrial production around the principle that form follows function, stripping ornament in favor of geometric clarity.",
+      "significance": "Its 'form follows function' modernism and rejection of ornament became the foundation of 20th-century graphic, product, and interface design, feeding directly into the Swiss Style and later digital minimalism and flat design.",
+      "key_facts": [
+        "Founded 1919 in Weimar by Walter Gropius; closed under Nazi pressure in 1933.",
+        "Operated in three cities under three directors: Gropius (1919-1928), Hannes Meyer (1928-1930), Ludwig Mies van der Rohe (1930-1933).",
+        "Herbert Bayer's 'Universal' typeface (1925) exemplified its geometric sans-serif, all-lowercase typography.",
+        "Faculty and students included Laszlo Moholy-Nagy, Josef Albers, Wassily Kandinsky, and Paul Klee."
+      ],
+      "defining_traits": [
+        "geometric sans-serif type",
+        "primary colors with basic shapes (circle, square, triangle)",
+        "asymmetric grid layouts",
+        "absence of ornament",
+        "photography and photomontage in graphics"
+      ],
+      "examples": [
+        "Herbert Bayer 'Universal' typeface (1925)",
+        "Bauhaus Dessau building (Gropius, 1926)",
+        "Moholy-Nagy book and exhibition designs"
+      ],
+      "related": [
+        "de-stijl",
+        "constructivism",
+        "swiss-style",
+        "minimalism"
+      ],
+      "sources": [
+        {
+          "title": "Bauhaus",
+          "url": "https://en.wikipedia.org/wiki/Bauhaus",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "The Bauhaus, 1919-1933",
+          "url": "https://www.metmuseum.org/essays/the-bauhaus-1919-1933",
+          "publisher": "The Metropolitan Museum of Art",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "swiss-style",
+      "name": "Swiss / International Typographic Style",
+      "category": "movement",
+      "tags": [
+        "graphic",
+        "swiss",
+        "grid",
+        "typography",
+        "modernism"
+      ],
+      "era": "1950s-1970s",
+      "origin": "Switzerland (Zurich and Basel); key figures Josef Muller-Brockmann, Armin Hofmann, Emil Ruder, Max Bill.",
+      "summary": "A rigorous post-war modernist approach to graphic design built on mathematical grids, flush-left/ragged-right sans-serif type, objective photography, and generous white space.",
+      "significance": "Formalized modernist typography into a rational, reproducible system; its grid discipline and neutral sans-serif type (Helvetica, Univers) became the default visual language of corporate identity and, later, screen and web layout systems.",
+      "key_facts": [
+        "Developed in Switzerland in the 1950s, expanding modernist ideas from Constructivism, De Stijl, and the Bauhaus.",
+        "Josef Muller-Brockmann's 'Grid Systems in Graphic Design' (1981) codified its grid methodology.",
+        "Favored sans-serif typefaces Helvetica (1957) and Univers (1957).",
+        "Hallmarks: the mathematical grid, asymmetric flush-left text, objective photography, and clean white space."
+      ],
+      "defining_traits": [
+        "mathematical modular grid",
+        "sans-serif type (Helvetica/Univers)",
+        "flush-left, ragged-right text",
+        "objective black-and-white photography",
+        "abundant white space"
+      ],
+      "examples": [
+        "Muller-Brockmann Zurich Tonhalle concert posters",
+        "Univers and Helvetica type specimens",
+        "'Grid Systems in Graphic Design' (1981)"
+      ],
+      "related": [
+        "bauhaus",
+        "constructivism",
+        "minimalism",
+        "flat-design"
+      ],
+      "sources": [
+        {
+          "title": "International Typographic Style",
+          "url": "https://en.wikipedia.org/wiki/International_Typographic_Style",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "psychedelic",
+      "name": "Psychedelic Art (1960s)",
+      "category": "movement",
+      "tags": [
+        "graphic",
+        "poster",
+        "1960s",
+        "counterculture",
+        "concert-art"
+      ],
+      "era": "1965-1971",
+      "origin": "San Francisco counterculture; poster artists Wes Wilson, Victor Moscoso, Bonnie MacLean, Rick Griffin.",
+      "summary": "A 1960s counterculture poster style using vibrating complementary colors, hand-drawn liquid lettering, and swirling forms to evoke drug-induced perception and psychedelic music.",
+      "significance": "Rejected the clean rationalism of Swiss modernism with deliberately hard-to-read, sensory-overload graphics; revived Art Nouveau's organic linework and defined the visual identity of 1960s rock concerts and counterculture.",
+      "key_facts": [
+        "Peaked around 1966-1968 with San Francisco Fillmore and Avalon Ballroom concert posters.",
+        "Wes Wilson pioneered the melting, hand-drawn psychedelic lettering style.",
+        "Victor Moscoso deliberately used vibrating complementary colors of equal value to make posters shimmer.",
+        "Drew directly on Art Nouveau (Mucha) and Vienna Secession sources for its flowing forms."
+      ],
+      "defining_traits": [
+        "vibrating complementary color pairs",
+        "melting hand-lettered type",
+        "swirling organic linework",
+        "dense, hard-to-read compositions",
+        "kaleidoscopic symmetry"
+      ],
+      "examples": [
+        "Fillmore Auditorium concert posters",
+        "Wes Wilson Grateful Dead/Jefferson Airplane posters",
+        "Victor Moscoso Neon Rose series"
+      ],
+      "related": [
+        "art-nouveau",
+        "maximalism",
+        "vaporwave"
+      ],
+      "sources": [
+        {
+          "title": "Psychedelic art",
+          "url": "https://en.wikipedia.org/wiki/Psychedelic_art",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "memphis-group",
+      "name": "Memphis Group (Memphis Milano)",
+      "category": "movement",
+      "tags": [
+        "graphic",
+        "postmodern",
+        "1980s",
+        "italian",
+        "pattern"
+      ],
+      "era": "1980-1987",
+      "origin": "Milan, Italy; founded by Ettore Sottsass with a collective of young designers.",
+      "summary": "An Italian postmodern design and architecture collective known for playful, colorful furniture and patterns using clashing colors, geometric shapes, squiggles, and plastic laminates.",
+      "significance": "Rejected the austere functionalism of 'good design' and Swiss/Bauhaus rationalism; its irreverent squiggle-and-terrazzo aesthetic defined 1980s pop visual culture and resurged in 2010s digital graphics and 'new ugly' design.",
+      "key_facts": [
+        "Founded on the evening of 6 December 1980 by Ettore Sottsass; active 1980-1987.",
+        "First major show at the 1981 Salone del Mobile in Milan brought it international attention.",
+        "Named after Bob Dylan's 'Stuck Inside of Mobile with the Memphis Blues Again', which played on loop that night.",
+        "Signature materials: plastic laminate, terrazzo; signature motifs: squiggles, confetti patterns, asymmetric geometry."
+      ],
+      "defining_traits": [
+        "clashing bright colors",
+        "squiggle and confetti patterns",
+        "asymmetric geometric shapes",
+        "terrazzo and plastic laminate textures",
+        "playful anti-functional forms"
+      ],
+      "examples": [
+        "Ettore Sottsass 'Carlton' room divider (1981)",
+        "Memphis Milano furniture collection",
+        "1980s graphics and MTV-era motifs influenced by it"
+      ],
+      "related": [
+        "postmodern-design",
+        "maximalism",
+        "neo-brutalism"
+      ],
+      "sources": [
+        {
+          "title": "Memphis Group",
+          "url": "https://en.wikipedia.org/wiki/Memphis_Group",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "postmodern-design",
+      "name": "Postmodern Graphic Design",
+      "category": "movement",
+      "tags": [
+        "graphic",
+        "postmodern",
+        "1970s",
+        "1980s",
+        "typography"
+      ],
+      "era": "1970s-1990s",
+      "origin": "United States and Europe; associated with Cranbrook Academy, Wolfgang Weingart (Basel 'New Wave'), April Greiman, and Paula Scher.",
+      "summary": "A reaction against modernist orthodoxy that broke the Swiss grid, layering type, mixing historical references, and embracing complexity, irony, and expressive typography.",
+      "significance": "Challenged the idea that design should be neutral and objective, reintroducing decoration, pastiche, and subjectivity; Weingart's 'New Wave' typography and Greiman's digital-era work bridged print modernism and computer-based design.",
+      "key_facts": [
+        "Emerged in the 1970s-1980s as a deliberate break from the Swiss International Typographic Style.",
+        "Wolfgang Weingart's 'New Wave' typography loosened the grid with varied spacing, weights, and angles.",
+        "April Greiman was an early adopter of the Macintosh for layered, digital postmodern design (e.g. 'Does It Make Sense?', 1986).",
+        "Emphasized layering, collage, historical quotation, and expressive, non-neutral type."
+      ],
+      "defining_traits": [
+        "broken/violated grids",
+        "layered type and image",
+        "eclectic historical references",
+        "expressive letterspacing and weights",
+        "collage and pastiche"
+      ],
+      "examples": [
+        "Wolfgang Weingart Basel typographic experiments",
+        "April Greiman 'Does It Make Sense?' (1986)",
+        "Paula Scher record covers and posters"
+      ],
+      "related": [
+        "memphis-group",
+        "grunge-carson",
+        "maximalism"
+      ],
+      "sources": [
+        {
+          "title": "Postmodernism",
+          "url": "https://en.wikipedia.org/wiki/Postmodernism",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "grunge-carson",
+      "name": "Grunge / David Carson Era",
+      "category": "movement",
+      "tags": [
+        "graphic",
+        "1990s",
+        "typography",
+        "experimental",
+        "deconstruction"
+      ],
+      "era": "1990-1999",
+      "origin": "United States; David Carson's work at Ray Gun magazine and the broader 1990s grunge/deconstruction typography scene.",
+      "summary": "A 1990s wave of deliberately chaotic, distressed, and 'illegible' design that shredded typographic rules using layered textures, broken type, and raw, hand-assembled collage.",
+      "significance": "Pushed postmodern deconstruction to its extreme, prioritizing emotion and expression over legibility; David Carson's Ray Gun layouts became the defining look of alternative 1990s culture and provoked lasting debates about readability.",
+      "key_facts": [
+        "David Carson art-directed Ray Gun magazine from 1992-1995, its most influential period.",
+        "Carson famously set a dull Bryan Ferry interview entirely in the illegible dingbat font Zapf Dingbats.",
+        "The style used distressed textures, torn edges, overlapping type, and off-register printing.",
+        "Enabled by early desktop-publishing tools (Macintosh, QuarkXPress, Photoshop) that let designers break the grid freely."
+      ],
+      "defining_traits": [
+        "distressed/grungy textures",
+        "broken and overlapping type",
+        "deliberate illegibility",
+        "layered collage",
+        "raw hand-assembled look"
+      ],
+      "examples": [
+        "Ray Gun magazine (1992-1995)",
+        "David Carson 'The End of Print' (1995 book)",
+        "Beach Culture magazine spreads"
+      ],
+      "related": [
+        "postmodern-design",
+        "web-brutalism",
+        "maximalism"
+      ],
+      "sources": [
+        {
+          "title": "David Carson (graphic designer)",
+          "url": "https://en.wikipedia.org/wiki/David_Carson_(graphic_designer)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "minimalism",
+      "name": "Minimalism",
+      "category": "movement",
+      "tags": [
+        "graphic",
+        "ui-style",
+        "reductive",
+        "whitespace",
+        "modernism"
+      ],
+      "era": "1960s-present",
+      "origin": "Post-war art and design; rooted in Bauhaus/Swiss modernism and 1960s minimal art, later dominant in digital UI.",
+      "summary": "A reductive design philosophy that removes everything non-essential, relying on whitespace, restrained palettes, clear typographic hierarchy, and 'less is more' clarity.",
+      "significance": "Descends from Bauhaus and Swiss functionalism and Dieter Rams' 'less, but better'; became the dominant ethos of 2010s digital interfaces (flat design, Apple, Google) as a reaction against skeuomorphic clutter.",
+      "key_facts": [
+        "Rooted in modernist maxims: Mies van der Rohe's 'less is more' and Dieter Rams' 'less, but better'.",
+        "Emphasizes negative space, limited color, and a single clear focal hierarchy.",
+        "Became the default for 2010s product design after Apple iOS 7 and Google's material direction.",
+        "Contrasts directly with maximalism and ornamental styles."
+      ],
+      "defining_traits": [
+        "generous whitespace",
+        "restrained monochrome or limited palettes",
+        "clean sans-serif type",
+        "flat, ornament-free surfaces",
+        "strong single hierarchy"
+      ],
+      "examples": [
+        "Apple product pages and iOS",
+        "Dieter Rams Braun products",
+        "Google search homepage",
+        "Muji branding"
+      ],
+      "related": [
+        "bauhaus",
+        "swiss-style",
+        "flat-design",
+        "maximalism"
+      ],
+      "sources": [
+        {
+          "title": "Minimalism",
+          "url": "https://en.wikipedia.org/wiki/Minimalism",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "maximalism",
+      "name": "Maximalism",
+      "category": "movement",
+      "tags": [
+        "graphic",
+        "ui-style",
+        "ornamental",
+        "color",
+        "more-is-more"
+      ],
+      "era": "1980s-present",
+      "origin": "Ongoing counter-movement to minimalism; revived strongly in 2020s digital design.",
+      "summary": "A 'more is more' aesthetic embracing dense layering, saturated clashing color, mixed patterns, decorative type, and visual abundance rather than restraint.",
+      "significance": "Serves as the recurring reaction against minimalism's austerity; draws on Memphis, psychedelic, and postmodern lineages, and resurged in 2020s branding and web design as designers sought personality and emotional richness over sameness.",
+      "key_facts": [
+        "Defined by deliberate excess: layered patterns, saturated colors, and ornamental abundance.",
+        "Lineage traces through Victorian ornament, psychedelia, Memphis, and postmodern collage.",
+        "Resurged strongly in 2020s web and brand design as a counter to flat minimalist 'blanding'.",
+        "Prioritizes personality, maximal contrast, and sensory richness over reductive clarity."
+      ],
+      "defining_traits": [
+        "saturated clashing colors",
+        "layered patterns and textures",
+        "mixed decorative typefaces",
+        "dense compositions",
+        "ornamental abundance"
+      ],
+      "examples": [
+        "Gucci Alessandro Michele-era branding",
+        "2020s maximalist portfolio and editorial sites",
+        "Memphis-revival brand identities"
+      ],
+      "related": [
+        "memphis-group",
+        "psychedelic",
+        "minimalism",
+        "neo-brutalism"
+      ],
+      "sources": [
+        {
+          "title": "Maximalism",
+          "url": "https://en.wikipedia.org/wiki/Maximalism",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "skeuomorphism",
+      "name": "Skeuomorphism (Digital UI)",
+      "category": "ui-style",
+      "tags": [
+        "ui-style",
+        "ios",
+        "apple",
+        "realism",
+        "texture"
+      ],
+      "era": "2000-2013",
+      "origin": "Apple; Aqua UI in Mac OS X (2000) and iOS 1-6 (2007-2012) under Steve Jobs and Scott Forstall.",
+      "summary": "A UI style where digital elements imitate real-world objects and materials through realistic textures, shadows, and metaphors (leather, felt, paper, glossy buttons).",
+      "significance": "Made early touch and desktop interfaces intuitive by mapping controls to familiar physical objects; its later excess (stitched leather, felt, torn paper) triggered the flat-design backlash led by iOS 7 in 2013.",
+      "key_facts": [
+        "Apple's Aqua interface debuted in Mac OS X in 2000 with glossy, liquid, lickable buttons.",
+        "iOS 1 through iOS 6 (2007-2012) used heavy skeuomorphs: a leather Calendar, felt Game Center, and a wooden Newsstand.",
+        "Scott Forstall championed the realistic approach; its removal accompanied his 2012 departure.",
+        "Superseded by flat design when iOS 7 shipped in 2013."
+      ],
+      "defining_traits": [
+        "realistic textures (leather, felt, wood, metal)",
+        "drop shadows and bevels",
+        "glossy reflective buttons",
+        "real-world metaphors and controls",
+        "3D depth cues"
+      ],
+      "examples": [
+        "iOS 6 Calendar (stitched leather)",
+        "iOS Game Center (green felt)",
+        "Mac OS X Aqua interface",
+        "iBooks wooden bookshelf"
+      ],
+      "related": [
+        "frutiger-aero",
+        "flat-design",
+        "neumorphism",
+        "web-2-0"
+      ],
+      "sources": [
+        {
+          "title": "Skeuomorph",
+          "url": "https://en.wikipedia.org/wiki/Skeuomorph",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "flat-design",
+      "name": "Flat Design",
+      "category": "ui-style",
+      "tags": [
+        "ui-style",
+        "ios",
+        "metro",
+        "minimalism",
+        "2010s"
+      ],
+      "era": "2010-present",
+      "origin": "Microsoft's Metro / Modern UI (Windows Phone 7, 2010) and Apple's iOS 7 (2013, under Jony Ive).",
+      "summary": "A minimalist UI style that strips away skeuomorphic textures, shadows, and gradients in favor of solid colors, crisp typography, and two-dimensional shapes.",
+      "significance": "Reacted directly against skeuomorphic excess; Microsoft's Metro and Apple's iOS 7 established flat design as the dominant interface language of the 2010s, prioritizing content and clarity over ornament.",
+      "key_facts": [
+        "Microsoft released Windows Phone 7 in 2010 with the typography-led Metro (Modern UI) design language.",
+        "Apple shipped iOS 7 in 2013, its first flat redesign under Jony Ive, replacing iOS 6's skeuomorphism.",
+        "Metro derived from earlier flat elements in the Zune (2006) and Windows Media Center.",
+        "Flat design's usability drawback (poor affordance/signifiers) led to 'flat 2.0' with subtle shadows and Material Design."
+      ],
+      "defining_traits": [
+        "solid flat color blocks",
+        "no gradients, shadows, or textures",
+        "simple 2D icons",
+        "bold sans-serif typography",
+        "generous whitespace"
+      ],
+      "examples": [
+        "Windows Phone 7 / Windows 8 Metro tiles",
+        "Apple iOS 7 (2013)",
+        "Google's early flat product icons"
+      ],
+      "related": [
+        "skeuomorphism",
+        "material-design",
+        "minimalism",
+        "swiss-style"
+      ],
+      "sources": [
+        {
+          "title": "Flat design",
+          "url": "https://en.wikipedia.org/wiki/Flat_design",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "material-design",
+      "name": "Material Design",
+      "category": "ui-style",
+      "tags": [
+        "ui-style",
+        "google",
+        "android",
+        "elevation",
+        "design-system"
+      ],
+      "era": "2014-present",
+      "origin": "Google; introduced at Google I/O 2014, led by Matias Duarte.",
+      "summary": "Google's design language that treats interface surfaces as sheets of a physical 'material' with real elevation, shadows, and motion, layered on a bold, grid-based flat aesthetic.",
+      "significance": "Reintroduced physical metaphor (light, shadow, depth) to flat design without returning to skeuomorphism, giving flat interfaces meaningful hierarchy and consistency; became the standard system for Android and Google's web products.",
+      "key_facts": [
+        "Announced at Google I/O in June 2014; Matias Duarte led the effort.",
+        "Based on the metaphor of 'material' as tangible sheets of paper with elevation (z-axis) and cast shadows.",
+        "Emphasizes bold color, deliberate motion, edge-to-edge imagery, and a baseline grid.",
+        "Evolved through Material Design 2 and Material You (Material Design 3, 2021) with dynamic color theming."
+      ],
+      "defining_traits": [
+        "elevation via layered shadows",
+        "bold accent colors",
+        "responsive/meaningful motion",
+        "floating action button",
+        "baseline grid and spacing units"
+      ],
+      "examples": [
+        "Android (Lollipop onward)",
+        "Gmail and Google Drive web apps",
+        "Material You in Android 12+"
+      ],
+      "related": [
+        "flat-design",
+        "skeuomorphism",
+        "minimalism"
+      ],
+      "sources": [
+        {
+          "title": "Material Design",
+          "url": "https://en.wikipedia.org/wiki/Material_Design",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "neumorphism",
+      "name": "Neumorphism (Soft UI)",
+      "category": "ui-style",
+      "tags": [
+        "ui-style",
+        "soft-ui",
+        "dribbble",
+        "2019",
+        "shadows"
+      ],
+      "era": "2019-2021",
+      "origin": "Popularized by Alexander Plyuto's Dribbble concept (Dec 2019); named by Michal Malewicz.",
+      "summary": "A UI style ('new skeuomorphism') where elements appear extruded from or pressed into the background using dual soft light and dark shadows on a monochromatic surface.",
+      "significance": "Attempted to reintroduce tactile depth to flat design, but its low-contrast look created serious accessibility problems, limiting it to a viral aesthetic rather than a production standard; it seeded claymorphism and glassmorphism as successors.",
+      "key_facts": [
+        "Alexander Plyuto's 'Skeuomorph Mobile Banking' Dribbble concept hit the front page on 1 December 2019 and went viral.",
+        "Designer Michal Malewicz named and codified the style in a February 2020 UX Collective article, shortening 'neo-skeuomorphism'.",
+        "Achieved with a soft light-source highlight on one side and a dark shadow on the other of a same-color element.",
+        "Widely criticized for failing WCAG contrast requirements; spawned the tool neumorphism.io box-shadow generator."
+      ],
+      "defining_traits": [
+        "dual inner/outer soft shadows",
+        "monochromatic single-hue surfaces",
+        "extruded or embossed elements",
+        "very low contrast",
+        "rounded soft edges"
+      ],
+      "examples": [
+        "Alexander Plyuto Dribbble banking concept (2019)",
+        "neumorphism.io generator demos",
+        "numerous 2020 Dribbble/Figma concepts"
+      ],
+      "related": [
+        "skeuomorphism",
+        "claymorphism",
+        "glassmorphism",
+        "flat-design"
+      ],
+      "sources": [
+        {
+          "title": "Neumorphism",
+          "url": "https://en.wikipedia.org/wiki/Neumorphism",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Neumorphism in user interfaces",
+          "url": "https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6",
+          "publisher": "UX Collective (Michal Malewicz)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "glassmorphism",
+      "name": "Glassmorphism",
+      "category": "ui-style",
+      "tags": [
+        "ui-style",
+        "frosted-glass",
+        "apple",
+        "blur",
+        "2020"
+      ],
+      "era": "2020-present",
+      "origin": "Named by Michal Malewicz (Nov 2020); popularized by Apple's macOS Big Sur and Windows Acrylic/Fluent.",
+      "summary": "A UI style using translucent, blurred 'frosted glass' panels layered over colorful backgrounds, creating depth through background blur, transparency, and thin light borders.",
+      "significance": "Restored depth and hierarchy to flat interfaces via realistic glass, aligning with Apple's Big Sur and later visionOS translucency; became a defining 2020s aesthetic, though it shares neumorphism's contrast/legibility risks.",
+      "key_facts": [
+        "Michal Malewicz coined the term 'glassmorphism' in a November 2020 article, grouping existing frosted-glass patterns.",
+        "macOS Big Sur (2020) added heavy translucency to menus and sidebars, boosting the trend.",
+        "Microsoft's Fluent Design 'Acrylic' material (2017) is a closely related frosted-glass approach.",
+        "Apple's visionOS (Apple Vision Pro, 2023-2024) uses glass-like translucent panels as a core UI material."
+      ],
+      "defining_traits": [
+        "background blur (frosted glass)",
+        "semi-transparent panels",
+        "thin light 1px borders",
+        "vivid multicolor backgrounds behind glass",
+        "layered depth via stacked translucency"
+      ],
+      "examples": [
+        "macOS Big Sur (2020)",
+        "Windows 11 Acrylic/Mica surfaces",
+        "Apple visionOS interface",
+        "iOS Control Center"
+      ],
+      "related": [
+        "neumorphism",
+        "skeuomorphism",
+        "aurora-gradients",
+        "frutiger-aero"
+      ],
+      "sources": [
+        {
+          "title": "What Is Glassmorphism?",
+          "url": "https://www.interaction-design.org/literature/topics/glassmorphism",
+          "publisher": "Interaction Design Foundation",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Glassmorphism CSS Generator",
+          "url": "https://hype4.academy/tools/glassmorphism-generator",
+          "publisher": "Hype4 Academy (Michal Malewicz)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "web-brutalism",
+      "name": "Web Brutalism",
+      "category": "web-era",
+      "tags": [
+        "web-era",
+        "brutalism",
+        "anti-design",
+        "raw-html",
+        "2010s"
+      ],
+      "era": "2014-present",
+      "origin": "Coined/curated by Swiss designer Pascal Deville, who founded brutalistwebsites.com in 2014.",
+      "summary": "A web design style celebrating rawness and rejection of polished conventions: default system fonts, unstyled HTML, harsh contrast, and deliberately awkward layouts.",
+      "significance": "A reaction against the templated, frictionless sameness of corporate web design; borrowing its name from Brutalist architecture's exposed concrete, it prized honesty, function, and personality over comfort, and seeded the more decorative neo-brutalism.",
+      "key_facts": [
+        "Pascal Deville founded brutalistwebsites.com in 2014 as a gallery of convention-breaking sites; the term gained traction around 2016.",
+        "Deville described web brutalism as marked by 'ruggedness and lack of concern to look comfortable or easy'.",
+        "Common markers: default/system fonts, raw unstyled or barely-styled HTML, harsh high contrast, monospace type.",
+        "Named after mid-20th-century Brutalist architecture (from French 'beton brut', raw concrete)."
+      ],
+      "defining_traits": [
+        "default/system and monospace fonts",
+        "raw or minimal HTML styling",
+        "harsh high-contrast color",
+        "deliberately broken/asymmetric layouts",
+        "exposed structure, no decoration"
+      ],
+      "examples": [
+        "brutalistwebsites.com",
+        "Bloomberg Businessweek feature layouts",
+        "early personal/portfolio brutalist sites"
+      ],
+      "related": [
+        "neo-brutalism",
+        "grunge-carson",
+        "web-1-0"
+      ],
+      "sources": [
+        {
+          "title": "What is web brutalism, and how does it challenge modern UX design?",
+          "url": "https://blog.logrocket.com/ux-design/web-brutalism/",
+          "publisher": "LogRocket Blog",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Brutalist Websites",
+          "url": "https://brutalistwebsites.com/",
+          "publisher": "Pascal Deville",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "neo-brutalism",
+      "name": "Neo-Brutalism (Neubrutalism)",
+      "category": "ui-style",
+      "tags": [
+        "ui-style",
+        "neubrutalism",
+        "bold",
+        "gumroad",
+        "2020s"
+      ],
+      "era": "2020-present",
+      "origin": "2020s web/UI trend; popularized by Gumroad's redesign under Sahil Lavingia and framework template galleries.",
+      "summary": "A polished evolution of web brutalism using thick black outlines, hard offset drop shadows, flat saturated pastel color fills, and bold type applied with deliberate intent rather than raw ideology.",
+      "significance": "Preserves brutalism's exposed-structure visual vocabulary but applies it as a friendly, marketable style; became a signature 2020s look for startups, design tools, and portfolios wanting bold personality over minimalist 'blanding'.",
+      "key_facts": [
+        "Emerged in the early 2020s as a designed, intentional descendant of raw web brutalism.",
+        "Gumroad's redesign under Sahil Lavingia popularized the cartoony, friendly version with thick outlines and hard shadows.",
+        "Uses solid pastel/saturated fills, chunky black borders, and hard (non-blurred) offset shadows.",
+        "Widely spread via Tailwind CSS/Figma component kits and template galleries."
+      ],
+      "defining_traits": [
+        "thick solid black outlines",
+        "hard offset (non-blurred) drop shadows",
+        "flat saturated pastel fills",
+        "bold chunky sans-serif type",
+        "high-contrast blocky layouts"
+      ],
+      "examples": [
+        "Gumroad (post-redesign)",
+        "Figma community neubrutalism kits",
+        "many 2020s startup landing pages"
+      ],
+      "related": [
+        "web-brutalism",
+        "memphis-group",
+        "maximalism"
+      ],
+      "sources": [
+        {
+          "title": "Neubrutalism - The Definitive Guide to Neubrutalist Web Design",
+          "url": "https://neubrutalism.com/",
+          "publisher": "Neubrutalism.com",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Neobrutalism in Web Design: The Anti-Design Trend Explained",
+          "url": "https://www.etienneaubertbonn.com/neobrutalism-web-design/",
+          "publisher": "Etienne Aubert Bonn",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "y2k-aesthetic",
+      "name": "Y2K Aesthetic",
+      "category": "web-era",
+      "tags": [
+        "web-era",
+        "y2k",
+        "futurism",
+        "chrome",
+        "late-90s"
+      ],
+      "era": "1997-2004",
+      "origin": "Late-1990s/early-2000s consumer tech and pop culture optimism around the new millennium.",
+      "summary": "A turn-of-the-millennium aesthetic of glossy metallics, chrome, translucent 'bubble' plastic, lens flares, and techno-optimistic futurism seen in web graphics, product design, and media.",
+      "significance": "Captured pre-9/11 techno-optimism and the excitement of a networked digital future; revived heavily in 2020s fashion and design as Gen Z nostalgia, and is a precursor sensibility to Frutiger Aero and vaporwave revivals.",
+      "key_facts": [
+        "Peaked roughly 1997-2004 around the year-2000 millennium hype.",
+        "Defined by chrome/metallic textures, translucent colored plastics (e.g. the 1998 iMac G3), and glossy futurism.",
+        "Featured lens flares, star/sparkle motifs, blobby organic tech shapes, and cyber/space imagery.",
+        "Revived strongly in the 2020s as a Gen Z internet nostalgia aesthetic."
+      ],
+      "defining_traits": [
+        "chrome and metallic gradients",
+        "translucent bubble plastic",
+        "lens flares and sparkles",
+        "silver/blue/pink futurist palettes",
+        "blobby organic tech forms"
+      ],
+      "examples": [
+        "Apple iMac G3 translucent designs (1998)",
+        "early-2000s pop album/web graphics",
+        "The Matrix-era digital sci-fi visuals"
+      ],
+      "related": [
+        "frutiger-aero",
+        "vaporwave",
+        "web-2-0"
+      ],
+      "sources": [
+        {
+          "title": "Y2K aesthetic",
+          "url": "https://en.wikipedia.org/wiki/Y2K_aesthetic",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "vaporwave",
+      "name": "Vaporwave",
+      "category": "web-era",
+      "tags": [
+        "web-era",
+        "internet-aesthetic",
+        "nostalgia",
+        "retro",
+        "2010s"
+      ],
+      "era": "2010-2015",
+      "origin": "Internet microgenre; visual template crystallized by Macintosh Plus's album 'Floral Shoppe' (2011).",
+      "summary": "An internet-born music-and-visual aesthetic remixing 1980s-90s corporate, mall, and early-computer imagery through pink/purple gradients, glitch, Roman busts, and Japanese text.",
+      "significance": "A nostalgic, ironic critique of consumer capitalism and retro digital culture; its neon-grid, marble-bust, and pastel-glitch visual language became a pervasive 2010s internet aesthetic and influenced web, album, and UI graphics.",
+      "key_facts": [
+        "Music/visual genre emerged around 2010-2011; Chuck Person's 'Eccojams Vol. 1' (2010) was an early template.",
+        "Macintosh Plus (Ramona Xavier) released 'Floral Shoppe' on 9 December 2011, establishing the iconic visual blueprint.",
+        "Its cover art combined a pink background, a marble bust of Helios, a photo-editing checkerboard grid, and Japanese katakana ('ＡＥＳＴＨＥＴＩＣ').",
+        "Motifs: 1980s-90s corporate/mall imagery, VHS glitch, Roman/Greek statues, neon grids, and sunset gradients."
+      ],
+      "defining_traits": [
+        "pink and purple gradients",
+        "Roman/Greek marble busts",
+        "neon perspective grids",
+        "VHS/glitch artifacts",
+        "Japanese katakana and full-width text"
+      ],
+      "examples": [
+        "Macintosh Plus 'Floral Shoppe' cover (2011)",
+        "vaporwave album/YouTube art",
+        "'aesthetic' internet meme graphics"
+      ],
+      "related": [
+        "y2k-aesthetic",
+        "frutiger-aero",
+        "psychedelic"
+      ],
+      "sources": [
+        {
+          "title": "Vaporwave",
+          "url": "https://en.wikipedia.org/wiki/Vaporwave",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Floral Shoppe",
+          "url": "https://en.wikipedia.org/wiki/Floral_Shoppe",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "corporate-memphis",
+      "name": "Corporate Memphis (Alegria)",
+      "category": "ui-style",
+      "tags": [
+        "ui-style",
+        "illustration",
+        "flat",
+        "tech",
+        "2010s"
+      ],
+      "era": "2017-2022",
+      "origin": "Created for Facebook in 2017 as 'Alegria' by animation studio Buck; nicknamed 'Corporate Memphis' in 2018.",
+      "summary": "A flat vector illustration style using simple geometric cartoon people with small heads, long bendy limbs, and bright non-realistic skin colors, ubiquitous in 2010s-2020s tech branding.",
+      "significance": "Became the default illustration language of Big Tech marketing for its cheap, friendly, brand-safe scalability; its overuse turned it into a widely-mocked symbol of corporate sameness ('globohomo'/'blanding').",
+      "key_facts": [
+        "Created on Facebook in 2017 under the name 'Alegria' (Spanish for 'joy') by the LA agency Buck.",
+        "An Are.na user coined the nickname 'Corporate Memphis' in April 2018, referencing the Memphis Group.",
+        "Figures have small heads, disproportionate torsos, and long elastic arms, often in purple/blue/teal skin tones.",
+        "Adopted by Slack, WeTransfer, Trainline, Transport for London, and many other brands."
+      ],
+      "defining_traits": [
+        "flat geometric cartoon people",
+        "small heads and long bendy limbs",
+        "unnatural bright skin colors (purple/blue)",
+        "simple solid-color shapes",
+        "no outlines, minimal shading"
+      ],
+      "examples": [
+        "Facebook Alegria illustrations",
+        "Slack and Mailchimp marketing art",
+        "countless SaaS landing-page illustrations"
+      ],
+      "related": [
+        "flat-design",
+        "memphis-group",
+        "minimalism"
+      ],
+      "sources": [
+        {
+          "title": "Corporate Memphis",
+          "url": "https://en.wikipedia.org/wiki/Corporate_Memphis",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Blue people and long limbs: How one illustration style took over the corporate world",
+          "url": "https://webflow.com/blog/corporate-memphis",
+          "publisher": "Webflow Blog",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "dark-mode",
+      "name": "Dark Mode",
+      "category": "ui-style",
+      "tags": [
+        "ui-style",
+        "theme",
+        "oled",
+        "accessibility",
+        "2010s"
+      ],
+      "era": "2018-present",
+      "origin": "Mainstreamed by OS-level system themes: Android 10, iOS 13, and macOS Mojave (2018-2019).",
+      "summary": "A UI theme using dark backgrounds with light text and desaturated accent colors, offered as a system-wide alternative to light mode across operating systems and apps.",
+      "significance": "Shifted from a niche developer preference to an expected mainstream feature, driven by OLED power savings, reduced eye strain in low light, and user preference; established dual light/dark theming as a baseline design requirement.",
+      "key_facts": [
+        "macOS Mojave introduced a system-wide Dark Mode in 2018.",
+        "Apple added Dark Mode to iOS 13 and Google added a system dark theme to Android 10, both in 2019.",
+        "Saves power on OLED/AMOLED screens because true-black pixels are switched off.",
+        "Material Design guidance recommends dark-grey (e.g. #121212) surfaces over pure black and desaturated accent colors for legibility."
+      ],
+      "defining_traits": [
+        "dark grey/near-black surfaces",
+        "light (off-white) text",
+        "desaturated accent colors",
+        "elevation shown by lighter surface tint",
+        "reduced overall luminance"
+      ],
+      "examples": [
+        "macOS Mojave Dark Mode (2018)",
+        "iOS 13 / Android 10 dark themes",
+        "YouTube, Twitter/X, and Slack dark themes"
+      ],
+      "related": [
+        "material-design",
+        "flat-design",
+        "minimalism"
+      ],
+      "sources": [
+        {
+          "title": "Light-on-dark color scheme (Dark mode)",
+          "url": "https://en.wikipedia.org/wiki/Light-on-dark_color_scheme",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "bento-layout",
+      "name": "Bento Box Layout",
+      "category": "ui-style",
+      "tags": [
+        "ui-style",
+        "grid",
+        "apple",
+        "layout",
+        "2020s"
+      ],
+      "era": "2022-present",
+      "origin": "Popularized by Apple product-marketing keynote slides in the early 2020s; named after Japanese compartmentalized lunchboxes.",
+      "summary": "A layout style arranging content into a modular grid of asymmetric rounded rectangular cards of varying sizes, each holding a distinct feature, image, or stat.",
+      "significance": "Provided a flexible, scannable way to present multiple features or data points elegantly; Apple's keynote adoption legitimized asymmetric modular grids and made bento a dominant 2020s landing-page and dashboard pattern.",
+      "key_facts": [
+        "Named after the Japanese bento lunchbox's compartmentalized trays.",
+        "Popularized by Apple's product keynote spec/feature slides in the early 2020s.",
+        "Built on an underlying grid (e.g. 3x3, 4x4) with cells of varied span for visual rhythm.",
+        "Often cited as influenced by Microsoft's Windows Phone Metro tile system."
+      ],
+      "defining_traits": [
+        "modular grid of rounded rectangle cards",
+        "asymmetric varied cell sizes",
+        "one idea/stat per cell",
+        "generous gutters and padding",
+        "mix of imagery, icons, and text per tile"
+      ],
+      "examples": [
+        "Apple keynote and product-page feature grids",
+        "many 2023-2024 SaaS landing pages",
+        "modern dashboard UIs"
+      ],
+      "related": [
+        "flat-design",
+        "material-design",
+        "swiss-style"
+      ],
+      "sources": [
+        {
+          "title": "What is the Bento UI Trend, and How Can You Get Started?",
+          "url": "https://webdesignerdepot.com/what-is-the-bento-ui-trend-and-how-can-you-get-started/",
+          "publisher": "Webdesigner Depot",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "aurora-gradients",
+      "name": "Aurora / Mesh Gradients",
+      "category": "ui-style",
+      "tags": [
+        "ui-style",
+        "gradient",
+        "color",
+        "background",
+        "2020s"
+      ],
+      "era": "2019-present",
+      "origin": "2020s web/UI trend; popularized by Stripe's marketing site and Apple's iOS/macOS wallpapers and product pages.",
+      "summary": "A background style using soft, blurred multi-point color gradients ('mesh' gradients) that blend several vivid hues into cloud- or aurora-like glowing fields.",
+      "significance": "Reintroduced rich color and depth to otherwise flat/minimal interfaces without literal skeuomorphism; became a signature 2020s look for tech landing pages, often paired with glassmorphism panels layered on top.",
+      "key_facts": [
+        "Rose to prominence around 2019-2021 in tech marketing sites and OS wallpapers.",
+        "Mesh gradients interpolate color across a grid of control points rather than a single linear axis.",
+        "Stripe's website popularized animated, angled multicolor gradient backgrounds.",
+        "Frequently used as the vivid backdrop beneath translucent glassmorphism UI panels.",
+        "Stripe's stripe.com background uses a small WebGL 'minigl' shader (~10kb) to animate the tilted mesh gradient."
+      ],
+      "defining_traits": [
+        "soft blurred multi-hue blends",
+        "vivid saturated color fields",
+        "no hard edges",
+        "aurora/cloud-like glow",
+        "often animated or gently shifting"
+      ],
+      "examples": [
+        "Stripe marketing site gradients",
+        "iOS/macOS Big Sur wallpapers",
+        "many 2020s startup hero backgrounds"
+      ],
+      "related": [
+        "glassmorphism",
+        "vaporwave",
+        "flat-design"
+      ],
+      "sources": [
+        {
+          "title": "How To create the Stripe Website Gradient Effect",
+          "url": "https://www.bram.us/2021/10/13/how-to-create-the-stripe-website-gradient-effect/",
+          "publisher": "Bram.us",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "How to make animated gradients like Stripe",
+          "url": "https://dev.to/jordienr/how-to-make-animated-gradients-like-stripe-56nh",
+          "publisher": "DEV",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "claymorphism",
+      "name": "Claymorphism",
+      "category": "ui-style",
+      "tags": [
+        "ui-style",
+        "3d",
+        "clay",
+        "friendly",
+        "2021"
+      ],
+      "era": "2021-present",
+      "origin": "Term coined by Michal Malewicz in 2021; inspired by 3D clay/toy-face illustration.",
+      "summary": "A UI style rendering elements as soft, puffy, rounded 3D 'clay' shapes with pastel colors, inner shadows, and double outer drop shadows for a playful, tactile look.",
+      "significance": "Solved neumorphism's low-contrast accessibility failings by using strong color and distinct floating layers while keeping tactile 3D appeal; adopted to 'humanize' tech branding and mascots.",
+      "key_facts": [
+        "The term 'claymorphism' was coined by Michal Malewicz in 2021, blending 'clay' and 'skeuomorphism'.",
+        "Evolved from neumorphism, adding strong color cues and distinct layered depth to improve usability.",
+        "Draws on stop-motion (e.g. Wallace and Gromit) and Amrit Pal Singh's 'Toy Faces' 3D avatar aesthetic.",
+        "Achieved with large border-radius, two outer drop shadows, and two subtle inner highlight/shadow pairs."
+      ],
+      "defining_traits": [
+        "puffy rounded 3D shapes",
+        "pastel color palettes",
+        "large border-radius",
+        "double outer drop shadows",
+        "inner light/shadow for inflated look"
+      ],
+      "examples": [
+        "Toy Faces avatar series (Amrit Pal Singh)",
+        "3D clay-style app icons and mascots",
+        "2021-2022 Dribbble/Figma claymorphism concepts"
+      ],
+      "related": [
+        "neumorphism",
+        "skeuomorphism",
+        "glassmorphism"
+      ],
+      "sources": [
+        {
+          "title": "Claymorphism in User Interfaces",
+          "url": "https://hype4.academy/articles/design/claymorphism-in-user-interfaces",
+          "publisher": "Hype4 Academy (Michal Malewicz)",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Claymorphism: Will It Stick Around?",
+          "url": "https://www.smashingmagazine.com/2022/03/claymorphism-css-ui-design-trend/",
+          "publisher": "Smashing Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "web-1-0",
+      "name": "Web 1.0 / GeoCities Era",
+      "category": "web-era",
+      "tags": [
+        "web-era",
+        "1990s",
+        "geocities",
+        "html",
+        "amateur"
+      ],
+      "era": "1994-2004",
+      "origin": "Early consumer World Wide Web; personal home pages hosted on services like GeoCities (1994) and Angelfire.",
+      "summary": "The early amateur web of hand-coded static HTML pages, table-based layouts, animated GIFs, visitor counters, tiled background images, and 'under construction' signs.",
+      "significance": "Represented the first mass wave of personal self-publishing online, with an unpolished DIY aesthetic later celebrated nostalgically; its raw, non-professional look is a spiritual ancestor of web brutalism and 'small web' revivals.",
+      "key_facts": [
+        "GeoCities launched in 1994 (as Beverly Hills Internet), organizing user home pages into themed 'neighborhoods'.",
+        "Pages used table-based layouts, inline styling, and hand-written HTML before CSS was common.",
+        "Signature elements: animated GIFs, hit counters, marquee/blink text, tiled backgrounds, and 'Under Construction' banners.",
+        "Yahoo! bought GeoCities in 1999 and shut down the US service in 2009."
+      ],
+      "defining_traits": [
+        "table-based static layouts",
+        "tiled repeating background images",
+        "animated GIFs and clip art",
+        "visitor hit counters",
+        "marquee and blinking text"
+      ],
+      "examples": [
+        "GeoCities personal home pages",
+        "Angelfire and Tripod sites",
+        "'Space Jam' 1996 promotional website"
+      ],
+      "related": [
+        "web-brutalism",
+        "web-2-0",
+        "y2k-aesthetic"
+      ],
+      "sources": [
+        {
+          "title": "GeoCities",
+          "url": "https://en.wikipedia.org/wiki/GeoCities",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "web-2-0",
+      "name": "Web 2.0 Style (Glossy Web)",
+      "category": "web-era",
+      "tags": [
+        "web-era",
+        "2000s",
+        "gloss",
+        "gradient",
+        "rounded"
+      ],
+      "era": "2004-2010",
+      "origin": "Mid-2000s participatory web; visual style associated with startups and services like Flickr, Digg, and Twitter.",
+      "summary": "The mid-2000s web aesthetic of glossy buttons, reflective 'wet floor' effects, diagonal gradients, rounded corners, big friendly typography, star badges, and pastel candy colors.",
+      "significance": "Marked the shift from static Web 1.0 to interactive, user-generated platforms, and gave the era a recognizable glossy, approachable visual identity; its skeuomorphic gloss was later swept away by flat design.",
+      "key_facts": [
+        "The term 'Web 2.0' was popularized by the 2004 O'Reilly Media Web 2.0 Conference.",
+        "Visual hallmarks: glossy gradient buttons, reflections, rounded corners, and large bold headings.",
+        "Common motifs included starburst badges, beveled logos, and pastel/candy color schemes.",
+        "The style declined around 2010-2013 as flat design and mobile-first minimalism took over."
+      ],
+      "defining_traits": [
+        "glossy reflective buttons",
+        "diagonal gradients and 'wet floor' reflections",
+        "rounded corners",
+        "large friendly typography",
+        "starburst/badge graphics"
+      ],
+      "examples": [
+        "early Flickr, Digg, and Twitter interfaces",
+        "2000s 'beta' badge logos",
+        "glossy Web 2.0 button tutorials"
+      ],
+      "related": [
+        "web-1-0",
+        "skeuomorphism",
+        "flat-design",
+        "frutiger-aero"
+      ],
+      "sources": [
+        {
+          "title": "Web 2.0",
+          "url": "https://en.wikipedia.org/wiki/Web_2.0",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "frutiger-aero",
+      "name": "Frutiger Aero",
+      "category": "web-era",
+      "tags": [
+        "web-era",
+        "skeuomorphism",
+        "gloss",
+        "nature",
+        "2000s"
+      ],
+      "era": "2004-2013",
+      "origin": "Retroactively named 2018 by Sofi Xian and Froyo Tam (Consumer Aesthetics Research Institute); epitomized by Windows Vista/7 Aero.",
+      "summary": "A mid-2000s-to-early-2010s design aesthetic of glossy skeuomorphic surfaces, translucent 'Aero glass', and nature motifs (blue skies, water, bubbles, tropical fish, lush greenery).",
+      "significance": "Captured the optimistic, clean-tech consumer mood of the late 2000s; a bridge between Y2K futurism and flat design, it was phased out by flat UI around 2012-2013 and revived as Gen Z nostalgia from 2023.",
+      "key_facts": [
+        "Prevalent roughly 2004-2013; named in 2018 by Sofi Xian and Froyo Tam of the Consumer Aesthetics Research Institute.",
+        "Named for Adrian Frutiger's Frutiger typeface and the Windows Aero UI of Windows Vista and 7.",
+        "Combines heavy skeuomorphism, glossy textures, and nature imagery (clouds, water, bubbles, fish, grass).",
+        "Faded from around 2012-2013 as flat design (e.g. Windows 8) replaced skeuomorphic glass; revived from 2023."
+      ],
+      "defining_traits": [
+        "glossy 3D 'wet' surfaces",
+        "translucent Aero glass panels",
+        "blue-and-green nature palette",
+        "bubbles, water, and tropical fish motifs",
+        "clean skies and lens-flare optimism"
+      ],
+      "examples": [
+        "Windows Vista/7 Aero interface",
+        "Windows XP 'Bliss' green-hill wallpaper era",
+        "late-2000s consumer tech and web graphics"
+      ],
+      "related": [
+        "skeuomorphism",
+        "web-2-0",
+        "y2k-aesthetic",
+        "glassmorphism"
+      ],
+      "sources": [
+        {
+          "title": "Frutiger Aero",
+          "url": "https://en.wikipedia.org/wiki/Frutiger_Aero",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    }
+  ]
+}

@@ -1,0 +1,2122 @@
+{
+  "topic": "influential-designers",
+  "title": "Influential Designers, Typographers & Design Studios",
+  "description": "Landmark people and studios in graphic design, type design, UX/interaction, product design, and digital/creative practice, with verified attributions of their signature works.",
+  "schema_version": "1.0",
+  "count": 45,
+  "last_updated": "2026-07-07",
+  "entries": [
+    {
+      "id": "dieter-rams",
+      "name": "Dieter Rams",
+      "category": "product-designer",
+      "tags": [
+        "industrial-design",
+        "braun",
+        "vitsoe",
+        "minimalism",
+        "principles"
+      ],
+      "org": "Braun / Vitsœ",
+      "era": "born 1932; active 1950s–1990s",
+      "summary": "German industrial designer who led design at Braun for decades and designed furniture for Vitsœ, defining a functionalist, minimalist product aesthetic.",
+      "significance": "Codified the influential 'Ten Principles for Good Design' and the ethos 'Less, but better' (Weniger, aber besser), which shaped modern product and digital design.",
+      "key_facts": [
+        "Authored the Ten Principles for Good Design in the late 1970s, ending with 'Good design is as little design as possible'.",
+        "Chief designer at Braun from 1961 to 1995; designed products such as the SK-4 record player and T3 pocket radio.",
+        "Designed the 606 Universal Shelving System for Vitsœ (1960), still produced today.",
+        "His work is widely cited as a direct influence on Apple's product design under Jony Ive."
+      ],
+      "examples": [
+        "Braun T3 radio",
+        "Braun SK-4 'Snow White's Coffin'",
+        "Vitsœ 606 shelving",
+        "Ten Principles for Good Design"
+      ],
+      "url": "https://www.vitsoe.com/us/about/good-design",
+      "related": [
+        "jony-ive"
+      ],
+      "sources": [
+        {
+          "title": "Good design | About us",
+          "url": "https://www.vitsoe.com/us/about/good-design",
+          "publisher": "Vitsœ",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Dieter Rams: 10 Timeless Commandments for Good Design",
+          "url": "https://ixdf.org/literature/article/dieter-rams-10-timeless-commandments-for-good-design",
+          "publisher": "Interaction Design Foundation",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "paul-rand",
+      "name": "Paul Rand",
+      "category": "graphic-designer",
+      "tags": [
+        "logo",
+        "corporate-identity",
+        "modernism",
+        "branding"
+      ],
+      "org": "Freelance / Yale University",
+      "era": "1914–1996",
+      "summary": "American art director and graphic designer who brought European Modernism and the Swiss Style into American corporate identity.",
+      "significance": "Defined modern corporate logo design; his identities established the discipline of systematic corporate branding in the United States.",
+      "key_facts": [
+        "Designed the IBM logo (1956); introduced the striped eight-bar version in 1972.",
+        "Designed the ABC logo (1962), the UPS shield (1961), Westinghouse (1960), and the NeXT logo (1986) for Steve Jobs.",
+        "Born Peretz Rosenbaum in 1914; changed his name to Paul Rand in 1935.",
+        "Taught graphic design at Yale University and authored 'Thoughts on Design' (1947); AIGA Medalist."
+      ],
+      "examples": [
+        "IBM logo",
+        "ABC logo",
+        "UPS logo (1961)",
+        "NeXT logo",
+        "Thoughts on Design (book)"
+      ],
+      "url": "https://www.paulrand.design/",
+      "related": [
+        "massimo-vignelli",
+        "saul-bass"
+      ],
+      "sources": [
+        {
+          "title": "Paul Rand",
+          "url": "https://en.wikipedia.org/wiki/Paul_Rand",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Logos | Paul Rand: Modernist Master",
+          "url": "https://www.paulrand.design/work/Logos.html",
+          "publisher": "paulrand.design",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "massimo-vignelli",
+      "name": "Massimo Vignelli",
+      "category": "graphic-designer",
+      "tags": [
+        "modernism",
+        "helvetica",
+        "wayfinding",
+        "identity",
+        "grid"
+      ],
+      "org": "Unimark International / Vignelli Associates",
+      "era": "1931–2014",
+      "summary": "Italian-American designer working across graphic, product, interior, and environmental design, known for disciplined Modernist systems.",
+      "significance": "Brought rigorous Swiss/Modernist grid discipline to American corporate and public design; his 1972 NYC Subway diagram is a landmark of information design.",
+      "key_facts": [
+        "Designed the 1972 New York City Subway map/diagram, which prioritized clarity over geographic accuracy.",
+        "Co-founded the New York office of Unimark International in 1965 (with Bob Noorda and others).",
+        "Designed the American Airlines identity (1967), which remained in use until 2013.",
+        "Authored 'The Vignelli Canon'; long-term clients included Knoll, IBM, and Bloomingdale's."
+      ],
+      "examples": [
+        "1972 NYC Subway map",
+        "American Airlines identity",
+        "Knoll graphics",
+        "The Vignelli Canon"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Massimo_Vignelli",
+      "related": [
+        "max-miedinger",
+        "josef-muller-brockmann"
+      ],
+      "sources": [
+        {
+          "title": "Massimo Vignelli",
+          "url": "https://en.wikipedia.org/wiki/Massimo_Vignelli",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Massimo Vignelli: Biography & Works",
+          "url": "https://www.domusweb.it/en/biographies/massimo-vignelli.html",
+          "publisher": "Domus",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "jan-tschichold",
+      "name": "Jan Tschichold",
+      "category": "typographer",
+      "tags": [
+        "typography",
+        "modernism",
+        "book-design",
+        "penguin",
+        "sabon"
+      ],
+      "org": "Penguin Books / freelance",
+      "era": "1902–1974",
+      "summary": "German typographer, calligrapher, and book designer who first championed and later moderated typographic Modernism.",
+      "significance": "His 1928 manifesto 'Die neue Typographie' codified asymmetric Modernist typography; he later standardized book typography via his Penguin work.",
+      "key_facts": [
+        "Wrote 'Die neue Typographie' (The New Typography, 1928), a manifesto favoring sans-serif and asymmetric layout.",
+        "Redesigned about 500 Penguin paperbacks (1947–1949) and wrote the Penguin Composition Rules.",
+        "Designed the Sabon typeface (released 1967), based on Claude Garamond's letterforms.",
+        "Later repudiated the rigidity of 'Die neue Typographie' and returned to classical, symmetric typography."
+      ],
+      "examples": [
+        "Die neue Typographie (book)",
+        "Penguin Books redesign",
+        "Penguin Composition Rules",
+        "Sabon typeface"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Jan_Tschichold",
+      "related": [
+        "josef-muller-brockmann",
+        "ellen-lupton"
+      ],
+      "sources": [
+        {
+          "title": "Jan Tschichold",
+          "url": "https://en.wikipedia.org/wiki/Jan_Tschichold",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Penguin Composition Rules",
+          "url": "https://en.wikipedia.org/wiki/Penguin_Composition_Rules",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "josef-muller-brockmann",
+      "name": "Josef Müller-Brockmann",
+      "category": "graphic-designer",
+      "tags": [
+        "swiss-style",
+        "grid",
+        "international-typographic-style",
+        "posters"
+      ],
+      "org": "Freelance / educator",
+      "era": "1914–1996",
+      "summary": "Swiss graphic designer and educator, a leading figure of the International Typographic Style (Swiss Style).",
+      "significance": "Popularized the systematic grid as the organizing principle of graphic design; his book made grid theory a global standard in design education.",
+      "key_facts": [
+        "Authored 'Grid Systems in Graphic Design' (1981), a foundational manual on modular layout grids.",
+        "Designed acclaimed concert posters for the Zürich Tonhalle using geometric abstraction and typography.",
+        "A pioneer of Swiss graphic design in the 1950s–60s, using sans-serif type, photography, and objective layout.",
+        "Also wrote 'The Graphic Artist and His Design Problems' (1961)."
+      ],
+      "examples": [
+        "Zürich Tonhalle concert posters",
+        "Grid Systems in Graphic Design (book)",
+        "Der Film poster"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Josef_M%C3%BCller-Brockmann",
+      "related": [
+        "massimo-vignelli",
+        "max-miedinger",
+        "wim-crouwel"
+      ],
+      "sources": [
+        {
+          "title": "Josef Müller-Brockmann",
+          "url": "https://en.wikipedia.org/wiki/Josef_M%C3%BCller-Brockmann",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Josef Müller-Brockmann: the father of the grid system",
+          "url": "https://moelsandco.com/stories/josef-muller-brockmann-a-pioneer-of-swiss-graphic-design",
+          "publisher": "Möels & Co",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "wim-crouwel",
+      "name": "Wim Crouwel",
+      "category": "graphic-designer",
+      "tags": [
+        "dutch",
+        "type-design",
+        "grid",
+        "total-design",
+        "modernism"
+      ],
+      "org": "Total Design",
+      "era": "1928–2019",
+      "summary": "Dutch graphic and type designer, nicknamed 'Mr. Gridnik' for his systematic, grid-based Modernist work.",
+      "significance": "Pushed grid-driven Modernism to an extreme and anticipated the visual language of digital type with experimental screen-oriented alphabets.",
+      "key_facts": [
+        "Designed the experimental 'New Alphabet' typeface (1967), built for early CRT screen limitations using only straight lines and diagonals.",
+        "Co-founded Total Design, the first multidisciplinary design agency in the Netherlands, in 1963.",
+        "Designed the geometric 'Gridnik' typeface, reflecting his grid-based approach.",
+        "Created many posters and catalogues for the Stedelijk Museum Amsterdam."
+      ],
+      "examples": [
+        "New Alphabet typeface",
+        "Gridnik typeface",
+        "Stedelijk Museum posters"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Wim_Crouwel",
+      "related": [
+        "josef-muller-brockmann",
+        "erik-spiekermann"
+      ],
+      "sources": [
+        {
+          "title": "Wim Crouwel",
+          "url": "https://en.wikipedia.org/wiki/Wim_Crouwel",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Wim Crouwel: A Graphic Odyssey",
+          "url": "https://www.stedelijk.nl/en/exhibitions/wim-crouwel-a-graphic-odyssey",
+          "publisher": "Stedelijk Museum",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "saul-bass",
+      "name": "Saul Bass",
+      "category": "graphic-designer",
+      "tags": [
+        "title-sequences",
+        "logo",
+        "film",
+        "identity",
+        "motion"
+      ],
+      "org": "Saul Bass & Associates",
+      "era": "1920–1996",
+      "summary": "American graphic designer and filmmaker famous for film title sequences and minimalist corporate logos.",
+      "significance": "Invented the modern film title sequence as a designed narrative form, and created some of the most enduring American corporate marks.",
+      "key_facts": [
+        "Created the title sequence for 'The Man with the Golden Arm' (1955) and worked with Hitchcock (Psycho, Vertigo, North by Northwest).",
+        "Designed the United Airlines tulip logo (1974), Continental Airlines (1968), and the Bell System logo (1969).",
+        "Designed the AT&T globe logo (1983) after the Bell System breakup.",
+        "Won an Academy Award for the short film 'Why Man Creates' (1968)."
+      ],
+      "examples": [
+        "Man with the Golden Arm titles",
+        "Psycho titles",
+        "United Airlines tulip",
+        "AT&T globe",
+        "Bell System logo"
+      ],
+      "url": "https://www.artofthetitle.com/designer/saul-bass/",
+      "related": [
+        "paul-rand",
+        "milton-glaser"
+      ],
+      "sources": [
+        {
+          "title": "Saul Bass",
+          "url": "https://en.wikipedia.org/wiki/Saul_Bass",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Saul Bass — Art of the Title",
+          "url": "https://www.artofthetitle.com/designer/saul-bass/",
+          "publisher": "Art of the Title",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "milton-glaser",
+      "name": "Milton Glaser",
+      "category": "graphic-designer",
+      "tags": [
+        "illustration",
+        "poster",
+        "identity",
+        "new-york",
+        "push-pin"
+      ],
+      "org": "Push Pin Studios / Milton Glaser Inc.",
+      "era": "1929–2020",
+      "summary": "American graphic designer and illustrator, one of the most influential figures in 20th-century American design.",
+      "significance": "Created the I♥NY logo and the 1966 Bob Dylan poster, two of the most recognized pieces of American graphic art.",
+      "key_facts": [
+        "Designed the I♥NY logo (1976) for a New York State tourism campaign.",
+        "Created the psychedelic Bob Dylan poster (1966), packaged with Dylan's Greatest Hits album.",
+        "Co-founded Push Pin Studios in 1954 with Seymour Chwast and others.",
+        "Co-founded New York magazine in 1968; first graphic designer awarded the U.S. National Medal of Arts (2009)."
+      ],
+      "examples": [
+        "I♥NY logo",
+        "Bob Dylan poster (1966)",
+        "New York magazine",
+        "Brooklyn Brewery logo"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Milton_Glaser",
+      "related": [
+        "saul-bass",
+        "paula-scher"
+      ],
+      "sources": [
+        {
+          "title": "Milton Glaser",
+          "url": "https://en.wikipedia.org/wiki/Milton_Glaser",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Milton Glaser, designer of 'I ♥ NY' logo, dies at 91",
+          "url": "https://www.cnn.com/style/article/milton-glaser-obituary-designer-bob-dylan-logo-style-trnd",
+          "publisher": "CNN",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "herb-lubalin",
+      "name": "Herb Lubalin",
+      "category": "typographer",
+      "tags": [
+        "expressive-typography",
+        "itc",
+        "logotype",
+        "editorial"
+      ],
+      "org": "International Typeface Corporation (ITC)",
+      "era": "1918–1981",
+      "summary": "American graphic designer and typographer known for expressive, conceptual typography and logotypes.",
+      "significance": "Championed 'typographics' — type as expressive image — and helped found ITC, reshaping how typefaces were licensed and used.",
+      "key_facts": [
+        "Co-created ITC Avant Garde Gothic (1970) with Tom Carnase, based on the Avant Garde magazine wordmark.",
+        "Edited and designed U&lc (Upper and lower case), ITC's influential typographic journal, from 1973.",
+        "Art-directed the magazines Eros, Fact, and Avant Garde.",
+        "A co-founder of the International Typeface Corporation (ITC) in 1970."
+      ],
+      "examples": [
+        "ITC Avant Garde Gothic",
+        "U&lc journal",
+        "Avant Garde magazine masthead",
+        "Mother & Child logotype"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Herb_Lubalin",
+      "related": [
+        "erik-spiekermann",
+        "milton-glaser"
+      ],
+      "sources": [
+        {
+          "title": "Herb Lubalin",
+          "url": "https://en.wikipedia.org/wiki/Herb_Lubalin",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Herb Lubalin | Avant Garde Gothic, U&lc & Expressive Typography",
+          "url": "https://www.thegraphicdesignschool.com/design-history/herb-lubalin/",
+          "publisher": "The Graphic Design School",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "neville-brody",
+      "name": "Neville Brody",
+      "category": "graphic-designer",
+      "tags": [
+        "editorial",
+        "type-design",
+        "experimental",
+        "the-face",
+        "fuse"
+      ],
+      "org": "Research Studios / The Face",
+      "era": "born 1957; active 1980s–present",
+      "summary": "English graphic designer, typographer, and art director known for expressive editorial design and experimental type.",
+      "significance": "Redefined 1980s editorial design at The Face, treating typography as expressive content, and pushed digital-era experimental type through Fuse.",
+      "key_facts": [
+        "Art-directed The Face magazine (1981–1986), pioneering expressive, rule-breaking editorial typography.",
+        "Co-founded the experimental typography publication FUSE with Jon Wozencroft in 1991.",
+        "Founded Research Studios in 1994 and was a founding member of FontShop's FontFont/Fontworks network.",
+        "Also art-directed Arena magazine and designed corporate identities and custom typefaces."
+      ],
+      "examples": [
+        "The Face art direction",
+        "FUSE project",
+        "Arena magazine",
+        "FF Blur / FF Gothic typefaces"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Neville_Brody",
+      "related": [
+        "david-carson",
+        "erik-spiekermann"
+      ],
+      "sources": [
+        {
+          "title": "Neville Brody",
+          "url": "https://en.wikipedia.org/wiki/Neville_Brody",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Reputations: Neville Brody",
+          "url": "https://eyemagazine.com/feature/article/reputations-neville-brody",
+          "publisher": "Eye Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "david-carson",
+      "name": "David Carson",
+      "category": "graphic-designer",
+      "tags": [
+        "grunge",
+        "deconstruction",
+        "editorial",
+        "experimental"
+      ],
+      "org": "Ray Gun / David Carson Design",
+      "era": "born 1955; active 1990s–present",
+      "summary": "American art director who defined 1990s 'grunge' and deconstructed typography, notably as art director of Ray Gun.",
+      "significance": "Made expressive, rule-breaking typography mainstream in editorial design and argued that typography is never neutral.",
+      "key_facts": [
+        "Art-directed Ray Gun magazine (1992–1996), the central document of 1990s grunge/deconstruction typography.",
+        "Famously set a Bryan Ferry interview entirely in the symbol font Zapf Dingbats.",
+        "Authored 'The End of Print' (1995), one of the best-selling graphic design books ever.",
+        "Was largely self-taught and a ranked professional surfer before his design career."
+      ],
+      "examples": [
+        "Ray Gun magazine",
+        "The End of Print (book)",
+        "Beach Culture magazine"
+      ],
+      "url": "https://en.wikipedia.org/wiki/David_Carson_(graphic_designer)",
+      "related": [
+        "neville-brody",
+        "stefan-sagmeister"
+      ],
+      "sources": [
+        {
+          "title": "Ray Gun (magazine)",
+          "url": "https://en.wikipedia.org/wiki/Ray_Gun_(magazine)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "David Carson | Ray Gun, Grunge Typography & The End of Print",
+          "url": "https://www.thegraphicdesignschool.com/design-history/david-carson/",
+          "publisher": "The Graphic Design School",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "stefan-sagmeister",
+      "name": "Stefan Sagmeister",
+      "category": "graphic-designer",
+      "tags": [
+        "poster",
+        "album-art",
+        "conceptual",
+        "branding",
+        "typography"
+      ],
+      "org": "Sagmeister & Walsh / Sagmeister Inc.",
+      "era": "born 1962; active 1990s–present",
+      "summary": "Austrian-American graphic designer known for provocative, concept-driven posters, album covers, and identities.",
+      "significance": "Elevated conceptual, hand-crafted, and often self-referential design; brought a personal, experimental voice to commercial graphic design.",
+      "key_facts": [
+        "Created the 1999 AIGA Detroit lecture poster with text carved into his own torso.",
+        "Designed album covers for Lou Reed, Talking Heads/David Byrne, and the Rolling Stones.",
+        "Partnered with Jessica Walsh to form Sagmeister & Walsh in 2012.",
+        "Two-time Grammy Award winner for packaging design; AIGA Medalist (2013)."
+      ],
+      "examples": [
+        "AIGA Detroit poster (1999)",
+        "Lou Reed 'Set the Twilight Reeling' cover",
+        "Things I Have Learned in My Life So Far (book)"
+      ],
+      "url": "https://sagmeister.com/",
+      "related": [
+        "david-carson",
+        "paula-scher"
+      ],
+      "sources": [
+        {
+          "title": "2013 AIGA Medalist: Stefan Sagmeister",
+          "url": "https://www.aiga.org/membership-community/aiga-awards/2013-aiga-medalist-stefan-sagmeister",
+          "publisher": "AIGA",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Stefan Sagmeister. AIGA Detroit. 1999",
+          "url": "https://www.moma.org/collection/works/102915",
+          "publisher": "MoMA",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "paula-scher",
+      "name": "Paula Scher",
+      "category": "graphic-designer",
+      "tags": [
+        "identity",
+        "typography",
+        "environmental-graphics",
+        "pentagram"
+      ],
+      "org": "Pentagram",
+      "era": "born 1948; active 1970s–present",
+      "summary": "American graphic designer and the first female partner at Pentagram, known for typographic identities and environmental graphics.",
+      "significance": "Created bold, typographic identity systems for major cultural and corporate clients and expanded identity into large-scale environmental graphics.",
+      "key_facts": [
+        "Became the first woman partner at Pentagram (New York) in 1991.",
+        "Designed the identity for The Public Theater (from 1994), widely imitated in cultural branding.",
+        "Designed the Citibank logo (1998/2000) and identities for Tiffany & Co., Windows, and the High Line.",
+        "Earlier art-directed album covers at CBS and Atlantic Records; AIGA Medalist."
+      ],
+      "examples": [
+        "The Public Theater identity",
+        "Citibank logo",
+        "Windows 8 logo",
+        "The High Line graphics"
+      ],
+      "url": "https://www.pentagram.com/about/paula-scher",
+      "related": [
+        "pentagram",
+        "milton-glaser"
+      ],
+      "sources": [
+        {
+          "title": "Paula Scher — Pentagram",
+          "url": "https://www.pentagram.com/about/paula-scher",
+          "publisher": "Pentagram",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Paula Scher | Pentagram, Public Theater & Typographic Identity",
+          "url": "https://www.thegraphicdesignschool.com/design-history/paula-scher/",
+          "publisher": "The Graphic Design School",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "jony-ive",
+      "name": "Jony Ive",
+      "category": "product-designer",
+      "tags": [
+        "industrial-design",
+        "apple",
+        "iphone",
+        "minimalism",
+        "hardware"
+      ],
+      "org": "Apple / LoveFrom",
+      "era": "born 1967; active 1990s–present",
+      "summary": "British industrial designer who led Apple's design for over two decades before founding the creative firm LoveFrom.",
+      "significance": "Designed the products that defined modern consumer technology — iMac, iPod, iPhone, iPad — shaping global product and interface aesthetics.",
+      "key_facts": [
+        "Joined Apple in 1992; led design of the iMac (1998), iPod (2001), iPhone (2007), and iPad (2010).",
+        "Served as Apple's Chief Design Officer from 2015 until leaving in 2019.",
+        "Founded the creative collective LoveFrom, working with clients including Ferrari, Airbnb, and OpenAI.",
+        "Knighted (KBE) in 2012 for services to design; cites Dieter Rams as a major influence."
+      ],
+      "examples": [
+        "iMac G3",
+        "iPod",
+        "iPhone",
+        "iPad",
+        "Apple Watch"
+      ],
+      "url": "https://www.lovefrom.com/jony",
+      "related": [
+        "dieter-rams",
+        "susan-kare"
+      ],
+      "sources": [
+        {
+          "title": "Jony Ive",
+          "url": "https://en.wikipedia.org/wiki/Jony_Ive",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Jony Ive | Biography, Apple, LoveFrom",
+          "url": "https://www.britannica.com/money/Jony-Ive",
+          "publisher": "Britannica",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "susan-kare",
+      "name": "Susan Kare",
+      "category": "digital-designer",
+      "tags": [
+        "icons",
+        "gui",
+        "pixel-art",
+        "apple",
+        "typography"
+      ],
+      "org": "Apple / Susan Kare Design",
+      "era": "born 1954; active 1980s–present",
+      "summary": "American designer who created the original icons, fonts, and interface elements for the first Apple Macintosh.",
+      "significance": "Defined the visual language of the graphical user interface, making computers approachable through friendly, human pixel icons.",
+      "key_facts": [
+        "Designed the original Macintosh icons (1983–84), including the Happy Mac and the Command key (⌘) symbol.",
+        "Designed the first proportional bitmap fonts Chicago and Geneva, and the monospaced Monaco.",
+        "Held the job title 'Macintosh Artist' at Apple starting in 1983.",
+        "Later designed for NeXT, Microsoft (Windows 3.0 solitaire/icons), Facebook, IBM, and PayPal."
+      ],
+      "examples": [
+        "Original Mac icons",
+        "Happy Mac",
+        "Command key symbol",
+        "Chicago typeface",
+        "Windows Solitaire cards"
+      ],
+      "url": "https://kare.com/",
+      "related": [
+        "jony-ive",
+        "bret-victor"
+      ],
+      "sources": [
+        {
+          "title": "Susan Kare",
+          "url": "https://en.wikipedia.org/wiki/Susan_Kare",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "How Susan Kare Designed User-Friendly Icons for the First Macintosh",
+          "url": "https://www.smithsonianmag.com/innovation/how-susan-kare-designed-user-friendly-icons-for-first-macintosh-180973286/",
+          "publisher": "Smithsonian Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "don-norman",
+      "name": "Don Norman",
+      "category": "ux-pioneer",
+      "tags": [
+        "usability",
+        "human-centered-design",
+        "affordances",
+        "cognitive"
+      ],
+      "org": "Nielsen Norman Group",
+      "era": "born 1935; active 1980s–present",
+      "summary": "American cognitive scientist and usability engineer who helped establish user-centered and human-centered design.",
+      "significance": "Popularized 'affordances' and 'user experience' in design and wrote the field's most influential book on everyday usability.",
+      "key_facts": [
+        "Authored 'The Design of Everyday Things' (1988, originally 'The Psychology of Everyday Things').",
+        "Applied the term 'affordance' to design (borrowed from James J. Gibson) and later added 'signifiers' (2013 edition).",
+        "Coined the job title 'User Experience Architect' at Apple in the early 1990s, popularizing the term UX.",
+        "Co-founded the Nielsen Norman Group with Jakob Nielsen."
+      ],
+      "examples": [
+        "The Design of Everyday Things (book)",
+        "Emotional Design (book)",
+        "Nielsen Norman Group"
+      ],
+      "url": "https://jnd.org/",
+      "related": [
+        "jakob-nielsen",
+        "steve-krug"
+      ],
+      "sources": [
+        {
+          "title": "The Design of Everyday Things",
+          "url": "https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Who is Don Norman?",
+          "url": "https://ixdf.org/literature/topics/don-norman",
+          "publisher": "Interaction Design Foundation",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "jakob-nielsen",
+      "name": "Jakob Nielsen",
+      "category": "ux-pioneer",
+      "tags": [
+        "usability",
+        "heuristics",
+        "web",
+        "research"
+      ],
+      "org": "Nielsen Norman Group",
+      "era": "born 1957; active 1990s–present",
+      "summary": "Danish usability engineer and consultant who systematized practical usability evaluation for software and the web.",
+      "significance": "Authored the 10 usability heuristics and championed 'discount usability', making usability testing fast, cheap, and widespread.",
+      "key_facts": [
+        "Published '10 Usability Heuristics for User Interface Design' (1994; first set with Rolf Molich in 1990).",
+        "Developed heuristic evaluation and the 'discount usability engineering' method.",
+        "Co-founded the Nielsen Norman Group (with Don Norman) and ran the influential useit.com column.",
+        "Received the SIGCHI Lifetime Practice Award (2013)."
+      ],
+      "examples": [
+        "10 Usability Heuristics",
+        "Heuristic evaluation",
+        "Nielsen Norman Group",
+        "Usability Engineering (book)"
+      ],
+      "url": "https://www.nngroup.com/",
+      "related": [
+        "don-norman",
+        "steve-krug"
+      ],
+      "sources": [
+        {
+          "title": "Jakob Nielsen (usability consultant)",
+          "url": "https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Dr. Jakob Nielsen biography",
+          "url": "https://www.uxtigers.com/about/people",
+          "publisher": "UX Tigers",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "steve-krug",
+      "name": "Steve Krug",
+      "category": "ux-pioneer",
+      "tags": [
+        "usability",
+        "web",
+        "author",
+        "testing"
+      ],
+      "org": "Advanced Common Sense",
+      "era": "born 1950; active 1990s–present",
+      "summary": "American usability consultant and author best known for a plain-language classic on web usability.",
+      "significance": "Made usability principles accessible to a broad audience of designers and developers through practical, common-sense writing.",
+      "key_facts": [
+        "Authored 'Don't Make Me Think' (2000), which has sold more than 700,000 copies.",
+        "Coined the guiding principle 'Don't make me think' for intuitive, self-evident interfaces.",
+        "Wrote 'Rocket Surgery Made Easy' (2010) on do-it-yourself usability testing.",
+        "Consulted on usability for clients including Apple, Bloomberg, and NPR."
+      ],
+      "examples": [
+        "Don't Make Me Think (book)",
+        "Rocket Surgery Made Easy (book)"
+      ],
+      "url": "https://sensible.com/",
+      "related": [
+        "jakob-nielsen",
+        "don-norman"
+      ],
+      "sources": [
+        {
+          "title": "Don't Make Me Think",
+          "url": "https://en.wikipedia.org/wiki/Don't_Make_Me_Think",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Don't Make Me Think",
+          "url": "https://sensible.com/dont-make-me-think/",
+          "publisher": "Sensible.com (Steve Krug)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "bret-victor",
+      "name": "Bret Victor",
+      "category": "ux-pioneer",
+      "tags": [
+        "interaction-design",
+        "hci",
+        "tools-for-thought",
+        "programming"
+      ],
+      "org": "Dynamicland",
+      "era": "born ~1979; active 2010s–present",
+      "summary": "American interface designer and computer scientist known for provocative talks and research on humane, dynamic tools.",
+      "significance": "Reframed how designers think about immediate feedback and 'tools for thought', influencing live-coding, design tooling, and interface research.",
+      "key_facts": [
+        "Gave the influential talks 'Inventing on Principle' (2012) and 'The Future of Programming' (2013).",
+        "Designed early user-interface concepts for the iPad while at Apple.",
+        "Founded the research lab Dynamicland, a 'communal computer' embodied in a physical room.",
+        "Publishes essays such as 'Magic Ink' and 'Learnable Programming' via worrydream.com."
+      ],
+      "examples": [
+        "Inventing on Principle (talk)",
+        "Dynamicland",
+        "Magic Ink (essay)",
+        "Up and Down the Ladder of Abstraction"
+      ],
+      "url": "https://worrydream.com/",
+      "related": [
+        "susan-kare",
+        "don-norman"
+      ],
+      "sources": [
+        {
+          "title": "Bret Victor",
+          "url": "https://en.wikipedia.org/wiki/Bret_Victor",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Bret Victor, human being",
+          "url": "https://worrydream.com/",
+          "publisher": "worrydream.com",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "erik-spiekermann",
+      "name": "Erik Spiekermann",
+      "category": "type-designer",
+      "tags": [
+        "typography",
+        "type-design",
+        "information-design",
+        "fontshop"
+      ],
+      "org": "MetaDesign / FontShop / Edenspiekermann",
+      "era": "born 1947; active 1970s–present",
+      "summary": "German typographer, type designer, and author who bridged information design, corporate identity, and digital type distribution.",
+      "significance": "Designed modern-classic typefaces and co-founded FontShop, the first mail-order digital type distributor, reshaping how fonts are sold.",
+      "key_facts": [
+        "Designed FF Meta (1984–1991), often called 'the Helvetica of the 1990s', and ITC Officina.",
+        "Co-founded MetaDesign (1979) and FontShop (1989, with Joan Spiekermann), which launched the FontFont library.",
+        "Created information-design and identity systems for clients including Berlin Transit (BVG), Audi, and Volkswagen.",
+        "Authored 'Stop Stealing Sheep & Find Out How Type Works'."
+      ],
+      "examples": [
+        "FF Meta typeface",
+        "ITC Officina",
+        "FontShop / FontFont",
+        "Berlin BVG signage",
+        "Stop Stealing Sheep (book)"
+      ],
+      "url": "https://spiekermann.com/en/",
+      "related": [
+        "adrian-frutiger",
+        "matthew-carter",
+        "neville-brody"
+      ],
+      "sources": [
+        {
+          "title": "Erik Spiekermann",
+          "url": "https://en.wikipedia.org/wiki/Erik_Spiekermann",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Erik Spiekermann. FF Meta. 1984-1991",
+          "url": "https://www.moma.org/collection/works/139324",
+          "publisher": "MoMA",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "matthew-carter",
+      "name": "Matthew Carter",
+      "category": "type-designer",
+      "tags": [
+        "typography",
+        "screen-fonts",
+        "web-fonts",
+        "type-design"
+      ],
+      "org": "Carter & Cone / Bitstream",
+      "era": "born 1937; active 1960s–present",
+      "summary": "British type designer whose career spans hand-cut punches to digital screen fonts.",
+      "significance": "Designed the first finely-crafted typefaces built for on-screen reading, Georgia and Verdana, which became web defaults.",
+      "key_facts": [
+        "Designed Georgia and Verdana (mid-1990s) for Microsoft, engineered for screen legibility; also Tahoma.",
+        "Designed Bell Centennial (1975–78) for AT&T phone directories, using ink traps for small-size legibility.",
+        "Co-founded Bitstream (1981), an early digital type foundry, and later Carter & Cone (1991) with Cherie Cone.",
+        "MacArthur Fellow (2010); seven of his typefaces are in MoMA's permanent collection."
+      ],
+      "examples": [
+        "Georgia",
+        "Verdana",
+        "Tahoma",
+        "Bell Centennial",
+        "ITC Galliard"
+      ],
+      "url": "https://typenetwork.com/font-designers/matthew-carter",
+      "related": [
+        "adrian-frutiger",
+        "erik-spiekermann"
+      ],
+      "sources": [
+        {
+          "title": "Matthew Carter",
+          "url": "https://en.wikipedia.org/wiki/Matthew_Carter",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Bell Centennial",
+          "url": "https://en.wikipedia.org/wiki/Bell_Centennial",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "adrian-frutiger",
+      "name": "Adrian Frutiger",
+      "category": "type-designer",
+      "tags": [
+        "typography",
+        "sans-serif",
+        "wayfinding",
+        "type-design"
+      ],
+      "org": "Deberny & Peignot / freelance",
+      "era": "1928–2015",
+      "summary": "Swiss type designer regarded as one of the most important typographers of the 20th century.",
+      "significance": "Created landmark sans-serif families spanning the neo-grotesque, humanist, and geometric genres, and pioneered systematic type family numbering.",
+      "key_facts": [
+        "Designed Univers (1957), among the first sans-serifs conceived as a coordinated large family, using a two-digit numbering system.",
+        "Designed the Frutiger typeface, developed from signage for Charles de Gaulle Airport (Roissy).",
+        "Designed Avenir (1988), a geometric humanist sans-serif, and the machine-readable OCR-B (1963).",
+        "Called 'the best type designer of the 20th century' by Erik Spiekermann."
+      ],
+      "examples": [
+        "Univers",
+        "Frutiger",
+        "Avenir",
+        "OCR-B"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Adrian_Frutiger",
+      "related": [
+        "max-miedinger",
+        "matthew-carter",
+        "erik-spiekermann"
+      ],
+      "sources": [
+        {
+          "title": "Adrian Frutiger",
+          "url": "https://en.wikipedia.org/wiki/Adrian_Frutiger",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Reputations: Adrian Frutiger",
+          "url": "https://eyemagazine.com/feature/article/reputations-adrian-frutiger",
+          "publisher": "Eye Magazine",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "max-miedinger",
+      "name": "Max Miedinger",
+      "category": "type-designer",
+      "tags": [
+        "typography",
+        "helvetica",
+        "swiss-style",
+        "sans-serif"
+      ],
+      "org": "Haas Type Foundry",
+      "era": "1910–1980",
+      "summary": "Swiss typeface designer best known as the creator of Helvetica.",
+      "significance": "Co-designed Helvetica, one of the most widely used typefaces in the world and a hallmark of the International Typographic Style.",
+      "key_facts": [
+        "Designed Helvetica in 1957 with Eduard Hoffmann, president of the Haas Type Foundry.",
+        "The typeface was originally named Neue Haas Grotesk before being renamed Helvetica (Latin for 'Swiss') in 1960 by Linotype.",
+        "Helvetica is a neo-grotesque design influenced by the 19th-century Akzidenz-Grotesk.",
+        "Miedinger had worked as a Haas salesman and typeface designer."
+      ],
+      "examples": [
+        "Helvetica",
+        "Neue Haas Grotesk"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Max_Miedinger",
+      "related": [
+        "adrian-frutiger",
+        "massimo-vignelli"
+      ],
+      "sources": [
+        {
+          "title": "Helvetica",
+          "url": "https://en.wikipedia.org/wiki/Helvetica",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Max Miedinger",
+          "url": "https://en.wikipedia.org/wiki/Max_Miedinger",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "tobias-frere-jones",
+      "name": "Tobias Frere-Jones",
+      "category": "type-designer",
+      "tags": [
+        "typography",
+        "type-design",
+        "gotham",
+        "american-type"
+      ],
+      "org": "Frere-Jones Type (formerly Hoefler & Frere-Jones)",
+      "era": "born 1970; active 1990s–present",
+      "summary": "American type designer known for widely used contemporary typefaces, including Gotham.",
+      "significance": "Designed Gotham, one of the most ubiquitous American typefaces of the 2000s, popularized by the 2008 Obama campaign.",
+      "key_facts": [
+        "Designed Gotham (2000, released 2002) with Jesse Ragan, based on lettering on New York public buildings.",
+        "Partnered with Jonathan Hoefler; the foundry was renamed Hoefler & Frere-Jones in 2005.",
+        "Also designed Interstate, Whitney, and Archer; earlier worked at Font Bureau.",
+        "After a 2014 split with Hoefler, founded Frere-Jones Type, releasing Mallory (2015)."
+      ],
+      "examples": [
+        "Gotham",
+        "Interstate",
+        "Whitney",
+        "Mallory"
+      ],
+      "url": "https://frerejones.com/",
+      "related": [
+        "jonathan-hoefler",
+        "matthew-carter"
+      ],
+      "sources": [
+        {
+          "title": "Tobias Frere-Jones",
+          "url": "https://en.wikipedia.org/wiki/Tobias_Frere-Jones",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "2013 AIGA Medalist: Jonathan Hoefler and Tobias Frere-Jones",
+          "url": "https://www.aiga.org/membership-community/aiga-awards/2013-aiga-medalist-jonathan-hoefler-and-tobias-frere-jones",
+          "publisher": "AIGA",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "jonathan-hoefler",
+      "name": "Jonathan Hoefler",
+      "category": "type-designer",
+      "tags": [
+        "typography",
+        "type-design",
+        "foundry",
+        "american-type"
+      ],
+      "org": "Hoefler & Co.",
+      "era": "born 1970; active 1980s–present",
+      "summary": "American type designer and founder of a leading digital type foundry.",
+      "significance": "Built one of the most respected digital type foundries and co-designed influential typefaces including Gotham and Archer.",
+      "key_facts": [
+        "Founded the Hoefler Type Foundry in 1989, later Hoefler & Frere-Jones (2005) and Hoefler & Co.",
+        "Co-designed Gotham and designed/oversaw Archer, Sentinel, and Hoefler Text (bundled with Apple systems).",
+        "The foundry's cloud font service Typography.com (later Cloud.typography) helped pioneer premium web-font hosting.",
+        "AIGA Medalist (2013, with Tobias Frere-Jones); the foundry was acquired by Monotype in 2021."
+      ],
+      "examples": [
+        "Hoefler Text",
+        "Archer",
+        "Sentinel",
+        "Gotham (co-designed)"
+      ],
+      "url": "https://jonathanhoefler.com/",
+      "related": [
+        "tobias-frere-jones",
+        "matthew-carter"
+      ],
+      "sources": [
+        {
+          "title": "Hoefler & Co.",
+          "url": "https://en.wikipedia.org/wiki/Hoefler_&_Co.",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Typefaces — Jonathan Hoefler",
+          "url": "https://jonathanhoefler.com/typefaces",
+          "publisher": "jonathanhoefler.com",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "ellen-lupton",
+      "name": "Ellen Lupton",
+      "category": "graphic-designer",
+      "tags": [
+        "typography",
+        "author",
+        "curator",
+        "design-education"
+      ],
+      "org": "Cooper Hewitt / MICA",
+      "era": "born 1963; active 1980s–present",
+      "summary": "American graphic designer, writer, curator, and educator focused on typography and design literacy.",
+      "significance": "Made typography and design theory broadly accessible through best-selling books and exhibitions, shaping design education.",
+      "key_facts": [
+        "Authored 'Thinking with Type', a widely used typography guide for designers and students.",
+        "Served as Senior Curator of Contemporary Design at Cooper Hewitt, Smithsonian Design Museum for ~30 years.",
+        "Also wrote 'Design Is Storytelling' and 'Graphic Design: The New Basics'.",
+        "Design chair at the Maryland Institute College of Art (MICA)."
+      ],
+      "examples": [
+        "Thinking with Type (book)",
+        "Design Is Storytelling (book)",
+        "Cooper Hewitt exhibitions"
+      ],
+      "url": "https://elupton.com/",
+      "related": [
+        "jan-tschichold",
+        "erik-spiekermann"
+      ],
+      "sources": [
+        {
+          "title": "Ellen Lupton",
+          "url": "https://en.wikipedia.org/wiki/Ellen_Lupton",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Thinking with Type",
+          "url": "https://papress.com/products/thinking-with-type-3-edition",
+          "publisher": "Princeton Architectural Press",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "luke-wroblewski",
+      "name": "Luke Wroblewski",
+      "category": "product-designer",
+      "tags": [
+        "mobile-first",
+        "ux",
+        "forms",
+        "product-design"
+      ],
+      "org": "Google",
+      "era": "born ~1973; active 2000s–present",
+      "summary": "Product designer, author, and entrepreneur focused on mobile design, forms, and product strategy.",
+      "significance": "Popularized the 'mobile first' approach, arguing that mobile constraints force clearer prioritization of content and interaction.",
+      "key_facts": [
+        "Authored 'Mobile First' (2011, A Book Apart), advocating designing for small screens before larger ones.",
+        "Also wrote 'Web Form Design' and 'Site-Seeing: A Visual Approach to Web Usability'.",
+        "Product director at Google; previously Chief Design Architect (VP) at Yahoo! and lead UI designer at eBay.",
+        "Co-founded startups Bagcheck (acquired by Twitter) and Polar (acquired by Google)."
+      ],
+      "examples": [
+        "Mobile First (book)",
+        "Web Form Design (book)",
+        "LukeW.com articles"
+      ],
+      "url": "https://www.lukew.com/",
+      "related": [
+        "ethan-marcotte",
+        "brad-frost"
+      ],
+      "sources": [
+        {
+          "title": "About Luke Wroblewski",
+          "url": "https://www.lukew.com/about/",
+          "publisher": "LukeW",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Mobile First",
+          "url": "https://www.lukew.com/resources/mobile_first.asp",
+          "publisher": "LukeW",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "brad-frost",
+      "name": "Brad Frost",
+      "category": "web-designer",
+      "tags": [
+        "design-systems",
+        "atomic-design",
+        "front-end",
+        "components"
+      ],
+      "org": "Independent consultant",
+      "era": "active 2010s–present",
+      "summary": "American web designer and consultant best known for a methodology for building design systems.",
+      "significance": "Created Atomic Design, a mental model that reframed UI construction around reusable, hierarchical components.",
+      "key_facts": [
+        "Created the Atomic Design methodology, organizing UIs into atoms, molecules, organisms, templates, and pages.",
+        "Authored the book 'Atomic Design' (2017).",
+        "Co-created Pattern Lab, a tool for building atomic-design-based pattern libraries.",
+        "A prominent advocate and consultant for enterprise design systems."
+      ],
+      "examples": [
+        "Atomic Design (book & methodology)",
+        "Pattern Lab"
+      ],
+      "url": "https://bradfrost.com/",
+      "related": [
+        "adam-wathan",
+        "luke-wroblewski"
+      ],
+      "sources": [
+        {
+          "title": "Atomic Design Methodology",
+          "url": "https://atomicdesign.bradfrost.com/chapter-2/",
+          "publisher": "Brad Frost",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Atomic Design: The Book",
+          "url": "https://bradfrost.com/blog/post/atomic-design-book/",
+          "publisher": "Brad Frost",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rauno-freiberg",
+      "name": "Rauno Freiberg",
+      "category": "design-engineer",
+      "tags": [
+        "design-engineering",
+        "ui",
+        "interaction",
+        "vercel",
+        "web"
+      ],
+      "org": "Vercel",
+      "era": "active late 2010s–present",
+      "summary": "Estonian design engineer known for highly polished web interfaces at the intersection of design and code.",
+      "significance": "A leading voice of the modern 'design engineer' discipline, emphasizing craft, detail, and interaction polish in UI.",
+      "key_facts": [
+        "Staff Design Engineer at Vercel; previously designed the Arc browser at The Browser Company.",
+        "Created the UI Playbook, documenting common UI components, best practices, and accessibility requirements.",
+        "Known for advocating fine-grained interaction detail and 'painting with code'.",
+        "Frequently cited in the contemporary design-engineering community alongside peers like Emil Kowalski."
+      ],
+      "examples": [
+        "UI Playbook",
+        "Vercel design work",
+        "Arc browser (earlier)"
+      ],
+      "url": "https://rauno.me/",
+      "related": [
+        "emil-kowalski",
+        "adam-wathan"
+      ],
+      "sources": [
+        {
+          "title": "Rauno Freiberg — ui.land interview",
+          "url": "https://ui.land/interviews/rauno-freiberg",
+          "publisher": "ui.land",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Interview with Rauno Freiberg, Design Engineer at Vercel",
+          "url": "https://spaces.is/loversmagazine/interviews/rauno-freiberg",
+          "publisher": "Lovers Magazine (Spaces)",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "emil-kowalski",
+      "name": "Emil Kowalski",
+      "category": "design-engineer",
+      "tags": [
+        "design-engineering",
+        "animation",
+        "react",
+        "ui",
+        "web"
+      ],
+      "org": "Linear",
+      "era": "active early 2020s–present",
+      "summary": "Design engineer known for widely used React UI components and teaching web animation craft.",
+      "significance": "Created popular open-source UI primitives and an influential course establishing best practices for purposeful web animation.",
+      "key_facts": [
+        "Created Sonner (a React toast component) and Vaul (a React drawer component), downloaded tens of millions of times weekly on npm.",
+        "Created the 'Animations on the Web' course (animations.dev).",
+        "Works on the web team at Linear; previously on the design team at Vercel.",
+        "Advocates restraint and interruptible CSS transitions for performant, natural motion."
+      ],
+      "examples": [
+        "Sonner",
+        "Vaul",
+        "Animations on the Web (course)"
+      ],
+      "url": "https://emilkowal.ski/",
+      "related": [
+        "rauno-freiberg",
+        "adam-wathan"
+      ],
+      "sources": [
+        {
+          "title": "Emil Kowalski (personal site)",
+          "url": "https://emilkowal.ski/",
+          "publisher": "emilkowal.ski",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "emilkowalski · GitHub",
+          "url": "https://github.com/emilkowalski",
+          "publisher": "GitHub",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "jason-santa-maria",
+      "name": "Jason Santa Maria",
+      "category": "web-designer",
+      "tags": [
+        "web-typography",
+        "editorial",
+        "publishing",
+        "ux"
+      ],
+      "org": "A Book Apart (co-founder)",
+      "era": "active 2000s–present",
+      "summary": "American designer focused on web typography, editorial design, and design publishing.",
+      "significance": "Advanced the craft of typography for the screen and helped build the publishing infrastructure of the modern web-design community.",
+      "key_facts": [
+        "Authored 'On Web Typography' (2014, A Book Apart).",
+        "Co-founded and was Creative Director of A Book Apart, a publisher of concise design/development books.",
+        "Founded Typedia, a collaborative encyclopedia of typefaces, and co-founded the writing tool Editorially.",
+        "Long-time writer and speaker on web design and typography."
+      ],
+      "examples": [
+        "On Web Typography (book)",
+        "A Book Apart",
+        "Typedia"
+      ],
+      "url": "https://jasonsantamaria.com/",
+      "related": [
+        "ethan-marcotte",
+        "ellen-lupton"
+      ],
+      "sources": [
+        {
+          "title": "On Web Typography",
+          "url": "https://abookapart.com/products/on-web-typography",
+          "publisher": "A Book Apart",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Jason Santa Maria (personal site)",
+          "url": "https://jasonsantamaria.com/",
+          "publisher": "jasonsantamaria.com",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "ethan-marcotte",
+      "name": "Ethan Marcotte",
+      "category": "web-designer",
+      "tags": [
+        "responsive-design",
+        "css",
+        "web-standards",
+        "front-end"
+      ],
+      "org": "Independent",
+      "era": "active 2000s–present",
+      "summary": "American web designer and author who defined the practice of responsive web design.",
+      "significance": "Coined 'responsive web design', giving the industry a unified approach to building layouts that adapt across devices.",
+      "key_facts": [
+        "Coined the term 'Responsive Web Design' in a May 2010 article in A List Apart.",
+        "First presented the idea at An Event Apart Seattle (April 2010) in a talk 'A Dao of Flexibility'.",
+        "Defined RWD's three ingredients: fluid grids, flexible images, and CSS media queries.",
+        "Authored the book 'Responsive Web Design' (2011, A Book Apart)."
+      ],
+      "examples": [
+        "'Responsive Web Design' article (A List Apart)",
+        "Responsive Web Design (book)"
+      ],
+      "url": "https://ethanmarcotte.com/",
+      "related": [
+        "luke-wroblewski",
+        "jason-santa-maria"
+      ],
+      "sources": [
+        {
+          "title": "Responsive Web Design",
+          "url": "https://alistapart.com/article/responsive-web-design/",
+          "publisher": "A List Apart",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Responsive web design turns ten",
+          "url": "https://ethanmarcotte.com/wrote/responsive-design-at-10/",
+          "publisher": "ethanmarcotte.com",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "adam-wathan",
+      "name": "Adam Wathan",
+      "category": "web-designer",
+      "tags": [
+        "css",
+        "tailwind",
+        "framework",
+        "design-systems",
+        "front-end"
+      ],
+      "org": "Tailwind Labs",
+      "era": "active 2010s–present",
+      "summary": "Developer, designer, and author who created the Tailwind CSS framework and co-wrote a practical UI design book.",
+      "significance": "Popularized utility-first CSS through Tailwind, changing how many teams build and style user interfaces.",
+      "key_facts": [
+        "Created Tailwind CSS (first released 2017; v1.0 in 2019) and founded Tailwind Labs.",
+        "Co-authored 'Refactoring UI' with Steve Schoger, teaching practical UI design tactics for developers.",
+        "Hosted the 'Full Stack Radio' podcast.",
+        "Popularized the utility-first CSS methodology now used across major web projects."
+      ],
+      "examples": [
+        "Tailwind CSS",
+        "Refactoring UI (book)",
+        "Headless UI"
+      ],
+      "url": "https://adamwathan.me/",
+      "related": [
+        "brad-frost",
+        "emil-kowalski"
+      ],
+      "sources": [
+        {
+          "title": "Refactoring UI",
+          "url": "https://refactoringui.com/",
+          "publisher": "Refactoring UI",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "adamwathan · GitHub",
+          "url": "https://github.com/adamwathan",
+          "publisher": "GitHub",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "pentagram",
+      "name": "Pentagram",
+      "category": "studio",
+      "tags": [
+        "branding",
+        "graphic-design",
+        "partnership",
+        "identity"
+      ],
+      "org": "Pentagram",
+      "era": "founded 1972",
+      "summary": "The world's largest independent design consultancy, structured as a partnership of practicing designers.",
+      "significance": "A model of designer-owned practice and a source of many landmark identities, run by partners who each lead their own teams.",
+      "key_facts": [
+        "Founded in 1972 in London by Alan Fletcher, Theo Crosby, Colin Forbes, Kenneth Grange, and Mervyn Kurlansky.",
+        "Named for its five founding partners, mirroring the five points of a pentagram.",
+        "Owned and run by a flat group of partners (around two dozen), all practicing designers who share income and ownership equally.",
+        "Offices in London, New York, San Francisco, Berlin, and Austin; partners include Paula Scher, Michael Bierut, and Natasha Jen."
+      ],
+      "examples": [
+        "Mastercard identity (Michael Bierut)",
+        "The Public Theater (Paula Scher)",
+        "Windows logo"
+      ],
+      "url": "https://www.pentagram.com/",
+      "related": [
+        "paula-scher"
+      ],
+      "sources": [
+        {
+          "title": "Pentagram (design firm)",
+          "url": "https://en.wikipedia.org/wiki/Pentagram_(design_firm)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Pentagram — official site",
+          "url": "https://www.pentagram.com/",
+          "publisher": "Pentagram",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "ideo",
+      "name": "IDEO",
+      "category": "studio",
+      "tags": [
+        "design-thinking",
+        "product-design",
+        "human-centered",
+        "innovation"
+      ],
+      "org": "IDEO",
+      "era": "founded 1991",
+      "summary": "Global design and innovation consultancy central to the popularization of design thinking.",
+      "significance": "Helped codify and spread human-centered design and 'design thinking' as a mainstream innovation methodology.",
+      "key_facts": [
+        "Formed in 1991 from the merger of David Kelley Design (1978), Bill Moggridge's ID Two, and Mike Nuttall's Matrix Product Design.",
+        "Designed Apple's first commercial mouse and many early consumer-tech products.",
+        "Co-founder David Kelley also founded Stanford's d.school (Hasso Plattner Institute of Design).",
+        "Widely credited with popularizing the human-centered 'design thinking' process."
+      ],
+      "examples": [
+        "Apple's first mouse",
+        "Design thinking methodology",
+        "Stanford d.school (David Kelley)"
+      ],
+      "url": "https://www.ideo.com/",
+      "related": [
+        "don-norman"
+      ],
+      "sources": [
+        {
+          "title": "IDEO",
+          "url": "https://en.wikipedia.org/wiki/IDEO",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "IDEO: About us",
+          "url": "https://www.ideo.com/about",
+          "publisher": "IDEO",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "metalab",
+      "name": "Metalab",
+      "category": "studio",
+      "tags": [
+        "product-design",
+        "ui",
+        "interface",
+        "software",
+        "branding"
+      ],
+      "org": "Metalab",
+      "era": "founded 2006",
+      "summary": "Interface and product design firm known for designing widely used software products and brands.",
+      "significance": "One of the most influential modern product-design studios, shaping the interfaces of major startups and tech products.",
+      "key_facts": [
+        "Founded in 2006 by Andrew Wilkinson; headquartered in Victoria, British Columbia.",
+        "Designed the original brand and interface for Slack.",
+        "Client work spans Coinbase, Uber, Google, Headspace, and Amazon.",
+        "Operates internationally with distributed teams across many countries."
+      ],
+      "examples": [
+        "Slack branding & UI",
+        "Coinbase",
+        "Headspace",
+        "TED app"
+      ],
+      "url": "https://www.metalab.com/",
+      "related": [
+        "instrument",
+        "collins"
+      ],
+      "sources": [
+        {
+          "title": "MetaLab, Ltd.",
+          "url": "https://en.wikipedia.org/wiki/MetaLab,_Ltd.",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "About us — Metalab",
+          "url": "https://www.metalab.com/about",
+          "publisher": "Metalab",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "instrument",
+      "name": "Instrument",
+      "category": "studio",
+      "tags": [
+        "digital",
+        "brand",
+        "product",
+        "marketing",
+        "portland"
+      ],
+      "org": "Instrument",
+      "era": "founded 2006",
+      "summary": "Portland-based digital brand, product, and marketing agency.",
+      "significance": "A leading independent digital agency known for large-scale brand and product work with major technology and lifestyle clients.",
+      "key_facts": [
+        "Founded in 2006 in Portland, Oregon; also has offices in Brooklyn and Los Angeles.",
+        "Long-standing agency relationship with Nike, including campaigns and a scalable digital design system.",
+        "Clients include Google, Netflix, Spotify, Sonos, and Patagonia.",
+        "Describes itself as a technology-led brand, product, and marketing agency."
+      ],
+      "examples": [
+        "Nike campaigns (e.g. 'You Can't Stop Us')",
+        "Google projects",
+        "Sonos work"
+      ],
+      "url": "https://www.instrument.com/",
+      "related": [
+        "metalab",
+        "active-theory"
+      ],
+      "sources": [
+        {
+          "title": "Instrument — Communication Arts",
+          "url": "https://www.commarts.com/features/instrument",
+          "publisher": "Communication Arts",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Instrument — official site",
+          "url": "https://www.instrument.com/",
+          "publisher": "Instrument",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "active-theory",
+      "name": "Active Theory",
+      "category": "studio",
+      "tags": [
+        "webgl",
+        "interactive",
+        "immersive",
+        "3d",
+        "creative-technology"
+      ],
+      "org": "Active Theory",
+      "era": "founded 2012",
+      "summary": "Creative digital production studio specializing in immersive, browser-based interactive experiences.",
+      "significance": "A leader in cutting-edge WebGL and real-time 3D web experiences, repeatedly awarded for pushing browser technology.",
+      "key_facts": [
+        "Founded in 2012; based in Venice, California.",
+        "Built the interactive Spotify Wrapped 2022 experience.",
+        "Created the Google I/O 2023 Adventure, awarded Site of the Day by Awwwards.",
+        "Known for WebGL, 3D, AR, and immersive storytelling for brands like Google, Spotify, and Hennessy."
+      ],
+      "examples": [
+        "Spotify Wrapped 2022",
+        "Google I/O Adventure",
+        "immersive brand microsites"
+      ],
+      "url": "https://activetheory.net/",
+      "related": [
+        "resn",
+        "unit9",
+        "locomotive"
+      ],
+      "sources": [
+        {
+          "title": "Active Theory — official site",
+          "url": "https://activetheory.net/",
+          "publisher": "Active Theory",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Active Theory — The Webby Awards",
+          "url": "https://www.webbyawards.com/crafted-with-code/active-theory/",
+          "publisher": "The Webby Awards",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "locomotive",
+      "name": "Locomotive",
+      "category": "studio",
+      "tags": [
+        "web-design",
+        "branding",
+        "interactive",
+        "digital",
+        "montreal"
+      ],
+      "org": "Locomotive",
+      "era": "founded ~2009",
+      "summary": "Montreal-based digital-first design agency known for award-winning web experiences and branding.",
+      "significance": "One of the most award-recognized web studios, repeatedly named Awwwards Agency of the Year, and creator of a widely used smooth-scroll library.",
+      "key_facts": [
+        "Digital-first design and branding agency based in Montreal, Quebec, Canada.",
+        "Multiple-time Awwwards 'Agency of the Year' winner.",
+        "Open-sourced 'Locomotive Scroll', a popular smooth-scrolling JavaScript library.",
+        "Combines strategy, design, and development to ship websites, e-commerce, and brand systems."
+      ],
+      "examples": [
+        "Award-winning client websites",
+        "Locomotive Scroll (open-source library)"
+      ],
+      "url": "https://locomotive.ca/en",
+      "related": [
+        "active-theory",
+        "resn"
+      ],
+      "sources": [
+        {
+          "title": "Locomotive — official site",
+          "url": "https://locomotive.ca/en",
+          "publisher": "Locomotive",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Locomotive — Awwwards profile",
+          "url": "https://www.awwwards.com/locomotive/",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known"
+    },
+    {
+      "id": "resn",
+      "name": "Resn",
+      "category": "studio",
+      "tags": [
+        "interactive",
+        "digital",
+        "creative",
+        "3d",
+        "experiential"
+      ],
+      "org": "Resn",
+      "era": "founded 2004",
+      "summary": "Award-winning creative digital agency producing interactive brand experiences.",
+      "significance": "One of the most awarded interactive studios, known for inventive, playful web experiences at the frontier of interactive development.",
+      "key_facts": [
+        "Founded in 2004 in Wellington, New Zealand, by Rik Campbell and Steve Le Marquand.",
+        "Operates studios in Wellington and Amsterdam.",
+        "Clients include YouTube, Amazon, adidas, HBO, Netflix, and Airbnb.",
+        "Specializes in advanced interactive 3D graphics, digital installations, and experiential web."
+      ],
+      "examples": [
+        "Interactive brand experiences",
+        "Advanced WebGL/3D microsites"
+      ],
+      "url": "https://resn.co.nz/",
+      "related": [
+        "active-theory",
+        "unit9",
+        "locomotive"
+      ],
+      "sources": [
+        {
+          "title": "Resn — official site",
+          "url": "https://resn.co.nz/",
+          "publisher": "Resn",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Resn — Communication Arts",
+          "url": "https://www.commarts.com/features/resn",
+          "publisher": "Communication Arts",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "unit9",
+      "name": "UNIT9",
+      "category": "studio",
+      "tags": [
+        "production",
+        "innovation",
+        "vr",
+        "film",
+        "interactive"
+      ],
+      "org": "UNIT9",
+      "era": "founded 1997",
+      "summary": "Multidisciplinary innovation production studio spanning film, games, VR, and digital technology.",
+      "significance": "A long-running creative-technology production house known for ambitious, technically complex advertising and immersive experiences.",
+      "key_facts": [
+        "Founded in 1997; headquartered in London with offices in Los Angeles, New York, Florence, Berlin, and Poland.",
+        "Works across VR, gaming, innovation, and film, combining directors, engineers, and designers.",
+        "Produces experiential and immersive campaigns for global brands.",
+        "Describes itself as an 'innovation production studio'."
+      ],
+      "examples": [
+        "Immersive brand experiences",
+        "VR and interactive films",
+        "Award-winning digital campaigns"
+      ],
+      "url": "https://unit9.com/",
+      "related": [
+        "resn",
+        "active-theory",
+        "buck"
+      ],
+      "sources": [
+        {
+          "title": "UNIT9",
+          "url": "https://en.wikipedia.org/wiki/UNIT9",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "UNIT9 — official site",
+          "url": "https://unit9.com/",
+          "publisher": "UNIT9",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "base-design",
+      "name": "Base Design",
+      "category": "studio",
+      "tags": [
+        "branding",
+        "identity",
+        "editorial",
+        "cultural",
+        "international"
+      ],
+      "org": "Base Design",
+      "era": "founded 1993",
+      "summary": "International network of branding studios creating identities with cultural impact.",
+      "significance": "A globally distributed independent branding studio known for cultural, arts, and institutional identity work.",
+      "key_facts": [
+        "Founded in 1993 in Brussels; co-founded by Thierry Brunfaut.",
+        "Operates studios in Brussels, New York, Geneva, and Melbourne.",
+        "Clients include MoMA, The New York Times, Fondation Cartier, the Bob Dylan Center, and Apple.",
+        "Design philosophy summarized as 'Don't design for designers. Design for people.'"
+      ],
+      "examples": [
+        "MoMA projects",
+        "Bob Dylan Center identity",
+        "cultural institution branding"
+      ],
+      "url": "https://www.basedesign.com/",
+      "related": [
+        "collins",
+        "pentagram"
+      ],
+      "sources": [
+        {
+          "title": "About — Base Design",
+          "url": "https://www.basedesign.com/about",
+          "publisher": "Base Design",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Thierry Brunfaut — Base Design",
+          "url": "https://www.basedesign.com/about/thierry-brunfaut",
+          "publisher": "Base Design",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "collins",
+      "name": "COLLINS",
+      "category": "studio",
+      "tags": [
+        "branding",
+        "brand-experience",
+        "strategy",
+        "identity"
+      ],
+      "org": "COLLINS",
+      "era": "founded 2008",
+      "summary": "Independent strategy and brand experience design company based in New York and San Francisco.",
+      "significance": "A leading contemporary branding studio, repeatedly named a design agency of the year for high-profile brand transformations.",
+      "key_facts": [
+        "Founded in 2008 by Brian Collins and Leland Maschmeyer; offices in New York and San Francisco.",
+        "Designed Spotify's 2015 global rebrand and identity system.",
+        "Named Ad Age Design Agency of the Year in 2019 and 2020.",
+        "Brian Collins previously led the brand and design division of Ogilvy & Mather."
+      ],
+      "examples": [
+        "Spotify 2015 rebrand",
+        "Mailchimp brand work",
+        "Twitch identity"
+      ],
+      "url": "https://wearecollins.com/",
+      "related": [
+        "base-design",
+        "metalab"
+      ],
+      "sources": [
+        {
+          "title": "COLLINS — official site",
+          "url": "https://wearecollins.com/",
+          "publisher": "COLLINS",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Brian Collins (designer)",
+          "url": "https://en.wikipedia.org/wiki/Brian_Collins_(designer)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "buck",
+      "name": "BUCK",
+      "category": "studio",
+      "tags": [
+        "motion-design",
+        "animation",
+        "branding",
+        "creative"
+      ],
+      "org": "BUCK",
+      "era": "founded 2004",
+      "summary": "Global creative design and production company specializing in motion design and animation.",
+      "significance": "One of the most influential motion-design and animation studios, defining much of the contemporary look of branded animation.",
+      "key_facts": [
+        "Founded in 2004 in Los Angeles by Jeff Ellermeyer, Ryan Honey, and Orion Tait.",
+        "Started as a motion graphics and animation company; the name is inspired by Buckminster Fuller.",
+        "Offices in Los Angeles, New York, Sydney, Amsterdam, and London.",
+        "Produces animation and design for advertising, technology, and entertainment clients."
+      ],
+      "examples": [
+        "Branded animation campaigns",
+        "Motion-design films",
+        "Title and identity animation"
+      ],
+      "url": "https://buck.co/",
+      "related": [
+        "unit9",
+        "instrument"
+      ],
+      "sources": [
+        {
+          "title": "Buck (design company)",
+          "url": "https://en.wikipedia.org/wiki/Buck_(design_company)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "BUCK — official site",
+          "url": "https://buck.co/",
+          "publisher": "BUCK",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "edward-tufte",
+      "name": "Edward Tufte",
+      "category": "data-viz-pioneer",
+      "tags": [
+        "data-visualization",
+        "information-design",
+        "statistics",
+        "author"
+      ],
+      "org": "Yale University / Graphics Press",
+      "era": "born 1942; active 1970s–present",
+      "summary": "American statistician and professor considered the foremost authority on data visualization and information design.",
+      "significance": "Established the modern principles of statistical graphics and information design, influencing how data is presented across disciplines.",
+      "key_facts": [
+        "Authored 'The Visual Display of Quantitative Information' (1983), a foundational data-visualization text.",
+        "Introduced concepts including the 'data-ink ratio', 'chartjunk', and 'small multiples'.",
+        "Coined the term 'sparkline' for small, word-sized inline graphics.",
+        "Also wrote 'Envisioning Information' and 'Visual Explanations'; self-published via Graphics Press."
+      ],
+      "examples": [
+        "The Visual Display of Quantitative Information (book)",
+        "Envisioning Information (book)",
+        "Sparklines"
+      ],
+      "url": "https://www.edwardtufte.com/",
+      "related": [
+        "josef-muller-brockmann",
+        "don-norman"
+      ],
+      "sources": [
+        {
+          "title": "Edward Tufte",
+          "url": "https://en.wikipedia.org/wiki/Edward_Tufte",
+          "publisher": "Wikipedia",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "The Visual Display of Quantitative Information",
+          "url": "https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information/",
+          "publisher": "Edward Tufte / Graphics Press",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    }
+  ]
+}

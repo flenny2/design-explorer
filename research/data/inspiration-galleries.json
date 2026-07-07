@@ -1,0 +1,951 @@
+{
+  "topic": "inspiration-galleries",
+  "title": "Design Inspiration Galleries & Award Sites",
+  "description": "Where designers find visual inspiration: award programs, curated web galleries, and UI/UX pattern libraries.",
+  "schema_version": "1.0",
+  "count": 29,
+  "last_updated": "2026-07-07",
+  "entries": [
+    {
+      "id": "awwwards",
+      "name": "Awwwards",
+      "category": "award",
+      "tags": [
+        "web-design",
+        "awards",
+        "gallery",
+        "development"
+      ],
+      "summary": "Awards program and gallery recognizing the best in web design, creativity, and development, judged by a global jury plus community votes.",
+      "significance": "The most prominent web-design award; its 'Site of the Day' and Honor scores are a widely watched barometer of cutting-edge web craft.",
+      "key_facts": [
+        "Scores sites on design, usability, creativity, and content.",
+        "Grants Site of the Day (SOTD), Site of the Month, and Site of the Year honors.",
+        "Combines jury scoring with public voting.",
+        "Founded in 2009; based in Spain."
+      ],
+      "url": "https://www.awwwards.com",
+      "sources": [
+        {
+          "title": "Awwwards",
+          "url": "https://www.awwwards.com",
+          "publisher": "Awwwards",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "css-design-awards",
+        "fwa"
+      ]
+    },
+    {
+      "id": "css-design-awards",
+      "name": "CSS Design Awards",
+      "category": "award",
+      "tags": [
+        "web-design",
+        "awards",
+        "css",
+        "gallery"
+      ],
+      "summary": "International web design and development award program recognizing outstanding sites with daily, monthly, and yearly honors.",
+      "significance": "A long-running peer alongside Awwwards for showcasing and rewarding high-end web design and front-end craft.",
+      "key_facts": [
+        "Grants Website of the Day (WOTD) and UI/UX awards.",
+        "Uses a panel of judges scoring UI, UX, and innovation.",
+        "Maintains a searchable gallery of awarded sites."
+      ],
+      "url": "https://www.cssdesignawards.com",
+      "sources": [
+        {
+          "title": "CSS Design Awards",
+          "url": "https://www.cssdesignawards.com",
+          "publisher": "CSS Design Awards",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "awwwards",
+        "fwa"
+      ]
+    },
+    {
+      "id": "fwa",
+      "name": "FWA (Favourite Website Awards)",
+      "category": "award",
+      "tags": [
+        "web-design",
+        "awards",
+        "interactive",
+        "experimental"
+      ],
+      "summary": "One of the oldest web-design award programs, spotlighting cutting-edge and experimental interactive work since 2000.",
+      "significance": "Historically the premier showcase for immersive, technically ambitious sites, especially during the Flash era and later WebGL work.",
+      "key_facts": [
+        "Founded in 2000 by Rob Ford.",
+        "Grants FWA of the Day (FOTD), of the Month, and of the Year.",
+        "Long associated with experimental, technology-forward interactive design."
+      ],
+      "url": "https://thefwa.com",
+      "sources": [
+        {
+          "title": "The FWA",
+          "url": "https://thefwa.com",
+          "publisher": "FWA",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "awwwards",
+        "css-design-awards"
+      ]
+    },
+    {
+      "id": "webby-awards",
+      "name": "The Webby Awards",
+      "category": "award",
+      "tags": [
+        "internet",
+        "awards",
+        "web",
+        "digital"
+      ],
+      "summary": "Long-established awards honoring excellence across websites, apps, video, podcasts, and digital campaigns.",
+      "significance": "The most mainstream and prestigious internet award, famous for its five-word acceptance speeches; presented by the IADAS.",
+      "key_facts": [
+        "Founded in 1996.",
+        "Presented by the International Academy of Digital Arts and Sciences (IADAS).",
+        "Known for the five-word acceptance speech rule.",
+        "Covers a broad range of digital categories beyond web design."
+      ],
+      "url": "https://www.webbyawards.com",
+      "sources": [
+        {
+          "title": "The Webby Awards",
+          "url": "https://www.webbyawards.com",
+          "publisher": "IADAS",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "awwwards"
+      ]
+    },
+    {
+      "id": "godly",
+      "name": "Godly",
+      "category": "curation",
+      "tags": [
+        "web-design",
+        "curation",
+        "high-end",
+        "interactive"
+      ],
+      "summary": "Highly selective gallery of standout websites, curated for bold, experimental, and technically impressive web design.",
+      "significance": "Prized for quality-over-quantity curation; a go-to for studio-grade, motion-rich, and award-level web inspiration.",
+      "key_facts": [
+        "Curated by Rejiggle with an emphasis on quality over quantity.",
+        "Filterable by categories such as AI, Web3, portfolio, and e-commerce.",
+        "Highlights bold, innovative, and experimental web design."
+      ],
+      "url": "https://godly.website",
+      "sources": [
+        {
+          "title": "Godly",
+          "url": "https://godly.website",
+          "publisher": "Godly",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "awwwards",
+        "land-book"
+      ]
+    },
+    {
+      "id": "land-book",
+      "name": "Land-book",
+      "category": "gallery",
+      "tags": [
+        "landing-pages",
+        "web-design",
+        "gallery",
+        "inspiration"
+      ],
+      "summary": "Curated gallery of website and landing-page designs, organized by style, industry, colors, and type.",
+      "significance": "A well-established reference specifically for landing-page and marketing-site layouts.",
+      "key_facts": [
+        "Focuses on landing pages and marketing sites.",
+        "Filterable by category, style, industry, colors, and typography.",
+        "One of the longer-running curated web galleries."
+      ],
+      "url": "https://land-book.com",
+      "sources": [
+        {
+          "title": "Land-book",
+          "url": "https://land-book.com",
+          "publisher": "Land-book",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "saas-landing-page",
+        "one-page-love"
+      ]
+    },
+    {
+      "id": "httpster",
+      "name": "Httpster",
+      "category": "gallery",
+      "tags": [
+        "web-design",
+        "gallery",
+        "no-rules",
+        "inspiration"
+      ],
+      "summary": "Curated web-design inspiration gallery collecting good-looking, current websites without heavy categorization.",
+      "significance": "A long-standing, personality-driven gallery known for a broad, trend-aware selection of contemporary sites.",
+      "key_facts": [
+        "Curated collection of contemporary website designs.",
+        "Emphasizes visually strong, current sites.",
+        "Simple browsing without award scoring.",
+        "Founded in 2012 by Dominic Whittle; 3,100+ curated sites, organized by style and type."
+      ],
+      "url": "https://httpster.net",
+      "sources": [
+        {
+          "title": "Httpster",
+          "url": "https://httpster.net",
+          "publisher": "Httpster",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "siteinspire",
+        "land-book"
+      ]
+    },
+    {
+      "id": "one-page-love",
+      "name": "One Page Love",
+      "category": "gallery",
+      "tags": [
+        "one-page",
+        "landing-pages",
+        "templates",
+        "gallery"
+      ],
+      "summary": "Gallery dedicated to single-page website designs, plus one-page templates, resources, and awards.",
+      "significance": "The definitive resource for one-page website inspiration and patterns.",
+      "key_facts": [
+        "Founded by Rob Hope in 2008.",
+        "Specializes exclusively in single-page (one-page) websites.",
+        "Offers templates, hosting recommendations, and a One Page Award."
+      ],
+      "url": "https://onepagelove.com",
+      "sources": [
+        {
+          "title": "One Page Love",
+          "url": "https://onepagelove.com",
+          "publisher": "One Page Love",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "land-book"
+      ]
+    },
+    {
+      "id": "siteinspire",
+      "name": "SiteInspire",
+      "category": "gallery",
+      "tags": [
+        "web-design",
+        "gallery",
+        "curation",
+        "minimal"
+      ],
+      "summary": "Curated showcase of web design filterable by style, type, subject, and platform.",
+      "significance": "A respected, long-running curated gallery favored for clean, well-organized browsing of quality web design.",
+      "key_facts": [
+        "Filterable by style, site type, subject, and platform.",
+        "Emphasizes a selective, quality-focused editorial standard.",
+        "One of the earlier modern web-design galleries."
+      ],
+      "url": "https://www.siteinspire.com",
+      "sources": [
+        {
+          "title": "SiteInspire",
+          "url": "https://www.siteinspire.com",
+          "publisher": "SiteInspire",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "httpster",
+        "minimal-gallery"
+      ]
+    },
+    {
+      "id": "lapa-ninja",
+      "name": "Lapa Ninja",
+      "category": "gallery",
+      "tags": [
+        "landing-pages",
+        "web-design",
+        "free-resources",
+        "gallery"
+      ],
+      "summary": "Gallery of landing-page designs organized by category, plus free design books and resources.",
+      "significance": "A popular free resource combining landing-page inspiration with curated learning materials.",
+      "key_facts": [
+        "Focuses on landing-page design examples.",
+        "Categorized by industry and design element.",
+        "Also aggregates free design books and resources.",
+        "Launched in 2015; 7,300+ landing-page designs plus a library of free design books."
+      ],
+      "url": "https://www.lapa.ninja",
+      "sources": [
+        {
+          "title": "Lapa Ninja",
+          "url": "https://www.lapa.ninja",
+          "publisher": "Lapa Ninja",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "land-book",
+        "one-page-love"
+      ]
+    },
+    {
+      "id": "dribbble",
+      "name": "Dribbble",
+      "category": "gallery",
+      "tags": [
+        "community",
+        "ui",
+        "portfolio",
+        "shots",
+        "social"
+      ],
+      "summary": "Social platform where designers share 'shots' of their work, widely used for UI, branding, and illustration inspiration.",
+      "significance": "A dominant design community and portfolio network; hugely influential on UI trends, though sometimes criticized for prioritizing aesthetics over usability.",
+      "key_facts": [
+        "Founded in 2009 by Dan Cederholm and Rich Thornett.",
+        "Designers post 'shots'; the name references basketball ('dribble').",
+        "Originally invite-only, which shaped its early exclusivity.",
+        "Used for UI, illustration, branding, and hiring."
+      ],
+      "url": "https://dribbble.com",
+      "sources": [
+        {
+          "title": "Dribbble",
+          "url": "https://dribbble.com",
+          "publisher": "Dribbble",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "behance"
+      ]
+    },
+    {
+      "id": "behance",
+      "name": "Behance",
+      "category": "gallery",
+      "tags": [
+        "portfolio",
+        "adobe",
+        "creative",
+        "community"
+      ],
+      "summary": "Adobe-owned platform for showcasing full creative project case studies across design, illustration, photography, and more.",
+      "significance": "One of the largest creative portfolio networks; favors in-depth project presentations over single shots.",
+      "key_facts": [
+        "Founded in 2006 by Scott Belsky and Matias Corea.",
+        "Acquired by Adobe in 2012.",
+        "Structured around full project case studies rather than single images.",
+        "Integrated with Adobe Creative Cloud."
+      ],
+      "url": "https://www.behance.net",
+      "sources": [
+        {
+          "title": "Behance",
+          "url": "https://www.behance.net",
+          "publisher": "Adobe",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "dribbble"
+      ]
+    },
+    {
+      "id": "mobbin",
+      "name": "Mobbin",
+      "category": "pattern-library",
+      "tags": [
+        "mobile",
+        "web",
+        "ui-patterns",
+        "screenshots",
+        "reference"
+      ],
+      "summary": "Large searchable reference library of real mobile and web app screenshots and user flows.",
+      "significance": "A leading reference for studying real-world UI patterns and flows from shipping apps, widely used for competitive and pattern research.",
+      "key_facts": [
+        "Describes itself as the world's largest UI/UX reference library.",
+        "Contains hundreds of thousands of fully searchable app screenshots.",
+        "Filterable by app, UI element, and flow pattern.",
+        "Includes a Figma plugin to copy reference designs."
+      ],
+      "url": "https://mobbin.com",
+      "sources": [
+        {
+          "title": "Mobbin",
+          "url": "https://mobbin.com",
+          "publisher": "Mobbin",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "pttrns",
+        "screenlane",
+        "page-flows"
+      ]
+    },
+    {
+      "id": "screenlane",
+      "name": "Screenlane",
+      "category": "pattern-library",
+      "tags": [
+        "ui-patterns",
+        "mobile",
+        "web",
+        "inspiration",
+        "newsletter"
+      ],
+      "summary": "Library of web and mobile UI design inspiration organized by pattern, element, and category.",
+      "significance": "A convenient, filterable source of UI screenshots for specific components and patterns.",
+      "key_facts": [
+        "Organizes screenshots by UI element and pattern.",
+        "Covers both mobile and web apps.",
+        "Offers a design-inspiration newsletter.",
+        "Rebranded from 'UI Movement' in 2020; daily mobile UI patterns delivered via site + newsletter."
+      ],
+      "url": "https://screenlane.com",
+      "sources": [
+        {
+          "title": "Screenlane",
+          "url": "https://screenlane.com",
+          "publisher": "Screenlane",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "mobbin",
+        "collect-ui"
+      ]
+    },
+    {
+      "id": "page-flows",
+      "name": "Page Flows",
+      "category": "pattern-library",
+      "tags": [
+        "user-flows",
+        "ux",
+        "video",
+        "onboarding",
+        "reference"
+      ],
+      "summary": "Reference library of recorded user flows (onboarding, checkout, etc.) from real apps and websites, captured as videos and screenshots.",
+      "significance": "Specializes in end-to-end UX flows rather than static screens, useful for studying interaction and onboarding design.",
+      "key_facts": [
+        "Captures complete user flows as video recordings and screenshots.",
+        "Covers flows like onboarding, sign-up, checkout, and cancellation.",
+        "Includes both mobile and web experiences."
+      ],
+      "url": "https://pageflows.com",
+      "sources": [
+        {
+          "title": "Page Flows",
+          "url": "https://pageflows.com",
+          "publisher": "Page Flows",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "mobbin",
+        "ui-sources"
+      ]
+    },
+    {
+      "id": "ui-sources",
+      "name": "UI Sources",
+      "category": "pattern-library",
+      "tags": [
+        "ui-patterns",
+        "flows",
+        "mobile",
+        "reference"
+      ],
+      "summary": "Library of UI patterns and user flows from popular apps, aimed at product and UX research.",
+      "significance": "Another curated flow-and-pattern reference for benchmarking real product UX decisions.",
+      "key_facts": [
+        "Collects UI patterns and flows from well-known apps.",
+        "Organized to support product and UX research.",
+        "Focuses on mobile app experiences.",
+        "iOS-focused; 700+ interactions and 2000+ screenshots. Note: uisources.com now presents as 'ScreensDesign'."
+      ],
+      "url": "https://www.uisources.com",
+      "sources": [
+        {
+          "title": "UI Sources",
+          "url": "https://www.uisources.com",
+          "publisher": "UI Sources",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "page-flows",
+        "mobbin"
+      ]
+    },
+    {
+      "id": "nicelydone",
+      "name": "Nicely Done",
+      "category": "pattern-library",
+      "tags": [
+        "saas",
+        "web-apps",
+        "ui-patterns",
+        "reference"
+      ],
+      "summary": "Curated library of screenshots and patterns from web and SaaS applications.",
+      "significance": "A focused reference for SaaS and web-app interface patterns.",
+      "key_facts": [
+        "Concentrates on SaaS and web application UIs.",
+        "Organized by app and by UI pattern/section.",
+        "Used as a benchmark reference for product design.",
+        "Founded in 2016 by Bertrand; 230,000+ SaaS screens from 500+ apps."
+      ],
+      "url": "https://nicelydone.club",
+      "sources": [
+        {
+          "title": "Nicely Done",
+          "url": "https://nicelydone.club",
+          "publisher": "Nicely Done",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "mobbin",
+        "refero"
+      ]
+    },
+    {
+      "id": "refero",
+      "name": "Refero",
+      "category": "pattern-library",
+      "tags": [
+        "ui-patterns",
+        "web",
+        "mobile",
+        "reference",
+        "search"
+      ],
+      "summary": "Searchable design reference library of screens and flows from real apps and websites.",
+      "significance": "A broad, searchable pattern reference for finding examples of specific screens and UI elements.",
+      "key_facts": [
+        "Large collection of screenshots from real products.",
+        "Searchable by app, page type, and UI element.",
+        "Covers web and mobile.",
+        "125,000+ real product screens from 400+ web/iOS products; offers a Figma plugin and an MCP endpoint for AI agents."
+      ],
+      "url": "https://refero.design",
+      "sources": [
+        {
+          "title": "Refero",
+          "url": "https://refero.design",
+          "publisher": "Refero",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "mobbin",
+        "nicelydone"
+      ]
+    },
+    {
+      "id": "collect-ui",
+      "name": "Collect UI",
+      "category": "gallery",
+      "tags": [
+        "ui",
+        "daily-ui",
+        "inspiration",
+        "components"
+      ],
+      "summary": "Daily-updated gallery of UI design inspiration curated from Dribbble shots and organized by category.",
+      "significance": "A convenient category-based collection of UI concepts, closely tied to the Daily UI challenge community.",
+      "key_facts": [
+        "Aggregates UI inspiration curated from Dribbble.",
+        "Organized into categories (e.g., sign-up, checkout, 404).",
+        "Associated with the Daily UI email challenge."
+      ],
+      "url": "https://collectui.com",
+      "sources": [
+        {
+          "title": "Collect UI",
+          "url": "https://collectui.com",
+          "publisher": "Collect UI",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "dribbble",
+        "calltoidea"
+      ]
+    },
+    {
+      "id": "pttrns",
+      "name": "Pttrns",
+      "category": "pattern-library",
+      "tags": [
+        "mobile",
+        "ios",
+        "ui-patterns",
+        "reference"
+      ],
+      "summary": "One of the earliest mobile UI pattern libraries, cataloging iOS and mobile app screens by pattern and category.",
+      "significance": "A pioneering mobile pattern reference that helped establish the 'UI pattern gallery' format for mobile design.",
+      "key_facts": [
+        "Focuses primarily on mobile (notably iOS) UI patterns.",
+        "Categorized by screen type and interaction pattern.",
+        "One of the earliest dedicated mobile pattern libraries.",
+        "Covers iOS and Android patterns; membership-based curated library."
+      ],
+      "url": "https://pttrns.com",
+      "sources": [
+        {
+          "title": "Pttrns",
+          "url": "https://pttrns.com",
+          "publisher": "Pttrns",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "mobbin"
+      ]
+    },
+    {
+      "id": "calltoidea",
+      "name": "Calltoidea",
+      "category": "gallery",
+      "tags": [
+        "ui-patterns",
+        "web",
+        "components",
+        "inspiration"
+      ],
+      "summary": "Gallery of web design and UI examples grouped by element and section (headers, pricing, footers, etc.).",
+      "significance": "Useful for finding many examples of a single component or page section quickly.",
+      "key_facts": [
+        "Organized by UI element and page section.",
+        "Focuses on web interface examples.",
+        "Helps compare many variations of one component type."
+      ],
+      "url": "https://www.calltoidea.com",
+      "sources": [
+        {
+          "title": "Calltoidea",
+          "url": "https://www.calltoidea.com",
+          "publisher": "Calltoidea",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "collect-ui"
+      ]
+    },
+    {
+      "id": "minimal-gallery",
+      "name": "Minimal Gallery",
+      "category": "gallery",
+      "tags": [
+        "minimalism",
+        "web-design",
+        "curation",
+        "aesthetic"
+      ],
+      "summary": "Curated gallery showcasing websites with minimal, clean visual design.",
+      "significance": "A style-specific gallery for designers seeking restrained, minimalist web aesthetics.",
+      "key_facts": [
+        "Curates websites in a minimalist visual style.",
+        "Emphasizes clean layouts, whitespace, and restraint.",
+        "Style-focused rather than award-based.",
+        "Created in 2013 by Piet Terheyden; daily-updated minimalist site inspiration."
+      ],
+      "url": "https://minimal.gallery",
+      "sources": [
+        {
+          "title": "Minimal Gallery",
+          "url": "https://minimal.gallery",
+          "publisher": "Minimal Gallery",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "siteinspire",
+        "brutalist-websites"
+      ]
+    },
+    {
+      "id": "brutalist-websites",
+      "name": "Brutalist Websites",
+      "category": "gallery",
+      "tags": [
+        "brutalism",
+        "web-design",
+        "experimental",
+        "curation"
+      ],
+      "summary": "Curated collection of websites in the web-brutalism style, cataloging raw, unconventional interface design.",
+      "significance": "The reference archive for the web brutalism movement, documenting a deliberately raw counter-aesthetic to polished UI.",
+      "key_facts": [
+        "Dedicated to the web brutalism aesthetic.",
+        "Showcases raw, stark, and unconventional site designs.",
+        "Documents a specific design movement rather than general trends."
+      ],
+      "url": "https://brutalistwebsites.com",
+      "sources": [
+        {
+          "title": "Brutalist Websites",
+          "url": "https://brutalistwebsites.com",
+          "publisher": "Brutalist Websites",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "minimal-gallery"
+      ]
+    },
+    {
+      "id": "typewolf",
+      "name": "Typewolf",
+      "category": "curation",
+      "tags": [
+        "typography",
+        "fonts",
+        "web-fonts",
+        "inspiration"
+      ],
+      "summary": "Typographic inspiration site that showcases well-designed sites and identifies the fonts they use.",
+      "significance": "A leading resource for web typography inspiration and font identification, curated from a working designer's perspective.",
+      "key_facts": [
+        "Curated by designer Jeremiah Shoaf.",
+        "Identifies the typefaces used in each featured site.",
+        "Publishes curated font lists and a weekly (Tuesday) roundup.",
+        "Independent of any single type foundry."
+      ],
+      "url": "https://www.typewolf.com",
+      "sources": [
+        {
+          "title": "About Typewolf",
+          "url": "https://www.typewolf.com/about",
+          "publisher": "Typewolf",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "fonts-in-use",
+        "fontjoy"
+      ]
+    },
+    {
+      "id": "fonts-in-use",
+      "name": "Fonts In Use",
+      "category": "curation",
+      "tags": [
+        "typography",
+        "fonts",
+        "archive",
+        "type-history"
+      ],
+      "summary": "Public archive documenting real-world typography, indexed by typeface, format, industry, and period.",
+      "significance": "An authoritative, crowd-documented record of how typefaces are used in practice across print and screen.",
+      "key_facts": [
+        "Indexes real-world type usage by font, format, industry, and era.",
+        "Community-contributed with editorial curation.",
+        "Serves as both inspiration and type-history reference."
+      ],
+      "url": "https://fontsinuse.com",
+      "sources": [
+        {
+          "title": "Fonts In Use",
+          "url": "https://fontsinuse.com",
+          "publisher": "Fonts In Use",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "well-known",
+      "related": [
+        "typewolf"
+      ]
+    },
+    {
+      "id": "muzli",
+      "name": "Muzli",
+      "category": "curation",
+      "tags": [
+        "inspiration",
+        "aggregator",
+        "browser-extension",
+        "feed"
+      ],
+      "summary": "Design inspiration aggregator delivered as a browser new-tab feed, surfacing curated design content from across the web.",
+      "significance": "A widely installed daily design feed that pulls together inspiration from Dribbble, Behance, and design publications; owned by InVision.",
+      "key_facts": [
+        "Delivered primarily as a browser new-tab extension.",
+        "Aggregates design news and inspiration from many sources.",
+        "Also publishes curated 'Muzli' collections and articles.",
+        "Acquired by InVision in July 2015; 800k+ users."
+      ],
+      "url": "https://muz.li",
+      "sources": [
+        {
+          "title": "Muzli",
+          "url": "https://muz.li",
+          "publisher": "Muzli",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "dribbble",
+        "behance"
+      ]
+    },
+    {
+      "id": "savee",
+      "name": "Savee",
+      "category": "curation",
+      "tags": [
+        "moodboard",
+        "bookmarking",
+        "visual",
+        "inspiration"
+      ],
+      "summary": "Visual bookmarking and moodboarding tool for saving and organizing images, sites, and creative references.",
+      "significance": "A favored moodboarding platform among designers and art directors, seen as a successor to the discontinued Dropmark/VSCO-style curation tools.",
+      "key_facts": [
+        "Lets users save images and links into visual collections/boards.",
+        "Popular for building moodboards and reference libraries.",
+        "Includes browser extensions for quick saving.",
+        "Ad-free with no algorithmic feed; 1M+ users. Primary domain is savee.com (savee.it is the legacy domain)."
+      ],
+      "url": "https://savee.com/",
+      "sources": [
+        {
+          "title": "Savee",
+          "url": "https://savee.it",
+          "publisher": "Savee",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "cosmos"
+      ]
+    },
+    {
+      "id": "cosmos",
+      "name": "Cosmos",
+      "category": "curation",
+      "tags": [
+        "moodboard",
+        "bookmarking",
+        "visual",
+        "discovery"
+      ],
+      "summary": "Visual discovery and curation app for saving and organizing creative inspiration into collections ('clusters').",
+      "significance": "A fast-growing visual bookmarking platform positioned as a curated, algorithm-light alternative to Pinterest for creatives.",
+      "key_facts": [
+        "Lets users collect visual inspiration into organized clusters.",
+        "Emphasizes creative and design-focused content discovery.",
+        "Available on web and mobile.",
+        "AI-powered auto-tagging by color/mood/style; named one of Apple's Apps of 2025."
+      ],
+      "url": "https://www.cosmos.so",
+      "sources": [
+        {
+          "title": "Cosmos",
+          "url": "https://www.cosmos.so",
+          "publisher": "Cosmos",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "savee"
+      ]
+    },
+    {
+      "id": "saas-landing-page",
+      "name": "SaaS Landing Page",
+      "category": "gallery",
+      "tags": [
+        "saas",
+        "landing-pages",
+        "web-design",
+        "sections"
+      ],
+      "summary": "Curated gallery of SaaS website and landing-page designs, browsable by page section and category.",
+      "significance": "A targeted reference for SaaS marketing-site design, including section-level breakdowns (hero, pricing, features).",
+      "key_facts": [
+        "Focuses specifically on SaaS landing pages.",
+        "Browsable by full pages and by individual sections.",
+        "Useful for marketing-site and conversion design."
+      ],
+      "url": "https://saaslandingpage.com",
+      "sources": [
+        {
+          "title": "SaaS Landing Page",
+          "url": "https://saaslandingpage.com",
+          "publisher": "SaaS Landing Page",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified",
+      "related": [
+        "land-book",
+        "nicelydone"
+      ]
+    }
+  ]
+}

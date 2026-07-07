@@ -1,0 +1,1169 @@
+{
+  "topic": "accessibility",
+  "title": "Web Accessibility (WCAG, ARIA & Assistive Tech)",
+  "description": "Core web accessibility concepts: WCAG POUR principles and success criteria, ARIA, assistive technologies, and practical inclusive-design techniques with precise conformance numbers.",
+  "schema_version": "1.0",
+  "count": 29,
+  "last_updated": "2026-07-07",
+  "entries": [
+    {
+      "id": "perceivable",
+      "name": "Perceivable (WCAG Principle 1)",
+      "category": "wcag-principle",
+      "tags": [
+        "wcag",
+        "pour",
+        "principle"
+      ],
+      "summary": "Information and user interface components must be presentable to users in ways they can perceive; it cannot be invisible to all of their senses.",
+      "significance": "The first of the four POUR principles; it drives requirements like text alternatives, captions, and sufficient contrast so content reaches every sense.",
+      "key_facts": [
+        "Perceivable is the 'P' in POUR (Perceivable, Operable, Understandable, Robust), the four top-level WCAG principles.",
+        "It encompasses WCAG Guidelines 1.1 (Text Alternatives), 1.2 (Time-based Media), 1.3 (Adaptable), and 1.4 (Distinguishable).",
+        "Example criteria under it: 1.1.1 Non-text Content, 1.4.3 Contrast (Minimum), 1.4.4 Resize Text.",
+        "Practical rule: any information conveyed visually or aurally must have an equivalent alternative form."
+      ],
+      "examples": [
+        "Alt text on images",
+        "Captions on video",
+        "Sufficient color contrast"
+      ],
+      "related": [
+        "operable",
+        "color-contrast-minimum",
+        "alt-text"
+      ],
+      "sources": [
+        {
+          "title": "WCAG 2 Overview",
+          "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "operable",
+      "name": "Operable (WCAG Principle 2)",
+      "category": "wcag-principle",
+      "tags": [
+        "wcag",
+        "pour",
+        "principle",
+        "keyboard"
+      ],
+      "summary": "User interface components and navigation must be operable; users must be able to operate the interface without requiring interactions they cannot perform.",
+      "significance": "The 'O' in POUR; it underpins keyboard accessibility, enough time, no seizure-inducing content, and navigability.",
+      "key_facts": [
+        "Operable is the second POUR principle.",
+        "It covers WCAG Guidelines 2.1 (Keyboard Accessible), 2.2 (Enough Time), 2.3 (Seizures and Physical Reactions), 2.4 (Navigable), and 2.5 (Input Modalities).",
+        "Example criteria: 2.1.1 Keyboard, 2.4.1 Bypass Blocks, 2.4.7 Focus Visible, 2.5.8 Target Size (Minimum).",
+        "Practical rule: everything must be operable by keyboard alone, not just a mouse or touch."
+      ],
+      "examples": [
+        "Full keyboard navigation",
+        "Skip links",
+        "Visible focus indicators"
+      ],
+      "related": [
+        "perceivable",
+        "keyboard-navigation",
+        "focus-visible",
+        "target-size"
+      ],
+      "sources": [
+        {
+          "title": "WCAG 2 Overview",
+          "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "understandable",
+      "name": "Understandable (WCAG Principle 3)",
+      "category": "wcag-principle",
+      "tags": [
+        "wcag",
+        "pour",
+        "principle",
+        "forms"
+      ],
+      "summary": "Information and the operation of the user interface must be understandable; users must be able to comprehend the content and how to use it.",
+      "significance": "The 'U' in POUR; it covers readability, predictable behavior, and input assistance such as clear labels and error handling.",
+      "key_facts": [
+        "Understandable is the third POUR principle.",
+        "It covers WCAG Guidelines 3.1 (Readable), 3.2 (Predictable), and 3.3 (Input Assistance).",
+        "Example criteria: 3.3.1 Error Identification, 3.3.2 Labels or Instructions, 3.2.4 Consistent Identification.",
+        "Practical rule: content should read clearly, behave predictably, and help users avoid and correct mistakes."
+      ],
+      "examples": [
+        "Clear form labels",
+        "Predictable navigation",
+        "Helpful error messages"
+      ],
+      "related": [
+        "robust",
+        "form-labels",
+        "error-identification"
+      ],
+      "sources": [
+        {
+          "title": "WCAG 2 Overview",
+          "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "robust",
+      "name": "Robust (WCAG Principle 4)",
+      "category": "wcag-principle",
+      "tags": [
+        "wcag",
+        "pour",
+        "principle",
+        "compatibility"
+      ],
+      "summary": "Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.",
+      "significance": "The 'R' in POUR; it ensures content works with current and future assistive technologies through valid, semantic, well-formed markup.",
+      "key_facts": [
+        "Robust is the fourth POUR principle.",
+        "It covers WCAG Guideline 4.1 (Compatible), including 4.1.2 Name, Role, Value and 4.1.3 Status Messages.",
+        "Meeting it typically requires valid HTML and correct use of name, role, and value for custom components (often via ARIA).",
+        "Practical rule: build with standards-compliant, semantic markup so assistive tech can parse it correctly."
+      ],
+      "examples": [
+        "Valid semantic HTML",
+        "Correct ARIA name/role/value on widgets",
+        "Live-region status messages"
+      ],
+      "related": [
+        "understandable",
+        "semantic-html",
+        "aria-roles-states-properties",
+        "accessible-name"
+      ],
+      "sources": [
+        {
+          "title": "WCAG 2 Overview",
+          "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "conformance-levels",
+      "name": "WCAG Conformance Levels (A, AA, AAA)",
+      "category": "guideline",
+      "tags": [
+        "wcag",
+        "conformance",
+        "levels",
+        "compliance"
+      ],
+      "summary": "WCAG defines three levels of conformance - A (minimum), AA (mid-range), and AAA (highest) - based on which success criteria are met.",
+      "significance": "Level AA is the de facto legal and industry standard worldwide, so knowing which criteria belong to each level determines compliance targets.",
+      "key_facts": [
+        "Level A is the minimum, AA is the mid-range and most commonly required standard, and AAA is the highest.",
+        "Each success criterion is assigned a single level; meeting AA requires satisfying all A and AA criteria.",
+        "AAA conformance is not required for entire sites because some AAA criteria cannot be satisfied for all content types.",
+        "Regulations like the EU EN 301 549, US Section 508, and ADA guidance generally target WCAG 2.1/2.2 Level AA."
+      ],
+      "examples": [
+        "Contrast 4.5:1 is AA (1.4.3); 7:1 is AAA (1.4.6)",
+        "Target Size 24px is AA (2.5.8); 44px is AAA (2.5.5)"
+      ],
+      "related": [
+        "color-contrast-minimum",
+        "target-size"
+      ],
+      "sources": [
+        {
+          "title": "WCAG 2 Overview - Levels of conformance",
+          "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "color-contrast-minimum",
+      "name": "Color Contrast (Minimum) - WCAG 1.4.3",
+      "category": "technique",
+      "tags": [
+        "wcag",
+        "contrast",
+        "color",
+        "text",
+        "readability"
+      ],
+      "summary": "Text and images of text must have a contrast ratio of at least 4.5:1 against their background, or 3:1 for large text.",
+      "significance": "Contrast is among the most common accessibility failures; correct ratios keep text readable for users with low vision or in poor lighting.",
+      "key_facts": [
+        "SC 1.4.3 (Level AA): normal text requires at least 4.5:1; large text requires at least 3:1 contrast.",
+        "Large text is defined as 18pt (approximately 24px) regular, or 14pt (approximately 18.66px) bold.",
+        "SC 1.4.6 Contrast (Enhanced, Level AAA) raises the requirement to 7:1 for normal text and 4.5:1 for large text.",
+        "Exceptions: logotypes and incidental/disabled text are exempt; contrast is computed from relative luminance of the two colors."
+      ],
+      "examples": [
+        "Body text at 4.5:1 against its background",
+        "24px heading at 3:1",
+        "14pt bold at 3:1"
+      ],
+      "related": [
+        "non-text-contrast",
+        "conformance-levels",
+        "color-blindness"
+      ],
+      "sources": [
+        {
+          "title": "Understanding Success Criterion 1.4.3: Contrast (Minimum)",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Contrast and Color Accessibility",
+          "url": "https://webaim.org/articles/contrast/",
+          "publisher": "WebAIM",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "non-text-contrast",
+      "name": "Non-Text Contrast - WCAG 1.4.11",
+      "category": "technique",
+      "tags": [
+        "wcag",
+        "contrast",
+        "ui-components",
+        "icons"
+      ],
+      "summary": "User interface components and meaningful graphical objects must have a contrast ratio of at least 3:1 against adjacent colors.",
+      "significance": "Extends contrast rules beyond text to buttons, form borders, focus indicators, and icons so controls are perceivable to low-vision users.",
+      "key_facts": [
+        "SC 1.4.11 (Level AA, added in WCAG 2.1): requires at least 3:1 contrast for UI component states and graphical objects needed to understand content.",
+        "Applies to the visual boundaries of controls (e.g., an input field's border) and to essential parts of icons and charts.",
+        "Focus indicators must also meet the 3:1 non-text contrast requirement to be perceivable.",
+        "Pure decoration and elements whose appearance is determined by the user agent are exempt."
+      ],
+      "examples": [
+        "A form input border at 3:1",
+        "An icon-only button's glyph at 3:1",
+        "Chart segments distinguishable at 3:1"
+      ],
+      "related": [
+        "color-contrast-minimum",
+        "focus-visible"
+      ],
+      "sources": [
+        {
+          "title": "Understanding Success Criterion 1.4.11: Non-text Contrast",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "resize-text",
+      "name": "Resize Text (200%) - WCAG 1.4.4",
+      "category": "technique",
+      "tags": [
+        "wcag",
+        "zoom",
+        "text",
+        "reflow",
+        "responsive"
+      ],
+      "summary": "Text must be resizable up to 200% without loss of content or functionality and without requiring horizontal scrolling.",
+      "significance": "Users with low vision often enlarge text; layouts must accommodate zoom without breaking, which favors relative units and responsive design.",
+      "key_facts": [
+        "SC 1.4.4 (Level AA): text can be resized up to 200 percent without assistive technology and without loss of content or functionality.",
+        "Related SC 1.4.10 Reflow (Level AA) requires content to reflow to a 320 CSS-pixel-wide viewport (equivalent to 400% zoom) without two-dimensional scrolling.",
+        "Best met using relative units (rem/em) and fluid, responsive layouts rather than fixed pixel dimensions.",
+        "Avoid disabling browser zoom via the viewport meta tag (e.g., user-scalable=no)."
+      ],
+      "examples": [
+        "Layout stays usable at 200% browser zoom",
+        "Content reflows to a single column at 320px",
+        "rem-based typography"
+      ],
+      "related": [
+        "perceivable",
+        "semantic-html"
+      ],
+      "sources": [
+        {
+          "title": "Understanding Success Criterion 1.4.4: Resize text",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "keyboard-navigation",
+      "name": "Keyboard Accessibility - WCAG 2.1.1",
+      "category": "technique",
+      "tags": [
+        "wcag",
+        "keyboard",
+        "operable",
+        "navigation"
+      ],
+      "summary": "All functionality of the content must be operable through a keyboard interface, without requiring specific timings for individual keystrokes.",
+      "significance": "Keyboard access is foundational: it serves users who cannot use a mouse, and is also the pathway most screen readers and switch devices rely on.",
+      "key_facts": [
+        "SC 2.1.1 Keyboard (Level A): all functionality must be available from a keyboard.",
+        "SC 2.1.2 No Keyboard Trap (Level A): keyboard focus must be able to move away from any component using only the keyboard.",
+        "Standard keys: Tab/Shift+Tab move between focusable elements, Enter/Space activate, arrow keys navigate within composite widgets.",
+        "Native interactive elements (button, a, input) are keyboard-operable by default; custom widgets must add tabindex and key handlers."
+      ],
+      "examples": [
+        "Tabbing through all links and controls",
+        "Activating a custom dropdown with Enter/arrow keys",
+        "No focus trap in menus"
+      ],
+      "related": [
+        "focus-visible",
+        "focus-order",
+        "focus-trapping-modals",
+        "semantic-html"
+      ],
+      "sources": [
+        {
+          "title": "Understanding Success Criterion 2.1.1: Keyboard",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Keyboard Accessibility",
+          "url": "https://webaim.org/techniques/keyboard/",
+          "publisher": "WebAIM",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "focus-visible",
+      "name": "Focus Visible - WCAG 2.4.7",
+      "category": "technique",
+      "tags": [
+        "wcag",
+        "focus",
+        "keyboard",
+        "indicator"
+      ],
+      "summary": "Any keyboard-operable interface must have a visible focus indicator so users can see which element currently has focus.",
+      "significance": "Without a visible focus indicator, keyboard users lose their place; removing the browser default outline without a replacement is a common failure.",
+      "key_facts": [
+        "SC 2.4.7 Focus Visible (Level AA): keyboard focus indicators must be visible.",
+        "WCAG 2.2 added SC 2.4.11 Focus Appearance (Level AAA), which specifies minimum size and contrast for the focus indicator.",
+        "Never use `outline: none` without providing an equally visible custom focus style.",
+        "Use the CSS `:focus-visible` pseudo-class to show indicators for keyboard users without showing them on mouse click."
+      ],
+      "examples": [
+        "Visible outline/ring on focused buttons",
+        "Custom :focus-visible styles",
+        "High-contrast focus rings"
+      ],
+      "related": [
+        "focus-order",
+        "keyboard-navigation",
+        "non-text-contrast"
+      ],
+      "sources": [
+        {
+          "title": "Understanding Success Criterion 2.4.7: Focus Visible",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": ":focus-visible",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "focus-order",
+      "name": "Focus Order - WCAG 2.4.3",
+      "category": "technique",
+      "tags": [
+        "wcag",
+        "focus",
+        "order",
+        "keyboard",
+        "tabindex"
+      ],
+      "summary": "When users navigate sequentially, focus must move through elements in an order that preserves meaning and operability.",
+      "significance": "A logical focus order matches the visual/reading order so keyboard and screen-reader users experience content coherently.",
+      "key_facts": [
+        "SC 2.4.3 Focus Order (Level A): components receive focus in an order that preserves meaning and operability.",
+        "By default, focus order follows DOM source order, so the source should match the intended reading order.",
+        "Avoid positive tabindex values (tabindex=\"2\") because they override natural order and are error-prone; use 0 or -1.",
+        "CSS reordering (flexbox order, grid placement) can create a mismatch between visual order and focus order - a common bug."
+      ],
+      "examples": [
+        "Focus flows top-to-bottom matching layout",
+        "Modal moves focus to its first control",
+        "tabindex=\"0\" on a custom widget"
+      ],
+      "related": [
+        "focus-visible",
+        "keyboard-navigation",
+        "skip-links"
+      ],
+      "sources": [
+        {
+          "title": "Understanding Success Criterion 2.4.3: Focus Order",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "skip-links",
+      "name": "Skip Links / Bypass Blocks - WCAG 2.4.1",
+      "category": "technique",
+      "tags": [
+        "wcag",
+        "navigation",
+        "skip-link",
+        "keyboard"
+      ],
+      "summary": "A mechanism must be available to bypass blocks of content (like site navigation) that are repeated across pages.",
+      "significance": "Skip links let keyboard and screen-reader users jump straight to main content instead of tabbing through repeated menus on every page.",
+      "key_facts": [
+        "SC 2.4.1 Bypass Blocks (Level A): provide a way to skip repeated blocks of content.",
+        "The common implementation is a 'Skip to main content' link that is visually hidden until it receives keyboard focus.",
+        "ARIA landmarks and semantic elements (main, nav, header, footer) also satisfy the criterion by letting AT users jump between regions.",
+        "The skip link should be the first focusable element and target the id of the main content container."
+      ],
+      "examples": [
+        "'Skip to main content' link",
+        "<main> landmark for jumping",
+        "Heading-based navigation in screen readers"
+      ],
+      "related": [
+        "aria-landmarks",
+        "semantic-html",
+        "heading-structure",
+        "focus-order"
+      ],
+      "sources": [
+        {
+          "title": "Understanding Success Criterion 2.4.1: Bypass Blocks",
+          "url": "https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "semantic-html",
+      "name": "Semantic HTML",
+      "category": "technique",
+      "tags": [
+        "html",
+        "semantics",
+        "structure",
+        "native"
+      ],
+      "summary": "Using HTML elements according to their meaning (button, nav, main, header, ul, label) rather than generic divs conveys structure and behavior to assistive technologies for free.",
+      "significance": "Native semantics provide roles, states, keyboard behavior, and focusability automatically - the 'first rule of ARIA' is to prefer native HTML over ARIA.",
+      "key_facts": [
+        "Native elements expose an implicit ARIA role (e.g., <button> has role button, <nav> has role navigation) to the accessibility tree.",
+        "The first rule of ARIA: if a native HTML element or attribute provides the needed semantics and behavior, use it instead of ARIA.",
+        "Semantic elements provide built-in keyboard support (a <button> is focusable and activates on Enter/Space) that a <div> lacks.",
+        "Supports WCAG SC 1.3.1 Info and Relationships (Level A), which requires structure conveyed visually to be programmatically determinable."
+      ],
+      "examples": [
+        "<button> instead of <div onclick>",
+        "<nav>/<main>/<footer> landmarks",
+        "<label> associated with <input>"
+      ],
+      "related": [
+        "aria-roles-states-properties",
+        "aria-landmarks",
+        "form-labels",
+        "robust"
+      ],
+      "sources": [
+        {
+          "title": "HTML: A good basis for accessibility",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "aria-roles-states-properties",
+      "name": "ARIA Roles, States, and Properties",
+      "category": "aria",
+      "tags": [
+        "aria",
+        "roles",
+        "states",
+        "properties",
+        "wai-aria"
+      ],
+      "summary": "WAI-ARIA is a set of roles, states, and properties that supplement HTML to communicate the purpose and status of custom UI components to assistive technologies.",
+      "significance": "ARIA fills gaps when native HTML cannot express a widget's semantics (e.g., a custom tab set), but misused ARIA can make things worse than none.",
+      "key_facts": [
+        "Roles define what an element is (e.g., role=\"tab\", role=\"dialog\"); states describe current conditions (e.g., aria-expanded, aria-checked); properties describe relationships (e.g., aria-labelledby, aria-controls).",
+        "States can change during interaction (aria-expanded true/false); properties are usually more static.",
+        "Fifth rule of ARIA: do not change native semantics (don't put role=\"button\" on an <h2>); the second rule is not to add ARIA if native HTML suffices.",
+        "ARIA changes only how AT perceives an element - it adds no behavior, keyboard support, or focusability on its own."
+      ],
+      "examples": [
+        "role=\"tablist\"/\"tab\"/\"tabpanel\"",
+        "aria-expanded on an accordion trigger",
+        "aria-controls linking a button to its panel"
+      ],
+      "related": [
+        "semantic-html",
+        "aria-landmarks",
+        "accessible-name",
+        "wai-aria-authoring-practices"
+      ],
+      "sources": [
+        {
+          "title": "ARIA - Accessibility",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Read Me First - ARIA APG",
+          "url": "https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/",
+          "publisher": "W3C WAI-ARIA Authoring Practices",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "aria-landmarks",
+      "name": "ARIA Landmarks",
+      "category": "aria",
+      "tags": [
+        "aria",
+        "landmarks",
+        "navigation",
+        "regions"
+      ],
+      "summary": "Landmark roles identify the major regions of a page (banner, navigation, main, complementary, contentinfo, search) so assistive-technology users can jump between them.",
+      "significance": "Landmarks give screen-reader users a table-of-contents-like way to navigate a page's structure quickly, complementing skip links.",
+      "key_facts": [
+        "Core landmark roles: banner, navigation, main, complementary, contentinfo, form, search, and region.",
+        "HTML5 elements map to landmarks automatically: <header> to banner, <nav> to navigation, <main> to main, <aside> to complementary, <footer> to contentinfo.",
+        "There should be exactly one main landmark per page, and multiple same-type landmarks should be distinguished with aria-label/aria-labelledby.",
+        "Screen readers such as NVDA and JAWS provide shortcuts to list and cycle through landmarks."
+      ],
+      "examples": [
+        "<main> as the primary landmark",
+        "Multiple <nav> elements labeled 'Primary'/'Footer'",
+        "role=\"search\" on a site search form"
+      ],
+      "related": [
+        "semantic-html",
+        "skip-links",
+        "screen-readers",
+        "aria-roles-states-properties"
+      ],
+      "sources": [
+        {
+          "title": "Landmark Regions - ARIA APG",
+          "url": "https://www.w3.org/WAI/ARIA/apg/practices/landmark-regions/",
+          "publisher": "W3C WAI-ARIA Authoring Practices",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "alt-text",
+      "name": "Alternative Text for Images - WCAG 1.1.1",
+      "category": "technique",
+      "tags": [
+        "wcag",
+        "alt-text",
+        "images",
+        "text-alternative"
+      ],
+      "summary": "Non-text content such as images must have a text alternative that serves the equivalent purpose, provided via the alt attribute.",
+      "significance": "Alt text lets screen-reader users, and users on slow connections, access the meaning of images; incorrect or missing alt is one of the most common WebAIM-detected errors.",
+      "key_facts": [
+        "SC 1.1.1 Non-text Content (Level A): all non-text content has a text alternative serving an equivalent purpose.",
+        "Purely decorative images must have an empty alt attribute (alt=\"\") so screen readers skip them.",
+        "Alt text should convey the image's function/meaning in context, not necessarily a literal visual description.",
+        "Functional images (an image used as a link or button) need alt text describing the action/destination, not the picture."
+      ],
+      "examples": [
+        "alt=\"Search\" on a magnifying-glass icon button",
+        "alt=\"\" on a decorative divider",
+        "Descriptive alt for an informative chart plus a longer text equivalent"
+      ],
+      "related": [
+        "perceivable",
+        "captions-transcripts",
+        "accessible-name"
+      ],
+      "sources": [
+        {
+          "title": "Understanding Success Criterion 1.1.1: Non-text Content",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Alternative Text",
+          "url": "https://webaim.org/techniques/alttext/",
+          "publisher": "WebAIM",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "form-labels",
+      "name": "Form Labels and Instructions - WCAG 3.3.2 / 1.3.1",
+      "category": "technique",
+      "tags": [
+        "wcag",
+        "forms",
+        "labels",
+        "inputs"
+      ],
+      "summary": "Every form control needs a programmatically associated, visible label so users know what to enter.",
+      "significance": "Labels are essential for screen-reader users and improve usability for everyone; unlabeled inputs are a frequent, high-impact failure.",
+      "key_facts": [
+        "SC 3.3.2 Labels or Instructions (Level A): labels or instructions are provided when content requires user input.",
+        "SC 1.3.1 Info and Relationships (Level A): the label-input relationship must be programmatically determinable.",
+        "Associate a <label> with its control using the `for` attribute matching the input's `id`, or by wrapping the input in the label.",
+        "Placeholder text is not a substitute for a label - it disappears on input and often fails contrast."
+      ],
+      "examples": [
+        "<label for=\"email\">Email</label>",
+        "Wrapped label around a checkbox",
+        "aria-label on an icon-only search field"
+      ],
+      "related": [
+        "accessible-name",
+        "error-identification",
+        "semantic-html"
+      ],
+      "sources": [
+        {
+          "title": "Understanding Success Criterion 3.3.2: Labels or Instructions",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "accessible-name",
+      "name": "Accessible Name (Name, Role, Value) - WCAG 4.1.2",
+      "category": "aria",
+      "tags": [
+        "wcag",
+        "aria",
+        "accessible-name",
+        "labels"
+      ],
+      "summary": "Every interactive component must expose an accessible name, a role, and its current value/state so assistive technologies can announce and operate it.",
+      "significance": "The accessible name is what a screen reader announces for a control; without one, users hear only 'button' with no purpose.",
+      "key_facts": [
+        "SC 4.1.2 Name, Role, Value (Level A): for all UI components, the name and role can be programmatically determined and states/values can be set.",
+        "The accessible name is computed via the accessible name computation algorithm, which prioritizes aria-labelledby, then aria-label, then native label/content, then title.",
+        "Icon-only buttons need an accessible name via aria-label or visually hidden text since there is no visible text to use.",
+        "Best practice: keep the visible label and accessible name matching (relates to SC 2.5.3 Label in Name)."
+      ],
+      "examples": [
+        "aria-label=\"Close\" on an X button",
+        "aria-labelledby pointing to a heading for a dialog",
+        "Visually hidden text inside a link"
+      ],
+      "related": [
+        "form-labels",
+        "aria-roles-states-properties",
+        "accessibility-tree",
+        "robust"
+      ],
+      "sources": [
+        {
+          "title": "Understanding Success Criterion 4.1.2: Name, Role, Value",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Accessible name and description computation",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Accessible_name",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "heading-structure",
+      "name": "Heading Structure",
+      "category": "technique",
+      "tags": [
+        "wcag",
+        "headings",
+        "structure",
+        "navigation",
+        "semantics"
+      ],
+      "summary": "Headings (h1-h6) should form a logical, hierarchical outline of the page without skipping levels, describing the content beneath them.",
+      "significance": "Screen-reader users navigate primarily by headings; a clear hierarchy is one of the most-used ways to understand and move through a page.",
+      "key_facts": [
+        "Supports SC 1.3.1 Info and Relationships (Level A) and SC 2.4.6 Headings and Labels (Level AA, descriptive headings).",
+        "Use one h1 as the main page title, then nest h2-h6 without skipping levels (don't jump h2 to h4).",
+        "Headings must be real heading elements, not just large/bold text, so assistive tech recognizes them.",
+        "Screen readers can list all headings and jump between them (e.g., NVDA/JAWS heading shortcuts)."
+      ],
+      "examples": [
+        "Single h1 page title",
+        "h2 section headings with nested h3 subsections",
+        "Screen-reader 'headings list' navigation"
+      ],
+      "related": [
+        "semantic-html",
+        "screen-readers",
+        "skip-links"
+      ],
+      "sources": [
+        {
+          "title": "Semantic Structure: Regions, Headings, and Lists",
+          "url": "https://webaim.org/techniques/semanticstructure/",
+          "publisher": "WebAIM",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "target-size",
+      "name": "Target Size - WCAG 2.5.8 (Minimum) & 2.5.5 (Enhanced)",
+      "category": "technique",
+      "tags": [
+        "wcag",
+        "touch-target",
+        "mobile",
+        "pointer"
+      ],
+      "summary": "Interactive targets should be large enough to activate reliably: at least 24x24 CSS pixels at Level AA, or 44x44 CSS pixels at Level AAA.",
+      "significance": "Adequate target size helps users with tremors, limited dexterity, or on touchscreens avoid mis-taps; the two criteria are frequently confused.",
+      "key_facts": [
+        "SC 2.5.8 Target Size (Minimum) (Level AA, new in WCAG 2.2): targets are at least 24x24 CSS pixels, or have at least 24px of spacing to adjacent targets.",
+        "SC 2.5.5 Target Size (Enhanced) (Level AAA, WCAG 2.1): targets are at least 44x44 CSS pixels.",
+        "Both have exceptions for inline links within text, targets whose size is set by the user agent, essential sizing, and equivalent adjacent targets.",
+        "Apple's Human Interface Guidelines recommend a 44x44 pt minimum, matching the AAA value."
+      ],
+      "examples": [
+        "Icon buttons at least 24x24px (AA)",
+        "Primary touch buttons at 44x44px (AAA)",
+        "Spacing between small links to meet 24px offset"
+      ],
+      "related": [
+        "fitts-law",
+        "conformance-levels",
+        "operable"
+      ],
+      "sources": [
+        {
+          "title": "Understanding Success Criterion 2.5.8: Target Size (Minimum)",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        },
+        {
+          "title": "Understanding Success Criterion 2.5.5: Target Size (Enhanced)",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "reduced-motion",
+      "name": "Reduced Motion (prefers-reduced-motion)",
+      "category": "technique",
+      "tags": [
+        "wcag",
+        "motion",
+        "animation",
+        "vestibular",
+        "css"
+      ],
+      "summary": "Respect users who prefer reduced motion by minimizing or removing non-essential animation, using the CSS prefers-reduced-motion media query.",
+      "significance": "Large or parallax animations can trigger nausea, dizziness, and migraines in users with vestibular disorders; honoring their OS setting prevents harm.",
+      "key_facts": [
+        "SC 2.3.3 Animation from Interactions (Level AAA): motion animation triggered by interaction can be disabled unless essential.",
+        "SC 2.2.2 Pause, Stop, Hide (Level A) requires a way to pause/stop content that auto-plays, moves, or scrolls for more than 5 seconds.",
+        "The CSS `@media (prefers-reduced-motion: reduce)` query detects the user's OS-level 'reduce motion' preference.",
+        "Best practice: reduce or remove transform/parallax animation under reduce, keeping essential motion (like meaningful state changes) minimal."
+      ],
+      "examples": [
+        "@media (prefers-reduced-motion: reduce) disabling parallax",
+        "Removing large slide/scale transitions",
+        "Pausable carousels"
+      ],
+      "related": [
+        "law-of-common-fate",
+        "operable",
+        "prefers-color-scheme"
+      ],
+      "sources": [
+        {
+          "title": "prefers-reduced-motion",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "screen-readers",
+      "name": "Screen Readers (NVDA, JAWS, VoiceOver, TalkBack)",
+      "category": "assistive-tech",
+      "tags": [
+        "assistive-tech",
+        "screen-reader",
+        "nvda",
+        "jaws",
+        "voiceover"
+      ],
+      "summary": "Screen readers are assistive technologies that convert on-screen content into synthesized speech or braille, letting blind and low-vision users navigate and operate interfaces.",
+      "significance": "Screen readers are the primary way many users experience the web; testing with them reveals problems that automated tools miss.",
+      "key_facts": [
+        "Major screen readers: NVDA (free, Windows), JAWS (paid, Windows), VoiceOver (built into macOS/iOS), and TalkBack (built into Android).",
+        "In WebAIM's periodic screen-reader user surveys, JAWS and NVDA have consistently been the two most-used desktop screen readers.",
+        "They read the accessibility tree, so they rely on correct semantics, roles, names, and states rather than purely visual layout.",
+        "Users navigate with shortcuts by headings, landmarks, links, and form fields, not just linear tabbing."
+      ],
+      "examples": [
+        "Navigating by headings in NVDA",
+        "VoiceOver rotor on iOS",
+        "TalkBack swipe gestures on Android"
+      ],
+      "related": [
+        "accessibility-tree",
+        "aria-landmarks",
+        "heading-structure",
+        "semantic-html"
+      ],
+      "sources": [
+        {
+          "title": "Screen Reader User Survey",
+          "url": "https://webaim.org/projects/screenreadersurvey10/",
+          "publisher": "WebAIM",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "accessibility-tree",
+      "name": "The Accessibility Tree",
+      "category": "assistive-tech",
+      "tags": [
+        "assistive-tech",
+        "accessibility-tree",
+        "dom",
+        "internals"
+      ],
+      "summary": "The accessibility tree is a structure the browser derives from the DOM that exposes each element's role, name, state, and value to assistive technologies.",
+      "significance": "Understanding the accessibility tree explains why semantic HTML and ARIA matter: assistive tech reads this tree, not the visual rendering.",
+      "key_facts": [
+        "The browser builds the accessibility tree from the DOM, mapping elements to platform accessibility APIs (e.g., UIA on Windows, AX on macOS).",
+        "Each accessibility node typically carries a role, an accessible name, a description, states, and properties.",
+        "Elements hidden via display:none or aria-hidden=\"true\" are pruned from the accessibility tree.",
+        "Browser dev tools (Chrome/Firefox) include an accessibility panel that inspects the computed tree for any element."
+      ],
+      "examples": [
+        "Inspecting the computed name/role in Chrome DevTools",
+        "aria-hidden removing a decorative node",
+        "Role mapping for a custom widget"
+      ],
+      "related": [
+        "screen-readers",
+        "accessible-name",
+        "aria-roles-states-properties",
+        "semantic-html"
+      ],
+      "sources": [
+        {
+          "title": "The Accessibility Tree",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Accessibility_tree",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "color-blindness",
+      "name": "Color Blindness Considerations",
+      "category": "guideline",
+      "tags": [
+        "color",
+        "perception",
+        "contrast",
+        "wcag"
+      ],
+      "summary": "Color must not be the only means of conveying information, because color-vision-deficient users may not distinguish the colors used.",
+      "significance": "Around 1 in 12 men and 1 in 200 women have some color vision deficiency, so relying on color alone excludes a large audience.",
+      "key_facts": [
+        "SC 1.4.1 Use of Color (Level A): color is not used as the only visual means of conveying information, indicating an action, or distinguishing an element.",
+        "Deuteranomaly (reduced green sensitivity) is the most common type, affecting roughly 5% of males; full dichromacy like deuteranopia is rarer (~1%).",
+        "Pair color with a second cue: icons, text labels, patterns, or underlines (e.g., error fields marked with an icon and text, not just red).",
+        "Red/green combinations are the most problematic; do not rely on them to distinguish states."
+      ],
+      "examples": [
+        "Error text plus a red border and icon, not color alone",
+        "Chart series with patterns or labels",
+        "Underlined links, not just colored"
+      ],
+      "related": [
+        "color-contrast-minimum",
+        "von-restorff-effect",
+        "perceivable"
+      ],
+      "sources": [
+        {
+          "title": "Understanding Success Criterion 1.4.1: Use of Color",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "captions-transcripts",
+      "name": "Captions and Transcripts - WCAG 1.2.x",
+      "category": "technique",
+      "tags": [
+        "wcag",
+        "media",
+        "captions",
+        "transcripts",
+        "video"
+      ],
+      "summary": "Time-based media needs alternatives: captions for audio in video, and transcripts/audio descriptions so deaf, hard-of-hearing, and blind users can access content.",
+      "significance": "Captions and transcripts make audio and video content perceivable, benefiting deaf/HoH users as well as anyone in sound-off or noisy environments.",
+      "key_facts": [
+        "SC 1.2.2 Captions (Prerecorded) (Level A): captions are provided for prerecorded audio content in synchronized media.",
+        "SC 1.2.4 Captions (Live) (Level AA): captions are provided for live synchronized media.",
+        "SC 1.2.5 Audio Description (Prerecorded) (Level AA) requires audio description of important visual information in video.",
+        "A transcript provides a text alternative for audio-only or video content and can also satisfy audio-only requirements (SC 1.2.1)."
+      ],
+      "examples": [
+        "Closed captions on tutorial videos",
+        "Live captions on a webinar",
+        "Full transcript beneath a podcast player"
+      ],
+      "related": [
+        "alt-text",
+        "perceivable"
+      ],
+      "sources": [
+        {
+          "title": "Understanding Success Criterion 1.2.2: Captions (Prerecorded)",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "error-identification",
+      "name": "Error Identification and Suggestion - WCAG 3.3.1 / 3.3.3",
+      "category": "technique",
+      "tags": [
+        "wcag",
+        "forms",
+        "errors",
+        "validation"
+      ],
+      "summary": "When an input error is detected, the item in error must be identified and described to the user in text, with suggestions for correction where possible.",
+      "significance": "Clear, text-based, programmatically associated error messages let all users - especially screen-reader users - understand and fix problems.",
+      "key_facts": [
+        "SC 3.3.1 Error Identification (Level A): if an input error is detected, the erroneous item is identified and described to the user in text.",
+        "SC 3.3.3 Error Suggestion (Level AA): if an error is detected and suggestions are known, they are provided (unless it jeopardizes security).",
+        "Errors should not be signaled by color alone (see SC 1.4.1); include text and often an icon.",
+        "Associate messages programmatically with fields (e.g., aria-describedby) and consider aria-live regions to announce them."
+      ],
+      "examples": [
+        "'Email is required' text tied to the field",
+        "Suggested date format on an invalid entry",
+        "aria-describedby linking an error message"
+      ],
+      "related": [
+        "form-labels",
+        "error-prevention",
+        "help-users-recognize-diagnose-recover-from-errors",
+        "color-blindness"
+      ],
+      "sources": [
+        {
+          "title": "Understanding Success Criterion 3.3.1: Error Identification",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html",
+          "publisher": "W3C Web Accessibility Initiative",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "focus-trapping-modals",
+      "name": "Focus Management and Trapping in Modals",
+      "category": "technique",
+      "tags": [
+        "aria",
+        "modal",
+        "dialog",
+        "focus",
+        "keyboard"
+      ],
+      "summary": "When a modal dialog opens, keyboard focus should move into it and be trapped within it until it closes, then return to the triggering element.",
+      "significance": "Proper focus management prevents keyboard and screen-reader users from tabbing behind an open modal into inert background content.",
+      "key_facts": [
+        "On open, move focus to the dialog (its first focusable element or the dialog container); on close, return focus to the element that opened it.",
+        "While open, Tab/Shift+Tab should cycle only through the dialog's focusable elements (a focus trap), and Escape should close it.",
+        "Use role=\"dialog\" (or the native <dialog> element) with aria-modal=\"true\" and an accessible name via aria-labelledby.",
+        "Background content should be made inert (e.g., the inert attribute or aria-hidden) so AT does not reach it - defined by the ARIA APG Dialog pattern."
+      ],
+      "examples": [
+        "Native <dialog> with showModal()",
+        "Focus trap cycling within a lightbox",
+        "Escape closes and returns focus to the trigger button"
+      ],
+      "related": [
+        "focus-order",
+        "keyboard-navigation",
+        "figure-ground",
+        "wai-aria-authoring-practices"
+      ],
+      "sources": [
+        {
+          "title": "Dialog (Modal) Pattern - ARIA APG",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/",
+          "publisher": "W3C WAI-ARIA Authoring Practices",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "prefers-color-scheme",
+      "name": "Dark Mode and prefers-color-scheme",
+      "category": "technique",
+      "tags": [
+        "css",
+        "dark-mode",
+        "theming",
+        "user-preference"
+      ],
+      "summary": "The prefers-color-scheme CSS media query lets sites respect the user's OS-level light or dark theme preference.",
+      "significance": "Honoring the user's chosen color scheme can reduce eye strain and support users with light sensitivity, while contrast requirements still apply in both themes.",
+      "key_facts": [
+        "The `@media (prefers-color-scheme: dark)` and `light` queries detect the user's system theme preference.",
+        "It is a user-preference feature, not itself a WCAG success criterion, but both light and dark themes must independently meet contrast requirements (SC 1.4.3).",
+        "Commonly implemented alongside CSS custom properties that swap color values per scheme.",
+        "The `color-scheme` CSS property (and meta tag) tells the browser to render native form controls and scrollbars in the matching theme."
+      ],
+      "examples": [
+        "Dark theme via prefers-color-scheme: dark",
+        "CSS variable palette swap",
+        "color-scheme: light dark for native controls"
+      ],
+      "related": [
+        "reduced-motion",
+        "color-contrast-minimum"
+      ],
+      "sources": [
+        {
+          "title": "prefers-color-scheme",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme",
+          "publisher": "MDN Web Docs",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "wai-aria-authoring-practices",
+      "name": "WAI-ARIA Authoring Practices (APG) Patterns",
+      "category": "aria",
+      "tags": [
+        "aria",
+        "apg",
+        "patterns",
+        "widgets",
+        "wai"
+      ],
+      "summary": "The ARIA Authoring Practices Guide provides ready-made design patterns for common widgets (tabs, menus, dialogs, comboboxes) with the correct roles, states, and keyboard behavior.",
+      "significance": "The APG is the authoritative reference for building accessible custom components, encoding expected keyboard interactions users rely on.",
+      "key_facts": [
+        "The APG is published by the W3C Web Accessibility Initiative as a companion to the WAI-ARIA specification.",
+        "It documents patterns such as Accordion, Combobox, Dialog (Modal), Disclosure, Menu/Menubar, Tabs, and Tooltip.",
+        "Each pattern specifies the required roles/states/properties plus the expected keyboard interaction (e.g., arrow keys within a tablist, Escape to close a dialog).",
+        "The APG is guidance and examples, not a normative standard, and its examples should still be tested with real assistive technology."
+      ],
+      "examples": [
+        "Tabs pattern with arrow-key navigation",
+        "Combobox pattern for autocomplete",
+        "Disclosure pattern for show/hide"
+      ],
+      "related": [
+        "aria-roles-states-properties",
+        "focus-trapping-modals",
+        "keyboard-navigation"
+      ],
+      "sources": [
+        {
+          "title": "ARIA Authoring Practices Guide (APG) - Patterns",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/",
+          "publisher": "W3C WAI-ARIA Authoring Practices",
+          "accessed": "2026-07-07"
+        }
+      ],
+      "confidence": "verified"
+    }
+  ]
+}
