@@ -1,0 +1,45 @@
+{
+  "topic": "sample",
+  "title": "Deliberately Broken Fixture",
+  "description": "Synthetic dataset that violates every corpus rule the validator enforces. Never real data — used only to prove validate.js fails as expected.",
+  "schema_version": "1.0",
+  "count": 5,
+  "last_updated": "2026-07-09",
+  "entries": [
+    {
+      "id": "alpha",
+      "name": "Alpha",
+      "category": "sample",
+      "tags": ["one"],
+      "summary": "A valid entry.",
+      "significance": "Baseline good record.",
+      "key_facts": ["fact"],
+      "sources": [{ "title": "x", "url": "https://example.com", "publisher": "x" }],
+      "confidence": "verified",
+      "related": ["beta"]
+    },
+    {
+      "id": "beta",
+      "name": "Beta",
+      "category": "sample",
+      "tags": ["two"],
+      "summary": "Has an invalid confidence value.",
+      "significance": "Triggers the confidence-enum check.",
+      "key_facts": ["fact"],
+      "sources": [{ "title": "x", "url": "https://example.com", "publisher": "x" }],
+      "confidence": "maybe"
+    },
+    {
+      "id": "alpha",
+      "name": "Alpha Duplicate",
+      "category": "sample",
+      "tags": ["three"],
+      "summary": "Reuses the id 'alpha' and points related at a ghost id.",
+      "significance": "Triggers the duplicate-id and dangling-related checks.",
+      "key_facts": ["fact"],
+      "sources": [{ "title": "x", "url": "https://example.com", "publisher": "x" }],
+      "confidence": "well-known",
+      "related": ["ghost-id-that-does-not-exist"]
+    }
+  ]
+}

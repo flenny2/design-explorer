@@ -1,0 +1,22 @@
+{
+  "corpus": "bad-corpus-fixture",
+  "schema": "SCHEMA.md",
+  "schema_version": "1.0",
+  "generated": "2026-07-09",
+  "status": "intentionally broken test fixture — not real data",
+  "totals": {
+    "datasets": 1,
+    "entries": 3,
+    "essays": 0,
+    "needs_check": 0
+  },
+  "datasets": [
+    {
+      "file": "data/sample.json",
+      "topic": "sample",
+      "title": "Deliberately Broken Fixture",
+      "count": 3
+    }
+  ],
+  "essays": []
+}
