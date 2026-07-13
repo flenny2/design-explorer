@@ -4,7 +4,7 @@
   "description": "Enumerable catalog of page layouts, content patterns, navigation patterns, and responsive-design patterns used in modern web UI.",
   "schema_version": "1.0",
   "count": 41,
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-12",
   "entries": [
     {
       "id": "hero-section",
@@ -347,8 +347,7 @@
       ],
       "related": [
         "z-pattern",
-        "single-column",
-        "visual-hierarchy"
+        "single-column"
       ],
       "sources": [
         {
@@ -869,8 +868,7 @@
       ],
       "related": [
         "hero-section",
-        "magazine-editorial",
-        "aspect-ratios"
+        "magazine-editorial"
       ],
       "sources": [
         {
@@ -953,8 +951,7 @@
       ],
       "related": [
         "asymmetric-layout",
-        "magazine-editorial",
-        "z-index-layering"
+        "magazine-editorial"
       ],
       "sources": [
         {
@@ -1594,8 +1591,7 @@
       ],
       "related": [
         "column-drop",
-        "card-grid",
-        "responsive-breakpoints"
+        "card-grid"
       ],
       "sources": [
         {
@@ -1635,8 +1631,7 @@
       ],
       "related": [
         "mostly-fluid",
-        "split-screen",
-        "responsive-breakpoints"
+        "split-screen"
       ],
       "sources": [
         {
@@ -1676,8 +1671,7 @@
       ],
       "related": [
         "holy-grail",
-        "mostly-fluid",
-        "container-queries"
+        "mostly-fluid"
       ],
       "sources": [
         {
@@ -1717,8 +1711,7 @@
       ],
       "related": [
         "single-column",
-        "mostly-fluid",
-        "fluid-typography"
+        "mostly-fluid"
       ],
       "sources": [
         {

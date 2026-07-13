@@ -4,7 +4,7 @@
   "description": "Reference dataset of historically and practically significant typefaces across serif, sans-serif, slab, monospace, display and script categories, with verified attributions.",
   "schema_version": "1.0",
   "count": 47,
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-12",
   "entries": [
     {
       "id": "helvetica",
@@ -2027,7 +2027,7 @@
       "related": [
         "montserrat",
         "gotham",
-        "din"
+        "ff-din"
       ],
       "sources": [
         {
