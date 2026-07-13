@@ -1,6 +1,12 @@
 # Design Explorer
 
-Interactive front-end design learning app — explore typography, color, layout, components, and design systems.
+what: interactive front-end design learning app — explore typography, color, layout, components, design systems
+stack: Vite + React (JSX, no TypeScript) · CSS custom properties (no Tailwind) · react-router-dom · react-colorful
+app: `src/` — pages/<section>, components, data (configs), utils; per-page useState, no global store
+corpus: `research/` — standalone machine-first design-research knowledge base (538 sourced entries, 15 datasets, 3 essays); NOT wired into the app
+run: `npm run dev` (:5173) · `npm run build` · `npm run validate:corpus`
+branches: main is current — corpus + validator already merged (Jul-2026); local `add-design-research-corpus` & `auto/87-fed-corpus-validator` are merged leftovers
+updated: 2026-07-13
 
 ## Stack
 - Vite + React (JSX, no TypeScript)
@@ -30,6 +36,7 @@ Interactive front-end design learning app — explore typography, color, layout,
 - `npm run dev` — start dev server (http://localhost:5173)
 - `npm run build` — production build (zero-config, no errors expected)
 - `npm run preview` — preview production build locally
+- `npm run validate:corpus` — validate the `research/` corpus against `research/SCHEMA.md` (runs `research/validate.js`)
 
 ## Routes
 - `/` — Home (overview cards)
@@ -57,6 +64,13 @@ Interactive front-end design learning app — explore typography, color, layout,
 - 14 layout patterns, 16 font pairings, 15 app types, 10 vibes
 - Expert quotes sourced from verified publications (Albers, Itten, Goethe, Newton, Tufte, Norman, Rams, Vignelli)
 - All color science claims fact-checked — see commit history for corrections
+
+## Research Corpus (`research/`)
+- Standalone machine-first knowledge base — reference material for design work, **not imported by the app** (`src/data/` configs are separate and unchanged).
+- 538 sourced entries across 15 datasets (`research/data/*.json`) + 3 theory essays (`research/essays/*.md`). `research/INDEX.md` = human overview, `research/SCHEMA.md` = the entry contract, `research/manifest.json` = machine routing table.
+- Every entry carries a `confidence` mark (`verified` / `well-known` / `needs-check`); 0 remain `needs-check` as of the 2026-07-07 verification pass.
+- Entry `related` fields hold `id`s that may cross-reference other datasets — dangling `related` ids are caught by the validator (see history for a Jul-12 dangling-link cleanup).
+- `research/validate.js` (run via `npm run validate:corpus`) checks the corpus against SCHEMA; `tests/fixtures/bad-corpus/` holds intentionally-broken fixtures that the validator must reject.
 
 ## Gotchas
 - `create-vite` cancels on non-empty dirs (even `.claude/`) — scaffold manually if needed
