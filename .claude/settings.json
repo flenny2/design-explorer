@@ -37,8 +37,7 @@
       "Bash(jq:*)"
     ],
     "deny": [
-      "Bash(git push:*)",
-      "Bash(git push)",
+      "Bash(git push --force:*)",
       "Bash(rm -rf:*)"
     ]
   }
